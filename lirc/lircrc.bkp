@@ -1,0 +1,60 @@
+begin
+	prog = irexec
+	button = KEY_0
+	config = bash /etc/lirc/helper.sh "0"
+end
+
+begin
+	prog = irexec
+	button = KEY_1
+	config = bash /etc/lirc/helper.sh "1"
+end
+
+begin
+	prog = irexec
+	button = KEY_2
+	config = bash /etc/lirc/helper.sh "2"
+end
+
+begin
+	prog = irexec
+	button = KEY_3
+	config = bash /etc/lirc/helper.sh "3"
+end
+
+begin
+	prog = irexec
+	button = KEY_4
+	config = bash /etc/lirc/helper.sh "4"
+end
+
+begin
+	prog = irexec
+	button = KEY_5
+	config = bash /etc/lirc/helper.sh "5"
+end
+
+begin
+	prog = irexec
+	button = KEY_6
+	config = bash /etc/lirc/helper.sh "6"
+end
+
+begin
+	prog = irexec
+	button = KEY_7
+	config = bash /etc/lirc/helper.sh "7"
+end
+
+begin
+	prog = irexec
+	button = KEY_8
+	config = bash /etc/lirc/helper.sh "8"
+end
+
+begin
+	prog = irexec
+	button = KEY_9
+	config = bash /etc/lirc/helper.sh "9"
+end
+

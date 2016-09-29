@@ -1,0 +1,1424 @@
+
+[08/14/16,22:17:40] (B) Starting powerpoint script.
+[08/14/16,22:17:41] (C) displaying file: [0]0_default.pdf
+[08/14/16,22:17:52] (B) USB change detected.
+[08/14/16,22:17:52] (C) displaying file: [0]0.pdf
+[08/14/16,22:18:58] (A) KEY_O
+[08/14/16,22:18:58] (B) FIFO gave string: KEY_O
+[08/14/16,22:18:58] (B) projector power on failed
+[08/14/16,22:19:05] (A) KEY_O
+[08/14/16,22:19:05] (B) FIFO gave string: KEY_O
+[08/14/16,22:19:05] (B) projector power on failed
+[08/14/16,22:17:39] (B) Starting powerpoint script.
+[08/14/16,22:17:40] (B) USB initially present.
+[08/14/16,22:17:45] (C) displaying file: [0]0_default.pdf
+[08/14/16,22:17:46] (B) USB change detected.
+[08/14/16,22:17:46] (C) displaying file: [0]0_default.pdf
+[08/14/16,22:17:53] (B) USB change detected.
+[08/14/16,22:17:54] (C) displaying file: [0]0.pdf
+[08/14/16,22:17:29] (B) Starting powerpoint script.
+[08/14/16,22:17:30] (B) USB initially present.
+[08/14/16,22:17:35] (C) displaying file: [0]0_default.pdf
+[08/14/16,22:17:36] (B) USB change detected.
+[08/14/16,22:17:36] (C) displaying file: [0]0_default.pdf
+[08/14/16,22:17:42] (B) USB change detected.
+[08/14/16,22:17:42] (C) displaying file: [0]0.pdf
+[08/14/16,22:17:55] (A) KEY_O
+[08/14/16,22:17:55] (B) FIFO gave string: KEY_O
+[08/14/16,22:17:55] (B) projector power on failed
+[08/14/16,22:18:11] (A) KEY_UP
+[08/14/16,22:18:11] (B) FIFO gave string: KEY_UP
+[08/14/16,22:18:11] (C) displaying file: [1]1.pdf
+[08/14/16,22:18:14] (A) KEY_DOWN
+[08/14/16,22:18:14] (B) FIFO gave string: KEY_DOWN
+[08/14/16,22:18:14] (C) displaying file: [0]0.pdf
+[08/14/16,22:18:18] (A) KEY_P
+[08/14/16,22:18:18] (B) FIFO gave string: KEY_P
+[08/14/16,22:18:18] (B) projector power off failed
+[08/14/16,22:18:24] (A) KEY_O
+[08/14/16,22:18:24] (B) FIFO gave string: KEY_O
+[08/14/16,22:18:24] (B) projector power on failed
+[08/14/16,22:18:35] (A) KEY_P
+[08/14/16,22:18:35] (B) FIFO gave string: KEY_P
+[08/14/16,22:18:36] (B) projector power off failed
+[08/15/16,05:44:53] (A) KEY_O
+[08/15/16,05:44:53] (B) FIFO gave string: KEY_O
+[08/15/16,05:44:53] (B) projector power on failed
+[08/15/16,05:45:10] (A) KEY_O
+[08/15/16,05:45:10] (B) FIFO gave string: KEY_O
+[08/15/16,05:45:10] (B) projector power on failed
+[08/15/16,05:57:19] (A) KEY_O
+[08/15/16,05:57:19] (B) FIFO gave string: KEY_O
+[08/15/16,05:57:19] (B) projector power on failed
+[08/15/16,05:57:27] (A) KEY_O
+[08/15/16,05:57:27] (B) FIFO gave string: KEY_O
+[08/15/16,05:57:27] (B) projector power on failed
+[08/15/16,05:57:43] (A) 1
+[08/15/16,05:57:43] (B) FIFO gave string: 1
+[08/15/16,05:57:44] (A) 5
+[08/15/16,05:57:44] (B) FIFO gave string: 5
+[08/15/16,05:57:45] (A) 5
+[08/15/16,05:57:45] (B) FIFO gave string: 5
+[08/15/16,05:57:46] (A) KEY_ENTER
+[08/15/16,05:57:46] (B) FIFO gave string: KEY_ENTER
+[08/15/16,05:57:46] (C) displaying file: [155]155.pdf
+[08/15/16,05:57:54] (B) FIFO gave string: KEY_P
+[08/15/16,05:57:54] (A) KEY_P
+[08/15/16,05:57:54] (B) projector power off failed
+[08/15/16,06:57:03] (A) KEY_O
+[08/15/16,06:57:03] (B) FIFO gave string: KEY_O
+[08/15/16,06:57:03] (B) projector power on failed
+[08/15/16,07:04:30] (B) FIFO gave string: KEY_P
+[08/15/16,07:04:30] (A) KEY_P
+[08/15/16,07:04:30] (B) projector power off failed
+[08/15/16,07:29:23] (A) KEY_DELETE
+[08/15/16,07:29:23] (B) FIFO gave string: KEY_DELETE
+[08/15/16,07:29:24] (A) 1
+[08/15/16,07:29:24] (B) FIFO gave string: 1
+[08/15/16,07:29:25] (A) 5
+[08/15/16,07:29:25] (B) FIFO gave string: 5
+[08/15/16,07:29:26] (A) 5
+[08/15/16,07:29:26] (B) FIFO gave string: 5
+[08/15/16,07:29:27] (A) KEY_ENTER
+[08/15/16,07:29:27] (B) FIFO gave string: KEY_ENTER
+[08/15/16,07:29:27] (C) displaying file: [155]155.pdf
+[08/15/16,07:29:51] (A) KEY_O
+[08/15/16,07:29:51] (B) FIFO gave string: KEY_O
+[08/15/16,07:29:51] (B) projector power on failed
+[08/15/16,07:35:00] (A) KEY_P
+[08/15/16,07:35:00] (B) FIFO gave string: KEY_P
+[08/15/16,07:35:00] (B) projector power off failed
+[08/15/16,07:41:50] (B) FIFO gave string: KEY_O
+[08/15/16,07:41:50] (A) KEY_O
+[08/15/16,07:41:50] (B) projector power on failed
+[08/15/16,07:43:05] (A) KEY_P
+[08/15/16,07:43:05] (B) FIFO gave string: KEY_P
+[08/15/16,07:43:05] (B) projector power off failed
+[08/15/16,07:55:37] (A) 1
+[08/15/16,07:55:37] (B) FIFO gave string: 1
+[08/15/16,07:55:38] (A) 4
+[08/15/16,07:55:38] (B) FIFO gave string: 4
+[08/15/16,07:55:39] (A) 8
+[08/15/16,07:55:39] (B) FIFO gave string: 8
+[08/15/16,07:55:40] (A) KEY_ENTER
+[08/15/16,07:55:40] (B) FIFO gave string: KEY_ENTER
+[08/15/16,07:55:40] (C) displaying file: [148]148.pdf
+[08/15/16,08:04:06] (A) KEY_O
+[08/15/16,08:04:06] (B) FIFO gave string: KEY_O
+[08/15/16,08:04:06] (B) projector power on failed
+[08/15/16,08:06:56] (A) KEY_P
+[08/15/16,08:06:56] (B) FIFO gave string: KEY_P
+[08/15/16,08:06:56] (B) projector power off failed
+[08/15/16,08:14:29] (A) 7
+[08/15/16,08:14:29] (B) FIFO gave string: 7
+[08/15/16,08:14:30] (A) 4
+[08/15/16,08:14:30] (B) FIFO gave string: 4
+[08/15/16,08:14:31] (A) KEY_ENTER
+[08/15/16,08:14:31] (B) FIFO gave string: KEY_ENTER
+[08/15/16,08:14:31] (C) displaying file: [74]74.pdf
+[08/15/16,08:19:22] (A) KEY_O
+[08/15/16,08:19:22] (B) FIFO gave string: KEY_O
+[08/15/16,08:19:22] (B) projector power on failed
+[08/15/16,08:22:24] (B) FIFO gave string: KEY_P
+[08/15/16,08:22:24] (A) KEY_P
+[08/15/16,08:22:24] (B) projector power off failed
+[08/15/16,08:24:40] (A) 1
+[08/15/16,08:24:40] (B) FIFO gave string: 1
+[08/15/16,08:24:41] (B) FIFO gave string: 6
+[08/15/16,08:24:41] (A) 6
+[08/15/16,08:24:42] (A) 9
+[08/15/16,08:24:42] (B) FIFO gave string: 9
+[08/15/16,08:24:45] (A) KEY_ENTER
+[08/15/16,08:24:45] (B) FIFO gave string: KEY_ENTER
+[08/15/16,08:24:45] (C) displaying file: [169]169.pdf
+[08/15/16,08:25:04] (A) KEY_O
+[08/15/16,08:25:04] (B) FIFO gave string: KEY_O
+[08/15/16,08:25:04] (B) projector power on failed
+[08/15/16,08:27:34] (A) KEY_P
+[08/15/16,08:27:34] (B) FIFO gave string: KEY_P
+[08/15/16,08:27:34] (B) projector power off failed
+[08/15/16,18:21:58] (A) KEY_O
+[08/15/16,18:21:58] (B) FIFO gave string: KEY_O
+[08/15/16,18:21:58] (B) projector power on failed
+[08/15/16,18:22:07] (A) KEY_P
+[08/15/16,18:22:07] (B) FIFO gave string: KEY_P
+[08/15/16,18:22:07] (B) projector power off failed
+[08/15/16,18:22:33] (A) KEY_O
+[08/15/16,18:22:33] (B) FIFO gave string: KEY_O
+[08/15/16,18:22:33] (B) projector power on failed
+[08/15/16,18:22:40] (A) KEY_UP
+[08/15/16,18:22:40] (B) FIFO gave string: KEY_UP
+[08/15/16,18:22:40] (C) displaying file: [170]170.pdf
+[08/15/16,18:22:42] (A) KEY_DOWN
+[08/15/16,18:22:42] (B) FIFO gave string: KEY_DOWN
+[08/15/16,18:22:42] (C) displaying file: [169]169.pdf
+[08/15/16,18:22:44] (A) KEY_P
+[08/15/16,18:22:44] (B) FIFO gave string: KEY_P
+[08/15/16,18:22:44] (B) projector power off failed
+[08/15/16,18:23:44] (A) KEY_O
+[08/15/16,18:23:44] (B) FIFO gave string: KEY_O
+[08/15/16,18:23:44] (B) projector power on failed
+[08/15/16,18:23:52] (A) KEY_P
+[08/15/16,18:23:52] (B) FIFO gave string: KEY_P
+[08/15/16,18:23:52] (B) projector power off failed
+[08/16/16,17:18:53] (A) KEY_O
+[08/16/16,17:18:53] (B) FIFO gave string: KEY_O
+[08/16/16,17:18:53] (B) projector power on failed
+[08/16/16,17:18:59] (A) 1
+[08/16/16,17:18:59] (B) FIFO gave string: 1
+[08/16/16,17:19:01] (B) FIFO gave string: KEY_ENTER
+[08/16/16,17:19:01] (A) KEY_ENTER
+[08/16/16,17:19:01] (C) displaying file: [1]1.pdf
+[08/16/16,17:19:06] (A) 3
+[08/16/16,17:19:06] (B) FIFO gave string: 3
+[08/16/16,17:19:06] (A) 1
+[08/16/16,17:19:06] (B) FIFO gave string: 1
+[08/16/16,17:19:08] (A) KEY_ENTER
+[08/16/16,17:19:08] (B) FIFO gave string: KEY_ENTER
+[08/16/16,17:19:08] (C) displaying file: [31]31.pdf
+[08/16/16,17:19:12] (A) 5
+[08/16/16,17:19:12] (B) FIFO gave string: 5
+[08/16/16,17:19:12] (A) 3
+[08/16/16,17:19:12] (B) FIFO gave string: 3
+[08/16/16,17:19:13] (A) KEY_ENTER
+[08/16/16,17:19:13] (B) FIFO gave string: KEY_ENTER
+[08/16/16,17:19:13] (C) displaying file: [53]53.pdf
+[08/16/16,17:19:19] (A) 1
+[08/16/16,17:19:19] (B) FIFO gave string: 1
+[08/16/16,17:19:19] (A) 3
+[08/16/16,17:19:19] (B) FIFO gave string: 3
+[08/16/16,17:19:20] (A) 3
+[08/16/16,17:19:20] (B) FIFO gave string: 3
+[08/16/16,17:19:21] (A) KEY_ENTER
+[08/16/16,17:19:21] (B) FIFO gave string: KEY_ENTER
+[08/16/16,17:19:21] (C) displaying file: [133]133.pdf
+[08/16/16,17:19:24] (A) KEY_VOLUMEDOWN
+[08/16/16,17:19:24] (B) FIFO gave string: KEY_VOLUMEDOWN
+[08/16/16,17:19:24] (C) displaying file: [53]53.pdf
+[08/16/16,17:19:25] (A) KEY_VOLUMEDOWN
+[08/16/16,17:19:25] (B) FIFO gave string: KEY_VOLUMEDOWN
+[08/16/16,17:19:25] (C) displaying file: [31]31.pdf
+[08/16/16,17:19:27] (A) KEY_VOLUMEDOWN
+[08/16/16,17:19:27] (B) FIFO gave string: KEY_VOLUMEDOWN
+[08/16/16,17:19:27] (C) displaying file: [1]1.pdf
+[08/16/16,17:19:34] (A) KEY_P
+[08/16/16,17:19:34] (B) FIFO gave string: KEY_P
+[08/16/16,17:19:34] (B) projector power off failed
+[08/16/16,17:33:02] (A) KEY_O
+[08/16/16,17:33:02] (B) FIFO gave string: KEY_O
+[08/16/16,17:33:02] (B) projector power on failed
+[08/16/16,17:34:09] (A) KEY_VOLUMEUP
+[08/16/16,17:34:09] (B) FIFO gave string: KEY_VOLUMEUP
+[08/16/16,17:34:09] (C) displaying file: [31]31.pdf
+[08/16/16,17:34:12] (A) KEY_P
+[08/16/16,17:34:12] (B) FIFO gave string: KEY_P
+[08/16/16,17:34:12] (B) projector power off failed
+[08/16/16,17:45:07] (A) KEY_O
+[08/16/16,17:45:07] (B) FIFO gave string: KEY_O
+[08/16/16,17:45:07] (B) projector power on failed
+[08/16/16,17:47:07] (B) FIFO gave string: KEY_VOLUMEUP
+[08/16/16,17:47:07] (A) KEY_VOLUMEUP
+[08/16/16,17:47:07] (C) displaying file: [53]53.pdf
+[08/16/16,17:47:09] (A) KEY_P
+[08/16/16,17:47:09] (B) FIFO gave string: KEY_P
+[08/16/16,17:47:09] (B) projector power off failed
+[08/16/16,17:55:48] (A) KEY_O
+[08/16/16,17:55:48] (B) FIFO gave string: KEY_O
+[08/16/16,17:55:48] (B) projector power on failed
+[08/16/16,17:58:08] (A) KEY_VOLUMEUP
+[08/16/16,17:58:08] (B) FIFO gave string: KEY_VOLUMEUP
+[08/16/16,17:58:08] (C) displaying file: [133]133.pdf
+[08/16/16,17:58:10] (A) KEY_P
+[08/16/16,17:58:10] (B) FIFO gave string: KEY_P
+[08/16/16,17:58:10] (B) projector power off failed
+[08/16/16,18:00:17] (A) KEY_O
+[08/16/16,18:00:17] (B) FIFO gave string: KEY_O
+[08/16/16,18:00:17] (B) projector power on failed
+[08/16/16,18:02:17] (A) KEY_P
+[08/16/16,18:02:17] (B) FIFO gave string: KEY_P
+[08/16/16,18:02:17] (B) projector power off failed
+[08/17/16,17:09:19] (A) KEY_O
+[08/17/16,17:09:19] (B) FIFO gave string: KEY_O
+[08/17/16,17:09:19] (B) projector power on failed
+[08/17/16,17:09:26] (A) 4
+[08/17/16,17:09:26] (B) FIFO gave string: 4
+[08/17/16,17:09:27] (A) KEY_ENTER
+[08/17/16,17:09:27] (B) FIFO gave string: KEY_ENTER
+[08/17/16,17:09:27] (C) displaying file: [4]4.pdf
+[08/17/16,17:09:33] (A) 3
+[08/17/16,17:09:33] (B) FIFO gave string: 3
+[08/17/16,17:09:33] (A) 3
+[08/17/16,17:09:33] (B) FIFO gave string: 3
+[08/17/16,17:09:35] (A) KEY_ENTER
+[08/17/16,17:09:35] (B) FIFO gave string: KEY_ENTER
+[08/17/16,17:09:35] (C) displaying file: [33]33.pdf
+[08/17/16,17:09:39] (A) 5
+[08/17/16,17:09:39] (B) FIFO gave string: 5
+[08/17/16,17:09:40] (A) 5
+[08/17/16,17:09:40] (B) FIFO gave string: 5
+[08/17/16,17:09:41] (B) FIFO gave string: KEY_ENTER
+[08/17/16,17:09:41] (A) KEY_ENTER
+[08/17/16,17:09:41] (C) displaying file: [55]55.pdf
+[08/17/16,17:09:46] (A) 1
+[08/17/16,17:09:46] (B) FIFO gave string: 1
+[08/17/16,17:09:46] (A) 3
+[08/17/16,17:09:46] (B) FIFO gave string: 3
+[08/17/16,17:09:47] (A) 5
+[08/17/16,17:09:47] (B) FIFO gave string: 5
+[08/17/16,17:09:48] (A) KEY_ENTER
+[08/17/16,17:09:48] (B) FIFO gave string: KEY_ENTER
+[08/17/16,17:09:48] (C) displaying file: [135]135.pdf
+[08/17/16,17:09:51] (A) KEY_VOLUMEDOWN
+[08/17/16,17:09:51] (B) FIFO gave string: KEY_VOLUMEDOWN
+[08/17/16,17:09:51] (C) displaying file: [55]55.pdf
+[08/17/16,17:09:53] (A) KEY_VOLUMEDOWN
+[08/17/16,17:09:53] (B) FIFO gave string: KEY_VOLUMEDOWN
+[08/17/16,17:09:53] (C) displaying file: [33]33.pdf
+[08/17/16,17:09:54] (A) KEY_VOLUMEDOWN
+[08/17/16,17:09:54] (B) FIFO gave string: KEY_VOLUMEDOWN
+[08/17/16,17:09:54] (C) displaying file: [4]4.pdf
+[08/17/16,17:10:00] (A) KEY_P
+[08/17/16,17:10:00] (B) FIFO gave string: KEY_P
+[08/17/16,17:10:00] (B) projector power off failed
+[08/17/16,17:32:24] (A) KEY_O
+[08/17/16,17:32:24] (B) FIFO gave string: KEY_O
+[08/17/16,17:32:24] (B) projector power on failed
+[08/17/16,17:34:02] (A) KEY_VOLUMEUP
+[08/17/16,17:34:02] (B) FIFO gave string: KEY_VOLUMEUP
+[08/17/16,17:34:02] (C) displaying file: [33]33.pdf
+[08/17/16,17:34:04] (A) KEY_P
+[08/17/16,17:34:04] (B) FIFO gave string: KEY_P
+[08/17/16,17:34:04] (B) projector power off failed
+[08/17/16,17:48:08] (B) FIFO gave string: KEY_O
+[08/17/16,17:48:08] (A) KEY_O
+[08/17/16,17:48:08] (B) projector power on failed
+[08/17/16,17:50:02] (A) KEY_VOLUMEUP
+[08/17/16,17:50:02] (B) FIFO gave string: KEY_VOLUMEUP
+[08/17/16,17:50:02] (C) displaying file: [55]55.pdf
+[08/17/16,17:50:13] (A) KEY_P
+[08/17/16,17:50:13] (B) FIFO gave string: KEY_P
+[08/17/16,17:50:14] (B) projector power off failed
+[08/17/16,17:58:41] (B) FIFO gave string: KEY_O
+[08/17/16,17:58:41] (A) KEY_O
+[08/17/16,17:58:41] (B) projector power on failed
+[08/17/16,18:01:36] (A) KEY_VOLUMEUP
+[08/17/16,18:01:36] (B) FIFO gave string: KEY_VOLUMEUP
+[08/17/16,18:01:36] (C) displaying file: [135]135.pdf
+[08/17/16,18:01:39] (B) FIFO gave string: KEY_P
+[08/17/16,18:01:39] (A) KEY_P
+[08/17/16,18:01:39] (B) projector power off failed
+[08/17/16,18:04:01] (A) KEY_O
+[08/17/16,18:04:01] (B) FIFO gave string: KEY_O
+[08/17/16,18:04:01] (B) projector power on failed
+[08/17/16,18:06:53] (A) KEY_P
+[08/17/16,18:06:53] (B) FIFO gave string: KEY_P
+[08/17/16,18:06:53] (B) projector power off failed
+[08/17/16,18:06:54] (A) KEY_P
+[08/17/16,18:06:54] (B) FIFO gave string: KEY_P
+[08/17/16,18:07:02] (B) projector power off failed
+[08/18/16,16:18:32] (A) KEY_O
+[08/18/16,16:18:32] (B) FIFO gave string: KEY_O
+[08/18/16,16:18:32] (B) projector power on failed
+[08/18/16,16:18:39] (A) 8
+[08/18/16,16:18:39] (B) FIFO gave string: 8
+[08/18/16,16:18:40] (A) 0
+[08/18/16,16:18:40] (B) FIFO gave string: 0
+[08/18/16,16:18:40] (A) KEY_ENTER
+[08/18/16,16:18:40] (B) FIFO gave string: KEY_ENTER
+[08/18/16,16:18:40] (C) displaying file: [80]80.pdf
+[08/18/16,16:18:52] (A) 1
+[08/18/16,16:18:52] (B) FIFO gave string: 1
+[08/18/16,16:18:53] (B) FIFO gave string: 1
+[08/18/16,16:18:53] (A) 1
+[08/18/16,16:18:54] (A) 9
+[08/18/16,16:18:54] (B) FIFO gave string: 9
+[08/18/16,16:18:54] (A) KEY_ENTER
+[08/18/16,16:18:54] (B) FIFO gave string: KEY_ENTER
+[08/18/16,16:18:54] (C) displaying file: [119]119.pdf
+[08/18/16,16:19:04] (A) 6
+[08/18/16,16:19:04] (B) FIFO gave string: 6
+[08/18/16,16:19:05] (A) 0
+[08/18/16,16:19:05] (B) FIFO gave string: 0
+[08/18/16,16:19:06] (A) 1
+[08/18/16,16:19:06] (B) FIFO gave string: 1
+[08/18/16,16:19:07] (A) KEY_ENTER
+[08/18/16,16:19:07] (B) FIFO gave string: KEY_ENTER
+[08/18/16,16:19:07] (C) displaying file: [278]601.pdf
+[08/18/16,16:19:18] (A) 6
+[08/18/16,16:19:18] (B) FIFO gave string: 6
+[08/18/16,16:19:19] (A) 1
+[08/18/16,16:19:19] (B) FIFO gave string: 1
+[08/18/16,16:19:20] (A) 6
+[08/18/16,16:19:20] (B) FIFO gave string: 6
+[08/18/16,16:19:21] (A) KEY_ENTER
+[08/18/16,16:19:21] (B) FIFO gave string: KEY_ENTER
+[08/18/16,16:19:21] (C) displaying file: [293]616.pdf
+[08/18/16,16:19:27] (A) 1
+[08/18/16,16:19:27] (B) FIFO gave string: 1
+[08/18/16,16:19:28] (A) 1
+[08/18/16,16:19:28] (B) FIFO gave string: 1
+[08/18/16,16:19:29] (A) 9
+[08/18/16,16:19:29] (B) FIFO gave string: 9
+[08/18/16,16:19:30] (A) KEY_ENTER
+[08/18/16,16:19:30] (B) FIFO gave string: KEY_ENTER
+[08/18/16,16:19:30] (C) displaying file: [119]119.pdf
+[08/18/16,16:19:39] (A) 7
+[08/18/16,16:19:39] (B) FIFO gave string: 7
+[08/18/16,16:19:40] (A) KEY_ENTER
+[08/18/16,16:19:40] (B) FIFO gave string: KEY_ENTER
+[08/18/16,16:19:40] (C) displaying file: [7]7.pdf
+[08/18/16,16:19:54] (B) FIFO gave string: 3
+[08/18/16,16:19:54] (A) 3
+[08/18/16,16:19:55] (A) 5
+[08/18/16,16:19:55] (B) FIFO gave string: 5
+[08/18/16,16:19:56] (A) KEY_ENTER
+[08/18/16,16:19:56] (B) FIFO gave string: KEY_ENTER
+[08/18/16,16:19:56] (C) displaying file: [35]35.pdf
+[08/18/16,16:20:05] (A) 3
+[08/18/16,16:20:05] (B) FIFO gave string: 3
+[08/18/16,16:20:06] (A) 0
+[08/18/16,16:20:06] (B) FIFO gave string: 0
+[08/18/16,16:20:07] (A) 5
+[08/18/16,16:20:07] (B) FIFO gave string: 5
+[08/18/16,16:20:08] (B) FIFO gave string: KEY_ENTER
+[08/18/16,16:20:08] (A) KEY_ENTER
+[08/18/16,16:20:08] (C) displaying file: [242]305.pdf
+[08/18/16,16:20:24] (A) 3
+[08/18/16,16:20:24] (B) FIFO gave string: 3
+[08/18/16,16:20:25] (A) 2
+[08/18/16,16:20:25] (B) FIFO gave string: 2
+[08/18/16,16:20:26] (A) 0
+[08/18/16,16:20:26] (B) FIFO gave string: 0
+[08/18/16,16:20:26] (A) KEY_ENTER
+[08/18/16,16:20:26] (B) FIFO gave string: KEY_ENTER
+[08/18/16,16:20:27] (C) displaying file: [257]320.pdf
+[08/18/16,16:20:31] (A) KEY_VOLUMEDOWN
+[08/18/16,16:20:31] (B) FIFO gave string: KEY_VOLUMEDOWN
+[08/18/16,16:20:31] (C) displaying file: [242]305.pdf
+[08/18/16,16:20:33] (A) KEY_VOLUMEDOWN
+[08/18/16,16:20:33] (B) FIFO gave string: KEY_VOLUMEDOWN
+[08/18/16,16:20:33] (C) displaying file: [35]35.pdf
+[08/18/16,16:20:34] (A) KEY_VOLUMEDOWN
+[08/18/16,16:20:34] (B) FIFO gave string: KEY_VOLUMEDOWN
+[08/18/16,16:20:34] (C) displaying file: [7]7.pdf
+[08/18/16,16:20:35] (A) KEY_VOLUMEDOWN
+[08/18/16,16:20:35] (B) FIFO gave string: KEY_VOLUMEDOWN
+[08/18/16,16:20:36] (C) displaying file: [119]119.pdf
+[08/18/16,16:20:38] (A) KEY_VOLUMEDOWN
+[08/18/16,16:20:38] (B) FIFO gave string: KEY_VOLUMEDOWN
+[08/18/16,16:20:38] (C) displaying file: [293]616.pdf
+[08/18/16,16:20:40] (A) KEY_VOLUMEDOWN
+[08/18/16,16:20:40] (B) FIFO gave string: KEY_VOLUMEDOWN
+[08/18/16,16:20:40] (C) displaying file: [278]601.pdf
+[08/18/16,16:20:42] (A) KEY_VOLUMEDOWN
+[08/18/16,16:20:42] (B) FIFO gave string: KEY_VOLUMEDOWN
+[08/18/16,16:20:42] (C) displaying file: [119]119.pdf
+[08/18/16,16:20:44] (A) KEY_VOLUMEDOWN
+[08/18/16,16:20:44] (B) FIFO gave string: KEY_VOLUMEDOWN
+[08/18/16,16:20:44] (C) displaying file: [80]80.pdf
+[08/18/16,16:21:10] (A) KEY_VOLUMEDOWN
+[08/18/16,16:21:10] (B) FIFO gave string: KEY_VOLUMEDOWN
+[08/18/16,16:21:11] (C) displaying file: [135]135.pdf
+[08/18/16,16:21:15] (A) KEY_VOLUMEUP
+[08/18/16,16:21:15] (B) FIFO gave string: KEY_VOLUMEUP
+[08/18/16,16:21:15] (C) displaying file: [80]80.pdf
+[08/18/16,16:21:36] (A) KEY_P
+[08/18/16,16:21:36] (B) FIFO gave string: KEY_P
+[08/18/16,16:21:37] (B) projector power off failed
+[08/18/16,16:38:23] (A) KEY_O
+[08/18/16,16:38:23] (B) FIFO gave string: KEY_O
+[08/18/16,16:38:23] (B) projector power on failed
+[08/18/16,16:39:34] (A) KEY_P
+[08/18/16,16:39:34] (B) FIFO gave string: KEY_P
+[08/18/16,16:39:34] (B) projector power off failed
+[08/18/16,17:07:05] (A) KEY_O
+[08/18/16,17:07:05] (B) FIFO gave string: KEY_O
+[08/18/16,17:07:05] (B) projector power on failed
+[08/18/16,17:08:22] (A) KEY_VOLUMEUP
+[08/18/16,17:08:22] (B) FIFO gave string: KEY_VOLUMEUP
+[08/18/16,17:08:23] (C) displaying file: [119]119.pdf
+[08/18/16,17:08:25] (A) KEY_P
+[08/18/16,17:08:25] (B) FIFO gave string: KEY_P
+[08/18/16,17:08:26] (B) projector power off failed
+[08/18/16,17:19:08] (B) FIFO gave string: KEY_O
+[08/18/16,17:19:08] (A) KEY_O
+[08/18/16,17:19:09] (B) projector power on failed
+[08/18/16,17:19:13] (A) KEY_O
+[08/18/16,17:19:13] (B) FIFO gave string: KEY_O
+[08/18/16,17:19:14] (B) projector power on failed
+[08/18/16,17:20:01] (A) KEY_VOLUMEUP
+[08/18/16,17:20:01] (B) FIFO gave string: KEY_VOLUMEUP
+[08/18/16,17:20:01] (C) displaying file: [278]601.pdf
+[08/18/16,17:20:11] (A) KEY_P
+[08/18/16,17:20:11] (B) FIFO gave string: KEY_P
+[08/18/16,17:20:11] (B) projector power off failed
+[08/18/16,17:24:19] (A) KEY_O
+[08/18/16,17:24:19] (B) FIFO gave string: KEY_O
+[08/18/16,17:24:19] (B) projector power on failed
+[08/18/16,17:25:13] (A) KEY_UP
+[08/18/16,17:25:13] (B) FIFO gave string: KEY_UP
+[08/18/16,17:25:14] (C) displaying file: [279]602.pdf
+[08/18/16,17:25:53] (A) KEY_UP
+[08/18/16,17:25:53] (B) FIFO gave string: KEY_UP
+[08/18/16,17:25:53] (C) displaying file: [280]603.pdf
+[08/18/16,17:26:16] (B) FIFO gave string: KEY_VOLUMEUP
+[08/18/16,17:26:16] (A) KEY_VOLUMEUP
+[08/18/16,17:26:17] (C) displaying file: [293]616.pdf
+[08/18/16,17:26:53] (A) KEY_VOLUMEUP
+[08/18/16,17:26:53] (B) FIFO gave string: KEY_VOLUMEUP
+[08/18/16,17:26:53] (C) displaying file: [119]119.pdf
+[08/18/16,17:27:42] (A) KEY_P
+[08/18/16,17:27:42] (B) FIFO gave string: KEY_P
+[08/18/16,17:27:42] (B) projector power off failed
+[08/18/16,17:29:57] (A) KEY_O
+[08/18/16,17:29:57] (B) FIFO gave string: KEY_O
+[08/18/16,17:29:57] (B) projector power on failed
+[08/18/16,17:30:46] (A) KEY_VOLUMEUP
+[08/18/16,17:30:46] (B) FIFO gave string: KEY_VOLUMEUP
+[08/18/16,17:30:46] (C) displaying file: [7]7.pdf
+[08/18/16,17:33:36] (A) KEY_VOLUMEUP
+[08/18/16,17:33:36] (B) FIFO gave string: KEY_VOLUMEUP
+[08/18/16,17:33:36] (C) displaying file: [35]35.pdf
+[08/18/16,17:33:44] (A) KEY_P
+[08/18/16,17:33:44] (B) FIFO gave string: KEY_P
+[08/18/16,17:33:44] (B) projector power off failed
+[08/18/16,17:45:56] (A) KEY_O
+[08/18/16,17:45:56] (B) FIFO gave string: KEY_O
+[08/18/16,17:45:56] (B) projector power on failed
+[08/18/16,17:47:30] (A) KEY_P
+[08/18/16,17:47:30] (B) FIFO gave string: KEY_P
+[08/18/16,17:47:30] (B) projector power off failed
+[08/18/16,17:56:00] (A) KEY_O
+[08/18/16,17:56:00] (B) FIFO gave string: KEY_O
+[08/18/16,17:56:00] (B) projector power on failed
+[08/18/16,17:56:13] (A) KEY_VOLUMEUP
+[08/18/16,17:56:13] (B) FIFO gave string: KEY_VOLUMEUP
+[08/18/16,17:56:13] (C) displaying file: [242]305.pdf
+[08/18/16,17:59:31] (A) KEY_VOLUMEUP
+[08/18/16,17:59:31] (B) FIFO gave string: KEY_VOLUMEUP
+[08/18/16,17:59:31] (C) displaying file: [257]320.pdf
+[08/18/16,17:59:33] (B) FIFO gave string: KEY_P
+[08/18/16,17:59:33] (A) KEY_P
+[08/18/16,17:59:34] (B) projector power off failed
+[08/18/16,18:01:58] (A) KEY_O
+[08/18/16,18:01:58] (B) FIFO gave string: KEY_O
+[08/18/16,18:01:58] (B) projector power on failed
+[08/18/16,18:04:10] (A) KEY_P
+[08/18/16,18:04:10] (B) FIFO gave string: KEY_P
+[08/18/16,18:04:11] (B) projector power off failed
+[08/19/16,06:08:39] (A) KEY_O
+[08/19/16,06:08:39] (B) FIFO gave string: KEY_O
+[08/19/16,06:08:39] (B) projector power on failed
+[08/19/16,06:08:45] (A) 2
+[08/19/16,06:08:45] (B) FIFO gave string: 2
+[08/19/16,06:08:46] (A) 2
+[08/19/16,06:08:46] (B) FIFO gave string: 2
+[08/19/16,06:08:47] (B) FIFO gave string: 0
+[08/19/16,06:08:47] (A) 0
+[08/19/16,06:08:48] (A) KEY_ENTER
+[08/19/16,06:08:48] (B) FIFO gave string: KEY_ENTER
+[08/19/16,06:08:49] (C) displaying file: [220]220.pdf
+[08/19/16,06:08:54] (A) 2
+[08/19/16,06:08:54] (B) FIFO gave string: 2
+[08/19/16,06:08:55] (A) 2
+[08/19/16,06:08:55] (B) FIFO gave string: 2
+[08/19/16,06:08:55] (B) FIFO gave string: 2
+[08/19/16,06:08:55] (A) 2
+[08/19/16,06:08:56] (A) KEY_ENTER
+[08/19/16,06:08:56] (B) FIFO gave string: KEY_ENTER
+[08/19/16,06:08:57] (C) displaying file: [222]222.pdf
+[08/19/16,06:09:01] (A) KEY_VOLUMEDOWN
+[08/19/16,06:09:01] (B) FIFO gave string: KEY_VOLUMEDOWN
+[08/19/16,06:09:01] (C) displaying file: [220]220.pdf
+[08/19/16,06:09:04] (A) KEY_P
+[08/19/16,06:09:04] (B) FIFO gave string: KEY_P
+[08/19/16,06:09:04] (B) projector power off failed
+[08/19/16,06:32:12] (A) KEY_O
+[08/19/16,06:32:12] (B) FIFO gave string: KEY_O
+[08/19/16,06:32:12] (B) projector power on failed
+[08/19/16,06:33:36] (B) FIFO gave string: KEY_VOLUMEUP
+[08/19/16,06:33:36] (A) KEY_VOLUMEUP
+[08/19/16,06:33:36] (C) displaying file: [222]222.pdf
+[08/19/16,06:33:39] (A) KEY_P
+[08/19/16,06:33:39] (B) FIFO gave string: KEY_P
+[08/19/16,06:33:39] (B) projector power off failed
+[08/19/16,07:01:27] (A) KEY_O
+[08/19/16,07:01:27] (B) FIFO gave string: KEY_O
+[08/19/16,07:01:27] (B) projector power on failed
+[08/19/16,07:03:37] (A) KEY_P
+[08/19/16,07:03:37] (B) FIFO gave string: KEY_P
+[08/19/16,07:03:37] (B) projector power off failed
+[08/19/16,17:31:27] (A) KEY_O
+[08/19/16,17:31:27] (B) FIFO gave string: KEY_O
+[08/19/16,17:31:28] (B) projector power on failed
+[08/19/16,17:31:39] (A) 2
+[08/19/16,17:31:39] (B) FIFO gave string: 2
+[08/19/16,17:31:40] (A) 2
+[08/19/16,17:31:40] (B) FIFO gave string: 2
+[08/19/16,17:31:41] (A) 0
+[08/19/16,17:31:41] (B) FIFO gave string: 0
+[08/19/16,17:31:41] (A) KEY_ENTER
+[08/19/16,17:31:41] (B) FIFO gave string: KEY_ENTER
+[08/19/16,17:31:41] (C) displaying file: [220]220.pdf
+[08/19/16,17:35:00] (A) KEY_P
+[08/19/16,17:35:00] (B) FIFO gave string: KEY_P
+[08/19/16,17:35:00] (B) projector power off failed
+[08/19/16,17:44:58] (A) KEY_O
+[08/19/16,17:44:58] (B) FIFO gave string: KEY_O
+[08/19/16,17:44:58] (B) projector power on failed
+[08/19/16,17:45:07] (A) 3
+[08/19/16,17:45:07] (B) FIFO gave string: 3
+[08/19/16,17:45:08] (A) 7
+[08/19/16,17:45:08] (B) FIFO gave string: 7
+[08/19/16,17:45:09] (B) FIFO gave string: KEY_ENTER
+[08/19/16,17:45:09] (A) KEY_ENTER
+[08/19/16,17:45:09] (C) displaying file: [37]37.pdf
+[08/19/16,17:48:17] (A) KEY_P
+[08/19/16,17:48:17] (B) FIFO gave string: KEY_P
+[08/19/16,17:48:17] (B) projector power off failed
+[08/19/16,17:57:42] (A) KEY_O
+[08/19/16,17:57:42] (B) FIFO gave string: KEY_O
+[08/19/16,17:57:42] (B) projector power on failed
+[08/19/16,17:57:48] (A) KEY_O
+[08/19/16,17:57:48] (B) FIFO gave string: KEY_O
+[08/19/16,17:57:48] (B) projector power on failed
+[08/19/16,17:57:53] (A) 3
+[08/19/16,17:57:53] (B) FIFO gave string: 3
+[08/19/16,17:57:54] (A) 0
+[08/19/16,17:57:54] (B) FIFO gave string: 0
+[08/19/16,17:57:55] (A) 3
+[08/19/16,17:57:55] (B) FIFO gave string: 3
+[08/19/16,17:57:55] (A) KEY_ENTER
+[08/19/16,17:57:55] (B) FIFO gave string: KEY_ENTER
+[08/19/16,17:57:56] (C) displaying file: [240]303.pdf
+[08/19/16,18:00:09] (A) 3
+[08/19/16,18:00:09] (B) FIFO gave string: 3
+[08/19/16,18:00:10] (A) 2
+[08/19/16,18:00:10] (B) FIFO gave string: 2
+[08/19/16,18:00:11] (A) 8
+[08/19/16,18:00:11] (B) FIFO gave string: 8
+[08/19/16,18:00:12] (B) FIFO gave string: KEY_ENTER
+[08/19/16,18:00:12] (A) KEY_ENTER
+[08/19/16,18:00:13] (C) displaying file: [265]328.pdf
+[08/19/16,18:02:37] (A) KEY_P
+[08/19/16,18:02:37] (B) FIFO gave string: KEY_P
+[08/19/16,18:02:37] (B) projector power off failed
+[08/19/16,18:03:10] (A) KEY_O
+[08/19/16,18:03:10] (B) FIFO gave string: KEY_O
+[08/19/16,18:03:10] (B) projector power on failed
+[08/19/16,18:03:20] (A) KEY_ENTER
+[08/19/16,18:03:20] (B) FIFO gave string: KEY_ENTER
+[08/19/16,18:03:28] (A) 0
+[08/19/16,18:03:28] (B) FIFO gave string: 0
+[08/19/16,18:03:29] (A) KEY_ENTER
+[08/19/16,18:03:29] (B) FIFO gave string: KEY_ENTER
+[08/19/16,18:03:29] (C) displaying file: [0]0.pdf
+[08/19/16,18:03:54] (B) FIFO gave string: 2
+[08/19/16,18:03:54] (A) 2
+[08/19/16,18:03:54] (A) 2
+[08/19/16,18:03:54] (B) FIFO gave string: 2
+[08/19/16,18:03:56] (A) KEY_ENTER
+[08/19/16,18:03:56] (B) FIFO gave string: KEY_ENTER
+[08/19/16,18:03:56] (C) displaying file: [22]22.pdf
+[08/19/16,18:04:00] (A) KEY_O
+[08/19/16,18:04:00] (B) FIFO gave string: KEY_O
+[08/19/16,18:04:00] (B) projector power on failed
+[08/19/16,18:04:03] (A) 2
+[08/19/16,18:04:03] (B) FIFO gave string: 2
+[08/19/16,18:04:03] (A) 2
+[08/19/16,18:04:03] (B) FIFO gave string: 2
+[08/19/16,18:04:04] (A) 2
+[08/19/16,18:04:04] (B) FIFO gave string: 2
+[08/19/16,18:04:05] (A) KEY_ENTER
+[08/19/16,18:04:05] (B) FIFO gave string: KEY_ENTER
+[08/19/16,18:04:05] (C) displaying file: [222]222.pdf
+[08/19/16,18:05:11] (B) FIFO gave string: KEY_P
+[08/19/16,18:05:11] (A) KEY_P
+[08/19/16,18:05:11] (B) projector power off failed
+[08/20/16,06:30:41] (A) KEY_O
+[08/20/16,06:30:41] (B) FIFO gave string: KEY_O
+[08/20/16,06:30:41] (B) projector power on failed
+[08/20/16,06:30:49] (A) 1
+[08/20/16,06:30:49] (B) FIFO gave string: 1
+[08/20/16,06:30:50] (A) 3
+[08/20/16,06:30:50] (B) FIFO gave string: 3
+[08/20/16,06:30:50] (A) 3
+[08/20/16,06:30:50] (B) FIFO gave string: 3
+[08/20/16,06:30:52] (A) KEY_ENTER
+[08/20/16,06:30:52] (B) FIFO gave string: KEY_ENTER
+[08/20/16,06:30:52] (C) displaying file: [133]133.pdf
+[08/20/16,06:31:01] (A) 1
+[08/20/16,06:31:01] (B) FIFO gave string: 1
+[08/20/16,06:31:03] (A) 5
+[08/20/16,06:31:03] (B) FIFO gave string: 5
+[08/20/16,06:31:03] (A) 5
+[08/20/16,06:31:03] (B) FIFO gave string: 5
+[08/20/16,06:31:04] (B) FIFO gave string: KEY_ENTER
+[08/20/16,06:31:04] (A) KEY_ENTER
+[08/20/16,06:31:04] (C) displaying file: [155]155.pdf
+[08/20/16,06:31:07] (A) KEY_VOLUMEDOWN
+[08/20/16,06:31:07] (B) FIFO gave string: KEY_VOLUMEDOWN
+[08/20/16,06:31:07] (C) displaying file: [133]133.pdf
+[08/20/16,06:31:08] (A) KEY_VOLUMEDOWN
+[08/20/16,06:31:08] (B) FIFO gave string: KEY_VOLUMEDOWN
+[08/20/16,06:31:08] (C) displaying file: [222]222.pdf
+[08/20/16,06:31:11] (A) KEY_VOLUMEUP
+[08/20/16,06:31:11] (B) FIFO gave string: KEY_VOLUMEUP
+[08/20/16,06:31:11] (C) displaying file: [133]133.pdf
+[08/20/16,06:31:14] (A) KEY_P
+[08/20/16,06:31:14] (B) FIFO gave string: KEY_P
+[08/20/16,06:31:14] (B) projector power off failed
+[08/20/16,06:34:06] (A) KEY_O
+[08/20/16,06:34:06] (B) FIFO gave string: KEY_O
+[08/20/16,06:34:06] (B) projector power on failed
+[08/20/16,06:34:13] (A) KEY_O
+[08/20/16,06:34:13] (B) FIFO gave string: KEY_O
+[08/20/16,06:34:13] (B) projector power on failed
+[08/20/16,06:34:20] (A) KEY_VOLUMEUP
+[08/20/16,06:34:20] (B) FIFO gave string: KEY_VOLUMEUP
+[08/20/16,06:34:20] (C) displaying file: [155]155.pdf
+[08/20/16,06:34:22] (B) FIFO gave string: KEY_P
+[08/20/16,06:34:22] (A) KEY_P
+[08/20/16,06:34:22] (B) projector power off failed
+[08/20/16,07:02:08] (B) FIFO gave string: KEY_O
+[08/20/16,07:02:08] (A) KEY_O
+[08/20/16,07:02:08] (B) projector power on failed
+[08/20/16,07:03:48] (A) KEY_P
+[08/20/16,07:03:48] (B) FIFO gave string: KEY_P
+[08/20/16,07:03:48] (B) projector power off failed
+[08/20/16,17:04:50] (A) KEY_O
+[08/20/16,17:04:50] (B) FIFO gave string: KEY_O
+[08/20/16,17:04:50] (B) projector power on failed
+[08/20/16,17:04:57] (A) 1
+[08/20/16,17:04:57] (B) FIFO gave string: 1
+[08/20/16,17:04:58] (A) 3
+[08/20/16,17:04:58] (B) FIFO gave string: 3
+[08/20/16,17:04:59] (A) KEY_ENTER
+[08/20/16,17:04:59] (B) FIFO gave string: KEY_ENTER
+[08/20/16,17:04:59] (C) displaying file: [13]13.pdf
+[08/20/16,17:05:06] (A) 3
+[08/20/16,17:05:06] (B) FIFO gave string: 3
+[08/20/16,17:05:07] (A) 9
+[08/20/16,17:05:07] (B) FIFO gave string: 9
+[08/20/16,17:05:07] (A) KEY_ENTER
+[08/20/16,17:05:07] (B) FIFO gave string: KEY_ENTER
+[08/20/16,17:05:07] (C) displaying file: [39]39.pdf
+[08/20/16,17:05:12] (A) 5
+[08/20/16,17:05:12] (B) FIFO gave string: 5
+[08/20/16,17:05:12] (A) 5
+[08/20/16,17:05:12] (B) FIFO gave string: 5
+[08/20/16,17:05:13] (A) KEY_ENTER
+[08/20/16,17:05:13] (B) FIFO gave string: KEY_ENTER
+[08/20/16,17:05:13] (C) displaying file: [55]55.pdf
+[08/20/16,17:05:18] (A) 1
+[08/20/16,17:05:18] (B) FIFO gave string: 1
+[08/20/16,17:05:18] (A) 5
+[08/20/16,17:05:18] (B) FIFO gave string: 5
+[08/20/16,17:05:19] (A) 5
+[08/20/16,17:05:19] (B) FIFO gave string: 5
+[08/20/16,17:05:20] (A) KEY_ENTER
+[08/20/16,17:05:20] (B) FIFO gave string: KEY_ENTER
+[08/20/16,17:05:20] (C) displaying file: [155]155.pdf
+[08/20/16,17:05:23] (A) KEY_VOLUMEDOWN
+[08/20/16,17:05:23] (B) FIFO gave string: KEY_VOLUMEDOWN
+[08/20/16,17:05:23] (C) displaying file: [55]55.pdf
+[08/20/16,17:05:24] (A) KEY_VOLUMEDOWN
+[08/20/16,17:05:24] (B) FIFO gave string: KEY_VOLUMEDOWN
+[08/20/16,17:05:24] (C) displaying file: [39]39.pdf
+[08/20/16,17:05:25] (A) KEY_VOLUMEDOWN
+[08/20/16,17:05:25] (B) FIFO gave string: KEY_VOLUMEDOWN
+[08/20/16,17:05:25] (C) displaying file: [13]13.pdf
+[08/20/16,17:05:26] (A) KEY_VOLUMEDOWN
+[08/20/16,17:05:26] (B) FIFO gave string: KEY_VOLUMEDOWN
+[08/20/16,17:05:26] (C) displaying file: [155]155.pdf
+[08/20/16,17:05:30] (A) KEY_VOLUMEUP
+[08/20/16,17:05:30] (B) FIFO gave string: KEY_VOLUMEUP
+[08/20/16,17:05:30] (C) displaying file: [13]13.pdf
+[08/20/16,17:05:35] (A) KEY_P
+[08/20/16,17:05:35] (B) FIFO gave string: KEY_P
+[08/20/16,17:05:35] (B) projector power off failed
+[08/20/16,17:31:57] (A) KEY_O
+[08/20/16,17:31:57] (B) FIFO gave string: KEY_O
+[08/20/16,17:31:57] (B) projector power on failed
+[08/20/16,17:34:01] (A) KEY_UP
+[08/20/16,17:34:01] (B) FIFO gave string: KEY_UP
+[08/20/16,17:34:01] (C) displaying file: [14]14.pdf
+[08/20/16,17:34:03] (A) KEY_P
+[08/20/16,17:34:03] (B) FIFO gave string: KEY_P
+[08/20/16,17:34:03] (B) projector power off failed
+[08/20/16,17:35:39] (A) KEY_UP
+[08/20/16,17:35:39] (B) FIFO gave string: KEY_UP
+[08/20/16,17:35:39] (C) displaying file: [15]15.pdf
+[08/20/16,17:36:36] (A) KEY_O
+[08/20/16,17:36:36] (B) FIFO gave string: KEY_O
+[08/20/16,17:36:37] (B) projector power on failed
+[08/20/16,17:36:59] (A) KEY_O
+[08/20/16,17:36:59] (B) FIFO gave string: KEY_O
+[08/20/16,17:36:59] (B) projector power on failed
+[08/20/16,17:38:10] (A) KEY_VOLUMEUP
+[08/20/16,17:38:10] (B) FIFO gave string: KEY_VOLUMEUP
+[08/20/16,17:38:10] (C) displaying file: [39]39.pdf
+[08/20/16,17:38:13] (A) KEY_P
+[08/20/16,17:38:13] (B) FIFO gave string: KEY_P
+[08/20/16,17:38:13] (B) projector power off failed
+[08/20/16,17:59:50] (A) KEY_O
+[08/20/16,17:59:50] (B) FIFO gave string: KEY_O
+[08/20/16,17:59:50] (B) projector power on failed
+[08/20/16,18:00:48] (A) KEY_O
+[08/20/16,18:00:48] (B) FIFO gave string: KEY_O
+[08/20/16,18:00:48] (B) projector power on failed
+[08/20/16,18:03:01] (A) KEY_VOLUMEUP
+[08/20/16,18:03:01] (B) FIFO gave string: KEY_VOLUMEUP
+[08/20/16,18:03:01] (C) displaying file: [55]55.pdf
+[08/20/16,18:03:03] (B) FIFO gave string: KEY_P
+[08/20/16,18:03:03] (A) KEY_P
+[08/20/16,18:03:03] (B) projector power off failed
+[08/20/16,18:12:39] (A) KEY_O
+[08/20/16,18:12:39] (B) FIFO gave string: KEY_O
+[08/20/16,18:12:40] (B) projector power on failed
+[08/20/16,18:12:50] (A) KEY_O
+[08/20/16,18:12:50] (B) FIFO gave string: KEY_O
+[08/20/16,18:12:50] (B) projector power on failed
+[08/20/16,18:16:10] (A) KEY_VOLUMEUP
+[08/20/16,18:16:10] (B) FIFO gave string: KEY_VOLUMEUP
+[08/20/16,18:16:10] (C) displaying file: [155]155.pdf
+[08/20/16,18:16:12] (A) KEY_P
+[08/20/16,18:16:12] (B) FIFO gave string: KEY_P
+[08/20/16,18:16:13] (B) projector power off failed
+[08/20/16,18:18:42] (A) 1
+[08/20/16,18:18:42] (B) FIFO gave string: 1
+[08/20/16,18:18:43] (A) 5
+[08/20/16,18:18:43] (B) FIFO gave string: 5
+[08/20/16,18:18:44] (A) 4
+[08/20/16,18:18:44] (B) FIFO gave string: 4
+[08/20/16,18:18:46] (A) KEY_ENTER
+[08/20/16,18:18:46] (B) FIFO gave string: KEY_ENTER
+[08/20/16,18:18:46] (C) displaying file: [154]154.pdf
+[08/20/16,18:19:39] (A) KEY_O
+[08/20/16,18:19:39] (B) FIFO gave string: KEY_O
+[08/20/16,18:19:39] (B) projector power on failed
+[08/20/16,18:21:37] (A) KEY_P
+[08/20/16,18:21:37] (B) FIFO gave string: KEY_P
+[08/20/16,18:21:37] (B) projector power off failed
+[08/21/16,06:00:05] (A) KEY_O
+[08/21/16,06:00:05] (B) FIFO gave string: KEY_O
+[08/21/16,06:00:06] (B) projector power on failed
+[08/21/16,06:00:18] (A) 4
+[08/21/16,06:00:18] (B) FIFO gave string: 4
+[08/21/16,06:00:21] (A) KEY_ENTER
+[08/21/16,06:00:21] (B) FIFO gave string: KEY_ENTER
+[08/21/16,06:00:21] (C) displaying file: [4]4.pdf
+[08/21/16,06:02:06] (A) 1
+[08/21/16,06:02:06] (B) FIFO gave string: 1
+[08/21/16,06:02:07] (A) 3
+[08/21/16,06:02:07] (B) FIFO gave string: 3
+[08/21/16,06:02:08] (A) KEY_ENTER
+[08/21/16,06:02:08] (B) FIFO gave string: KEY_ENTER
+[08/21/16,06:02:08] (C) displaying file: [13]13.pdf
+[08/21/16,06:04:37] (A) KEY_P
+[08/21/16,06:04:37] (B) FIFO gave string: KEY_P
+[08/21/16,06:04:38] (B) projector power off failed
+[08/21/16,06:07:30] (A) KEY_O
+[08/21/16,06:07:30] (B) FIFO gave string: KEY_O
+[08/21/16,06:07:30] (B) projector power on failed
+[08/21/16,06:08:28] (B) FIFO gave string: KEY_P
+[08/21/16,06:08:28] (A) KEY_P
+[08/21/16,06:08:28] (B) projector power off failed
+[08/21/16,06:31:56] (A) KEY_O
+[08/21/16,06:31:56] (B) FIFO gave string: KEY_O
+[08/21/16,06:31:56] (B) projector power on failed
+[08/21/16,06:32:06] (A) 3
+[08/21/16,06:32:06] (B) FIFO gave string: 3
+[08/21/16,06:32:07] (A) 7
+[08/21/16,06:32:07] (B) FIFO gave string: 7
+[08/21/16,06:32:08] (A) KEY_ENTER
+[08/21/16,06:32:08] (B) FIFO gave string: KEY_ENTER
+[08/21/16,06:32:08] (C) displaying file: [37]37.pdf
+[08/21/16,06:33:40] (A) KEY_P
+[08/21/16,06:33:40] (B) FIFO gave string: KEY_P
+[08/21/16,06:33:40] (B) projector power off failed
+[08/21/16,06:44:24] (A) KEY_O
+[08/21/16,06:44:24] (B) FIFO gave string: KEY_O
+[08/21/16,06:44:24] (B) projector power on failed
+[08/21/16,06:44:29] (A) 6
+[08/21/16,06:44:29] (B) FIFO gave string: 6
+[08/21/16,06:44:30] (A) 8
+[08/21/16,06:44:30] (B) FIFO gave string: 8
+[08/21/16,06:44:32] (A) KEY_ENTER
+[08/21/16,06:44:32] (B) FIFO gave string: KEY_ENTER
+[08/21/16,06:44:32] (C) displaying file: [68]68.pdf
+[08/21/16,06:46:51] (A) KEY_P
+[08/21/16,06:46:51] (B) FIFO gave string: KEY_P
+[08/21/16,06:46:52] (B) projector power off failed
+[08/21/16,06:50:57] (A) KEY_O
+[08/21/16,06:50:57] (B) FIFO gave string: KEY_O
+[08/21/16,06:50:57] (B) projector power on failed
+[08/21/16,06:51:03] (A) 1
+[08/21/16,06:51:03] (B) FIFO gave string: 1
+[08/21/16,06:51:04] (A) 6
+[08/21/16,06:51:04] (B) FIFO gave string: 6
+[08/21/16,06:51:04] (A) 9
+[08/21/16,06:51:04] (B) FIFO gave string: 9
+[08/21/16,06:51:05] (A) KEY_ENTER
+[08/21/16,06:51:05] (B) FIFO gave string: KEY_ENTER
+[08/21/16,06:51:05] (C) displaying file: [169]169.pdf
+[08/21/16,06:54:42] (A) KEY_P
+[08/21/16,06:54:42] (B) FIFO gave string: KEY_P
+[08/21/16,06:54:42] (B) projector power off failed
+[08/21/16,07:30:07] (A) KEY_O
+[08/21/16,07:30:07] (B) FIFO gave string: KEY_O
+[08/21/16,07:30:07] (B) projector power on failed
+[08/21/16,07:30:15] (A) 1
+[08/21/16,07:30:15] (B) FIFO gave string: 1
+[08/21/16,07:30:15] (A) 6
+[08/21/16,07:30:15] (B) FIFO gave string: 6
+[08/21/16,07:30:16] (A) 6
+[08/21/16,07:30:16] (B) FIFO gave string: 6
+[08/21/16,07:30:17] (A) KEY_ENTER
+[08/21/16,07:30:17] (B) FIFO gave string: KEY_ENTER
+[08/21/16,07:30:17] (C) displaying file: [166]166.pdf
+[08/21/16,07:30:38] (A) KEY_O
+[08/21/16,07:30:38] (B) FIFO gave string: KEY_O
+[08/21/16,07:30:39] (B) projector power on failed
+[08/21/16,07:30:41] (B) FIFO gave string: KEY_P
+[08/21/16,07:30:41] (A) KEY_P
+[08/21/16,07:30:41] (B) projector power off failed
+[08/21/16,07:30:58] (A) KEY_O
+[08/21/16,07:30:58] (B) FIFO gave string: KEY_O
+[08/21/16,07:30:58] (B) projector power on failed
+[08/21/16,07:31:05] (A) 1
+[08/21/16,07:31:05] (B) FIFO gave string: 1
+[08/21/16,07:31:06] (A) 7
+[08/21/16,07:31:06] (B) FIFO gave string: 7
+[08/21/16,07:31:07] (A) 5
+[08/21/16,07:31:07] (B) FIFO gave string: 5
+[08/21/16,07:31:07] (A) KEY_ENTER
+[08/21/16,07:31:07] (B) FIFO gave string: KEY_ENTER
+[08/21/16,07:31:07] (C) displaying file: [175]175.pdf
+[08/21/16,07:31:11] (A) KEY_O
+[08/21/16,07:31:11] (B) FIFO gave string: KEY_O
+[08/21/16,07:31:11] (B) projector power on failed
+[08/21/16,07:31:13] (A) KEY_P
+[08/21/16,07:31:13] (B) FIFO gave string: KEY_P
+[08/21/16,07:31:13] (B) projector power off failed
+[08/21/16,08:24:50] (A) KEY_O
+[08/21/16,08:24:50] (B) FIFO gave string: KEY_O
+[08/21/16,08:24:50] (B) projector power on failed
+[08/21/16,08:26:30] (A) KEY_P
+[08/21/16,08:26:30] (B) FIFO gave string: KEY_P
+[08/21/16,08:26:30] (B) projector power off failed
+[08/21/16,18:27:34] (B) FIFO gave string: 2
+[08/21/16,18:27:34] (A) 2
+[08/21/16,18:27:35] (A) 0
+[08/21/16,18:27:35] (B) FIFO gave string: 0
+[08/21/16,18:27:36] (A) KEY_ENTER
+[08/21/16,18:27:36] (B) FIFO gave string: KEY_ENTER
+[08/21/16,18:27:36] (C) displaying file: [20]20.pdf
+[08/21/16,18:27:37] (A) KEY_O
+[08/21/16,18:27:37] (B) FIFO gave string: KEY_O
+[08/21/16,18:27:37] (B) projector power on failed
+[08/21/16,18:27:58] (A) 9
+[08/21/16,18:27:58] (B) FIFO gave string: 9
+[08/21/16,18:27:59] (A) 5
+[08/21/16,18:27:59] (B) FIFO gave string: 5
+[08/21/16,18:28:00] (A) 0
+[08/21/16,18:28:00] (B) FIFO gave string: 0
+[08/21/16,18:28:02] (A) KEY_ENTER
+[08/21/16,18:28:02] (B) FIFO gave string: KEY_ENTER
+[08/21/16,18:28:02] (C) displaying file: [338]950.pdf
+[08/21/16,18:28:07] (A) KEY_R
+[08/21/16,18:28:07] (B) FIFO gave string: KEY_R
+[08/21/16,18:28:07] (C) displaying file: [338]0.pdf
+[08/21/16,18:28:14] (A) KEY_VOLUMEDOWN
+[08/21/16,18:28:14] (B) FIFO gave string: KEY_VOLUMEDOWN
+[08/21/16,18:28:14] (C) displaying file: [20]20.pdf
+[08/21/16,18:28:20] (A) KEY_R
+[08/21/16,18:28:20] (B) FIFO gave string: KEY_R
+[08/21/16,18:28:20] (C) displaying file: [20]0.pdf
+[08/21/16,18:28:25] (A) KEY_UP
+[08/21/16,18:28:25] (B) FIFO gave string: KEY_UP
+[08/21/16,18:28:25] (C) displaying file: [21]21.pdf
+[08/21/16,18:28:31] (A) KEY_R
+[08/21/16,18:28:31] (B) FIFO gave string: KEY_R
+[08/21/16,18:28:31] (C) displaying file: [21]0.pdf
+[08/21/16,18:28:34] (A) KEY_UP
+[08/21/16,18:28:34] (B) FIFO gave string: KEY_UP
+[08/21/16,18:28:34] (C) displaying file: [22]22.pdf
+[08/21/16,18:28:36] (A) KEY_DOWN
+[08/21/16,18:28:36] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:28:36] (C) displaying file: [21]21.pdf
+[08/21/16,18:28:38] (A) KEY_UP
+[08/21/16,18:28:38] (B) FIFO gave string: KEY_UP
+[08/21/16,18:28:39] (C) displaying file: [22]22.pdf
+[08/21/16,18:28:40] (A) KEY_UP
+[08/21/16,18:28:40] (B) FIFO gave string: KEY_UP
+[08/21/16,18:28:40] (C) displaying file: [23]23.pdf
+[08/21/16,18:28:41] (A) KEY_VOLUMEDOWN
+[08/21/16,18:28:41] (B) FIFO gave string: KEY_VOLUMEDOWN
+[08/21/16,18:28:41] (C) displaying file: [175]175.pdf
+[08/21/16,18:28:43] (A) KEY_VOLUMEDOWN
+[08/21/16,18:28:43] (B) FIFO gave string: KEY_VOLUMEDOWN
+[08/21/16,18:28:43] (C) displaying file: [166]166.pdf
+[08/21/16,18:28:44] (A) KEY_VOLUMEDOWN
+[08/21/16,18:28:44] (B) FIFO gave string: KEY_VOLUMEDOWN
+[08/21/16,18:28:44] (C) displaying file: [169]169.pdf
+[08/21/16,18:28:46] (A) KEY_VOLUMEUP
+[08/21/16,18:28:46] (B) FIFO gave string: KEY_VOLUMEUP
+[08/21/16,18:28:46] (C) displaying file: [166]166.pdf
+[08/21/16,18:28:47] (A) KEY_VOLUMEUP
+[08/21/16,18:28:47] (B) FIFO gave string: KEY_VOLUMEUP
+[08/21/16,18:28:47] (C) displaying file: [175]175.pdf
+[08/21/16,18:28:48] (A) KEY_VOLUMEUP
+[08/21/16,18:28:48] (B) FIFO gave string: KEY_VOLUMEUP
+[08/21/16,18:28:48] (C) displaying file: [20]20.pdf
+[08/21/16,18:28:50] (A) KEY_VOLUMEUP
+[08/21/16,18:28:50] (B) FIFO gave string: KEY_VOLUMEUP
+[08/21/16,18:28:50] (C) displaying file: [338]950.pdf
+[08/21/16,18:28:52] (A) KEY_VOLUMEUP
+[08/21/16,18:28:52] (B) FIFO gave string: KEY_VOLUMEUP
+[08/21/16,18:28:52] (C) displaying file: [338]950.pdf
+[08/21/16,18:28:53] (A) KEY_VOLUMEUP
+[08/21/16,18:28:53] (B) FIFO gave string: KEY_VOLUMEUP
+[08/21/16,18:28:54] (C) displaying file: [338]950.pdf
+[08/21/16,18:28:54] (A) KEY_VOLUMEDOWN
+[08/21/16,18:28:54] (B) FIFO gave string: KEY_VOLUMEDOWN
+[08/21/16,18:28:54] (C) displaying file: [20]20.pdf
+[08/21/16,18:28:56] (A) KEY_VOLUMEUP
+[08/21/16,18:28:56] (B) FIFO gave string: KEY_VOLUMEUP
+[08/21/16,18:28:56] (C) displaying file: [338]950.pdf
+[08/21/16,18:29:01] (A) KEY_VOLUMEDOWN
+[08/21/16,18:29:01] (B) FIFO gave string: KEY_VOLUMEDOWN
+[08/21/16,18:29:01] (C) displaying file: [20]20.pdf
+[08/21/16,18:29:02] (A) KEY_VOLUMEUP
+[08/21/16,18:29:02] (B) FIFO gave string: KEY_VOLUMEUP
+[08/21/16,18:29:02] (C) displaying file: [338]950.pdf
+[08/21/16,18:29:07] (A) KEY_VOLUMEDOWN
+[08/21/16,18:29:07] (B) FIFO gave string: KEY_VOLUMEDOWN
+[08/21/16,18:29:07] (C) displaying file: [20]20.pdf
+[08/21/16,18:29:09] (A) KEY_VOLUMEUP
+[08/21/16,18:29:09] (B) FIFO gave string: KEY_VOLUMEUP
+[08/21/16,18:29:09] (C) displaying file: [338]950.pdf
+[08/21/16,18:29:12] (A) KEY_R
+[08/21/16,18:29:12] (B) FIFO gave string: KEY_R
+[08/21/16,18:29:12] (C) displaying file: [338]0.pdf
+[08/21/16,18:29:22] (A) KEY_UP
+[08/21/16,18:29:22] (B) FIFO gave string: KEY_UP
+[08/21/16,18:29:22] (C) displaying file: [338]950.pdf
+[08/21/16,18:29:24] (B) FIFO gave string: KEY_P
+[08/21/16,18:29:24] (A) KEY_P
+[08/21/16,18:29:25] (B) projector power off failed
+[08/21/16,18:29:28] (A) KEY_O
+[08/21/16,18:29:28] (B) FIFO gave string: KEY_O
+[08/21/16,18:29:28] (B) projector power on failed
+[08/21/16,18:29:46] (A) KEY_VOLUMEDOWN
+[08/21/16,18:29:46] (B) FIFO gave string: KEY_VOLUMEDOWN
+[08/21/16,18:29:46] (C) displaying file: [20]20.pdf
+[08/21/16,18:29:50] (A) KEY_VOLUMEUP
+[08/21/16,18:29:50] (B) FIFO gave string: KEY_VOLUMEUP
+[08/21/16,18:29:50] (C) displaying file: [338]950.pdf
+[08/21/16,18:30:25] (A) KEY_DOWN
+[08/21/16,18:30:25] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:30:25] (C) displaying file: [337]949.pdf
+[08/21/16,18:30:26] (A) KEY_DOWN
+[08/21/16,18:30:26] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:30:26] (C) displaying file: [336]948.pdf
+[08/21/16,18:30:27] (A) KEY_DOWN
+[08/21/16,18:30:27] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:30:27] (C) displaying file: [335]947.pdf
+[08/21/16,18:30:27] (A) KEY_DOWN
+[08/21/16,18:30:27] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:30:27] (C) displaying file: [334]946.pdf
+[08/21/16,18:30:28] (A) KEY_DOWN
+[08/21/16,18:30:28] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:30:28] (C) displaying file: [333]945.pdf
+[08/21/16,18:30:29] (A) KEY_DOWN
+[08/21/16,18:30:29] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:30:29] (C) displaying file: [332]944.pdf
+[08/21/16,18:30:29] (A) KEY_DOWN
+[08/21/16,18:30:29] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:30:30] (C) displaying file: [331]943.pdf
+[08/21/16,18:30:30] (A) KEY_DOWN
+[08/21/16,18:30:30] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:30:30] (C) displaying file: [330]942.pdf
+[08/21/16,18:30:31] (A) KEY_DOWN
+[08/21/16,18:30:31] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:30:31] (C) displaying file: [329]941.pdf
+[08/21/16,18:30:31] (A) KEY_DOWN
+[08/21/16,18:30:31] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:30:32] (C) displaying file: [328]940.pdf
+[08/21/16,18:30:32] (A) KEY_DOWN
+[08/21/16,18:30:32] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:30:32] (C) displaying file: [327]939.pdf
+[08/21/16,18:30:33] (A) KEY_DOWN
+[08/21/16,18:30:33] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:30:33] (C) displaying file: [326]938.pdf
+[08/21/16,18:30:33] (A) KEY_DOWN
+[08/21/16,18:30:33] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:30:33] (C) displaying file: [325]937.pdf
+[08/21/16,18:30:34] (A) KEY_DOWN
+[08/21/16,18:30:34] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:30:34] (C) displaying file: [324]936.pdf
+[08/21/16,18:30:35] (A) KEY_DOWN
+[08/21/16,18:30:35] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:30:35] (C) displaying file: [323]935.pdf
+[08/21/16,18:30:35] (A) KEY_DOWN
+[08/21/16,18:30:35] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:30:35] (C) displaying file: [322]934.pdf
+[08/21/16,18:30:36] (A) KEY_DOWN
+[08/21/16,18:30:36] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:30:36] (C) displaying file: [321]933.pdf
+[08/21/16,18:30:37] (A) KEY_DOWN
+[08/21/16,18:30:37] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:30:37] (C) displaying file: [320]932.pdf
+[08/21/16,18:30:37] (A) KEY_DOWN
+[08/21/16,18:30:37] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:30:37] (C) displaying file: [319]931.pdf
+[08/21/16,18:30:38] (A) KEY_DOWN
+[08/21/16,18:30:38] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:30:38] (C) displaying file: [318]925.pdf
+[08/21/16,18:30:39] (A) KEY_DOWN
+[08/21/16,18:30:39] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:30:39] (C) displaying file: [317]924.pdf
+[08/21/16,18:30:39] (A) KEY_DOWN
+[08/21/16,18:30:39] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:30:39] (C) displaying file: [316]923.pdf
+[08/21/16,18:30:40] (A) KEY_DOWN
+[08/21/16,18:30:40] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:30:40] (C) displaying file: [315]922.pdf
+[08/21/16,18:30:41] (A) KEY_DOWN
+[08/21/16,18:30:41] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:30:41] (C) displaying file: [314]921.pdf
+[08/21/16,18:30:41] (A) KEY_DOWN
+[08/21/16,18:30:41] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:30:41] (C) displaying file: [313]920.pdf
+[08/21/16,18:30:42] (A) KEY_DOWN
+[08/21/16,18:30:42] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:30:42] (C) displaying file: [312]919.pdf
+[08/21/16,18:30:42] (A) KEY_DOWN
+[08/21/16,18:30:43] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:30:43] (C) displaying file: [311]918.pdf
+[08/21/16,18:30:43] (A) KEY_DOWN
+[08/21/16,18:30:43] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:30:43] (C) displaying file: [310]917.pdf
+[08/21/16,18:30:44] (A) KEY_DOWN
+[08/21/16,18:30:44] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:30:44] (C) displaying file: [309]916.pdf
+[08/21/16,18:30:44] (A) KEY_DOWN
+[08/21/16,18:30:45] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:30:45] (C) displaying file: [308]915.pdf
+[08/21/16,18:30:45] (A) KEY_UP
+[08/21/16,18:30:45] (B) FIFO gave string: KEY_UP
+[08/21/16,18:30:45] (C) displaying file: [309]916.pdf
+[08/21/16,18:30:46] (A) KEY_UP
+[08/21/16,18:30:46] (B) FIFO gave string: KEY_UP
+[08/21/16,18:30:46] (C) displaying file: [310]917.pdf
+[08/21/16,18:30:46] (A) KEY_UP
+[08/21/16,18:30:46] (B) FIFO gave string: KEY_UP
+[08/21/16,18:30:47] (C) displaying file: [311]918.pdf
+[08/21/16,18:30:47] (A) KEY_UP
+[08/21/16,18:30:47] (B) FIFO gave string: KEY_UP
+[08/21/16,18:30:47] (C) displaying file: [312]919.pdf
+[08/21/16,18:30:53] (A) KEY_UP
+[08/21/16,18:30:53] (B) FIFO gave string: KEY_UP
+[08/21/16,18:30:53] (C) displaying file: [313]920.pdf
+[08/21/16,18:30:57] (A) KEY_UP
+[08/21/16,18:30:57] (B) FIFO gave string: KEY_UP
+[08/21/16,18:30:57] (C) displaying file: [314]921.pdf
+[08/21/16,18:31:02] (A) KEY_UP
+[08/21/16,18:31:02] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:02] (C) displaying file: [315]922.pdf
+[08/21/16,18:31:04] (A) KEY_UP
+[08/21/16,18:31:04] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:04] (C) displaying file: [316]923.pdf
+[08/21/16,18:31:05] (A) KEY_UP
+[08/21/16,18:31:05] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:05] (C) displaying file: [317]924.pdf
+[08/21/16,18:31:07] (A) KEY_UP
+[08/21/16,18:31:07] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:07] (C) displaying file: [318]925.pdf
+[08/21/16,18:31:09] (A) KEY_UP
+[08/21/16,18:31:09] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:09] (C) displaying file: [319]931.pdf
+[08/21/16,18:31:18] (A) KEY_UP
+[08/21/16,18:31:18] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:18] (C) displaying file: [320]932.pdf
+[08/21/16,18:31:19] (A) KEY_UP
+[08/21/16,18:31:19] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:19] (C) displaying file: [321]933.pdf
+[08/21/16,18:31:19] (A) KEY_UP
+[08/21/16,18:31:19] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:20] (C) displaying file: [322]934.pdf
+[08/21/16,18:31:20] (A) KEY_UP
+[08/21/16,18:31:20] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:20] (C) displaying file: [323]935.pdf
+[08/21/16,18:31:21] (A) KEY_UP
+[08/21/16,18:31:21] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:21] (C) displaying file: [324]936.pdf
+[08/21/16,18:31:21] (A) KEY_UP
+[08/21/16,18:31:21] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:22] (C) displaying file: [325]937.pdf
+[08/21/16,18:31:22] (A) KEY_UP
+[08/21/16,18:31:22] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:22] (C) displaying file: [326]938.pdf
+[08/21/16,18:31:23] (A) KEY_UP
+[08/21/16,18:31:23] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:23] (C) displaying file: [327]939.pdf
+[08/21/16,18:31:23] (A) KEY_UP
+[08/21/16,18:31:23] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:24] (C) displaying file: [328]940.pdf
+[08/21/16,18:31:24] (A) KEY_UP
+[08/21/16,18:31:24] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:24] (C) displaying file: [329]941.pdf
+[08/21/16,18:31:25] (A) KEY_UP
+[08/21/16,18:31:25] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:25] (C) displaying file: [330]942.pdf
+[08/21/16,18:31:25] (A) KEY_UP
+[08/21/16,18:31:25] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:26] (C) displaying file: [331]943.pdf
+[08/21/16,18:31:26] (A) KEY_UP
+[08/21/16,18:31:26] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:26] (C) displaying file: [332]944.pdf
+[08/21/16,18:31:27] (A) KEY_UP
+[08/21/16,18:31:27] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:27] (C) displaying file: [333]945.pdf
+[08/21/16,18:31:27] (A) KEY_UP
+[08/21/16,18:31:27] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:28] (C) displaying file: [334]946.pdf
+[08/21/16,18:31:28] (A) KEY_UP
+[08/21/16,18:31:28] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:28] (C) displaying file: [335]947.pdf
+[08/21/16,18:31:29] (A) KEY_UP
+[08/21/16,18:31:29] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:29] (C) displaying file: [336]948.pdf
+[08/21/16,18:31:29] (A) KEY_UP
+[08/21/16,18:31:29] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:30] (C) displaying file: [337]949.pdf
+[08/21/16,18:31:30] (A) KEY_UP
+[08/21/16,18:31:30] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:30] (C) displaying file: [338]950.pdf
+[08/21/16,18:31:31] (A) KEY_UP
+[08/21/16,18:31:31] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:31] (C) displaying file: [338]950.pdf
+[08/21/16,18:31:31] (A) KEY_UP
+[08/21/16,18:31:31] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:32] (C) displaying file: [338]950.pdf
+[08/21/16,18:31:32] (A) KEY_UP
+[08/21/16,18:31:32] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:32] (C) displaying file: [338]950.pdf
+[08/21/16,18:31:33] (A) KEY_UP
+[08/21/16,18:31:33] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:33] (C) displaying file: [338]950.pdf
+[08/21/16,18:31:33] (A) KEY_UP
+[08/21/16,18:31:33] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:34] (C) displaying file: [338]950.pdf
+[08/21/16,18:31:34] (A) KEY_UP
+[08/21/16,18:31:34] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:34] (C) displaying file: [338]950.pdf
+[08/21/16,18:31:35] (A) KEY_UP
+[08/21/16,18:31:35] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:35] (C) displaying file: [338]950.pdf
+[08/21/16,18:31:35] (A) KEY_UP
+[08/21/16,18:31:35] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:36] (C) displaying file: [338]950.pdf
+[08/21/16,18:31:36] (A) KEY_UP
+[08/21/16,18:31:36] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:36] (C) displaying file: [338]950.pdf
+[08/21/16,18:31:37] (A) KEY_UP
+[08/21/16,18:31:37] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:37] (C) displaying file: [338]950.pdf
+[08/21/16,18:31:37] (A) KEY_UP
+[08/21/16,18:31:37] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:37] (C) displaying file: [338]950.pdf
+[08/21/16,18:31:38] (A) KEY_UP
+[08/21/16,18:31:38] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:38] (C) displaying file: [338]950.pdf
+[08/21/16,18:31:38] (A) KEY_UP
+[08/21/16,18:31:39] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:39] (C) displaying file: [338]950.pdf
+[08/21/16,18:31:39] (A) KEY_UP
+[08/21/16,18:31:39] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:39] (C) displaying file: [338]950.pdf
+[08/21/16,18:31:40] (A) KEY_UP
+[08/21/16,18:31:40] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:40] (C) displaying file: [338]950.pdf
+[08/21/16,18:31:40] (A) KEY_UP
+[08/21/16,18:31:40] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:41] (C) displaying file: [338]950.pdf
+[08/21/16,18:31:41] (A) KEY_UP
+[08/21/16,18:31:41] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:41] (C) displaying file: [338]950.pdf
+[08/21/16,18:31:42] (A) KEY_UP
+[08/21/16,18:31:42] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:42] (C) displaying file: [338]950.pdf
+[08/21/16,18:31:42] (A) KEY_UP
+[08/21/16,18:31:42] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:42] (C) displaying file: [338]950.pdf
+[08/21/16,18:31:43] (A) KEY_UP
+[08/21/16,18:31:43] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:43] (C) displaying file: [338]950.pdf
+[08/21/16,18:31:44] (A) KEY_UP
+[08/21/16,18:31:44] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:44] (C) displaying file: [338]950.pdf
+[08/21/16,18:31:44] (A) KEY_UP
+[08/21/16,18:31:44] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:44] (C) displaying file: [338]950.pdf
+[08/21/16,18:31:45] (A) KEY_UP
+[08/21/16,18:31:45] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:45] (C) displaying file: [338]950.pdf
+[08/21/16,18:31:45] (A) KEY_UP
+[08/21/16,18:31:46] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:46] (C) displaying file: [338]950.pdf
+[08/21/16,18:31:46] (A) KEY_UP
+[08/21/16,18:31:46] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:46] (C) displaying file: [338]950.pdf
+[08/21/16,18:31:47] (A) KEY_UP
+[08/21/16,18:31:47] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:47] (C) displaying file: [338]950.pdf
+[08/21/16,18:31:47] (A) KEY_UP
+[08/21/16,18:31:47] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:48] (C) displaying file: [338]950.pdf
+[08/21/16,18:31:48] (A) KEY_UP
+[08/21/16,18:31:48] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:48] (C) displaying file: [338]950.pdf
+[08/21/16,18:31:49] (A) KEY_UP
+[08/21/16,18:31:49] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:49] (C) displaying file: [338]950.pdf
+[08/21/16,18:31:49] (A) KEY_UP
+[08/21/16,18:31:49] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:50] (C) displaying file: [338]950.pdf
+[08/21/16,18:31:50] (A) KEY_UP
+[08/21/16,18:31:50] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:50] (C) displaying file: [338]950.pdf
+[08/21/16,18:31:51] (A) KEY_UP
+[08/21/16,18:31:51] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:51] (C) displaying file: [338]950.pdf
+[08/21/16,18:31:51] (A) KEY_UP
+[08/21/16,18:31:51] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:51] (C) displaying file: [338]950.pdf
+[08/21/16,18:31:52] (A) KEY_UP
+[08/21/16,18:31:52] (B) FIFO gave string: KEY_UP
+[08/21/16,18:31:52] (C) displaying file: [338]950.pdf
+[08/21/16,18:31:53] (A) KEY_VOLUMEDOWN
+[08/21/16,18:31:53] (B) FIFO gave string: KEY_VOLUMEDOWN
+[08/21/16,18:31:53] (C) displaying file: [20]20.pdf
+[08/21/16,18:31:53] (A) KEY_VOLUMEDOWN
+[08/21/16,18:31:53] (B) FIFO gave string: KEY_VOLUMEDOWN
+[08/21/16,18:31:53] (C) displaying file: [175]175.pdf
+[08/21/16,18:31:54] (A) KEY_VOLUMEDOWN
+[08/21/16,18:31:54] (B) FIFO gave string: KEY_VOLUMEDOWN
+[08/21/16,18:31:54] (C) displaying file: [166]166.pdf
+[08/21/16,18:31:54] (A) KEY_VOLUMEDOWN
+[08/21/16,18:31:55] (B) FIFO gave string: KEY_VOLUMEDOWN
+[08/21/16,18:31:55] (C) displaying file: [169]169.pdf
+[08/21/16,18:31:55] (A) KEY_VOLUMEDOWN
+[08/21/16,18:31:55] (B) FIFO gave string: KEY_VOLUMEDOWN
+[08/21/16,18:31:55] (C) displaying file: [68]68.pdf
+[08/21/16,18:31:59] (A) KEY_VOLUMEUP
+[08/21/16,18:31:59] (B) FIFO gave string: KEY_VOLUMEUP
+[08/21/16,18:31:59] (C) displaying file: [169]169.pdf
+[08/21/16,18:32:00] (A) KEY_VOLUMEUP
+[08/21/16,18:32:00] (B) FIFO gave string: KEY_VOLUMEUP
+[08/21/16,18:32:00] (C) displaying file: [166]166.pdf
+[08/21/16,18:32:14] (A) KEY_UP
+[08/21/16,18:32:14] (B) FIFO gave string: KEY_UP
+[08/21/16,18:32:14] (C) displaying file: [167]167.pdf
+[08/21/16,18:32:15] (A) KEY_UP
+[08/21/16,18:32:15] (B) FIFO gave string: KEY_UP
+[08/21/16,18:32:15] (C) displaying file: [168]168.pdf
+[08/21/16,18:32:15] (A) KEY_UP
+[08/21/16,18:32:15] (B) FIFO gave string: KEY_UP
+[08/21/16,18:32:15] (C) displaying file: [169]169.pdf
+[08/21/16,18:32:16] (A) KEY_UP
+[08/21/16,18:32:16] (B) FIFO gave string: KEY_UP
+[08/21/16,18:32:16] (C) displaying file: [170]170.pdf
+[08/21/16,18:32:25] (A) KEY_DOWN
+[08/21/16,18:32:25] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:32:25] (C) displaying file: [169]169.pdf
+[08/21/16,18:32:26] (A) KEY_DOWN
+[08/21/16,18:32:26] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:32:26] (C) displaying file: [168]168.pdf
+[08/21/16,18:32:27] (A) KEY_DOWN
+[08/21/16,18:32:27] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:32:27] (C) displaying file: [167]167.pdf
+[08/21/16,18:32:27] (A) KEY_DOWN
+[08/21/16,18:32:27] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:32:27] (C) displaying file: [166]166.pdf
+[08/21/16,18:32:28] (A) KEY_DOWN
+[08/21/16,18:32:28] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:32:28] (C) displaying file: [165]165.pdf
+[08/21/16,18:32:29] (A) KEY_DOWN
+[08/21/16,18:32:29] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:32:29] (C) displaying file: [164]164.pdf
+[08/21/16,18:32:33] (A) KEY_DOWN
+[08/21/16,18:32:33] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:32:33] (C) displaying file: [163]163.pdf
+[08/21/16,18:32:33] (A) KEY_DOWN
+[08/21/16,18:32:33] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:32:34] (C) displaying file: [162]162.pdf
+[08/21/16,18:32:34] (A) KEY_DOWN
+[08/21/16,18:32:34] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:32:34] (C) displaying file: [161]161.pdf
+[08/21/16,18:32:35] (A) KEY_DOWN
+[08/21/16,18:32:35] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:32:35] (C) displaying file: [160]160.pdf
+[08/21/16,18:32:35] (A) KEY_DOWN
+[08/21/16,18:32:36] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:32:36] (C) displaying file: [159]159.pdf
+[08/21/16,18:32:36] (A) KEY_DOWN
+[08/21/16,18:32:36] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:32:36] (C) displaying file: [158]158.pdf
+[08/21/16,18:32:48] (A) KEY_DOWN
+[08/21/16,18:32:48] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:32:48] (C) displaying file: [157]157.pdf
+[08/21/16,18:32:48] (A) KEY_DOWN
+[08/21/16,18:32:48] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:32:49] (C) displaying file: [156]156.pdf
+[08/21/16,18:32:49] (A) KEY_DOWN
+[08/21/16,18:32:49] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:32:49] (C) displaying file: [155]155.pdf
+[08/21/16,18:32:50] (A) KEY_DOWN
+[08/21/16,18:32:50] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:32:50] (C) displaying file: [154]154.pdf
+[08/21/16,18:32:51] (A) KEY_DOWN
+[08/21/16,18:32:51] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:32:51] (C) displaying file: [153]153.pdf
+[08/21/16,18:33:09] (A) KEY_DOWN
+[08/21/16,18:33:09] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:33:09] (C) displaying file: [152]152.pdf
+[08/21/16,18:33:10] (A) KEY_DOWN
+[08/21/16,18:33:10] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:33:10] (C) displaying file: [151]151.pdf
+[08/21/16,18:33:10] (A) KEY_DOWN
+[08/21/16,18:33:10] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:33:10] (C) displaying file: [150]150.pdf
+[08/21/16,18:33:11] (A) KEY_DOWN
+[08/21/16,18:33:11] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:33:11] (C) displaying file: [149]149.pdf
+[08/21/16,18:33:12] (A) KEY_DOWN
+[08/21/16,18:33:12] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:33:12] (C) displaying file: [148]148.pdf
+[08/21/16,18:33:12] (A) KEY_DOWN
+[08/21/16,18:33:12] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:33:13] (C) displaying file: [147]147.pdf
+[08/21/16,18:33:13] (A) KEY_DOWN
+[08/21/16,18:33:13] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:33:14] (C) displaying file: [146]146.pdf
+[08/21/16,18:33:14] (A) KEY_DOWN
+[08/21/16,18:33:14] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:33:14] (C) displaying file: [145]145.pdf
+[08/21/16,18:33:15] (A) KEY_DOWN
+[08/21/16,18:33:15] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:33:15] (C) displaying file: [144]144.pdf
+[08/21/16,18:33:15] (A) KEY_DOWN
+[08/21/16,18:33:15] (B) FIFO gave string: KEY_DOWN
+[08/21/16,18:33:16] (C) displaying file: [143]143.pdf
+[08/21/16,18:34:18] (A) KEY_P
+[08/21/16,18:34:18] (B) FIFO gave string: KEY_P
+[08/21/16,18:34:18] (B) projector power off failed
+[08/21/16,18:17:40] (B) Starting powerpoint script.
+[08/21/16,18:17:40] (B) USB initially present.
+[08/21/16,20:16:53] (C) displaying file: [0]0_default.pdf
+[08/21/16,20:16:53] (B) USB change detected.
+[08/21/16,20:16:54] (C) displaying file: [0]0_default.pdf
+[08/21/16,20:17:02] (B) USB change detected.
+[08/21/16,20:17:03] (C) displaying file: [0]0.pdf
