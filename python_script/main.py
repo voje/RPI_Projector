@@ -37,13 +37,15 @@ if __name__ == "__main__":
 			pr.display_file()
 
 		#check fifo for new input from ir remote
-		FIFO = os.open(pr.fifo_path, os.O_RDONLY | os.O_NONBLOCK)
+		#FIFO = os.open(pr.fifo_path, os.O_RDONLY | os.O_NONBLOCK)
+		FIFO = os.open(pr.fifo_path, 'r', 0)
 		read_done = False
 		while not read_done:
 			try:
 				st = os.read(FIFO, 200)
 				read_done = True
 			except:
+				print "FAIL"
 				pass
 		os.close(FIFO)
 		if st == "":
