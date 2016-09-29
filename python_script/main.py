@@ -31,6 +31,7 @@ if __name__ == "__main__":
 		if pr.ul.new_usb():
 			lg.log_event("main.py", "USB change detected.")
 			pr.ul.get_dir_path()
+			print "usb dir path: %s" % ( pr.ul.dir_path )
 			pr.get_files_list(pr.ul.dir_path)
 			#display first file from storage
 			pr.display_file()
