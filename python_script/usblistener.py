@@ -3,9 +3,9 @@ import getpass
 import time
 
 class UsbListener:
-	def __init__(self, dirname):
+	def __init__(self, dirname='diapozitivi'):
 		self.dirname = dirname
-		self.dir_path = "./%s" % (dirname)
+		self.dir_path = "./%s" % (dirname) #default dir path in project folder
 		self.usbs_list = []
 		self.change = False #flag that is set when new usb is inserted or ejected
 
@@ -28,18 +28,22 @@ class UsbListener:
 		if len(self.usbs_list) == 0:
 			self.dir_path = None
 			return
-		path = "/media/%s/%s/%s" % (getpass.getuser(), self.usbs_list[0], self.dirname)
-		#wait for mount
-		start_time = time.time()
-		dtime = 0
-		while (not os.path.isdir(path)) and (dtime < 5):
-			dtime = time.time() - start_time
-			#print "waiting for usb data...%f" % (dtime)
-		if os.path.isdir(path):
-			self.dir_path = path
-		else:
-			print "could not find usb data, using default dir_path"
-			self.dir_path = None
+
+		#find the right USB
+		for possible_path in self.usbs_list:
+			path = "/media/%s/%s/%s" % (getpass.getuser(), possible_path, self.dirname)
+			#wait for mount
+			start_time = time.time()
+			dtime = 0
+			while (not os.path.isdir(path)) and (dtime < 5):
+				dtime = time.time() - start_time
+				#print "waiting for usb data...%f" % (dtime)
+			if os.path.isdir(path):
+				self.dir_path = path
+				break
+			else:
+				print "could not find usb data, using default dir_path"
+				self.dir_path = None
 
 	def to_string(self):
 		st = "UsbListener:\ndir_path: %s \nusbs_list: %s \nchange: %s \nUsbListener^" % (self.dir_path, self.usbs_list, self.change)
