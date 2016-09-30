@@ -32,6 +32,7 @@ class UsbListener:
 		#find the right USB
 		for possible_path in self.usbs_list:
 			path = "/media/%s/%s/%s" % (getpass.getuser(), possible_path, self.dirname)
+			#print "Possible path: %s" % (path)
 			#wait for mount
 			start_time = time.time()
 			dtime = 0
@@ -41,9 +42,9 @@ class UsbListener:
 			if os.path.isdir(path):
 				self.dir_path = path
 				break
-			else:
-				print "could not find usb data, using default dir_path"
-				self.dir_path = None
+		else:
+			print "could not find usb data, using default dir_path"
+			self.dir_path = None
 
 	def to_string(self):
 		st = "UsbListener:\ndir_path: %s \nusbs_list: %s \nchange: %s \nUsbListener^" % (self.dir_path, self.usbs_list, self.change)

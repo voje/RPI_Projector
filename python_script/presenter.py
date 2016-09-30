@@ -134,9 +134,13 @@ class Presenter:
 			file = self.files_list[0]
 		file_path = self.files_path + "/" + file
 		#fullscreen mode
-		os.system("xpdf -fullscreen -remote %s '%s' &" % (server, file_path))
-		#window mode
-		#os.system("xpdf -remote %s '%s' &" % (server, file_path))
+		try:
+			pass
+			#os.system("xpdf -fullscreen -remote %s '%s' &" % (server, file_path))
+			#window mode
+			#os.system("xpdf -remote %s '%s' &" % (server, file_path))
+		except:
+			pass
 		tmp="displaying file: [%d]%s" % (self.current_file_index, file)
 		self.lg.log_event("presenter.py", tmp)
 		self.lg.log_event("", "")

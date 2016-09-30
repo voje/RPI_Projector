@@ -6,11 +6,11 @@ import time
 import logger_wrapper
 
 if __name__ == "__main__":
-	lg = logger_wrapper.LoggerWrapper(l_on=False)
+	lg = logger_wrapper.LoggerWrapper(l_on=True)
 	lg.log_event("main.py", "Starting powerpoint script.")
 	pr = presenter.Presenter(20, logger=lg)
-	#tc = tcp_client.TcpClient()
-	tc = pj_client.PjClient()
+	tc = tcp_client.TcpClient()
+	#tc = pj_client.PjClient()
 
 	print "Client ready."
 
@@ -38,16 +38,21 @@ if __name__ == "__main__":
 
 		#check fifo for new input from ir remote
 		#FIFO = os.open(pr.fifo_path, os.O_RDONLY | os.O_NONBLOCK)
-		FIFO = os.open(pr.fifo_path, 'r', 0)
+		FIFO = open(pr.fifo_path, 'r', 0)
 		read_done = False
+		st = "" 
 		while not read_done:
 			try:
-				st = os.read(FIFO, 200)
+				#st = os.read(FIFO, 200)
+				for line in FIFO:
+					st = st + line
 				read_done = True
+				print "FIFO: %s" % (st)
 			except:
 				print "FAIL"
 				pass
-		os.close(FIFO)
+		#os.close(FIFO)
+		FIFO.close()
 		if st == "":
 			continue
 			lg.log_event("main.py", "FIFO gave empty string.")
@@ -62,20 +67,19 @@ if __name__ == "__main__":
 			pr.display_file()
 			try:
 				tc.send_command("on")
-			except Exception:
+				lg.log_event("main.py", "projector power on")
+			except:
 				lg.log_event("main.py", "projector power on failed")
 		elif st == "KEY_P":
 			try:
 				tc.send_command("off")
-			except Exception:
+				lg.log_event("main.py", "projector power off")
+			except:
 				lg.log_event("main.py", "projector power off failed")
 		elif st == "KEY_R":
 			#print pr.to_string()
 			pr.display_file(blank=True)
-			try:
-				tc.send_command("mute")
-			except Exception:
-				lg.log_event("main.py", "projector mute failed")
+			lg.log_event("main.py", "projector blank file")
 		elif st == "KEY_ENTER" and pr.input_buffer != "":
 			tmp_num = pr.input_buffer.lstrip("0")
 			num = 0
