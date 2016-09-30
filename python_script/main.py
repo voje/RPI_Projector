@@ -4,12 +4,13 @@ import tcp_client
 import pj_client
 import time
 import logger_wrapper
+import thread
 
 if __name__ == "__main__":
 	lg = logger_wrapper.LoggerWrapper(l_on=True)
 	lg.log_event("main.py", "##### Starting powerpoint script. #####")
 	pr = presenter.Presenter(20, logger=lg)
-	tc = tcp_client.TcpClient()
+	tc = tcp_client.TcpClient(logger=lg)
 	#tc = pj_client.PjClient()
 
 	print "Client ready."
@@ -24,8 +25,15 @@ if __name__ == "__main__":
 		pr.get_files_list(pr.ul.dir_path)
 	pr.display_file()
 
+	time_start = time.time()
 	while True:
 		time.sleep(0.3)
+
+		#debugging this loop
+		time_diff = time.time() - time_start
+		time_start = time.time()
+		if time_diff > 10:
+			lg.log_event( "main.py", "MAIN_LOOP_ERROR: long cycle in main loop" )
 
 		#check if new USB was inserted
 		pr.ul.find_usbs()
@@ -66,13 +74,13 @@ if __name__ == "__main__":
 			#since there is a blank (file 0) option, we need to re-display our current file
 			pr.display_file()
 			try:
-				tc.send_command("on")
+				thread.start_new_thread(tc.send_command("on"), ())
 				lg.log_event("main.py", "projector power on")
 			except:
 				lg.log_event("main.py", "projector power on failed")
 		elif st == "KEY_P":
 			try:
-				tc.send_command("off")
+				thread.start_new_thread(tc.send_command("off"), ())
 				lg.log_event("main.py", "projector power off")
 			except:
 				lg.log_event("main.py", "projector power off failed")

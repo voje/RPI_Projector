@@ -15,6 +15,7 @@ class TcpClient:
 		self.lg = logger
 
 	def send_command(self, command):
+		self.lg.log_event("tcp_client.py", "sending command: %s" % (command) );
 		#pj_client has a mute option
 		if command == "mute":
 			return
@@ -27,6 +28,8 @@ class TcpClient:
 		data = self.commands[command]
 		f.write(data)
 		f.flush()
+
+		eslf.lg.log_event("tcp_client.py", "commnd %s sent" % (command) )
 
 		#response ... maybe this is causing the blockage
 		"""
