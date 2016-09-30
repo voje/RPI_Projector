@@ -133,10 +133,9 @@ class Presenter:
 		if blank:
 			file = self.files_list[0]
 		file_path = self.files_path + "/" + file
-		#fullscreen mode
 		try:
-			pass
-			#os.system("xpdf -fullscreen -remote %s '%s' &" % (server, file_path))
+			#fullscreen mode
+			os.system("xpdf -fullscreen -remote %s '%s' &" % (server, file_path))
 			#window mode
 			#os.system("xpdf -remote %s '%s' &" % (server, file_path))
 		except:
