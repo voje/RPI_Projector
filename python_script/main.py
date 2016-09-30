@@ -7,7 +7,7 @@ import logger_wrapper
 
 if __name__ == "__main__":
 	lg = logger_wrapper.LoggerWrapper(l_on=True)
-	lg.log_event("main.py", "Starting powerpoint script.")
+	lg.log_event("main.py", "##### Starting powerpoint script. #####")
 	pr = presenter.Presenter(20, logger=lg)
 	tc = tcp_client.TcpClient()
 	#tc = pj_client.PjClient()
@@ -15,11 +15,12 @@ if __name__ == "__main__":
 	print "Client ready."
 
 	#initially display file 0
+	time.sleep(20);
 	pr.ul.find_usbs()
 	if pr.ul.new_usb():
-		print "USB initially present."
-		lg.log_event("main.py", "USB initially present.")
+		#print "USB initially present."
 		pr.ul.get_dir_path()
+		lg.log_event( "main.py", "USB initially present: %s" % (pr.ul.dir_path) )
 		pr.get_files_list(pr.ul.dir_path)
 	pr.display_file()
 
@@ -29,30 +30,29 @@ if __name__ == "__main__":
 		#check if new USB was inserted
 		pr.ul.find_usbs()
 		if pr.ul.new_usb():
-			lg.log_event("main.py", "USB change detected.")
 			pr.ul.get_dir_path()
-			print "usb dir path: %s" % ( pr.ul.dir_path )
+			lg.log_event( "main.py", "USB change detected: %s" % (pr.ul.dir_path) )
 			pr.get_files_list(pr.ul.dir_path)
 			#display first file from storage
 			pr.display_file()
 
 		#check fifo for new input from ir remote
-		#FIFO = os.open(pr.fifo_path, os.O_RDONLY | os.O_NONBLOCK)
-		FIFO = open(pr.fifo_path, 'r', 0)
+		FIFO = os.open(pr.fifo_path, os.O_RDONLY | os.O_NONBLOCK)
+		#FIFO = open(pr.fifo_path, 'r', 0)
 		read_done = False
 		st = "" 
 		while not read_done:
 			try:
-				#st = os.read(FIFO, 200)
-				for line in FIFO:
-					st = st + line
+				st = os.read(FIFO, 200)
+				#for line in FIFO:
+				#	st = st + line
 				read_done = True
-				print "FIFO: %s" % (st)
+				#print "FIFO: %s" % (st)
 			except:
 				print "FAIL"
 				pass
-		#os.close(FIFO)
-		FIFO.close()
+		os.close(FIFO)
+		#FIFO.close()
 		if st == "":
 			continue
 			lg.log_event("main.py", "FIFO gave empty string.")

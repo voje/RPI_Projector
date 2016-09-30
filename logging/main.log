@@ -1,1 +1,386 @@
 
+[09/30/16,02:09:20] (main.py) Starting powerpoint script.
+[09/30/16,02:09:20] (main.py) USB initially present.
+[09/30/16,02:09:31] (presenter.py) displaying file: [0]0_default.pdf
+[09/30/16,02:09:32] () 
+[09/30/16,02:11:26] (main.py) FIFO gave string: KEY_O
+[09/30/16,02:11:26] (presenter.py) displaying file: [0]0_default.pdf
+[09/30/16,02:11:26] () 
+[09/30/16,02:11:29] (main.py) projector power on failed
+[09/30/16,02:11:29] (main.py) FIFO gave string: KEY_R
+[09/30/16,02:11:29] (presenter.py) displaying file: [0]0_default.pdf
+[09/30/16,02:11:29] () 
+[09/30/16,02:11:30] (main.py) projector blank file
+[09/30/16,02:11:30] (main.py) FIFO gave string: KEY_O
+[09/30/16,02:11:30] (presenter.py) displaying file: [0]0_default.pdf
+[09/30/16,02:11:30] () 
+[09/30/16,02:11:32] (main.py) projector power on failed
+[09/30/16,02:11:32] (main.py) FIFO gave string: 1
+[09/30/16,02:11:33] (main.py) FIFO gave string: 1
+[09/30/16,02:11:33] (main.py) FIFO gave string: KEY_O
+[09/30/16,02:11:33] (presenter.py) displaying file: [0]0_default.pdf
+[09/30/16,02:11:33] () 
+[09/30/16,02:11:35] (main.py) projector power on failed
+[09/30/16,02:11:35] (main.py) FIFO gave string: 4
+[09/30/16,02:11:36] (main.py) FIFO gave string: KEY_VOLUMEUP
+[09/30/16,02:11:36] (presenter.py) displaying file: [0]0_default.pdf
+[09/30/16,02:11:36] () 
+[09/30/16,02:11:36] (main.py) FIFO gave string: 6
+[09/30/16,02:11:37] (main.py) FIFO gave string: 3
+[09/30/16,02:11:37] (main.py) FIFO gave string: KEY_UP
+[09/30/16,02:11:37] (presenter.py) displaying file: [1]1_default.pdf
+[09/30/16,02:11:37] () 
+[09/30/16,02:11:38] (main.py) FIFO gave string: KEY_UP
+[09/30/16,02:11:38] (presenter.py) displaying file: [2]2_default.pdf
+[09/30/16,02:11:38] () 
+[09/30/16,02:11:38] (main.py) FIFO gave string: 4
+[09/30/16,02:11:39] (main.py) FIFO gave string: 4
+[09/30/16,02:11:39] (main.py) FIFO gave string: 5
+[09/30/16,02:11:40] (main.py) FIFO gave string: 0
+[09/30/16,02:11:40] (main.py) FIFO gave string: 4
+[09/30/16,02:11:40] (main.py) FIFO gave string: 6
+[09/30/16,02:11:41] (main.py) FIFO gave string: 7
+[09/30/16,02:11:41] (main.py) FIFO gave string: 9
+[09/30/16,02:11:42] (main.py) FIFO gave string: 6
+[09/30/16,02:11:42] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[09/30/16,02:11:42] (presenter.py) displaying file: [2]2_default.pdf
+[09/30/16,02:11:42] () 
+[09/30/16,02:11:43] (main.py) FIFO gave string: KEY_R
+[09/30/16,02:11:43] (presenter.py) displaying file: [2]0_default.pdf
+[09/30/16,02:11:43] () 
+[09/30/16,02:11:43] (main.py) projector blank file
+[09/30/16,02:11:44] (main.py) FIFO gave string: 5
+[09/30/16,02:11:44] (main.py) FIFO gave string: 4
+[09/30/16,02:11:44] (main.py) FIFO gave string: 5
+[09/30/16,02:11:45] (main.py) FIFO gave string: KEY_DOWN
+[09/30/16,02:11:45] (presenter.py) displaying file: [1]1_default.pdf
+[09/30/16,02:11:45] () 
+[09/30/16,02:11:45] (main.py) FIFO gave string: KEY_DELETE
+[09/30/16,02:11:46] (main.py) FIFO gave string: 2
+[09/30/16,02:11:46] (main.py) FIFO gave string: KEY_R
+[09/30/16,02:11:46] (presenter.py) displaying file: [1]0_default.pdf
+[09/30/16,02:11:47] () 
+[09/30/16,02:11:47] (main.py) projector blank file
+[09/30/16,02:11:47] (main.py) FIFO gave string: 9
+[09/30/16,02:11:48] (main.py) FIFO gave string: KEY_R
+[09/30/16,02:11:48] (presenter.py) displaying file: [1]0_default.pdf
+[09/30/16,02:11:48] () 
+[09/30/16,02:11:48] (main.py) projector blank file
+[09/30/16,02:11:48] (main.py) FIFO gave string: 7
+[09/30/16,02:11:49] (main.py) FIFO gave string: 0
+[09/30/16,02:11:49] (main.py) FIFO gave string: 8
+[09/30/16,02:11:49] (main.py) FIFO gave string: KEY_DOWN
+[09/30/16,02:11:50] (presenter.py) displaying file: [0]0_default.pdf
+[09/30/16,02:11:50] () 
+[09/30/16,02:11:50] (main.py) FIFO gave string: 9
+[09/30/16,02:11:51] (main.py) FIFO gave string: 4
+[09/30/16,02:11:51] (main.py) FIFO gave string: KEY_P
+[09/30/16,02:11:54] (main.py) projector power off failed
+[09/30/16,02:11:54] (main.py) FIFO gave string: 5
+[09/30/16,02:11:55] (main.py) FIFO gave string: 8
+[09/30/16,02:11:55] (main.py) FIFO gave string: KEY_P
+[09/30/16,02:11:57] (main.py) projector power off failed
+[09/30/16,02:11:57] (main.py) FIFO gave string: 4
+[09/30/16,02:11:58] (main.py) FIFO gave string: KEY_O
+[09/30/16,02:11:58] (presenter.py) displaying file: [0]0_default.pdf
+[09/30/16,02:11:58] () 
+[09/30/16,02:12:00] (main.py) projector power on failed
+[09/30/16,02:12:00] (main.py) FIFO gave string: 5
+[09/30/16,02:12:01] (main.py) FIFO gave string: KEY_DOWN
+[09/30/16,02:12:01] (presenter.py) displaying file: [0]0_default.pdf
+[09/30/16,02:12:01] () 
+[09/30/16,02:12:01] (main.py) FIFO gave string: 6
+[09/30/16,02:12:02] (main.py) FIFO gave string: 6
+[09/30/16,02:12:02] (main.py) FIFO gave string: 2
+[09/30/16,02:12:03] (main.py) FIFO gave string: 8
+[09/30/16,02:12:03] (main.py) FIFO gave string: 3
+[09/30/16,02:12:03] (main.py) FIFO gave string: KEY_ENTER
+[09/30/16,02:12:04] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[09/30/16,02:12:04] (presenter.py) displaying file: [0]0_default.pdf
+[09/30/16,02:12:04] () 
+[09/30/16,02:12:04] (main.py) FIFO gave string: KEY_P
+[09/30/16,02:12:07] (main.py) projector power off failed
+[09/30/16,02:12:08] (main.py) FIFO gave string: KEY_R
+[09/30/16,02:12:08] (presenter.py) displaying file: [0]0_default.pdf
+[09/30/16,02:12:08] () 
+[09/30/16,02:12:08] (main.py) projector blank file
+[09/30/16,02:12:09] (main.py) FIFO gave string: 2
+[09/30/16,02:12:09] (main.py) FIFO gave string: 0
+[09/30/16,02:12:09] (main.py) FIFO gave string: 7
+[09/30/16,02:12:10] (main.py) FIFO gave string: KEY_DOWN
+[09/30/16,02:12:10] (presenter.py) displaying file: [0]0_default.pdf
+[09/30/16,02:12:10] () 
+[09/30/16,02:12:10] (main.py) FIFO gave string: KEY_DOWN
+[09/30/16,02:12:11] (presenter.py) displaying file: [0]0_default.pdf
+[09/30/16,02:12:11] () 
+[09/30/16,02:12:11] (main.py) FIFO gave string: 2
+[09/30/16,02:12:12] (main.py) FIFO gave string: KEY_ENTER
+[09/30/16,02:12:12] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[09/30/16,02:12:12] (presenter.py) displaying file: [0]0_default.pdf
+[09/30/16,02:12:12] () 
+[09/30/16,02:12:13] (main.py) FIFO gave string: 9
+[09/30/16,02:12:13] (main.py) FIFO gave string: KEY_R
+[09/30/16,02:12:13] (presenter.py) displaying file: [0]0_default.pdf
+[09/30/16,02:12:13] () 
+[09/30/16,02:12:13] (main.py) projector blank file
+[09/30/16,02:12:14] (main.py) FIFO gave string: KEY_P
+[09/30/16,02:12:17] (main.py) projector power off failed
+[09/30/16,02:12:17] (main.py) FIFO gave string: KEY_ENTER
+[09/30/16,02:12:18] (main.py) FIFO gave string: 4
+[09/30/16,02:12:18] (main.py) FIFO gave string: 1
+[09/30/16,02:12:18] (main.py) FIFO gave string: 1
+[09/30/16,02:12:19] (main.py) FIFO gave string: 7
+[09/30/16,02:12:19] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[09/30/16,02:12:19] (presenter.py) displaying file: [0]0_default.pdf
+[09/30/16,02:12:19] () 
+[09/30/16,02:12:20] (main.py) FIFO gave string: 6
+[09/30/16,02:12:20] (main.py) FIFO gave string: 6
+[09/30/16,02:12:21] (main.py) FIFO gave string: 7
+[09/30/16,02:12:21] (main.py) FIFO gave string: KEY_R
+[09/30/16,02:12:21] (presenter.py) displaying file: [0]0_default.pdf
+[09/30/16,02:12:21] () 
+[09/30/16,02:12:21] (main.py) projector blank file
+[09/30/16,02:12:22] (main.py) FIFO gave string: 3
+[09/30/16,02:12:22] (main.py) FIFO gave string: KEY_VOLUMEUP
+[09/30/16,02:12:22] (presenter.py) displaying file: [0]0_default.pdf
+[09/30/16,02:12:22] () 
+[09/30/16,02:12:23] (main.py) FIFO gave string: 5
+[09/30/16,02:12:23] (main.py) FIFO gave string: 2
+[09/30/16,02:12:24] (main.py) FIFO gave string: KEY_O
+[09/30/16,02:12:24] (presenter.py) displaying file: [0]0_default.pdf
+[09/30/16,02:12:24] () 
+[09/30/16,02:12:27] (main.py) projector power on failed
+[09/30/16,02:12:27] (main.py) FIFO gave string: KEY_UP
+[09/30/16,02:12:27] (presenter.py) displaying file: [1]1_default.pdf
+[09/30/16,02:12:28] () 
+[09/30/16,02:12:28] (main.py) FIFO gave string: KEY_R
+[09/30/16,02:12:28] (presenter.py) displaying file: [1]0_default.pdf
+[09/30/16,02:12:28] () 
+[09/30/16,02:12:28] (main.py) projector blank file
+[09/30/16,02:12:29] (main.py) FIFO gave string: 8
+[09/30/16,02:12:29] (main.py) FIFO gave string: 3
+[09/30/16,02:12:30] (main.py) FIFO gave string: 6
+[09/30/16,02:12:30] (main.py) FIFO gave string: KEY_O
+[09/30/16,02:12:30] (presenter.py) displaying file: [1]1_default.pdf
+[09/30/16,02:12:30] () 
+[09/30/16,02:12:33] (main.py) projector power on failed
+[09/30/16,02:13:47] (main.py) FIFO gave string: KEY_R
+[09/30/16,02:13:47] (presenter.py) displaying file: [1]0_default.pdf
+[09/30/16,02:13:47] () 
+[09/30/16,02:13:47] (main.py) projector blank file
+[09/30/16,02:13:53] (main.py) FIFO gave string: KEY_R
+[09/30/16,02:13:54] (presenter.py) displaying file: [1]0_default.pdf
+[09/30/16,02:13:54] () 
+[09/30/16,02:13:54] (main.py) projector blank file
+[09/30/16,02:13:59] (main.py) FIFO gave string: KEY_O
+[09/30/16,02:13:59] (presenter.py) displaying file: [1]1_default.pdf
+[09/30/16,02:13:59] () 
+[09/30/16,02:14:02] (main.py) projector power on failed
+[09/30/16,02:14:19] (main.py) FIFO gave string: KEY_2
+[09/30/16,02:14:23] (main.py) FIFO gave string: KEY_1
+[09/30/16,02:14:28] (main.py) FIFO gave string: KEY_1
+[09/30/16,02:14:33] (main.py) FIFO gave string: KEY_ENTER
+[09/30/16,02:14:47] (main.py) FIFO gave string: ENTER
+[09/30/16,02:17:02] (main.py) FIFO gave string: KEY_VOLUMEUP
+[09/30/16,02:17:02] (presenter.py) displaying file: [1]1_default.pdf
+[09/30/16,02:17:02] () 
+[09/30/16,02:17:05] (main.py) FIFO gave string: KEY_VOLUMEUP
+[09/30/16,02:17:05] (presenter.py) displaying file: [1]1_default.pdf
+[09/30/16,02:17:05] () 
+[09/30/16,02:17:07] (main.py) FIFO gave string: KEY_VOLUMEUP
+[09/30/16,02:17:07] (presenter.py) displaying file: [1]1_default.pdf
+[09/30/16,02:17:07] () 
+[09/30/16,02:17:08] (main.py) FIFO gave string: KEY_VOLUMEUP
+[09/30/16,02:17:08] (presenter.py) displaying file: [1]1_default.pdf
+[09/30/16,02:17:08] () 
+[09/30/16,02:17:14] (main.py) FIFO gave string: KEY_UP
+[09/30/16,02:17:14] (presenter.py) displaying file: [2]2_default.pdf
+[09/30/16,02:17:14] () 
+[09/30/16,02:17:15] (main.py) FIFO gave string: KEY_UP
+[09/30/16,02:17:16] (presenter.py) displaying file: [2]2_default.pdf
+[09/30/16,02:17:16] () 
+[09/30/16,02:17:17] (main.py) FIFO gave string: KEY_UP
+[09/30/16,02:17:17] (presenter.py) displaying file: [2]2_default.pdf
+[09/30/16,02:17:17] () 
+[09/30/16,02:17:18] (main.py) FIFO gave string: KEY_UP
+[09/30/16,02:17:18] (presenter.py) displaying file: [2]2_default.pdf
+[09/30/16,02:17:18] () 
+[09/30/16,02:17:19] (main.py) FIFO gave string: KEY_UP
+[09/30/16,02:17:20] (presenter.py) displaying file: [2]2_default.pdf
+[09/30/16,02:17:20] () 
+[09/30/16,02:17:22] (main.py) FIFO gave string: KEY_VOLUMEUP
+[09/30/16,02:17:22] (presenter.py) displaying file: [2]2_default.pdf
+[09/30/16,02:17:22] () 
+[09/30/16,02:17:31] (main.py) FIFO gave string: KEY_DOWN
+[09/30/16,02:17:31] (presenter.py) displaying file: [1]1_default.pdf
+[09/30/16,02:17:31] () 
+[09/30/16,02:17:34] (main.py) FIFO gave string: KEY_DOWN
+[09/30/16,02:17:34] (presenter.py) displaying file: [0]0_default.pdf
+[09/30/16,02:17:34] () 
+[09/30/16,02:17:38] (main.py) FIFO gave string: KEY_DOWN
+[09/30/16,02:17:38] (presenter.py) displaying file: [0]0_default.pdf
+[09/30/16,02:17:38] () 
+[09/30/16,02:17:39] (main.py) FIFO gave string: KEY_DOWN
+[09/30/16,02:17:39] (presenter.py) displaying file: [0]0_default.pdf
+[09/30/16,02:17:39] () 
+[09/30/16,02:17:39] (main.py) FIFO gave string: KEY_DOWN
+[09/30/16,02:17:40] (presenter.py) displaying file: [0]0_default.pdf
+[09/30/16,02:17:40] () 
+[09/30/16,02:18:11] (main.py) FIFO gave string: KEY_DOWN
+[09/30/16,02:18:11] (presenter.py) displaying file: [0]0_default.pdf
+[09/30/16,02:18:11] () 
+[09/30/16,02:18:30] (main.py) Starting powerpoint script.
+[09/30/16,02:18:30] (main.py) USB initially present.
+[09/30/16,02:18:35] (presenter.py) displaying file: [0]0.pdf
+[09/30/16,02:18:35] () 
+[09/30/16,02:18:42] (main.py) FIFO gave string: KEY_DOWN
+[09/30/16,02:18:42] (presenter.py) displaying file: [0]0.pdf
+[09/30/16,02:18:42] () 
+[09/30/16,02:18:48] (main.py) FIFO gave string: KEY_UP
+[09/30/16,02:18:48] (presenter.py) displaying file: [1]1.pdf
+[09/30/16,02:18:48] () 
+[09/30/16,02:18:50] (main.py) FIFO gave string: KEY_UP
+[09/30/16,02:18:50] (presenter.py) displaying file: [2]2.pdf
+[09/30/16,02:18:50] () 
+[09/30/16,02:18:51] (main.py) FIFO gave string: KEY_UP
+[09/30/16,02:18:51] (presenter.py) displaying file: [3]3.pdf
+[09/30/16,02:18:51] () 
+[09/30/16,02:18:51] (main.py) FIFO gave string: KEY_UP
+[09/30/16,02:18:51] (presenter.py) displaying file: [4]4.pdf
+[09/30/16,02:18:52] () 
+[09/30/16,02:18:52] (main.py) FIFO gave string: KEY_UP
+[09/30/16,02:18:52] (presenter.py) displaying file: [5]5.pdf
+[09/30/16,02:18:52] () 
+[09/30/16,02:18:53] (main.py) FIFO gave string: KEY_UP
+[09/30/16,02:18:53] (presenter.py) displaying file: [6]6.pdf
+[09/30/16,02:18:54] () 
+[09/30/16,02:26:16] (main.py) Starting powerpoint script.
+[09/30/16,02:26:21] (main.py) USB initially present: /media/pi/USB DISK/diapozitivi
+[09/30/16,02:26:21] (presenter.py) displaying file: [0]0.pdf
+[09/30/16,02:26:22] () 
+[09/30/16,02:27:27] (main.py) Starting powerpoint script.
+[09/30/16,02:27:38] (main.py) USB initially present: None
+[09/30/16,02:27:38] (presenter.py) displaying file: [0]0_default.pdf
+[09/30/16,02:27:39] () 
+[09/30/16,02:31:05] (main.py) FIFO gave string: KEY_1
+[09/30/16,02:31:05] (main.py) USB change detected: /media/pi/USB DISK/diapozitivi
+[09/30/16,02:31:05] (presenter.py) displaying file: [0]0.pdf
+[09/30/16,02:31:06] () 
+[09/30/16,02:33:04] (main.py) FIFO gave string: KEY_1
+[09/30/16,02:33:04] (main.py) USB change detected: None
+[09/30/16,02:33:04] (presenter.py) displaying file: [0]0_default.pdf
+[09/30/16,02:33:04] () 
+[09/30/16,02:42:44] (main.py) Starting powerpoint script.
+[09/30/16,02:42:55] (main.py) USB initially present: None
+[09/30/16,02:42:55] (presenter.py) displaying file: [0]0_default.pdf
+[09/30/16,02:42:56] () 
+[09/30/16,02:51:31] (main.py) FIFO gave string: KEY_UP
+[09/30/16,02:51:31] (presenter.py) displaying file: [1]1_default.pdf
+[09/30/16,02:51:32] () 
+[09/30/16,02:51:42] (main.py) FIFO gave string: KEY_UP
+[09/30/16,02:51:43] (presenter.py) displaying file: [2]2_default.pdf
+[09/30/16,02:51:43] () 
+[09/30/16,02:51:43] (main.py) FIFO gave string: KEY_UP
+[09/30/16,02:51:44] (presenter.py) displaying file: [2]2_default.pdf
+[09/30/16,02:51:44] () 
+[09/30/16,02:51:44] (main.py) FIFO gave string: KEY_UP
+[09/30/16,02:51:45] (presenter.py) displaying file: [2]2_default.pdf
+[09/30/16,02:51:45] () 
+[09/30/16,02:51:51] (main.py) FIFO gave string: KEY_O
+[09/30/16,02:51:52] (presenter.py) displaying file: [2]2_default.pdf
+[09/30/16,02:51:52] () 
+[09/30/16,02:51:55] (main.py) projector power on failed
+[09/30/16,02:52:00] (main.py) FIFO gave string: KEY_P
+[09/30/16,02:52:03] (main.py) projector power off failed
+[09/30/16,02:52:27] (main.py) USB change detected: /media/pi/USB DISK/diapozitivi
+[09/30/16,02:52:28] (presenter.py) displaying file: [0]0.pdf
+[09/30/16,02:52:28] () 
+[09/30/16,02:53:11] (main.py) USB change detected: /media/pi/USB DISK/diapozitivi
+[09/30/16,02:53:11] (presenter.py) displaying file: [0]0.pdf
+[09/30/16,02:53:11] () 
+[09/30/16,02:53:58] (main.py) USB change detected: /media/pi/USB DISK/diapozitivi
+[09/30/16,02:53:58] (presenter.py) displaying file: [0]0.pdf
+[09/30/16,02:53:59] () 
+[09/30/16,02:54:24] (main.py) FIFO gave string: KEY_P
+[09/30/16,02:54:27] (main.py) projector power off failed
+[09/30/16,03:04:42] (main.py) Starting powerpoint script.
+[09/30/16,03:10:35] (main.py) Starting powerpoint script.
+[09/30/16,03:14:24] (main.py) Starting powerpoint script.
+[09/30/16,03:14:24] (main.py) USB initially present: /media/pi/USB DISK/diapozitivi
+[09/30/16,03:14:24] (presenter.py) displaying file: [0]0.pdf
+[09/30/16,03:14:24] () 
+############
+[09/30/16,03:16:05] (main.py) Starting powerpoint script.
+[09/30/16,03:16:10] (usblistener.py) could not find dir_path in list %s; using default dir_path
+[09/30/16,03:16:11] (main.py) USB initially present: None
+[09/30/16,03:16:11] (presenter.py) displaying file: [0]0_default.pdf
+[09/30/16,03:16:11] () 
+[09/30/16,03:16:12] (main.py) USB change detected: None
+[09/30/16,03:16:12] (presenter.py) displaying file: [0]0_default.pdf
+[09/30/16,03:16:24] () 
+[09/30/16,03:16:29] (main.py) USB change detected: /media/pi/USB DISK/diapozitivi
+[09/30/16,03:16:29] (presenter.py) displaying file: [0]0.pdf
+[09/30/16,03:16:30] () 
+[09/30/16,03:21:50] (main.py) USB change detected: /media/pi/USB DISK/diapozitivi
+[09/30/16,03:21:50] (presenter.py) displaying file: [0]0.pdf
+[09/30/16,03:21:51] () 
+[09/30/16,03:23:19] (main.py) ##### Starting powerpoint script. #####
+[09/30/16,03:23:30] (usblistener.py) could not find dir_path in list %s; using default dir_path
+[09/30/16,03:23:30] (main.py) USB initially present: None
+[09/30/16,03:23:31] (presenter.py) displaying file: [0]0_default.pdf
+[09/30/16,03:23:31] () 
+[09/30/16,03:26:10] (main.py) FIFO gave string: KEY_P
+[09/30/16,03:26:13] (main.py) projector power off failed
+[09/30/16,03:28:43] (main.py) ##### Starting powerpoint script. #####
+[09/30/16,03:28:54] (main.py) USB initially present: /media/pi/USB DISK/diapozitivi
+[09/30/16,03:28:55] (presenter.py) displaying file: [0]0.pdf
+[09/30/16,03:28:55] () 
+[09/30/16,03:31:27] (main.py) ##### Starting powerpoint script. #####
+[09/30/16,03:31:37] (usblistener.py) could not find dir_path in list [Orange, USB
+[09/30/16,03:31:38] (main.py) USB initially present: None
+[09/30/16,03:31:38] (presenter.py) displaying file: [0]0_default.pdf
+[09/30/16,03:31:39] () 
+[09/30/16,03:38:18] (main.py) ##### Starting powerpoint script. #####
+[09/30/16,03:38:23] (main.py) USB initially present: /media/pi/USB DISK/diapozitivi
+[09/30/16,03:38:23] (presenter.py) displaying file: [0]0.pdf
+[09/30/16,03:38:23] () 
+[09/30/16,03:42:26] (main.py) ##### Starting powerpoint script. #####
+[09/30/16,03:42:37] (usblistener.py) could not find dir_path in list [Orange, Silver]; using default dir_path
+[09/30/16,03:42:37] (main.py) USB initially present: None
+[09/30/16,03:42:38] (presenter.py) displaying file: [0]0_default.pdf
+[09/30/16,03:42:38] () 
+[09/30/16,03:42:38] (main.py) USB change detected: None
+[09/30/16,03:42:39] (presenter.py) displaying file: [0]0_default.pdf
+[09/30/16,03:42:40] () 
+[09/30/16,03:42:46] (main.py) USB change detected: /media/pi/Silver/diapozitivi
+[09/30/16,03:42:46] (presenter.py) displaying file: [0]0.pdf
+[09/30/16,03:42:46] () 
+[09/30/16,03:43:58] (main.py) ##### Starting powerpoint script. #####
+[09/30/16,03:44:08] (usblistener.py) could not find dir_path in list [Orange, Silver]; using default dir_path
+[09/30/16,03:44:09] (main.py) USB initially present: None
+[09/30/16,03:44:09] (presenter.py) displaying file: [0]0_default.pdf
+[09/30/16,03:44:10] () 
+[09/30/16,03:46:33] (main.py) ##### Starting powerpoint script. #####
+[09/30/16,03:46:39] (main.py) USB initially present: /media/pi/Silver/diapozitivi
+[09/30/16,03:46:39] (presenter.py) displaying file: [0]0.pdf
+[09/30/16,03:46:39] () 
+[09/30/16,03:47:00] (main.py) ##### Starting powerpoint script. #####
+[09/30/16,03:47:05] (main.py) USB initially present: /media/pi/Silver/diapozitivi
+[09/30/16,03:47:05] (presenter.py) displaying file: [0]0.pdf
+[09/30/16,03:47:05] () 
+[09/30/16,03:47:12] (main.py) ##### Starting powerpoint script. #####
+[09/30/16,03:47:17] (main.py) USB initially present: /media/pi/Silver/diapozitivi
+[09/30/16,03:47:18] (presenter.py) displaying file: [0]0.pdf
+[09/30/16,03:47:18] () 
+[09/30/16,03:47:35] (main.py) ##### Starting powerpoint script. #####
+[09/30/16,03:47:40] (main.py) USB initially present: /media/pi/Silver/diapozitivi
+[09/30/16,03:47:40] (presenter.py) displaying file: [0]0.pdf
+[09/30/16,03:47:41] () 
+[09/30/16,03:49:22] (main.py) ##### Starting powerpoint script. #####
+[09/30/16,03:49:48] (main.py) USB initially present: /media/pi/Silver/diapozitivi
+[09/30/16,03:49:48] (presenter.py) displaying file: [0]0.pdf
+[09/30/16,03:49:48] () 
+[09/30/16,03:50:53] (main.py) ##### Starting powerpoint script. #####
+[09/30/16,03:51:18] (main.py) USB initially present: /media/pi/Silver/diapozitivi
+[09/30/16,03:51:18] (presenter.py) displaying file: [0]0.pdf
+[09/30/16,03:51:18] () 

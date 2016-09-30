@@ -64,7 +64,7 @@ class Presenter:
 		self.files_list = []
 		self.get_files_list()
 		self.current_file_index = 0					#displayed file
-		self.ul = UsbListener(self.dirname)
+		self.ul = UsbListener(self.dirname, logger)
 		self.input_buffer = ""
 		self.fifo_path = "%s/ir.fifo" % (self.script_path)
 		if not os.path.exists(self.fifo_path):

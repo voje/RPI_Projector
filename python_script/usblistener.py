@@ -3,11 +3,12 @@ import getpass
 import time
 
 class UsbListener:
-	def __init__(self, dirname='diapozitivi'):
+	def __init__(self, dirname='diapozitivi', logger=None):
 		self.dirname = dirname
 		self.dir_path = "./%s" % (dirname) #default dir path in project folder
 		self.usbs_list = []
 		self.change = False #flag that is set when new usb is inserted or ejected
+		self.lg = logger
 
 	def find_usbs(self):
 		uname = getpass.getuser()
@@ -43,7 +44,7 @@ class UsbListener:
 				self.dir_path = path
 				break
 		else:
-			print "could not find usb data, using default dir_path"
+			self.lg.log_event( "usblistener.py", "could not find dir_path in list %s; using default dir_path" % (self.usbs_list) )
 			self.dir_path = None
 
 	def to_string(self):
