@@ -76,14 +76,14 @@ if __name__ == "__main__":
 			try:
 				thread.start_new_thread(tc.send_command("on"), ())
 				lg.log_event("main.py", "projector power on")
-			except:
-				lg.log_event("main.py", "projector power on failed")
+			except (Error):
+				lg.log_event("main.py", "power on exception: %s" % (Error))
 		elif st == "KEY_P":
 			try:
 				thread.start_new_thread(tc.send_command("off"), ())
 				lg.log_event("main.py", "projector power off")
-			except:
-				lg.log_event("main.py", "projector power off failed")
+			except (Error):
+				lg.log_event("main.py", "power off exception: %s" % (Error))
 		elif st == "KEY_R":
 			#print pr.to_string()
 			pr.display_file(blank=True)

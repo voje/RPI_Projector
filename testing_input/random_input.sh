@@ -23,7 +23,7 @@ while true; do
 	cmd_idx=$(( ($RANDOM % $n_commands) ))
 	cmd=${commands[$cmd_idx]}
 	#echo $cmd
-	sleep $slp
+	#sleep $slp
 	#echo -e "('$slp's)\t\t$cmd" >> random_input.log
 	echo "$cmd" >"$pipe"
 done
