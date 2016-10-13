@@ -1,6 +1,6 @@
 #!/bin/bash
 
-proc_names=( autostart.sh main.py xpdf )
+proc_names=( autostart.sh main.py xpdf random_input.sh )
 
 for proc_name in "${proc_names[@]}"; do
 	if [[ $(ps -eF | grep $proc_name | wc -l) -le 1 ]]; then

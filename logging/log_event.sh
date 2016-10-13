@@ -6,4 +6,4 @@ my_time="$(date +%D,%T)"
 
 output="[$my_time] ($1) $2"
 
-echo "$output" | tee -a "$log_file"
+echo "$output" >>"$log_file"

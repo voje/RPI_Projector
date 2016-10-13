@@ -57,7 +57,6 @@ if __name__ == "__main__":
 				read_done = True
 				#print "FIFO: %s" % (st)
 			except:
-				print "FAIL"
 				pass
 		os.close(FIFO)
 		#FIFO.close()
@@ -74,16 +73,18 @@ if __name__ == "__main__":
 			#since there is a blank (file 0) option, we need to re-display our current file
 			pr.display_file()
 			try:
-				thread.start_new_thread(tc.send_command("on"), ())
+				#thread.start_new_thread(tc.send_command("on"), ())
+				tc.send_command("on")
 				lg.log_event("main.py", "projector power on")
-			except (Error):
-				lg.log_event("main.py", "power on exception: %s" % (Error))
+			except Exception as e:
+				lg.log_event("main.py", "power on exception: %s" % (e))
 		elif st == "KEY_P":
 			try:
-				thread.start_new_thread(tc.send_command("off"), ())
+				#thread.start_new_thread(tc.send_command("off"), ())
+				tc.send_command("off")
 				lg.log_event("main.py", "projector power off")
-			except (Error):
-				lg.log_event("main.py", "power off exception: %s" % (Error))
+			except Exception as e:
+				lg.log_event("main.py", "power off exception: %s" % (e))
 		elif st == "KEY_R":
 			#print pr.to_string()
 			pr.display_file(blank=True)
@@ -96,7 +97,7 @@ if __name__ == "__main__":
 			else:
 				num = int(tmp_num)
 			pr.input_buffer = ""
-			print "ENTER: %d" % (num)
+			#print "ENTER: %d" % (num)
 			idx = pr.find_file_index(num)
 			if idx < 0:
 				continue
