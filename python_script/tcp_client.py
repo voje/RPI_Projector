@@ -5,8 +5,8 @@ import time
 
 class TcpClient:
 	def __init__(self, logger=None):
-		#self.ip = "192.168.1.143"
-		self.ip = "127.0.0.1" #for testing
+		self.ip = "192.168.1.143"
+		#self.ip = "127.0.0.1" #for testing
 		self.port = 4352
 		self.commands = {
 			"on": '%1POWR 1\r',
