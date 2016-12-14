@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import socket
 import sys
+import time
 
 class TcpClient:
 	def __init__(self, logger=None):
@@ -20,6 +21,22 @@ class TcpClient:
 		if command == "mute":
 			return
 
+		### official python tcp/ip
+		BUFFER_SIZE = 1024
+
+		s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+		s.setblocking(0)
+		s.settimeout(2)
+		s.connect((self.ip, self.port))
+		s.send(self.commands[command])
+		data = s.recv(BUFFER_SIZE)
+		s.close()
+
+		self.lg.log_event("tcp_client.py", "response: %s" % (data) );
+		###
+
+		#my socket attempt
+		"""
 		sock = socket.socket()
 		sock.connect((self.ip, self.port))
 		f = sock.makefile()
@@ -28,9 +45,7 @@ class TcpClient:
 		data = self.commands[command]
 		f.write(data)
 		f.flush()
-
-		eslf.lg.log_event("tcp_client.py", "commnd %s sent" % (command) )
-
+		""" 
 		#response ... maybe this is causing the blockage
 		"""
 		n1 = 9	#length of first response (PJLINK 0)
@@ -40,10 +55,15 @@ class TcpClient:
 		self.lg.log_event("C", r_data)
 		"""
 
+		"""
 		#close socket
 		f.close()
 		sock.close()
+		"""
 
 if __name__ == "__main__":
 	tc = TcpClient()
-	tc.send_command("query")
+	while (true):
+		time.sleep(2)	
+		tc.send_command("on")
+
