@@ -4,24 +4,27 @@ Kristjan Voje
 
 # NAVODILA (slo)  
 ## PRIPRAVA STROJNE OPREME  
+
 * priklopi IR sprejemnik  
+
 Postavi raspberry pi tako, da so v zgornjem levem kotu. Pini si sledijo v zaporedju:  
   
-p0 p2 p4 p6 p8 p10 ...  
-p1 p3 p5 p7 p9 p11 ...  
+p0 p2 p4 p6 p8 p10   
+p1 p3 p5 p7 p9 p11   
   
-Postavi IR sprejemnik tako, da je valjasta izboklina obrnjena k tebi, pini pa gledajo navzgor.
+* Postavi IR sprejemnik tako, da je valjasta izboklina obrnjena k tebi, pini pa gledajo navzgor.  
+
 Pini si sledijo od leve proto desni: r0, r1, r2.   
 
-Poveži pine:  
-	r0 -- p10  
-	r1 -- p1  
-	r2 -- p4  
+Poveži pine:   
+r0 -- p10  
+r1 -- p1    
+r2 -- p4   
   
-* poveži RPI in projektor s HDMI
-* poveži RPI in projektor z LAN (testirano tudi preko Linxis routerja z DHCP)
-* riključi USB napajalni kabel
-* počakaj, da se sistem vzpostavi (cca 1 min - ne bo odziva na pritiske pilota)
+* poveži RPI in projektor s HDMI  
+* poveži RPI in projektor z LAN (testirano tudi preko Linxis routerja z DHCP)  
+* riključi USB napajalni kabel  
+* počakaj, da se sistem vzpostavi (cca 1 min - ne bo odziva na pritiske pilota)  
 
 ## POVEZAVA NA RPI (vzdrževanje)  
 ### Povezava preko routerja  
