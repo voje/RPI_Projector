@@ -11,7 +11,6 @@ if __name__ == "__main__":
 	lg.log_event("main.py", "##### Starting powerpoint script. #####")
 	pr = presenter.Presenter(20, logger=lg)
 	tc = tcp_client.TcpClient(logger=lg)
-	#tc = pj_client.PjClient()
 
 	print "Client ready."
 
