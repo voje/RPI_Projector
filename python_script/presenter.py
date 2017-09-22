@@ -19,6 +19,10 @@ class MemoryList:
 			self.mem_list.pop(0)
 		self.mem_index = len(self.mem_list)-1
 
+        def pop(self):
+                self.mem_list.pop()
+                self.mem_index = len(self.mem_list)-1
+
 	def flush(self):
 		self.mem_list = []
 		mem_index = -1

@@ -1,7 +1,8 @@
+#!/usr/bin/python
+
 import os
 import presenter
 import tcp_client
-import pj_client
 import time
 import logger_wrapper
 import thread
@@ -26,7 +27,7 @@ if __name__ == "__main__":
 
 	time_start = time.time()
 	while True:
-		time.sleep(0.3)
+		#time.sleep(0.3)
 
 		#debugging this loop
 		time_diff = time.time() - time_start
@@ -73,21 +74,21 @@ if __name__ == "__main__":
 			pr.display_file()
 			try:
 				#thread.start_new_thread(tc.send_command("on"), ())
-				tc.send_command("on")
 				lg.log_event("main.py", "projector power on")
+				tc.send_command("on")
 			except Exception as e:
 				lg.log_event("main.py", "power on exception: %s" % (e))
 		elif st == "KEY_P":
 			try:
 				#thread.start_new_thread(tc.send_command("off"), ())
-				tc.send_command("off")
 				lg.log_event("main.py", "projector power off")
+				tc.send_command("off")
 			except Exception as e:
 				lg.log_event("main.py", "power off exception: %s" % (e))
 		elif st == "KEY_R":
 			#print pr.to_string()
-			pr.display_file(blank=True)
 			lg.log_event("main.py", "projector blank file")
+			pr.display_file(blank=True)
 		elif st == "KEY_ENTER" and pr.input_buffer != "":
 			tmp_num = pr.input_buffer.lstrip("0")
 			num = 0
@@ -105,6 +106,8 @@ if __name__ == "__main__":
 			pr.display_file()
 		elif st == "KEY_DELETE":
 			pr.input_buffer = ""
+                        pr.mem_list.pop()
+                        pr.display_file()
 		elif st == "KEY_UP":
 			pr.next_file()
 			pr.display_file()
