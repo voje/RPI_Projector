@@ -9,3 +9,15 @@ ure: 200€
 
 skupaj:
 374.46€
+
+placano:
+500e
+
+
+
+
+dodatno:
+44e (ir spr odd)
+50e (UPS)
+
+
