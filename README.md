@@ -102,6 +102,9 @@ In `~/.bashrc`, ad a line at the bottom of the file:
 /home/pi/git/RPI_Projector/autostart.sh
 ```
 
-## TODO remove sleep after n min ##
+## TODO ##
+* remove sleep after n min
+* fix usb reader (folder pi/media not found)
+* test lirc for keyboard inputs (fifo not getting signals)
 
 
