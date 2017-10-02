@@ -79,18 +79,23 @@ First, you need to set up the hardware, i.e., connect the IR receiver to the cor
 ```bash
 $ sudo apt-get install lirc git
 ```
-In file `/etc/modules`, add lines:
+In file `/etc/modules`, add lines (we're using pin 18 for input):
 ```bash
 lirc_dev
 lirc_rpi gpio_in_pin=18
 ```
-Clone this repo. The path is important: `/home/pi/git/RPI_Projektor/`.  
-Create a backup of `/etc/lirc/` then replace it with `/lirc/` in this repo.  Our lirc folder is preset to work with our Philips Universal remote controller.  
+Clone this repo. The path is important: `/home/pi/git/RPI_Projector/`.  
+I've had some trouble getting lirc to work out of the box. This is the setps we can take to get it going. First, copy the contents of `repo/lirc` into `/etc/lirc/`. Important files are: `hardware.conf` (the repo version should work) and `lircd.conf`. You should copy the remote controller configuration into `lircd.conf`:  
+```bash
+$ cp /etc/lirc/remote_configs/PHILIPS_1.conf /etc/lirc/lircd.conf
+```
 Reload lirc and test the remote controller:  
 ```bash
 $ sudo service lirc reload
 # Testing: Press a few keys. You should see a stream of pulse,space inputs.
 $ mode2 -d /dev/lirc0
+# We're getting signals. Now let's test whether lircd maps the signals onto the right commands.
+$ sudo irw
 ```
 
 ## Xpdf setup ##
