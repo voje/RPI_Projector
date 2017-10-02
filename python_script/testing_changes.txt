@@ -1,4 +1,0 @@
-Testing:
-
-tcp_client.py
-	change ip address to 127.0.0.1
