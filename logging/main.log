@@ -1,0 +1,99 @@
+[09/30/17,22:11:54] (main.py) ##### Starting powerpoint script. #####
+[09/30/17,22:26:28] (main.py) ##### Starting powerpoint script. #####
+[09/30/17,22:26:48] (main.py) USB initially present: /media/pi/USB_KARTICA/diapozitivi
+[09/30/17,22:26:49] (presenter.py) displaying file: [0]0.pdf
+[09/30/17,22:26:49] () 
+[09/30/17,22:46:34] (main.py) ##### Starting powerpoint script. #####
+[09/30/17,22:46:59] (usblistener.py) could not find dir_path in list [USB_KARTICA]; using default dir_path
+[09/30/17,22:46:59] (main.py) USB initially present: None
+[09/30/17,22:47:00] (presenter.py) displaying file: [0]0_default.pdf
+[09/30/17,22:47:00] () 
+[09/30/17,22:47:23] (main.py) USB change detected: None
+[09/30/17,22:47:24] (presenter.py) displaying file: [0]0_default.pdf
+[09/30/17,22:47:24] () 
+[09/30/17,22:47:54] (main.py) USB change detected: /media/pi/USB_KARTICA/diapozitivi
+[09/30/17,22:47:55] (presenter.py) displaying file: [0]0.pdf
+[09/30/17,22:47:55] () 
+[09/30/17,22:48:57] (main.py) ##### Starting powerpoint script. #####
+[09/30/17,22:49:17] (main.py) USB initially present: /media/pi/USB_KARTICA/diapozitivi
+[09/30/17,22:49:18] (presenter.py) displaying file: [0]0.pdf
+[09/30/17,22:49:18] () 
+[09/30/17,22:52:28] (main.py) ##### Starting powerpoint script. #####
+[09/30/17,22:52:48] (main.py) USB initially present: /media/pi/USB_KARTICA/diapozitivi
+[09/30/17,22:52:49] (presenter.py) displaying file: [0]0.pdf
+[09/30/17,22:52:50] () 
+[09/30/17,23:02:13] (main.py) ##### Starting powerpoint script. #####
+[09/30/17,23:02:38] (usblistener.py) could not find dir_path in list [USB_KARTICA]; using default dir_path
+[09/30/17,23:02:38] (main.py) USB initially present: None
+[09/30/17,23:02:39] (presenter.py) displaying file: [0]0_default.pdf
+[09/30/17,23:02:39] () 
+[09/30/17,23:03:03] (main.py) USB change detected: None
+[09/30/17,23:03:04] (presenter.py) displaying file: [0]0_default.pdf
+[09/30/17,23:03:04] () 
+[09/30/17,23:03:31] (main.py) USB change detected: /media/pi/USB_KARTICA/diapozitivi
+[09/30/17,23:03:32] (presenter.py) displaying file: [0]0.pdf
+[09/30/17,23:03:33] () 
+[09/30/17,23:04:06] (main.py) ##### Starting powerpoint script. #####
+[09/30/17,23:04:26] (main.py) USB initially present: /media/pi/USB_KARTICA/diapozitivi
+[09/30/17,23:04:27] (presenter.py) displaying file: [0]0.pdf
+[09/30/17,23:04:28] () 
+[09/30/17,23:06:13] (main.py) ##### Starting powerpoint script. #####
+[09/30/17,23:06:39] (usblistener.py) could not find dir_path in list [USB_KARTICA]; using default dir_path
+[09/30/17,23:06:39] (main.py) USB initially present: None
+[09/30/17,23:06:39] (presenter.py) displaying file: [0]0_default.pdf
+[09/30/17,23:06:39] () 
+[09/30/17,23:07:02] (main.py) USB change detected: None
+[09/30/17,23:07:03] (presenter.py) displaying file: [0]0_default.pdf
+[09/30/17,23:07:03] () 
+[09/30/17,23:07:34] (main.py) USB change detected: /media/pi/USB_KARTICA/diapozitivi
+[09/30/17,23:07:36] (presenter.py) displaying file: [0]0.pdf
+[09/30/17,23:07:36] () 
+[09/30/17,23:07:42] (main.py) ##### Starting powerpoint script. #####
+[09/30/17,23:08:02] (main.py) USB initially present: /media/pi/USB_KARTICA/diapozitivi
+[09/30/17,23:08:03] (presenter.py) displaying file: [0]0.pdf
+[09/30/17,23:08:03] () 
+[09/30/17,23:18:34] (main.py) ##### Starting powerpoint script. #####
+[10/01/17,13:39:22] (usblistener.py) could not find dir_path in list [USB_KARTICA]; using default dir_path
+[10/01/17,13:39:22] (main.py) USB initially present: None
+[10/01/17,13:39:23] (presenter.py) displaying file: [0]0_default.pdf
+[10/01/17,13:39:23] () 
+[10/01/17,13:39:45] (main.py) USB change detected: None
+[10/01/17,13:39:46] (presenter.py) displaying file: [0]0_default.pdf
+[10/01/17,13:39:46] () 
+[10/01/17,13:40:08] (main.py) USB change detected: /media/pi/USB_KARTICA/diapozitivi
+[10/01/17,13:40:09] (presenter.py) displaying file: [0]0.pdf
+[10/01/17,13:40:10] () 
+[10/01/17,13:48:17] (main.py) ##### Starting powerpoint script. #####
+[10/01/17,13:48:37] (main.py) USB initially present: /media/pi/USB_KARTICA/diapozitivi
+[10/01/17,13:48:38] (presenter.py) displaying file: [0]0.pdf
+[10/01/17,13:48:38] () 
+[10/01/17,14:42:49] (main.py) ##### Starting powerpoint script. #####
+[10/02/17,00:08:33] (usblistener.py) could not find dir_path in list [USB_KARTICA]; using default dir_path
+[10/02/17,00:08:33] (main.py) USB initially present: None
+[10/02/17,00:08:33] (presenter.py) displaying file: [0]0_default.pdf
+[10/02/17,00:08:33] () 
+[10/02/17,00:08:33] (main.py) USB change detected: None
+[10/02/17,00:08:34] (presenter.py) displaying file: [0]0_default.pdf
+[10/02/17,00:08:34] () 
+[10/02/17,00:08:46] (main.py) USB change detected: /media/pi/USB_KARTICA/diapozitivi
+[10/02/17,00:08:47] (presenter.py) displaying file: [0]0.pdf
+[10/02/17,00:08:47] () 
+[10/02/17,00:11:14] (main.py) ##### Starting powerpoint script. #####
+[10/02/17,00:11:34] (main.py) USB initially present: /media/pi/USB_KARTICA/diapozitivi
+[10/02/17,00:11:35] (presenter.py) displaying file: [0]0.pdf
+[10/02/17,00:11:35] () 
+[10/02/17,01:51:29] (main.py) ##### Starting powerpoint script. #####
+[10/02/17,13:16:55] (usblistener.py) could not find dir_path in list [USB_KARTICA]; using default dir_path
+[10/02/17,13:16:56] (main.py) USB initially present: None
+[10/02/17,13:16:56] (presenter.py) displaying file: [0]0_default.pdf
+[10/02/17,13:16:56] () 
+[10/02/17,13:16:56] (main.py) USB change detected: None
+[10/02/17,13:16:57] (presenter.py) displaying file: [0]0_default.pdf
+[10/02/17,13:16:58] () 
+[10/02/17,13:17:15] (main.py) USB change detected: /media/pi/USB_KARTICA/diapozitivi
+[10/02/17,13:17:15] (presenter.py) displaying file: [0]0.pdf
+[10/02/17,13:17:16] () 
+[10/02/17,13:30:22] (main.py) ##### Starting powerpoint script. #####
+[10/02/17,13:30:42] (main.py) USB initially present: /media/pi/USB_KARTICA/diapozitivi
+[10/02/17,13:30:43] (presenter.py) displaying file: [0]0.pdf
+[10/02/17,13:30:43] () 
