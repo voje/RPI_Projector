@@ -8,7 +8,6 @@ I'll try to include as many details as I can for future reference.
 |msd|Micro SD card
 |lirc|Linux infrared remote control
 
-
 ## Installing Raspbian ##
 Requirements:
 * rpi 
@@ -74,6 +73,15 @@ dns-nameservers 8.8.8.8
 Reboot your rpi. You should be able to connect remotely now.  
 `$ ssh pi@192.168.1.142`
 
+## Disable screen sleep ##
+While using the desktop, install `xscreensaver` and disable it. 
+
+## Disable mouse cursor
+Edit file: `/etc/lightdm/lightdm.conf`. Look for `[Seat:*]` and insert:  
+```
+xserver-command=X -nocursor
+```
+
 ## Setting up lirc ##  
 First, you need to set up the hardware, i.e., connect the IR receiver to the correct pins. We're using 18 as input. Some details in the (slo) instruction in `/navodila/`. For english, google it.  
 ```bash
@@ -112,12 +120,6 @@ In `~/.bashrc`, add a line at the bottom of the file:
 /home/pi/git/RPI_Projector/autostart.sh
 ```
 
-## Disable screen sleep and mouse cursor ##
-Edit file: `/etc/lightdm/lightdm.conf`. Look for `[Seat:*]` and insert:  
-```
-xserver-command=X -s 0 dpms
-xserver-command=X -nocursor
-```
 
 ## TODO ##
 * fix usb reader (folder pi/media not found)

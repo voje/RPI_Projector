@@ -663,3 +663,28 @@
 [10/03/17,21:08:03] (main.py) FIFO gave string: KEY_DELETE
 [10/03/17,21:08:04] (presenter.py) displaying file: [0]0.pdf
 [10/03/17,21:08:04] () 
+[10/03/17,21:14:51] (main.py) ##### Starting powerpoint script. #####
+[10/03/17,22:35:44] (presenter.py) displaying file: [0]0_default.pdf
+[10/03/17,22:35:44] () 
+[10/03/17,22:40:22] (lirc) KEY_UP
+[10/03/17,22:40:22] (main.py) USB change detected: /media/pi/USB_KARTICA/diapozitivi
+[10/03/17,22:40:22] (presenter.py) displaying file: [0]0.pdf
+[10/03/17,22:40:22] () 
+[10/03/17,22:40:22] (main.py) FIFO gave string: KEY_UP
+[10/03/17,22:40:22] (presenter.py) displaying file: [1]1.pdf
+[10/03/17,22:40:22] () 
+[10/03/17,23:11:07] (lirc) KEY_UP
+[10/03/17,23:11:07] (main.py) FIFO gave string: KEY_UP
+[10/03/17,23:11:07] (presenter.py) displaying file: [2]2.pdf
+[10/03/17,23:11:08] () 
+[10/03/17,23:11:08] (lirc) KEY_UP
+[10/03/17,23:11:08] (main.py) FIFO gave string: KEY_UP
+[10/03/17,23:11:08] (presenter.py) displaying file: [3]3.pdf
+[10/03/17,23:11:08] () 
+[10/03/17,23:05:32] (main.py) ##### Starting powerpoint script. #####
+[10/03/17,23:21:10] (presenter.py) displaying file: [0]0_default.pdf
+[10/03/17,23:21:10] () 
+[10/03/17,23:33:13] (main.py) ##### Starting powerpoint script. #####
+[10/03/17,23:33:33] (main.py) USB initially present: /media/pi/USB_KARTICA/diapozitivi
+[10/03/17,23:33:33] (presenter.py) displaying file: [0]0.pdf
+[10/03/17,23:33:33] () 
