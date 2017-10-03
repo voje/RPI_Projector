@@ -104,35 +104,20 @@ $ sudo service irexec enable
 ```
 
 ## Xpdf setup ##
-There seemed to be a bug with Xpdf includes. You can comment a line in `/etc/xpdf/xpdfrc` to avoid it.
+There seemed to be a bug with Xpdf includes. You can comment out a line in `/etc/xpdf/xpdfrc` to avoid it.
 
 ## Run presentation script at startup ##
-In `~/.bashrc`, ad a line at the bottom of the file: 
+In `~/.bashrc`, add a line at the bottom of the file: 
 ```bash
 /home/pi/git/RPI_Projector/autostart.sh
 ```
 
-## Disable screen sleep ##
-### first alternative: ###
-Set per user session using the command:  
-```bash
-$ setterm -blank 0 -powerdown 0
+## Disable screen sleep and mouse cursor ##
+Edit file: `/etc/lightdm/lightdm.conf`. Look for `[Seat:*]` and insert:  
 ```
-Configure it in `~/.bashrc`.  
-### 2nd alternative: ###
-Edit file: `/boot/config.txt`:  
-```bash
-# power down monitor when lockscreen enabled
-hdmi_blanking=1
+xserver-command=X -s 0 dpms
+xserver-command=X -nocursor
 ```
-Edit file: `/home/pi/.config/lxsession/LDXE-pi/autostart`. Add:
-```
-@xset s 0 0
-@xset s noblank
-@xset s noexpose
-@xset dpms 0 0 0
-```
-Reboot.  
 
 ## TODO ##
 * fix usb reader (folder pi/media not found)

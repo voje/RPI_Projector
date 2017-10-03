@@ -1,0 +1,665 @@
+[10/03/17,17:35:34] (main.py) ##### Starting powerpoint script. #####
+[10/03/17,17:39:12] (usblistener.py) could not find dir_path in list [USB_KARTICA]; using default dir_path
+[10/03/17,17:39:12] (main.py) USB initially present: None
+[10/03/17,17:39:12] (presenter.py) displaying file: [0]0_default.pdf
+[10/03/17,17:39:12] () 
+[10/03/17,17:39:30] (lirc) KEY_UP
+[10/03/17,17:39:30] (main.py) FIFO gave string: KEY_UP
+[10/03/17,17:39:30] (presenter.py) displaying file: [1]1_default.pdf
+[10/03/17,17:39:30] () 
+[10/03/17,17:39:39] (lirc) KEY_UP
+[10/03/17,17:39:39] (main.py) FIFO gave string: KEY_UP
+[10/03/17,17:39:39] (presenter.py) displaying file: [2]2_default.pdf
+[10/03/17,17:39:39] () 
+[10/03/17,17:39:47] (lirc) KEY_UP
+[10/03/17,17:39:47] (main.py) FIFO gave string: KEY_UP
+[10/03/17,17:39:47] (presenter.py) displaying file: [3]3_default.pdf
+[10/03/17,17:39:47] () 
+[10/03/17,17:39:59] (lirc) KEY_UP
+[10/03/17,17:39:59] (main.py) FIFO gave string: KEY_UP
+[10/03/17,17:40:00] (presenter.py) displaying file: [3]3_default.pdf
+[10/03/17,17:40:00] () 
+[10/03/17,17:40:07] (lirc) KEY_UP
+[10/03/17,17:40:07] (main.py) FIFO gave string: KEY_UP
+[10/03/17,17:40:07] (presenter.py) displaying file: [3]3_default.pdf
+[10/03/17,17:40:07] () 
+[10/03/17,17:40:15] (lirc) 2
+[10/03/17,17:40:15] (main.py) FIFO gave string: 2
+[10/03/17,17:40:17] (lirc) KEY_ENTER
+[10/03/17,17:40:17] (main.py) FIFO gave string: KEY_ENTER
+[10/03/17,17:40:17] (presenter.py) displaying file: [2]2_default.pdf
+[10/03/17,17:40:17] () 
+[10/03/17,17:40:23] (lirc) 1
+[10/03/17,17:40:23] (main.py) FIFO gave string: 1
+[10/03/17,17:40:24] (lirc) KEY_ENTER
+[10/03/17,17:40:24] (main.py) FIFO gave string: KEY_ENTER
+[10/03/17,17:40:24] (presenter.py) displaying file: [1]1_default.pdf
+[10/03/17,17:40:24] () 
+[10/03/17,17:40:29] (lirc) 3
+[10/03/17,17:40:29] (main.py) FIFO gave string: 3
+[10/03/17,17:40:31] (lirc) KEY_ENTER
+[10/03/17,17:40:31] (main.py) FIFO gave string: KEY_ENTER
+[10/03/17,17:40:31] (presenter.py) displaying file: [3]3_default.pdf
+[10/03/17,17:40:31] () 
+[10/03/17,17:40:38] (lirc) KEY_VOLUMEDOWN
+[10/03/17,17:40:38] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/03/17,17:40:38] (presenter.py) displaying file: [1]1_default.pdf
+[10/03/17,17:40:38] () 
+[10/03/17,17:40:43] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/03/17,17:40:43] (lirc) KEY_VOLUMEDOWN
+[10/03/17,17:40:43] (presenter.py) displaying file: [2]2_default.pdf
+[10/03/17,17:40:43] () 
+[10/03/17,17:40:48] (lirc) KEY_VOLUMEDOWN
+[10/03/17,17:40:48] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/03/17,17:40:48] (presenter.py) displaying file: [2]2_default.pdf
+[10/03/17,17:40:48] () 
+[10/03/17,17:40:57] (lirc) KEY_VOLUMEDOWN
+[10/03/17,17:40:57] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/03/17,17:40:57] (presenter.py) displaying file: [2]2_default.pdf
+[10/03/17,17:40:57] () 
+[10/03/17,17:40:58] (lirc) KEY_VOLUMEDOWN
+[10/03/17,17:40:58] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/03/17,17:40:58] (presenter.py) displaying file: [2]2_default.pdf
+[10/03/17,17:40:58] () 
+[10/03/17,17:41:03] (lirc) KEY_VOLUMEUP
+[10/03/17,17:41:03] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/03/17,17:41:03] (presenter.py) displaying file: [1]1_default.pdf
+[10/03/17,17:41:03] () 
+[10/03/17,17:41:12] (lirc) KEY_VOLUMEUP
+[10/03/17,17:41:12] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/03/17,17:41:12] (presenter.py) displaying file: [3]3_default.pdf
+[10/03/17,17:41:12] () 
+[10/03/17,17:41:19] (lirc) KEY_DELETE
+[10/03/17,17:41:19] (main.py) FIFO gave string: KEY_DELETE
+[10/03/17,17:41:19] (presenter.py) displaying file: [3]3_default.pdf
+[10/03/17,17:41:19] () 
+[10/03/17,17:41:30] (lirc) KEY_VOLUMEDOWN
+[10/03/17,17:41:30] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/03/17,17:41:30] (presenter.py) displaying file: [2]2_default.pdf
+[10/03/17,17:41:30] () 
+[10/03/17,17:41:36] (lirc) KEY_VOLUMEUP
+[10/03/17,17:41:36] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/03/17,17:41:36] (presenter.py) displaying file: [1]1_default.pdf
+[10/03/17,17:41:36] () 
+[10/03/17,17:41:41] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/03/17,17:41:41] (lirc) KEY_VOLUMEUP
+[10/03/17,17:41:42] (presenter.py) displaying file: [1]1_default.pdf
+[10/03/17,17:41:42] () 
+[10/03/17,17:41:47] (lirc) KEY_VOLUMEUP
+[10/03/17,17:41:47] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/03/17,17:41:47] (presenter.py) displaying file: [1]1_default.pdf
+[10/03/17,17:41:47] () 
+[10/03/17,17:41:52] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/03/17,17:41:52] (lirc) KEY_VOLUMEDOWN
+[10/03/17,17:41:53] (presenter.py) displaying file: [2]2_default.pdf
+[10/03/17,17:41:53] () 
+[10/03/17,17:41:58] (lirc) KEY_VOLUMEDOWN
+[10/03/17,17:41:58] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/03/17,17:41:58] (presenter.py) displaying file: [2]2_default.pdf
+[10/03/17,17:41:58] () 
+[10/03/17,17:42:07] (lirc) KEY_VOLUMEUP
+[10/03/17,17:42:07] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/03/17,17:42:07] (presenter.py) displaying file: [1]1_default.pdf
+[10/03/17,17:42:07] () 
+[10/03/17,17:42:15] (lirc) KEY_DELETE
+[10/03/17,17:42:15] (main.py) FIFO gave string: KEY_DELETE
+[10/03/17,17:42:15] (presenter.py) displaying file: [1]1_default.pdf
+[10/03/17,17:42:15] () 
+[10/03/17,17:42:23] (lirc) KEY_VOLUMEDOWN
+[10/03/17,17:42:23] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/03/17,17:42:23] (presenter.py) displaying file: [2]2_default.pdf
+[10/03/17,17:42:23] () 
+[10/03/17,17:42:28] (lirc) KEY_VOLUMEUP
+[10/03/17,17:42:28] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/03/17,17:42:28] (presenter.py) displaying file: [2]2_default.pdf
+[10/03/17,17:42:28] () 
+[10/03/17,17:42:33] (lirc) KEY_VOLUMEDOWN
+[10/03/17,17:42:33] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/03/17,17:42:33] (presenter.py) displaying file: [2]2_default.pdf
+[10/03/17,17:42:34] () 
+[10/03/17,17:42:39] (lirc) KEY_VOLUMEDOWN
+[10/03/17,17:42:39] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/03/17,17:42:39] (presenter.py) displaying file: [2]2_default.pdf
+[10/03/17,17:42:39] () 
+[10/03/17,17:43:29] (lirc) KEY_UP
+[10/03/17,17:43:29] (main.py) FIFO gave string: KEY_UP
+[10/03/17,17:43:29] (presenter.py) displaying file: [3]3_default.pdf
+[10/03/17,17:43:29] () 
+[10/03/17,17:49:11] (lirc) KEY_UP
+[10/03/17,17:49:11] (main.py) FIFO gave string: KEY_UP
+[10/03/17,17:49:11] (presenter.py) displaying file: [3]3_default.pdf
+[10/03/17,17:49:12] () 
+[10/03/17,17:49:17] (lirc) KEY_DOWN
+[10/03/17,17:49:17] (main.py) FIFO gave string: KEY_DOWN
+[10/03/17,17:49:18] (presenter.py) displaying file: [2]2_default.pdf
+[10/03/17,17:49:18] () 
+[10/03/17,17:49:19] (lirc) KEY_DOWN
+[10/03/17,17:49:19] (main.py) FIFO gave string: KEY_DOWN
+[10/03/17,17:49:19] (presenter.py) displaying file: [1]1_default.pdf
+[10/03/17,17:49:19] () 
+[10/03/17,17:49:21] (lirc) KEY_UP
+[10/03/17,17:49:21] (main.py) FIFO gave string: KEY_UP
+[10/03/17,17:49:21] (presenter.py) displaying file: [2]2_default.pdf
+[10/03/17,17:49:21] () 
+[10/03/17,17:49:21] (lirc) KEY_DOWN
+[10/03/17,17:49:21] (main.py) FIFO gave string: KEY_DOWN
+[10/03/17,17:49:21] (presenter.py) displaying file: [1]1_default.pdf
+[10/03/17,17:49:22] (lirc) KEY_UP
+[10/03/17,17:49:22] () 
+[10/03/17,17:49:22] (main.py) FIFO gave string: KEY_UP
+[10/03/17,17:49:22] (lirc) KEY_DOWN
+[10/03/17,17:49:22] (presenter.py) displaying file: [2]2_default.pdf
+[10/03/17,17:49:22] () 
+[10/03/17,17:49:22] (lirc) KEY_UP
+[10/03/17,17:49:23] (main.py) FIFO gave string: KEY_DOWN
+[10/03/17,17:49:23] (lirc) KEY_DOWN
+[10/03/17,17:49:23] (presenter.py) displaying file: [1]1_default.pdf
+[10/03/17,17:49:23] (lirc) KEY_UP
+[10/03/17,17:49:23] () 
+[10/03/17,17:49:23] (main.py) FIFO gave string: KEY_UP
+[10/03/17,17:49:23] (presenter.py) displaying file: [2]2_default.pdf
+[10/03/17,17:49:24] () 
+[10/03/17,17:49:24] (main.py) FIFO gave string: KEY_DOWN
+[10/03/17,17:49:24] (presenter.py) displaying file: [1]1_default.pdf
+[10/03/17,17:49:24] () 
+[10/03/17,17:49:24] (main.py) FIFO gave string: KEY_UP
+[10/03/17,17:49:25] (lirc) KEY_DOWN
+[10/03/17,17:49:25] (presenter.py) displaying file: [2]2_default.pdf
+[10/03/17,17:49:25] (lirc) KEY_DOWN
+[10/03/17,17:49:25] () 
+[10/03/17,17:49:25] (main.py) FIFO gave string: KEY_DOWN
+[10/03/17,17:49:25] (presenter.py) displaying file: [1]1_default.pdf
+[10/03/17,17:49:26] () 
+[10/03/17,17:49:26] (main.py) FIFO gave string: KEY_DOWN
+[10/03/17,17:49:26] (presenter.py) displaying file: [0]0_default.pdf
+[10/03/17,17:49:26] () 
+[10/03/17,17:57:55] (main.py) ##### Starting powerpoint script. #####
+[10/03/17,17:58:16] (main.py) USB initially present: /media/pi/USB_KARTICA/diapozitivi
+[10/03/17,17:58:16] (presenter.py) displaying file: [0]0.pdf
+[10/03/17,17:58:16] () 
+[10/03/17,17:59:42] (main.py) ##### Starting powerpoint script. #####
+[10/03/17,19:59:52] (usblistener.py) could not find dir_path in list [USB_KARTICA]; using default dir_path
+[10/03/17,19:59:52] (main.py) USB initially present: None
+[10/03/17,19:59:53] (presenter.py) displaying file: [0]0_default.pdf
+[10/03/17,19:59:53] () 
+[10/03/17,20:00:43] (main.py) ##### Starting powerpoint script. #####
+[10/03/17,20:01:03] (main.py) USB initially present: /media/pi/USB_KARTICA/diapozitivi
+[10/03/17,20:01:03] (presenter.py) displaying file: [0]0.pdf
+[10/03/17,20:01:04] () 
+[10/03/17,20:05:02] (main.py) ##### Starting powerpoint script. #####
+[10/03/17,20:05:35] (presenter.py) displaying file: [0]0_default.pdf
+[10/03/17,20:05:36] () 
+[10/03/17,20:06:55] (lirc) KEY_UP
+[10/03/17,20:06:55] (main.py) USB change detected: /media/pi/USB_KARTICA/diapozitivi
+[10/03/17,20:06:55] (presenter.py) displaying file: [0]0.pdf
+[10/03/17,20:06:55] () 
+[10/03/17,20:06:55] (main.py) FIFO gave string: KEY_UP
+[10/03/17,20:06:55] (presenter.py) displaying file: [1]1.pdf
+[10/03/17,20:06:56] () 
+[10/03/17,20:16:12] (main.py) ##### Starting powerpoint script. #####
+[10/03/17,20:16:32] (main.py) USB initially present: /media/pi/USB_KARTICA/diapozitivi
+[10/03/17,20:16:33] (presenter.py) displaying file: [0]0.pdf
+[10/03/17,20:16:33] () 
+[10/03/17,20:20:20] (lirc) KEY_UP
+[10/03/17,20:20:20] (main.py) FIFO gave string: KEY_UP
+[10/03/17,20:20:20] (presenter.py) displaying file: [1]1.pdf
+[10/03/17,20:20:20] () 
+[10/03/17,20:20:23] (lirc) KEY_DOWN
+[10/03/17,20:20:23] (main.py) FIFO gave string: KEY_DOWN
+[10/03/17,20:20:24] (presenter.py) displaying file: [0]0.pdf
+[10/03/17,20:20:24] () 
+[10/03/17,20:20:29] (lirc) KEY_UP
+[10/03/17,20:20:29] (main.py) FIFO gave string: KEY_UP
+[10/03/17,20:20:29] (presenter.py) displaying file: [2]2.pdf
+[10/03/17,20:20:30] () 
+[10/03/17,20:29:48] (main.py) ##### Starting powerpoint script. #####
+[10/03/17,20:30:25] (usblistener.py) could not find dir_path in list [USB_KARTICA]; using default dir_path
+[10/03/17,20:30:25] (main.py) USB initially present: None
+[10/03/17,20:30:25] (presenter.py) displaying file: [0]0_default.pdf
+[10/03/17,20:30:26] () 
+[10/03/17,20:31:23] (main.py) FIFO gave string: 3
+[10/03/17,20:31:24] (lirc) 3
+[10/03/17,20:31:26] (lirc) KEY_ENTER
+[10/03/17,20:31:26] (main.py) FIFO gave string: KEY_ENTER
+[10/03/17,20:31:26] (presenter.py) displaying file: [3]3_default.pdf
+[10/03/17,20:31:26] () 
+[10/03/17,20:31:31] (lirc) 2
+[10/03/17,20:31:31] (main.py) FIFO gave string: 2
+[10/03/17,20:31:32] (lirc) KEY_ENTER
+[10/03/17,20:31:32] (main.py) FIFO gave string: KEY_ENTER
+[10/03/17,20:31:33] (presenter.py) displaying file: [2]2_default.pdf
+[10/03/17,20:31:33] () 
+[10/03/17,20:31:38] (lirc) 1
+[10/03/17,20:31:38] (main.py) FIFO gave string: 1
+[10/03/17,20:31:39] (lirc) KEY_ENTER
+[10/03/17,20:31:39] (main.py) FIFO gave string: KEY_ENTER
+[10/03/17,20:31:39] (presenter.py) displaying file: [1]1_default.pdf
+[10/03/17,20:31:40] () 
+[10/03/17,20:31:45] (lirc) 2
+[10/03/17,20:31:45] (main.py) FIFO gave string: 2
+[10/03/17,20:31:46] (lirc) KEY_ENTER
+[10/03/17,20:31:46] (main.py) FIFO gave string: KEY_ENTER
+[10/03/17,20:31:46] (presenter.py) displaying file: [2]2_default.pdf
+[10/03/17,20:31:46] () 
+[10/03/17,20:31:52] (lirc) KEY_VOLUMEDOWN
+[10/03/17,20:31:52] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/03/17,20:31:52] (presenter.py) displaying file: [1]1_default.pdf
+[10/03/17,20:31:52] () 
+[10/03/17,20:31:57] (lirc) KEY_VOLUMEUP
+[10/03/17,20:31:57] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/03/17,20:31:57] (presenter.py) displaying file: [2]2_default.pdf
+[10/03/17,20:31:57] () 
+[10/03/17,20:32:03] (lirc) KEY_VOLUMEUP
+[10/03/17,20:32:03] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/03/17,20:32:03] (presenter.py) displaying file: [2]2_default.pdf
+[10/03/17,20:32:03] () 
+[10/03/17,20:32:10] (lirc) KEY_DELETE
+[10/03/17,20:32:10] (main.py) FIFO gave string: KEY_DELETE
+[10/03/17,20:32:10] (presenter.py) displaying file: [1]1_default.pdf
+[10/03/17,20:32:10] () 
+[10/03/17,20:32:16] (lirc) KEY_VOLUMEUP
+[10/03/17,20:32:16] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/03/17,20:32:16] (presenter.py) displaying file: [1]1_default.pdf
+[10/03/17,20:32:17] () 
+[10/03/17,20:32:23] (lirc) KEY_DELETE
+[10/03/17,20:32:23] (main.py) FIFO gave string: KEY_DELETE
+[10/03/17,20:32:24] (presenter.py) displaying file: [2]2_default.pdf
+[10/03/17,20:32:24] () 
+[10/03/17,20:32:29] (lirc) KEY_DELETE
+[10/03/17,20:32:29] (main.py) FIFO gave string: KEY_DELETE
+[10/03/17,20:32:30] (presenter.py) displaying file: [3]3_default.pdf
+[10/03/17,20:32:30] () 
+[10/03/17,20:32:35] (lirc) KEY_DELETE
+[10/03/17,20:32:35] (main.py) FIFO gave string: KEY_DELETE
+[10/03/17,20:32:35] (presenter.py) displaying file: [3]3_default.pdf
+[10/03/17,20:32:35] () 
+[10/03/17,20:32:59] (lirc) KEY_VOLUMEUP
+[10/03/17,20:32:59] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/03/17,20:32:59] (presenter.py) displaying file: [3]3_default.pdf
+[10/03/17,20:32:59] () 
+[10/03/17,20:33:04] (lirc) KEY_VOLUMEDOWN
+[10/03/17,20:33:04] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/03/17,20:33:05] (presenter.py) displaying file: [3]3_default.pdf
+[10/03/17,20:33:05] () 
+[10/03/17,20:33:10] (lirc) KEY_VOLUMEDOWN
+[10/03/17,20:33:10] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/03/17,20:33:10] (presenter.py) displaying file: [3]3_default.pdf
+[10/03/17,20:33:10] () 
+[10/03/17,20:37:46] (main.py) ##### Starting powerpoint script. #####
+[10/03/17,20:38:07] (main.py) USB initially present: /media/pi/USB_KARTICA/diapozitivi
+[10/03/17,20:38:07] (presenter.py) displaying file: [0]0.pdf
+[10/03/17,20:38:07] () 
+[10/03/17,20:46:28] (main.py) ##### Starting powerpoint script. #####
+[10/03/17,20:46:48] (main.py) USB initially present: /media/pi/USB_KARTICA/diapozitivi
+[10/03/17,20:46:48] (presenter.py) displaying file: [0]0.pdf
+[10/03/17,20:46:48] () 
+[10/03/17,20:46:53] (lirc) KEY_UP
+[10/03/17,20:46:53] (main.py) FIFO gave string: KEY_UP
+[10/03/17,20:46:53] (presenter.py) displaying file: [1]1.pdf
+[10/03/17,20:46:53] () 
+[10/03/17,20:46:57] (lirc) KEY_UP
+[10/03/17,20:46:57] (main.py) FIFO gave string: KEY_UP
+[10/03/17,20:46:57] (presenter.py) displaying file: [2]2.pdf
+[10/03/17,20:46:57] () 
+[10/03/17,20:47:07] (lirc) 2
+[10/03/17,20:47:07] (main.py) FIFO gave string: 2
+[10/03/17,20:47:09] (lirc) KEY_ENTER
+[10/03/17,20:47:09] (main.py) FIFO gave string: KEY_ENTER
+[10/03/17,20:47:13] (lirc) 5
+[10/03/17,20:47:13] (main.py) FIFO gave string: 5
+[10/03/17,20:47:14] (lirc) KEY_ENTER
+[10/03/17,20:47:14] (main.py) FIFO gave string: KEY_ENTER
+[10/03/17,20:47:15] (presenter.py) displaying file: [2]2.pdf
+[10/03/17,20:47:15] () 
+[10/03/17,20:47:22] (lirc) 6
+[10/03/17,20:47:22] (main.py) FIFO gave string: 6
+[10/03/17,20:47:23] (lirc) KEY_ENTER
+[10/03/17,20:47:23] (main.py) FIFO gave string: KEY_ENTER
+[10/03/17,20:47:23] (presenter.py) displaying file: [6]6.pdf
+[10/03/17,20:47:23] () 
+[10/03/17,20:47:33] (lirc) 3
+[10/03/17,20:47:33] (main.py) FIFO gave string: 3
+[10/03/17,20:47:35] (lirc) KEY_ENTER
+[10/03/17,20:47:35] (main.py) FIFO gave string: KEY_ENTER
+[10/03/17,20:47:42] (lirc) 3
+[10/03/17,20:47:43] (main.py) FIFO gave string: 3
+[10/03/17,20:47:44] (lirc) KEY_ENTER
+[10/03/17,20:47:44] (main.py) FIFO gave string: KEY_ENTER
+[10/03/17,20:47:44] (presenter.py) displaying file: [49]53.pdf
+[10/03/17,20:47:44] () 
+[10/03/17,20:47:51] (lirc) 1
+[10/03/17,20:47:51] (main.py) FIFO gave string: 1
+[10/03/17,20:47:52] (lirc) KEY_ENTER
+[10/03/17,20:47:53] (main.py) FIFO gave string: KEY_ENTER
+[10/03/17,20:47:53] (presenter.py) displaying file: [3]3.pdf
+[10/03/17,20:47:53] () 
+[10/03/17,20:47:58] (lirc) 5
+[10/03/17,20:47:58] (main.py) FIFO gave string: 5
+[10/03/17,20:47:58] (lirc) 6
+[10/03/17,20:47:58] (main.py) FIFO gave string: 6
+[10/03/17,20:47:59] (lirc) KEY_ENTER
+[10/03/17,20:47:59] (main.py) FIFO gave string: KEY_ENTER
+[10/03/17,20:48:13] (lirc) KEY_DELETE
+[10/03/17,20:48:13] (main.py) FIFO gave string: KEY_DELETE
+[10/03/17,20:48:13] (presenter.py) displaying file: [49]53.pdf
+[10/03/17,20:48:13] () 
+[10/03/17,20:48:16] (lirc) KEY_DELETE
+[10/03/17,20:48:16] (main.py) FIFO gave string: KEY_DELETE
+[10/03/17,20:48:23] (lirc) KEY_DELETE
+[10/03/17,20:48:23] (main.py) FIFO gave string: KEY_DELETE
+[10/03/17,20:48:24] (presenter.py) displaying file: [6]6.pdf
+[10/03/17,20:48:24] () 
+[10/03/17,20:48:27] (lirc) KEY_DELETE
+[10/03/17,20:48:27] (main.py) FIFO gave string: KEY_DELETE
+[10/03/17,20:48:27] (presenter.py) displaying file: [2]2.pdf
+[10/03/17,20:48:28] () 
+[10/03/17,20:48:32] (lirc) KEY_DELETE
+[10/03/17,20:48:32] (main.py) FIFO gave string: KEY_DELETE
+[10/03/17,20:48:32] (presenter.py) displaying file: [2]2.pdf
+[10/03/17,20:48:32] () 
+[10/03/17,20:48:37] (lirc) KEY_DELETE
+[10/03/17,20:48:37] (main.py) FIFO gave string: KEY_DELETE
+[10/03/17,20:54:34] (main.py) ##### Starting powerpoint script. #####
+[10/03/17,20:54:55] (main.py) USB initially present: /media/pi/USB_KARTICA/diapozitivi
+[10/03/17,20:54:55] (presenter.py) displaying file: [0]0.pdf
+[10/03/17,20:54:55] () 
+[10/03/17,20:54:55] (main.py) FIFO gave string: KEY_DELETE
+[10/03/17,20:54:55] (lirc) KEY_DELETE
+[10/03/17,20:54:55] (lirc) KEY_DELETE
+[10/03/17,20:54:55] (lirc) KEY_DELETE
+[10/03/17,20:54:55] (lirc) KEY_ENTER
+[10/03/17,20:54:55] (lirc) KEY_DELETE
+[10/03/17,20:54:55] (presenter.py) displaying file: [0]0.pdf
+[10/03/17,20:54:56] () 
+[10/03/17,20:54:56] (main.py) FIFO gave string: KEY_DELETE
+[10/03/17,20:54:56] (presenter.py) displaying file: [0]0.pdf
+[10/03/17,20:54:56] () 
+[10/03/17,20:54:56] (main.py) FIFO gave string: KEY_DELETE
+[10/03/17,20:54:57] (presenter.py) displaying file: [0]0.pdf
+[10/03/17,20:54:57] () 
+[10/03/17,20:54:57] (main.py) FIFO gave string: KEY_DELETE
+[10/03/17,20:54:57] (presenter.py) displaying file: [0]0.pdf
+[10/03/17,20:54:58] () 
+[10/03/17,20:54:58] (main.py) FIFO gave string: KEY_ENTER
+[10/03/17,20:55:05] (lirc) 5
+[10/03/17,20:55:05] (main.py) FIFO gave string: 5
+[10/03/17,20:55:06] (lirc) KEY_ENTER
+[10/03/17,20:55:06] (main.py) FIFO gave string: KEY_ENTER
+[10/03/17,20:55:06] (presenter.py) displaying file: [5]5.pdf
+[10/03/17,20:55:06] () 
+[10/03/17,20:55:10] (lirc) 8
+[10/03/17,20:55:10] (main.py) FIFO gave string: 8
+[10/03/17,20:55:11] (lirc) KEY_ENTER
+[10/03/17,20:55:11] (main.py) FIFO gave string: KEY_ENTER
+[10/03/17,20:55:11] (presenter.py) displaying file: [8]8.pdf
+[10/03/17,20:55:11] () 
+[10/03/17,20:55:17] (lirc) 9
+[10/03/17,20:55:17] (main.py) FIFO gave string: 9
+[10/03/17,20:55:18] (lirc) KEY_ENTER
+[10/03/17,20:55:18] (main.py) FIFO gave string: KEY_ENTER
+[10/03/17,20:55:18] (presenter.py) displaying file: [9]9.pdf
+[10/03/17,20:55:18] () 
+[10/03/17,20:55:23] (lirc) 7
+[10/03/17,20:55:23] (main.py) FIFO gave string: 7
+[10/03/17,20:55:24] (lirc) KEY_ENTER
+[10/03/17,20:55:24] (main.py) FIFO gave string: KEY_ENTER
+[10/03/17,20:55:25] (presenter.py) displaying file: [7]7.pdf
+[10/03/17,20:55:25] () 
+[10/03/17,20:55:33] (lirc) KEY_DELETE
+[10/03/17,20:55:33] (main.py) FIFO gave string: KEY_DELETE
+[10/03/17,20:55:33] (presenter.py) displaying file: [9]9.pdf
+[10/03/17,20:55:33] () 
+[10/03/17,20:55:38] (main.py) FIFO gave string: KEY_DELETE
+[10/03/17,20:55:38] (lirc) KEY_DELETE
+[10/03/17,20:55:38] (presenter.py) displaying file: [8]8.pdf
+[10/03/17,20:55:38] () 
+[10/03/17,20:55:45] (lirc) KEY_DELETE
+[10/03/17,20:55:45] (main.py) FIFO gave string: KEY_DELETE
+[10/03/17,20:55:45] (presenter.py) displaying file: [5]5.pdf
+[10/03/17,20:55:45] () 
+[10/03/17,20:55:51] (lirc) KEY_DELETE
+[10/03/17,20:55:51] (main.py) FIFO gave string: KEY_DELETE
+[10/03/17,20:55:51] (presenter.py) displaying file: [5]5.pdf
+[10/03/17,20:55:51] () 
+[10/03/17,20:55:55] (lirc) KEY_DELETE
+[10/03/17,20:55:55] (main.py) FIFO gave string: KEY_DELETE
+[10/03/17,20:55:55] (presenter.py) displaying file: [5]5.pdf
+[10/03/17,20:55:55] () 
+[10/03/17,20:55:57] (main.py) FIFO gave string: KEY_DELETE
+[10/03/17,20:55:57] (lirc) KEY_DELETE
+[10/03/17,20:55:57] (presenter.py) displaying file: [5]5.pdf
+[10/03/17,20:55:57] () 
+[10/03/17,20:55:58] (lirc) KEY_DELETE
+[10/03/17,20:55:58] (main.py) FIFO gave string: KEY_DELETE
+[10/03/17,20:55:58] (presenter.py) displaying file: [5]5.pdf
+[10/03/17,20:55:58] () 
+[10/03/17,21:02:49] (main.py) ##### Starting powerpoint script. #####
+[10/03/17,21:03:09] (main.py) USB initially present: /media/pi/USB_KARTICA/diapozitivi
+[10/03/17,21:03:10] (presenter.py) displaying file: [0]0.pdf
+[10/03/17,21:03:10] () 
+[10/03/17,21:03:14] (lirc) 2
+[10/03/17,21:03:14] (main.py) FIFO gave string: 2
+[10/03/17,21:03:16] (lirc) KEY_ENTER
+[10/03/17,21:03:16] (main.py) FIFO gave string: KEY_ENTER
+[10/03/17,21:03:16] (presenter.py) displaying file: [2]2.pdf
+[10/03/17,21:03:16] () 
+[10/03/17,21:03:20] (lirc) 8
+[10/03/17,21:03:20] (main.py) FIFO gave string: 8
+[10/03/17,21:03:20] (lirc) 9
+[10/03/17,21:03:20] (main.py) FIFO gave string: 9
+[10/03/17,21:03:21] (lirc) 6
+[10/03/17,21:03:21] (main.py) FIFO gave string: 6
+[10/03/17,21:03:21] (lirc) KEY_ENTER
+[10/03/17,21:03:21] (main.py) FIFO gave string: KEY_ENTER
+[10/03/17,21:04:20] (main.py) ##### Starting powerpoint script. #####
+[10/03/17,21:04:40] (main.py) USB initially present: /media/pi/USB_KARTICA/diapozitivi
+[10/03/17,21:04:40] (presenter.py) displaying file: [0]0.pdf
+[10/03/17,21:04:40] () 
+[10/03/17,21:05:30] (main.py) ##### Starting powerpoint script. #####
+[10/03/17,21:05:50] (main.py) USB initially present: /media/pi/USB_KARTICA/diapozitivi
+[10/03/17,21:05:50] (presenter.py) displaying file: [0]0.pdf
+[10/03/17,21:05:50] () 
+[10/03/17,21:06:00] (lirc) 1
+[10/03/17,21:06:00] (main.py) FIFO gave string: 1
+[10/03/17,21:06:00] (lirc) 5
+[10/03/17,21:06:00] (main.py) FIFO gave string: 5
+[10/03/17,21:06:01] (lirc) 9
+[10/03/17,21:06:01] (main.py) FIFO gave string: 9
+[10/03/17,21:06:02] (lirc) KEY_ENTER
+[10/03/17,21:06:02] (main.py) FIFO gave string: KEY_ENTER
+[10/03/17,21:06:02] (presenter.py) displaying file: [127]159.pdf
+[10/03/17,21:06:02] () 
+[10/03/17,21:06:07] (lirc) 5
+[10/03/17,21:06:07] (main.py) FIFO gave string: 5
+[10/03/17,21:06:07] (lirc) 6
+[10/03/17,21:06:07] (main.py) FIFO gave string: 6
+[10/03/17,21:06:07] (lirc) 3
+[10/03/17,21:06:07] (main.py) FIFO gave string: 3
+[10/03/17,21:06:09] (lirc) KEY_ENTER
+[10/03/17,21:06:09] (main.py) FIFO gave string: KEY_ENTER
+[10/03/17,21:06:09] (presenter.py) displaying file: [364]563.pdf
+[10/03/17,21:06:09] () 
+[10/03/17,21:06:14] (lirc) 1
+[10/03/17,21:06:14] (main.py) FIFO gave string: 1
+[10/03/17,21:06:14] (lirc) 1
+[10/03/17,21:06:14] (main.py) FIFO gave string: 1
+[10/03/17,21:06:15] (lirc) KEY_ENTER
+[10/03/17,21:06:15] (main.py) FIFO gave string: KEY_ENTER
+[10/03/17,21:06:15] (presenter.py) displaying file: [11]11.pdf
+[10/03/17,21:06:15] () 
+[10/03/17,21:06:19] (lirc) 1
+[10/03/17,21:06:19] (main.py) FIFO gave string: 1
+[10/03/17,21:06:19] (main.py) FIFO gave string: 1
+[10/03/17,21:06:19] (lirc) 1
+[10/03/17,21:06:20] (lirc) 2
+[10/03/17,21:06:20] (main.py) FIFO gave string: 2
+[10/03/17,21:06:22] (lirc) KEY_ENTER
+[10/03/17,21:06:22] (main.py) FIFO gave string: KEY_ENTER
+[10/03/17,21:06:22] (presenter.py) displaying file: [87]112.pdf
+[10/03/17,21:06:22] () 
+[10/03/17,21:06:27] (lirc) 9
+[10/03/17,21:06:27] (main.py) FIFO gave string: 9
+[10/03/17,21:06:28] (lirc) KEY_ENTER
+[10/03/17,21:06:28] (main.py) FIFO gave string: KEY_ENTER
+[10/03/17,21:06:28] (presenter.py) displaying file: [9]9.pdf
+[10/03/17,21:06:28] () 
+[10/03/17,21:06:45] (lirc) KEY_DELETE
+[10/03/17,21:06:45] (main.py) FIFO gave string: KEY_DELETE
+[10/03/17,21:06:45] (presenter.py) displaying file: [87]112.pdf
+[10/03/17,21:06:45] () 
+[10/03/17,21:06:51] (lirc) KEY_DELETE
+[10/03/17,21:06:51] (main.py) FIFO gave string: KEY_DELETE
+[10/03/17,21:06:51] (presenter.py) displaying file: [11]11.pdf
+[10/03/17,21:06:51] () 
+[10/03/17,21:06:53] (lirc) KEY_DELETE
+[10/03/17,21:06:53] (main.py) FIFO gave string: KEY_DELETE
+[10/03/17,21:06:54] (presenter.py) displaying file: [364]563.pdf
+[10/03/17,21:06:54] () 
+[10/03/17,21:06:57] (lirc) KEY_DELETE
+[10/03/17,21:06:57] (main.py) FIFO gave string: KEY_DELETE
+[10/03/17,21:06:57] (presenter.py) displaying file: [127]159.pdf
+[10/03/17,21:06:57] () 
+[10/03/17,21:07:02] (lirc) KEY_DELETE
+[10/03/17,21:07:02] (main.py) FIFO gave string: KEY_DELETE
+[10/03/17,21:07:02] (presenter.py) displaying file: [0]0.pdf
+[10/03/17,21:07:02] () 
+[10/03/17,21:07:06] (lirc) KEY_DELETE
+[10/03/17,21:07:06] (main.py) FIFO gave string: KEY_DELETE
+[10/03/17,21:07:06] (presenter.py) displaying file: [0]0.pdf
+[10/03/17,21:07:06] () 
+[10/03/17,21:07:09] (lirc) KEY_DELETE
+[10/03/17,21:07:09] (main.py) FIFO gave string: KEY_DELETE
+[10/03/17,21:07:09] (presenter.py) displaying file: [0]0.pdf
+[10/03/17,21:07:09] () 
+[10/03/17,21:07:11] (lirc) KEY_DELETE
+[10/03/17,21:07:11] (main.py) FIFO gave string: KEY_DELETE
+[10/03/17,21:07:11] (presenter.py) displaying file: [0]0.pdf
+[10/03/17,21:07:12] () 
+[10/03/17,21:07:18] (lirc) KEY_VOLUMEUP
+[10/03/17,21:07:18] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/03/17,21:07:18] (presenter.py) displaying file: [0]0.pdf
+[10/03/17,21:07:18] () 
+[10/03/17,21:07:20] (lirc) KEY_VOLUMEUP
+[10/03/17,21:07:20] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/03/17,21:07:21] (presenter.py) displaying file: [0]0.pdf
+[10/03/17,21:07:21] () 
+[10/03/17,21:07:23] (lirc) 5
+[10/03/17,21:07:23] (main.py) FIFO gave string: 5
+[10/03/17,21:07:24] (lirc) KEY_ENTER
+[10/03/17,21:07:24] (main.py) FIFO gave string: KEY_ENTER
+[10/03/17,21:07:25] (presenter.py) displaying file: [5]5.pdf
+[10/03/17,21:07:25] () 
+[10/03/17,21:07:27] (lirc) 6
+[10/03/17,21:07:27] (main.py) FIFO gave string: 6
+[10/03/17,21:07:28] (lirc) KEY_ENTER
+[10/03/17,21:07:28] (main.py) FIFO gave string: KEY_ENTER
+[10/03/17,21:07:28] (presenter.py) displaying file: [6]6.pdf
+[10/03/17,21:07:28] () 
+[10/03/17,21:07:30] (lirc) 7
+[10/03/17,21:07:30] (main.py) FIFO gave string: 7
+[10/03/17,21:07:32] (lirc) KEY_ENTER
+[10/03/17,21:07:32] (main.py) FIFO gave string: KEY_ENTER
+[10/03/17,21:07:32] (presenter.py) displaying file: [7]7.pdf
+[10/03/17,21:07:32] () 
+[10/03/17,21:07:35] (lirc) 0
+[10/03/17,21:07:35] (main.py) FIFO gave string: 0
+[10/03/17,21:07:36] (lirc) KEY_ENTER
+[10/03/17,21:07:36] (main.py) FIFO gave string: KEY_ENTER
+[10/03/17,21:07:36] (presenter.py) displaying file: [0]0.pdf
+[10/03/17,21:07:36] () 
+[10/03/17,21:07:40] (lirc) 8
+[10/03/17,21:07:40] (main.py) FIFO gave string: 8
+[10/03/17,21:07:40] (lirc) 0
+[10/03/17,21:07:40] (main.py) FIFO gave string: 0
+[10/03/17,21:07:40] (lirc) KEY_ENTER
+[10/03/17,21:07:40] (main.py) FIFO gave string: KEY_ENTER
+[10/03/17,21:07:40] (presenter.py) displaying file: [76]80.pdf
+[10/03/17,21:07:40] () 
+[10/03/17,21:07:47] (lirc) KEY_DELETE
+[10/03/17,21:07:47] (main.py) FIFO gave string: KEY_DELETE
+[10/03/17,21:07:47] (presenter.py) displaying file: [0]0.pdf
+[10/03/17,21:07:47] (lirc) KEY_DELETE
+[10/03/17,21:07:47] () 
+[10/03/17,21:07:48] (lirc) KEY_DELETE
+[10/03/17,21:07:48] (main.py) FIFO gave string: KEY_DELETE
+[10/03/17,21:07:48] (lirc) KEY_DELETE
+[10/03/17,21:07:48] (lirc) KEY_DELETE
+[10/03/17,21:07:48] (presenter.py) displaying file: [7]7.pdf
+[10/03/17,21:07:48] (lirc) KEY_DELETE
+[10/03/17,21:07:48] () 
+[10/03/17,21:07:49] (lirc) KEY_DELETE
+[10/03/17,21:07:49] (lirc) KEY_DELETE
+[10/03/17,21:07:49] (main.py) FIFO gave string: KEY_DELETE
+[10/03/17,21:07:49] (lirc) KEY_DELETE
+[10/03/17,21:07:49] (lirc) KEY_DELETE
+[10/03/17,21:07:49] (presenter.py) displaying file: [6]6.pdf
+[10/03/17,21:07:50] (lirc) KEY_DELETE
+[10/03/17,21:07:50] () 
+[10/03/17,21:07:50] (lirc) KEY_DELETE
+[10/03/17,21:07:50] (lirc) KEY_DELETE
+[10/03/17,21:07:50] (main.py) FIFO gave string: KEY_DELETE
+[10/03/17,21:07:51] (lirc) KEY_DELETE
+[10/03/17,21:07:51] (presenter.py) displaying file: [5]5.pdf
+[10/03/17,21:07:51] (lirc) KEY_DELETE
+[10/03/17,21:07:51] (lirc) KEY_DELETE
+[10/03/17,21:07:51] (lirc) KEY_DELETE
+[10/03/17,21:07:51] () 
+[10/03/17,21:07:51] (lirc) KEY_DELETE
+[10/03/17,21:07:51] (lirc) KEY_DELETE
+[10/03/17,21:07:51] (lirc) KEY_DELETE
+[10/03/17,21:07:52] (lirc) KEY_DELETE
+[10/03/17,21:07:52] (lirc) KEY_DELETE
+[10/03/17,21:07:52] (main.py) FIFO gave string: KEY_DELETE
+[10/03/17,21:07:52] (presenter.py) displaying file: [0]0.pdf
+[10/03/17,21:07:52] () 
+[10/03/17,21:07:52] (main.py) FIFO gave string: KEY_DELETE
+[10/03/17,21:07:53] (presenter.py) displaying file: [0]0.pdf
+[10/03/17,21:07:53] () 
+[10/03/17,21:07:53] (main.py) FIFO gave string: KEY_DELETE
+[10/03/17,21:07:53] (presenter.py) displaying file: [0]0.pdf
+[10/03/17,21:07:54] () 
+[10/03/17,21:07:54] (main.py) FIFO gave string: KEY_DELETE
+[10/03/17,21:07:54] (presenter.py) displaying file: [0]0.pdf
+[10/03/17,21:07:54] () 
+[10/03/17,21:07:54] (main.py) FIFO gave string: KEY_DELETE
+[10/03/17,21:07:55] (presenter.py) displaying file: [0]0.pdf
+[10/03/17,21:07:55] () 
+[10/03/17,21:07:55] (main.py) FIFO gave string: KEY_DELETE
+[10/03/17,21:07:55] (presenter.py) displaying file: [0]0.pdf
+[10/03/17,21:07:56] () 
+[10/03/17,21:07:56] (main.py) FIFO gave string: KEY_DELETE
+[10/03/17,21:07:56] (presenter.py) displaying file: [0]0.pdf
+[10/03/17,21:07:56] () 
+[10/03/17,21:07:56] (main.py) FIFO gave string: KEY_DELETE
+[10/03/17,21:07:57] (presenter.py) displaying file: [0]0.pdf
+[10/03/17,21:07:57] () 
+[10/03/17,21:07:57] (main.py) FIFO gave string: KEY_DELETE
+[10/03/17,21:07:57] (presenter.py) displaying file: [0]0.pdf
+[10/03/17,21:07:57] () 
+[10/03/17,21:07:58] (main.py) FIFO gave string: KEY_DELETE
+[10/03/17,21:07:58] (presenter.py) displaying file: [0]0.pdf
+[10/03/17,21:07:58] () 
+[10/03/17,21:07:58] (main.py) FIFO gave string: KEY_DELETE
+[10/03/17,21:07:59] (presenter.py) displaying file: [0]0.pdf
+[10/03/17,21:07:59] () 
+[10/03/17,21:07:59] (main.py) FIFO gave string: KEY_DELETE
+[10/03/17,21:07:59] (presenter.py) displaying file: [0]0.pdf
+[10/03/17,21:08:00] () 
+[10/03/17,21:08:00] (main.py) FIFO gave string: KEY_DELETE
+[10/03/17,21:08:00] (presenter.py) displaying file: [0]0.pdf
+[10/03/17,21:08:00] () 
+[10/03/17,21:08:00] (main.py) FIFO gave string: KEY_DELETE
+[10/03/17,21:08:01] (presenter.py) displaying file: [0]0.pdf
+[10/03/17,21:08:01] () 
+[10/03/17,21:08:01] (main.py) FIFO gave string: KEY_DELETE
+[10/03/17,21:08:02] (presenter.py) displaying file: [0]0.pdf
+[10/03/17,21:08:02] () 
+[10/03/17,21:08:02] (main.py) FIFO gave string: KEY_DELETE
+[10/03/17,21:08:02] (presenter.py) displaying file: [0]0.pdf
+[10/03/17,21:08:02] () 
+[10/03/17,21:08:03] (main.py) FIFO gave string: KEY_DELETE
+[10/03/17,21:08:03] (presenter.py) displaying file: [0]0.pdf
+[10/03/17,21:08:03] () 
+[10/03/17,21:08:03] (main.py) FIFO gave string: KEY_DELETE
+[10/03/17,21:08:04] (presenter.py) displaying file: [0]0.pdf
+[10/03/17,21:08:04] () 

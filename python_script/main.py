@@ -113,6 +113,7 @@ if __name__ == "__main__":
 		elif st == "KEY_DELETE":
 			pr.input_buffer = ""
                         pr.mem_list.pop()
+                        pr.set_cfi(pr.mem_list.get_file_index())
                         pr.display_file()
 		elif st == "KEY_UP":
 			pr.next_file()
