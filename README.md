@@ -112,46 +112,29 @@ In `~/.bashrc`, ad a line at the bottom of the file:
 /home/pi/git/RPI_Projector/autostart.sh
 ```
 
-## TODO ##
-* remove sleep after n min  
+## Disable screen sleep ##
+### first alternative: ###
+Set per user session using the command:  
+```bash
+$ setterm -blank 0 -powerdown 0
 ```
-Open terminal
-Open:
-
-Code: Select all
-
-sudo nano /boot/config.txt
-
-Add:
-
-Code: Select all
-
+Configure it in `~/.bashrc`.  
+### 2nd alternative: ###
+Edit file: `/boot/config.txt`:  
+```bash
 # power down monitor when lockscreen enabled
 hdmi_blanking=1
-
-Code: Select all
-
-sudo nano ~/.config/lxsession/LXDE-pi/autostart
-
-add:
-
-Code: Select all
-
+```
+Edit file: `/home/pi/.config/lxsession/LDXE-pi/autostart`. Add:
+```
 @xset s 0 0
 @xset s noblank
 @xset s noexpose
 @xset dpms 0 0 0
-
-Save 'Cntrl +X', then 'Y', then 'Enter'
-
-reboot
-
-Code: Select all
-
-sudo reboot
 ```
-* fix usb reader (folder pi/media not found)
-* test lirc for keyboard inputs (fifo not getting signals)
+Reboot.  
 
+## TODO ##
+* fix usb reader (folder pi/media not found)
 
 
