@@ -1,8 +1,1 @@
-XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
-      after 979 requests (979 known processed) with 18 events remaining.
-Traceback (most recent call last):
-  File "/home/pi/git/RPI_Projector/python_script/main.py", line 115, in <module>
-    pr.mem_list.pop()
-  File "/home/pi/git/RPI_Projector/python_script/presenter.py", line 23, in pop
-    self.mem_list.pop()
-IndexError: pop from empty list
+

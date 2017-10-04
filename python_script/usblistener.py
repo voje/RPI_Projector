@@ -13,10 +13,20 @@ class UsbListener:
 	def find_usbs(self):
 		uname = getpass.getuser()
 		media_dir = "/media/%s" % (uname)
-		new_usbs_list = os.listdir(media_dir)
-		if len(new_usbs_list) != len(self.usbs_list):
+                if not os.path.isdir(media_dir):
+                    return
+		new_potential_usbs_list = os.listdir(media_dir)
+                #only include those with a "self.dirname"
+                new_usbs_list = []
+                for pot in new_potential_usbs_list:
+                    path = "/media/%s/%s" % (uname, pot)
+                    if os.path.isdir(path):
+                        new_usbs_list += [pot]
+
+		if new_usbs_list != self.usbs_list:
 			self.change = True
 			self.usbs_list = new_usbs_list
+                        self.lg.log_event( "usblistener.py", "usb_list updated: %s" % (self.usbs_list) )
 
 	def new_usb(self):
 		#Returns boolean if state has changes. Also changes flag after we checked the state.
@@ -37,7 +47,7 @@ class UsbListener:
 			#wait for mount
 			start_time = time.time()
 			dtime = 0
-			while (not os.path.isdir(path)) and (dtime < 5):
+			while (not os.path.isdir(path)) and (dtime < 1):
 				dtime = time.time() - start_time
 				#print "waiting for usb data...%f" % (dtime)
 			if os.path.isdir(path):
