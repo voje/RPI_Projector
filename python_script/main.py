@@ -16,7 +16,7 @@ if __name__ == "__main__":
 	print "Client ready."
 
 	#initially display file 0
-	time.sleep(20);
+	time.sleep(20);     #todo
 	pr.ul.find_usbs()
 	if pr.ul.new_usb():
 		#print "USB initially present."
@@ -25,15 +25,22 @@ if __name__ == "__main__":
 		pr.get_files_list(pr.ul.dir_path)
 	pr.display_file()
 
-	time_start = time.time()
+	#time_start = time.time()
+
+        #Open fifo
+	#FIFO = os.open(pr.fifo_path, os.O_RDONLY | os.O_NONBLOCK)
+	FIFO = open(pr.fifo_path, 'r')
+
 	while True:
 		#time.sleep(0.3)
 
-		#debugging this loop
+		#debugging this loop (not necessary, we'll be waiting for events in the fifo loop)
+                """
 		time_diff = time.time() - time_start
 		time_start = time.time()
 		if time_diff > 10:
 			lg.log_event( "main.py", "MAIN_LOOP_ERROR: long cycle in main loop" )
+                """
 
 		#check if new USB was inserted
 		pr.ul.find_usbs()
@@ -45,24 +52,23 @@ if __name__ == "__main__":
 			pr.display_file()
 
 		#check fifo for new input from ir remote
-		FIFO = os.open(pr.fifo_path, os.O_RDONLY | os.O_NONBLOCK)
-		#FIFO = open(pr.fifo_path, 'r', 0)
 		read_done = False
 		st = "" 
 		while not read_done:
 			try:
-				st = os.read(FIFO, 200)
-				#for line in FIFO:
-				#	st = st + line
-				read_done = True
+				#st = os.read(FIFO, 200)
+                                st = FIFO.readline()
+                                if st != "":
+                                    read_done = True
 				#print "FIFO: %s" % (st)
 			except:
 				pass
-		os.close(FIFO)
-		#FIFO.close()
+
+                # Possible error handling
 		if st == "":
 			continue
 			lg.log_event("main.py", "FIFO gave empty string.")
+
 		#remove newline
 		st = st[0:-1]
 		lg.log_event("main.py", "FIFO gave string: "+st)
@@ -107,6 +113,7 @@ if __name__ == "__main__":
 		elif st == "KEY_DELETE":
 			pr.input_buffer = ""
                         pr.mem_list.pop()
+                        pr.set_cfi(pr.mem_list.get_file_index())
                         pr.display_file()
 		elif st == "KEY_UP":
 			pr.next_file()
@@ -122,4 +129,3 @@ if __name__ == "__main__":
 			pr.mem_list.decrement_index()
 			pr.set_cfi(pr.mem_list.get_file_index())
 			pr.display_file()
-

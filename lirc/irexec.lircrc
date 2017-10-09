@@ -1,60 +1,115 @@
-#
-# Initial test configuration for systemwide irexec service.
-#
-# Note that the system-wide service is useful only in corner-cases.
-# Most scenarios are better off with a session service as described in the
-# Configuration Guide. However, note that both can also be combined.
-#
-# Also note that the system-wide service runs without a terminal. To
-# check the output generated use something like
-# 'journalctl -b0 /usr/bin/irexec'. This service just echoes some keys
-# commonly available.
-#
+# My custom lircrc for project RPI_Projector
 
 begin
-    prog   = irexec
-    button = KEY_RED
-    config = echo "KEY_RED"
+	prog = irexec
+	button = KEY_0
+	config = bash /etc/lirc/helper.sh "0"
 end
 
 begin
-    prog   = irexec
-    button = KEY_BLUE
-    config = echo "KEY_BLUE"
+	prog = irexec
+	button = KEY_1
+	config = bash /etc/lirc/helper.sh "1"
 end
 
 begin
-    prog   = irexec
-    button = KEY_1
-    config = echo "KEY_1"
+	prog = irexec
+	button = KEY_2
+	config = bash /etc/lirc/helper.sh "2"
 end
 
 begin
-    prog   = irexec
-    button = KEY_2
-    config = echo "KEY_2"
+	prog = irexec
+	button = KEY_3
+	config = bash /etc/lirc/helper.sh "3"
 end
 
 begin
-    prog   = irexec
-    button = KEY_3
-    config = echo "KEY_3"
+	prog = irexec
+	button = KEY_4
+	config = bash /etc/lirc/helper.sh "4"
 end
 
 begin
-    prog   = irexec
-    button = KEY_OK
-    config = echo "KEY_OK"
+	prog = irexec
+	button = KEY_5
+	config = bash /etc/lirc/helper.sh "5"
 end
 
 begin
-    prog   = irexec
-    button = KEY_LEFT
-    config = echo "KEY_LEFT"
+	prog = irexec
+	button = KEY_6
+	config = bash /etc/lirc/helper.sh "6"
 end
 
 begin
-    prog   = irexec
-    button = KEY_RIGHT
-    config = echo "KEY_RIGHT"
+	prog = irexec
+	button = KEY_7
+	config = bash /etc/lirc/helper.sh "7"
+end
+
+begin
+	prog = irexec
+	button = KEY_8
+	config = bash /etc/lirc/helper.sh "8"
+end
+
+begin
+	prog = irexec
+	button = KEY_9
+	config = bash /etc/lirc/helper.sh "9"
+end
+
+begin
+	prog = irexec
+	button = KEY_O
+	config = bash /etc/lirc/helper.sh "KEY_O"
+end
+
+begin
+	prog = irexec
+	button = KEY_P
+	config = bash /etc/lirc/helper.sh "KEY_P"
+end
+
+begin
+	prog = irexec
+	button = KEY_R
+	config = bash /etc/lirc/helper.sh "KEY_R"
+end
+
+begin
+	prog = irexec
+	button = KEY_ENTER
+	config = bash /etc/lirc/helper.sh "KEY_ENTER"
+end
+
+begin
+	prog = irexec
+	button = KEY_DELETE
+	config = bash /etc/lirc/helper.sh "KEY_DELETE"
+end
+
+begin
+	prog = irexec
+	button = KEY_UP
+	config = bash /etc/lirc/helper.sh "KEY_UP"
+end
+
+begin
+	prog = irexec
+	button = KEY_DOWN
+	config = bash /etc/lirc/helper.sh "KEY_DOWN"
+end
+
+begin
+	prog = irexec
+	button = KEY_VOLUMEUP
+	config = bash /etc/lirc/helper.sh "KEY_VOLUMEUP"
+end
+
+begin
+	prog = irexec
+	button = KEY_VOLUMEDOWN
+	config = bash /etc/lirc/helper.sh "KEY_VOLUMEDOWN"
 end

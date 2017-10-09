@@ -8,7 +8,6 @@ I'll try to include as many details as I can for future reference.
 |msd|Micro SD card
 |lirc|Linux infrared remote control
 
-
 ## Installing Raspbian ##
 Requirements:
 * rpi 
@@ -74,6 +73,15 @@ dns-nameservers 8.8.8.8
 Reboot your rpi. You should be able to connect remotely now.  
 `$ ssh pi@192.168.1.142`
 
+## Disable screen sleep ##
+While using the desktop, install `xscreensaver` and disable it. 
+
+## Disable mouse cursor
+Edit file: `/etc/lightdm/lightdm.conf`. Look for `[Seat:*]` and insert:  
+```
+xserver-command=X -nocursor
+```
+
 ## Setting up lirc ##  
 First, you need to set up the hardware, i.e., connect the IR receiver to the correct pins. We're using 18 as input. Some details in the (slo) instruction in `/navodila/`. For english, google it.  
 ```bash
@@ -97,19 +105,23 @@ $ mode2 -d /dev/lirc0
 # We're getting signals. Now let's test whether lircd maps the signals onto the right commands.
 $ sudo irw
 ```
+To enable sending received commands forward, enable irexec service. Copy `lircrc` into irexec configuration file. Check location with `sudo service irexec status`. In my case, it was `/etc/lirc/irexec.lircrc/`.
+```bash
+$ sudo service lircd enable
+$ sudo service irexec enable
+```
 
 ## Xpdf setup ##
-There seemed to be a bug with Xpdf includes. You can comment a line in `/etc/xpdf/xpdfrc` to avoid it.
+There seemed to be a bug with Xpdf includes. You can comment out a line in `/etc/xpdf/xpdfrc` to avoid it.
 
 ## Run presentation script at startup ##
-In `~/.bashrc`, ad a line at the bottom of the file: 
+In `~/.bashrc`, add a line at the bottom of the file: 
 ```bash
 /home/pi/git/RPI_Projector/autostart.sh
 ```
 
+
 ## TODO ##
-* remove sleep after n min
 * fix usb reader (folder pi/media not found)
-* test lirc for keyboard inputs (fifo not getting signals)
 
 

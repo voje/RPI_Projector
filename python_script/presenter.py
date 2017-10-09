@@ -20,6 +20,9 @@ class MemoryList:
 		self.mem_index = len(self.mem_list)-1
 
         def pop(self):
+                if len(self.mem_list) == 0:
+                    self.mem_index = -1
+                    return
                 self.mem_list.pop()
                 self.mem_index = len(self.mem_list)-1
 
@@ -94,6 +97,7 @@ class Presenter:
 
 	def set_cfi(self, index):
 		if index < 0:
+                        self.current_file_index = 0
 			return
 		self.current_file_index = index
 
@@ -133,6 +137,8 @@ class Presenter:
 
 	def display_file(self, blank=False):
 		server = "my_server"
+                if self.current_file_index < 0:
+                    self.current_file_index = 0
 		file = self.files_list[self.current_file_index]
 		if blank:
 			file = self.files_list[0]
