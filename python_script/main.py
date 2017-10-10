@@ -16,13 +16,10 @@ if __name__ == "__main__":
 	print "Client ready."
 
 	#initially display file 0
-	time.sleep(20);     #todo
-	pr.ul.find_usbs()
-	if pr.ul.new_usb():
-		#print "USB initially present."
-		pr.ul.get_dir_path()
-		lg.log_event( "main.py", "USB initially present: %s" % (pr.ul.dir_path) )
-		pr.get_files_list(pr.ul.dir_path)
+	lg.log_event("main.py", "##### Waiting for USB. #####")
+	pr.ul.find_usb()
+        lg.log_event("main.py", "Found media USB: %s" % (pr.files_path))
+	pr.get_files_list(pr.ul.usb_dir_path)
 	pr.display_file()
 
 	#time_start = time.time()
@@ -32,7 +29,7 @@ if __name__ == "__main__":
 	FIFO = open(pr.fifo_path, 'r')
 
 	while True:
-		#time.sleep(0.3)
+		time.sleep(0.3)
 
 		#debugging this loop (not necessary, we'll be waiting for events in the fifo loop)
                 """
@@ -43,18 +40,18 @@ if __name__ == "__main__":
                 """
 
 		#check if new USB was inserted
-		pr.ul.find_usbs()
-		if pr.ul.new_usb():
-			pr.ul.get_dir_path()
-			lg.log_event( "main.py", "USB change detected: %s" % (pr.ul.dir_path) )
-			pr.get_files_list(pr.ul.dir_path)
-			#display first file from storage
-			pr.display_file()
+                if not os.path.isdir(pr.ul.usb_dir_path):
+                    lg.log_event("main.py", "Waiting for new USB")
+                    pr.ul.find_usb()
+                    pr.get_files_list(pr.ul.usb_dir_path)
+                    lg.log_event("main.py", "Found media USB: %s" % (pr.files_path))
+                    pr.display_file()
 
 		#check fifo for new input from ir remote
 		read_done = False
 		st = "" 
 		while not read_done:
+                        time.sleep(0.3)
 			try:
 				#st = os.read(FIFO, 200)
                                 st = FIFO.readline()

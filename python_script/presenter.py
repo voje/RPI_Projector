@@ -69,7 +69,7 @@ class Presenter:
 		self.files_path = ""
 		self.get_default_file_path()
 		self.files_list = []
-		self.get_files_list()
+		#self.get_files_list()
 		self.current_file_index = 0					#displayed file
 		self.ul = UsbListener(self.dirname, logger)
 		self.input_buffer = ""
@@ -143,6 +143,8 @@ class Presenter:
 		if blank:
 			file = self.files_list[0]
 		file_path = self.files_path + "/" + file
+                if not os.path.exists(file_path):
+                    file_path = "%s/diapozitivi/default.pdf" % (self.script_path)
 		try:
 			#fullscreen mode
 			os.system("xpdf -fullscreen -remote %s '%s' &" % (server, file_path))
