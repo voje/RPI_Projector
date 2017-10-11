@@ -1,0 +1,359 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "python_script/main.py",
+			"settings":
+			{
+				"buffer_size": 3986,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 264.0,
+		"selected_items":
+		[
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"html",
+				"HTML: Encode Special Characters"
+			],
+			[
+				":noh",
+				"HTML: Encode Special Characters"
+			],
+			[
+				":",
+				":w - Save"
+			],
+			[
+				":go",
+				"Set Syntax: Go"
+			],
+			[
+				":q",
+				"Set Syntax: SQL"
+			],
+			[
+				":x",
+				"Set Syntax: XSL"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/kristjan/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/kristjan/git/RPI_Projector/README.md",
+		"/home/kristjan/git/RPI_Projector/rpi.sublime-workspace",
+		"/home/kristjan/git/RPI_Projector/python_script/main.py",
+		"/home/kristjan/git/stayinshape/angular/app1/exercise1.html",
+		"/home/kristjan/git/stayinshape/angular/app1/index.html",
+		"/home/kristjan/git/RPI_Projector/python_script/usblistener.py",
+		"/home/kristjan/git/RPI_Projector/python_script/tcp_client.py",
+		"/home/kristjan/git/RPI_Projector/python_script/presenter.py",
+		"/home/kristjan/git/RPI_Projector/python_script/logger_wrapper.py",
+		"/home/kristjan/git/RPI_Projector/python_script/key_catch.py",
+		"/home/kristjan/git/stayinshape/angular/app1/README.md",
+		"/home/kristjan/go/src/bitbucket.com/dictionarizer/pdf_test.go",
+		"/home/kristjan/go/src/bitbucket.com/dictionarizer/draw_pdf.go",
+		"/home/kristjan/go/src/bitbucket.com/dictionarizer/main.go",
+		"/home/kristjan/go/src/bitbucket.com/dictionarizer/sample.go",
+		"/home/kristjan/go/src/bitbucket.com/dictionarizer/api_struct.go",
+		"/home/kristjan/go/src/bitbucket.com/dictionarizer/README.md",
+		"/home/kristjan/go/src/github.com/jung-kurt/gofpdf/pdf/draw_pdf.go",
+		"/home/kristjan/go/src/github.com/jung-kurt/gofpdf/pdf/pdf_test.go",
+		"/home/kristjan/go/src/bitbucket.com/dictionarizer/main_test.go",
+		"/home/kristjan/go/src/bitbucket.com/manganizer/main.go",
+		"/home/kristjan/go/src/bitbucket.com/manganizer/log.txt",
+		"/home/kristjan/go/src/bitbucket.com/dictionarizer/main.",
+		"/home/kristjan/go/src/bitbucket.com/manganizer/README.md",
+		"/home/kristjan/go/src/bitbucket.com/manganizer/testing_socket.go",
+		"/home/kristjan/go/src/bitbucket.com/manganizer/testing_socket.asfd",
+		"/home/kristjan/go/src/bitbucket.com/manganizer/socket_test.go",
+		"/home/kristjan/go/src/bitbucket/manganizer/main.go",
+		"/home/kristjan/go/src/bitbucket.com/dictionarizer/README",
+		"/home/kristjan/go/src/bitbucket/manganizer/README.md",
+		"/home/kristjan/go/src/bitbucket/dictionarizer/sample.go",
+		"/home/kristjan/go/src/bitbucket/dictionarizer/api_struct.go",
+		"/home/kristjan/go/src/bitbucket/dictionarizer/main.go",
+		"/home/kristjan/go/src/bitbucket/dictionarizer/main_test.go",
+		"/home/kristjan/Desktop/test.txt",
+		"/home/kristjan/.ssh/id_rsa.pub"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"api_call",
+			"translate_samples",
+			"translate",
+			"samples",
+			"word_count",
+			"read_file",
+			"print_samp",
+			"sample",
+			"samp_cap",
+			"func sample",
+			"sample",
+			"sample(",
+			"samp_cap",
+			"output_cap",
+			"samp_cap",
+			"200",
+			"30",
+			"output_cap",
+			"samp_cap",
+			"output_samples",
+			"api_call",
+			"translate",
+			"samples",
+			"trans",
+			"trals",
+			"orit",
+			"16",
+			"orig",
+			"api_call_counter",
+			"i",
+			"api_call",
+			"samples",
+			"api_call",
+			"translate",
+			"dl_page",
+			"dl_p",
+			"sleep",
+			"go ",
+			"error",
+			"dl_page",
+			"404",
+			"dl_",
+			"succ",
+			"translate",
+			"get",
+			"dl_page",
+			"a_path",
+			"get",
+			"finished",
+			"dl_p",
+			"finished_ep",
+			"debug",
+			"fmt.",
+			"finished_ep",
+			"finished",
+			"debug",
+			"finished_ep",
+			"dl_ep",
+			"if deb",
+			"episode_nr",
+			"dl_page",
+			"finished",
+			"chan",
+			"block",
+			"max",
+			"finished",
+			"dl_page",
+			"strcon",
+			"strco",
+			"episode_nr",
+			"SUCC",
+			"finished",
+			"0666",
+			"0664",
+			"0644",
+			"0777",
+			"644",
+			"ioutil",
+			"img",
+			"check",
+			"_ERR",
+			"fmt",
+			"\"_?_\"",
+			"_?_",
+			"100",
+			"orig",
+			"freq",
+			"tword",
+			"insert_word",
+			"tword",
+			"w",
+			"Float64",
+			"words1"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"output_samples",
+			"transl",
+			"trans",
+			"orig",
+			"0766",
+			"0666",
+			"0664",
+			"0644",
+			"0777",
+			"TRANSL_ERR"
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "python_script/main.py",
+					"settings":
+					{
+						"buffer_size": 3986,
+						"regions":
+						{
+							"bookmark_f":
+							{
+								"flags": 144,
+								"regions":
+								[
+									[
+										3986,
+										3986
+									]
+								]
+							}
+						},
+						"selection":
+						[
+							[
+								3517,
+								3517
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1194.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

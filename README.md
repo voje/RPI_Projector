@@ -11,7 +11,7 @@ I'll try to include as many details as I can for future reference.
 ## Installing Raspbian ##
 Requirements:
 * rpi 
-* computer with linux + sd card reader slot 
+* computer with linux + sd card reader slot P
 * msd >= 8GB  
 
 Raspbian is a Debian based OS that runs on rpi. Download an `.img` from their official site.  
@@ -110,6 +110,11 @@ To enable sending received commands forward, enable irexec service. Copy `lircrc
 $ sudo service lircd enable
 $ sudo service irexec enable
 ```
+
+## Setting up keyboard input ##
+Lirc is unreliable. I added optional usage of a USB keyboard.  
+It's a bit of a hack but I'm capturing all keyboard input in a focused terminal window running a custom script `./bluetooth/capture.sh` that's mapping keyboard keys onto commands for the projection (like KEY_UP). The script is sending the commands to `ir.fifo` from where it's the same as with lirc commands.  
+The script `./autostart.sh` should be ran when the desktop is finished loading. I've added it as the last line in file: `/home/pi/.config/lxsession/LXDE-pi`. The script runs the main projection script, waits for Xpdf to start a full screen slide and then starts the terminal window with `capture.sh`. It also resizes the window and keeps it focused.  
 
 ## Xpdf setup ##
 There seemed to be a bug with Xpdf includes. You can comment out a line in `/etc/xpdf/xpdfrc` to avoid it.
