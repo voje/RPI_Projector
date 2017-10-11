@@ -9026,3 +9026,53 @@
 [10/11/17,15:25:46] (main.py) FIFO gave string: KEY_UP
 [10/11/17,15:25:46] (presenter.py) displaying file: [7]7.pdf
 [10/11/17,15:25:46] () 
+[10/11/17,15:32:23] (main.py) ##### Starting powerpoint script. #####
+[10/11/17,15:32:23] (main.py) ##### Checking for USB. #####
+[10/11/17,15:33:05] (usblistener.py) detected USB with media: /media/pi/USB_KARTICA/diapozitivi
+[10/11/17,15:33:06] (presenter.py) displaying file: [0]0.pdf
+[10/11/17,15:33:06] () 
+[10/11/17,15:33:06] (main.py) using path to files: /media/pi/USB_KARTICA/diapozitivi
+[10/11/17,15:34:23] (capture.sh) KEY_UP
+[10/11/17,15:34:23] (main.py) FIFO gave string: KEY_UP
+[10/11/17,15:34:23] (presenter.py) displaying file: [1]1.pdf
+[10/11/17,15:34:23] () 
+[10/11/17,15:34:31] (capture.sh) KEY_UP
+[10/11/17,15:34:32] (main.py) FIFO gave string: KEY_UP
+[10/11/17,15:34:32] (presenter.py) displaying file: [2]2.pdf
+[10/11/17,15:34:32] () 
+[10/11/17,15:34:35] (capture.sh) KEY_UP
+[10/11/17,15:34:35] (main.py) FIFO gave string: KEY_UP
+[10/11/17,15:34:36] (presenter.py) displaying file: [3]3.pdf
+[10/11/17,15:34:36] () 
+[10/11/17,15:34:40] (capture.sh) KEY_UP
+[10/11/17,15:34:40] (main.py) FIFO gave string: KEY_UP
+[10/11/17,15:34:40] (presenter.py) displaying file: [4]4.pdf
+[10/11/17,15:34:41] () 
+[10/11/17,15:34:45] (capture.sh) KEY_UP
+[10/11/17,15:34:45] (main.py) FIFO gave string: KEY_UP
+[10/11/17,15:34:45] (presenter.py) displaying file: [5]5.pdf
+[10/11/17,15:34:45] () 
+[10/11/17,15:36:32] (capture.sh) KEY_UP
+[10/11/17,15:36:32] (main.py) FIFO gave string: KEY_UP
+[10/11/17,15:36:32] (presenter.py) displaying file: [6]6.pdf
+[10/11/17,15:36:32] () 
+[10/11/17,15:36:36] (capture.sh) KEY_UP
+[10/11/17,15:36:36] (main.py) FIFO gave string: KEY_UP
+[10/11/17,15:36:36] (presenter.py) displaying file: [7]7.pdf
+[10/11/17,15:36:36] () 
+[10/11/17,15:36:40] (capture.sh) KEY_UP
+[10/11/17,15:36:40] (main.py) FIFO gave string: KEY_UP
+[10/11/17,15:36:41] (presenter.py) displaying file: [8]8.pdf
+[10/11/17,15:36:41] () 
+[10/11/17,15:36:44] (capture.sh) KEY_UP
+[10/11/17,15:36:44] (main.py) FIFO gave string: KEY_UP
+[10/11/17,15:36:44] (presenter.py) displaying file: [9]9.pdf
+[10/11/17,15:36:45] () 
+[10/11/17,15:36:51] (capture.sh) KEY_DOWN
+[10/11/17,15:36:52] (main.py) FIFO gave string: KEY_DOWN
+[10/11/17,15:36:52] (presenter.py) displaying file: [8]8.pdf
+[10/11/17,15:36:52] () 
+[10/11/17,15:36:55] (capture.sh) KEY_UP
+[10/11/17,15:36:55] (main.py) FIFO gave string: KEY_UP
+[10/11/17,15:36:55] (presenter.py) displaying file: [9]9.pdf
+[10/11/17,15:36:56] () 

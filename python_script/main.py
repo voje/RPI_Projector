@@ -33,7 +33,7 @@ if __name__ == "__main__":
         read_done = False
         st = "" 
         while not read_done:
-            #time.sleep(0.3)    #This may be hard on the cpu
+            time.sleep(0.1)    #This may be hard on the cpu
             try:
                 st = FIFO.readline()
                 if st != "":
