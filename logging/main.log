@@ -8376,3 +8376,121 @@
 [10/10/17,20:44:40] (main.py) Found media USB: /home/pi/git/RPI_Projector/python_script/diapozitivi
 [10/10/17,20:44:40] (presenter.py) displaying file: [0]0.pdf
 [10/10/17,20:44:41] () 
+[10/10/17,20:53:52] (main.py) ##### Starting powerpoint script. #####
+[10/10/17,20:53:53] (main.py) ##### Waiting for USB. #####
+[10/10/17,20:54:35] (usblistener.py) detected USB with media: /media/pi/USB_KARTICA/diapozitivi
+[10/10/17,20:54:35] (main.py) Found media USB: /home/pi/git/RPI_Projector/python_script/diapozitivi
+[10/10/17,20:54:35] (presenter.py) displaying file: [0]0.pdf
+[10/10/17,20:54:35] () 
+[10/10/17,21:01:57] (main.py) ##### Starting powerpoint script. #####
+[10/10/17,21:01:57] (main.py) ##### Waiting for USB. #####
+[10/10/17,21:02:01] (usblistener.py) detected USB with media: /media/pi/USB_KARTICA/diapozitivi
+[10/10/17,21:02:01] (main.py) Found media USB: /home/pi/git/RPI_Projector/python_script/diapozitivi
+[10/10/17,21:02:01] (presenter.py) displaying file: [0]0.pdf
+[10/10/17,21:02:01] () 
+[10/10/17,21:03:15] (capture.sh) 1
+[10/10/17,21:03:16] (capture.sh) 2
+[10/10/17,21:03:16] (main.py) FIFO gave string: 1
+[10/10/17,21:03:16] (capture.sh) 3
+[10/10/17,21:03:17] (capture.sh) 4
+[10/10/17,21:03:17] (main.py) FIFO gave string: 2
+[10/10/17,21:03:17] (capture.sh) unknown
+[10/10/17,21:03:17] (capture.sh) unknown
+[10/10/17,21:03:18] (capture.sh) unknown
+[10/10/17,21:03:18] (capture.sh) unknown
+[10/10/17,21:03:18] (main.py) FIFO gave string: 3
+[10/10/17,21:03:18] (main.py) FIFO gave string: 4
+[10/10/17,21:03:19] (main.py) FIFO gave string: unknown
+[10/10/17,21:03:20] (main.py) FIFO gave string: unknown
+[10/10/17,21:03:21] (main.py) FIFO gave string: unknown
+[10/10/17,21:03:22] (main.py) FIFO gave string: unknown
+[10/11/17,10:08:59] (main.py) ##### Starting powerpoint script. #####
+[10/11/17,10:09:00] (main.py) ##### Waiting for USB. #####
+[10/11/17,10:09:33] (usblistener.py) detected USB with media: /media/pi/USB_KARTICA/diapozitivi
+[10/11/17,10:09:33] (main.py) Found media USB: /home/pi/git/RPI_Projector/python_script/diapozitivi
+[10/11/17,10:09:33] (presenter.py) displaying file: [0]0.pdf
+[10/11/17,10:09:33] () 
+[10/11/17,10:22:12] (main.py) ##### Starting powerpoint script. #####
+[10/11/17,10:22:12] (main.py) ##### Waiting for USB. #####
+[10/11/17,10:22:48] (usblistener.py) detected USB with media: /media/pi/USB_KARTICA/diapozitivi
+[10/11/17,10:22:48] (main.py) Found media USB: /home/pi/git/RPI_Projector/python_script/diapozitivi
+[10/11/17,10:22:48] (presenter.py) displaying file: [0]0.pdf
+[10/11/17,10:22:49] () 
+[10/11/17,10:23:36] (main.py) ##### Starting powerpoint script. #####
+[10/11/17,10:23:36] (main.py) ##### Waiting for USB. #####
+[10/11/17,10:23:39] (usblistener.py) detected USB with media: /media/pi/USB_KARTICA/diapozitivi
+[10/11/17,10:23:39] (main.py) Found media USB: /home/pi/git/RPI_Projector/python_script/diapozitivi
+[10/11/17,10:23:40] (presenter.py) displaying file: [0]0.pdf
+[10/11/17,10:23:40] () 
+[10/11/17,10:26:21] (main.py) ##### Starting powerpoint script. #####
+[10/11/17,10:26:21] (main.py) ##### Waiting for USB. #####
+[10/11/17,10:26:24] (usblistener.py) detected USB with media: /media/pi/USB_KARTICA/diapozitivi
+[10/11/17,10:26:24] (main.py) Found media USB: /home/pi/git/RPI_Projector/python_script/diapozitivi
+[10/11/17,10:26:24] (presenter.py) displaying file: [0]0.pdf
+[10/11/17,10:26:24] () 
+[10/11/17,11:16:30] (main.py) ##### Starting powerpoint script. #####
+[10/11/17,11:16:30] (main.py) ##### Waiting for USB. #####
+[10/11/17,11:16:33] (usblistener.py) detected USB with media: /media/pi/USB_KARTICA/diapozitivi
+[10/11/17,11:16:33] (main.py) Found media USB: /home/pi/git/RPI_Projector/python_script/diapozitivi
+[10/11/17,11:16:33] (presenter.py) displaying file: [0]0.pdf
+[10/11/17,11:16:34] () 
+[10/11/17,11:21:08] (main.py) ##### Starting powerpoint script. #####
+[10/11/17,11:21:08] (main.py) ##### Waiting for USB. #####
+[10/11/17,11:21:11] (usblistener.py) detected USB with media: /media/pi/USB_KARTICA/diapozitivi
+[10/11/17,11:21:12] (main.py) Found media USB: /home/pi/git/RPI_Projector/python_script/diapozitivi
+[10/11/17,11:21:12] (presenter.py) displaying file: [0]0.pdf
+[10/11/17,11:21:12] () 
+[10/11/17,11:23:40] (main.py) ##### Starting powerpoint script. #####
+[10/11/17,11:23:40] (main.py) ##### Waiting for USB. #####
+[10/11/17,11:23:43] (usblistener.py) detected USB with media: /media/pi/USB_KARTICA/diapozitivi
+[10/11/17,11:23:43] (main.py) Found media USB: /home/pi/git/RPI_Projector/python_script/diapozitivi
+[10/11/17,11:23:44] (presenter.py) displaying file: [0]0.pdf
+[10/11/17,11:23:44] () 
+[10/11/17,11:23:53] (capture.sh) KEY_UP
+[10/11/17,11:23:54] (main.py) FIFO gave string: KEY_UP
+[10/11/17,11:23:54] (presenter.py) displaying file: [1]1.pdf
+[10/11/17,11:23:54] () 
+[10/11/17,11:23:58] (capture.sh) KEY_UP
+[10/11/17,11:23:58] (main.py) FIFO gave string: KEY_UP
+[10/11/17,11:23:58] (presenter.py) displaying file: [2]2.pdf
+[10/11/17,11:23:59] () 
+[10/11/17,11:24:01] (capture.sh) KEY_UP
+[10/11/17,11:24:01] (main.py) FIFO gave string: KEY_UP
+[10/11/17,11:24:02] (presenter.py) displaying file: [3]3.pdf
+[10/11/17,11:24:02] () 
+[10/11/17,11:24:04] (capture.sh) KEY_UP
+[10/11/17,11:24:04] (main.py) FIFO gave string: KEY_UP
+[10/11/17,11:24:05] (presenter.py) displaying file: [4]4.pdf
+[10/11/17,11:24:05] () 
+[10/11/17,11:24:08] (capture.sh) KEY_UP
+[10/11/17,11:24:08] (main.py) FIFO gave string: KEY_UP
+[10/11/17,11:24:08] (presenter.py) displaying file: [5]5.pdf
+[10/11/17,11:24:09] () 
+[10/11/17,11:24:13] (capture.sh) KEY_UP
+[10/11/17,11:24:13] (main.py) FIFO gave string: KEY_UP
+[10/11/17,11:24:14] (presenter.py) displaying file: [6]6.pdf
+[10/11/17,11:24:14] () 
+[10/11/17,11:24:19] (capture.sh) KEY_DOWN
+[10/11/17,11:24:19] (main.py) FIFO gave string: KEY_DOWN
+[10/11/17,11:24:19] (presenter.py) displaying file: [5]5.pdf
+[10/11/17,11:24:20] () 
+[10/11/17,11:24:23] (capture.sh) KEY_UP
+[10/11/17,11:24:23] (main.py) FIFO gave string: KEY_UP
+[10/11/17,11:24:23] (presenter.py) displaying file: [6]6.pdf
+[10/11/17,11:24:23] () 
+[10/11/17,11:24:26] (capture.sh) KEY_DOWN
+[10/11/17,11:24:26] (main.py) FIFO gave string: KEY_DOWN
+[10/11/17,11:24:26] (presenter.py) displaying file: [5]5.pdf
+[10/11/17,11:24:27] () 
+[10/11/17,11:24:32] (capture.sh) KEY_UP
+[10/11/17,11:24:32] (main.py) FIFO gave string: KEY_UP
+[10/11/17,11:24:32] (presenter.py) displaying file: [6]6.pdf
+[10/11/17,11:24:32] () 
+[10/11/17,11:24:37] (capture.sh) 5
+[10/11/17,11:24:37] (main.py) FIFO gave string: 5
+[10/11/17,11:24:37] (capture.sh) 6
+[10/11/17,11:24:38] (main.py) FIFO gave string: 6
+[10/11/17,11:24:39] (capture.sh) KEY_ENTER
+[10/11/17,11:24:39] (main.py) FIFO gave string: KEY_ENTER
+[10/11/17,11:24:39] (presenter.py) displaying file: [52]56.pdf
+[10/11/17,11:24:40] () 

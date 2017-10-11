@@ -1,6 +1,6 @@
 #!/bin/bash
 
-proc_names=( capture_parent.sh capture.sh autostart.sh main.py xpdf random_input.sh pipe_test1.py )
+proc_names=( capture_parent.sh capture.sh autostart.sh main.py xpdf )
 
 for proc_name in "${proc_names[@]}"; do
 	if [[ $(ps -eF | grep $proc_name | wc -l) -le 1 ]]; then
