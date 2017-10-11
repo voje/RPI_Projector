@@ -9,7 +9,7 @@ export DISPLAY=:0
 # Wait for Xpdf
 wname="Xpdf:"
 while [[ -z $(wmctrl -l | grep "$wname") ]]; do
-	echo "Waiting for $wname."
+	#echo "Waiting for $wname."
 	sleep 0.5
 done
 echo "LOOK, a wild $wname appeared!"

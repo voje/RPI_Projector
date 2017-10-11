@@ -84,15 +84,15 @@ if __name__ == "__main__":
             else:
                 num = int(tmp_num)
             """
-            if input_buffer[0] == "0" and len(input_buffer) > 1:
+            if pr.input_buffer[0] == "0" and len(pr.input_buffer) > 1:
                 # Special command mod (numbers with leading zeros)
-                if input_buffer == "0001":
+                if pr.input_buffer == "0001":
                     check_for_usb()
             else:
                 num = int(pr.input_buffer)
 
             pr.input_buffer = ""
-            print "ENTER: %d" % (num)
+            #print "ENTER: %d" % (num)
 
             idx = pr.find_file_index(num)   #num in filename, idx is position in array
             if idx < 0:

@@ -1,13 +1,1 @@
 
-  File "/home/pi/git/RPI_Projector/python_script/main.py", line 42
-    if !os.path.isdir(pr.ul.usb_dir_path)
-       ^
-SyntaxError: invalid syntax
-XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
-      after 2982 requests (2982 known processed) with 13 events remaining.
-Syntax Warning: May not be a PDF file (continuing anyway)
-Syntax Error: Couldn't find trailer dictionary
-Syntax Error: Couldn't find trailer dictionary
-Syntax Error: Couldn't read xref table
-XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
-      after 900 requests (900 known processed) with 0 events remaining.

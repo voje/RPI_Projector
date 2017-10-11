@@ -7,7 +7,6 @@ wname="capture.sh"
 x-terminal-emulator --command=/home/pi/git/RPI_Projector/bluetooth/capture.sh --title=$wname &
 
 while [[ -z $(wmctrl -l | grep "$wname") ]]; do
-	echo "Waiting for $wname."
 	sleep 0.5
 done
 echo "LOOK, a wild $wname appeared!"
