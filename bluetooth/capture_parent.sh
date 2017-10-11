@@ -18,6 +18,7 @@ wmctrl -r "$wname" -e "0,0,0,3,6"
 # Keep in foreground
 while true; do
 	wmctrl -a "$wname"
+	sleep 0.5
 done
 
 
