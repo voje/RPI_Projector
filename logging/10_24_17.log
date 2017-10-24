@@ -1,0 +1,3648 @@
+
+[10/11/17,15:41:28] (main.py) ##### Starting powerpoint script. #####
+[10/11/17,15:41:28] (main.py) ##### Checking for USB. #####
+[10/11/17,15:42:04] (usblistener.py) detected USB with media: /media/pi/USB_KARTICA/diapozitivi
+[10/11/17,15:42:05] (presenter.py) displaying file: [0]0.pdf
+[10/11/17,15:42:05] () 
+[10/11/17,15:42:05] (main.py) using path to files: /media/pi/USB_KARTICA/diapozitivi
+[10/11/17,15:42:29] (capture.sh) KEY_O
+[10/11/17,15:42:29] (main.py) FIFO gave string: KEY_O
+[10/11/17,15:42:29] (presenter.py) displaying file: [0]0.pdf
+[10/11/17,15:42:29] () 
+[10/11/17,15:42:29] (main.py) projector power on
+[10/11/17,15:42:30] (tcp_client.py) sending command: on
+[10/11/17,15:42:30] (tcp_client.py) response: PJLINK 0
+[10/11/17,15:42:42] (capture.sh) KEY_UP
+[10/11/17,15:42:42] (main.py) FIFO gave string: KEY_UP
+[10/11/17,15:42:42] (presenter.py) displaying file: [1]1.pdf
+[10/11/17,15:42:43] () 
+[10/11/17,15:42:54] (capture.sh) KEY_UP
+[10/11/17,15:42:54] (main.py) FIFO gave string: KEY_UP
+[10/11/17,15:42:54] (presenter.py) displaying file: [2]2.pdf
+[10/11/17,15:42:54] () 
+[10/11/17,15:42:56] (capture.sh) KEY_UP
+[10/11/17,15:42:57] (main.py) FIFO gave string: KEY_UP
+[10/11/17,15:42:57] (presenter.py) displaying file: [3]3.pdf
+[10/11/17,15:42:57] () 
+[10/11/17,15:42:59] (capture.sh) KEY_UP
+[10/11/17,15:42:59] (main.py) FIFO gave string: KEY_UP
+[10/11/17,15:42:59] (presenter.py) displaying file: [4]4.pdf
+[10/11/17,15:42:59] () 
+[10/11/17,15:43:00] (capture.sh) KEY_DOWN
+[10/11/17,15:43:01] (main.py) FIFO gave string: KEY_DOWN
+[10/11/17,15:43:01] (presenter.py) displaying file: [3]3.pdf
+[10/11/17,15:43:01] () 
+[10/11/17,15:43:02] (capture.sh) KEY_DOWN
+[10/11/17,15:43:02] (main.py) FIFO gave string: KEY_DOWN
+[10/11/17,15:43:03] (presenter.py) displaying file: [2]2.pdf
+[10/11/17,15:43:03] () 
+[10/11/17,15:43:07] (capture.sh) KEY_R
+[10/11/17,15:43:07] (main.py) FIFO gave string: KEY_R
+[10/11/17,15:43:07] (main.py) projector blank file
+[10/11/17,15:43:08] (presenter.py) displaying file: [2]0.pdf
+[10/11/17,15:43:08] () 
+[10/11/17,15:43:24] (capture.sh) KEY_R
+[10/11/17,15:43:24] (main.py) FIFO gave string: KEY_R
+[10/11/17,15:43:24] (main.py) projector blank file
+[10/11/17,15:43:25] (presenter.py) displaying file: [2]0.pdf
+[10/11/17,15:43:25] () 
+[10/11/17,15:43:30] (capture.sh) KEY_O
+[10/11/17,15:43:30] (main.py) FIFO gave string: KEY_O
+[10/11/17,15:43:30] (presenter.py) displaying file: [2]2.pdf
+[10/11/17,15:43:30] () 
+[10/11/17,15:43:31] (main.py) projector power on
+[10/11/17,15:43:31] (tcp_client.py) sending command: on
+[10/11/17,15:43:31] (tcp_client.py) response: PJLINK 0
+[10/11/17,15:43:41] (capture.sh) 7
+[10/11/17,15:43:41] (main.py) FIFO gave string: 7
+[10/11/17,15:43:44] (capture.sh) KEY_ENTER
+[10/11/17,15:43:44] (main.py) FIFO gave string: KEY_ENTER
+[10/11/17,15:43:45] (presenter.py) displaying file: [7]7.pdf
+[10/11/17,15:43:45] () 
+[10/11/17,15:43:55] (capture.sh) 3
+[10/11/17,15:43:55] (main.py) FIFO gave string: 3
+[10/11/17,15:43:56] (capture.sh) 5
+[10/11/17,15:43:56] (main.py) FIFO gave string: 5
+[10/11/17,15:43:57] (capture.sh) KEY_ENTER
+[10/11/17,15:43:57] (main.py) FIFO gave string: KEY_ENTER
+[10/11/17,15:43:58] (presenter.py) displaying file: [34]35.pdf
+[10/11/17,15:43:58] () 
+[10/11/17,15:44:05] (capture.sh) 6
+[10/11/17,15:44:05] (main.py) FIFO gave string: 6
+[10/11/17,15:44:06] (capture.sh) 1
+[10/11/17,15:44:06] (main.py) FIFO gave string: 1
+[10/11/17,15:44:07] (capture.sh) KEY_ENTER
+[10/11/17,15:44:07] (main.py) FIFO gave string: KEY_ENTER
+[10/11/17,15:44:08] (presenter.py) displaying file: [57]61.pdf
+[10/11/17,15:44:08] () 
+[10/11/17,15:44:13] (capture.sh) 1
+[10/11/17,15:44:13] (main.py) FIFO gave string: 1
+[10/11/17,15:44:14] (capture.sh) 3
+[10/11/17,15:44:14] (main.py) FIFO gave string: 3
+[10/11/17,15:44:15] (capture.sh) 5
+[10/11/17,15:44:15] (main.py) FIFO gave string: 5
+[10/11/17,15:44:16] (capture.sh) KEY_ENTER
+[10/11/17,15:44:16] (main.py) FIFO gave string: KEY_ENTER
+[10/11/17,15:44:17] (presenter.py) displaying file: [103]135.pdf
+[10/11/17,15:44:17] () 
+[10/11/17,15:44:27] (capture.sh) KEY_VOLUMEDOWN
+[10/11/17,15:44:27] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/11/17,15:44:27] (presenter.py) displaying file: [57]61.pdf
+[10/11/17,15:44:28] () 
+[10/11/17,15:44:30] (capture.sh) KEY_VOLUMEDOWN
+[10/11/17,15:44:30] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/11/17,15:44:31] (presenter.py) displaying file: [34]35.pdf
+[10/11/17,15:44:31] () 
+[10/11/17,15:44:34] (capture.sh) KEY_VOLUMEDOWN
+[10/11/17,15:44:34] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/11/17,15:44:34] (presenter.py) displaying file: [7]7.pdf
+[10/11/17,15:44:34] () 
+[10/11/17,15:44:42] (capture.sh) KEY_P
+[10/11/17,15:44:42] (main.py) FIFO gave string: KEY_P
+[10/11/17,15:44:42] (main.py) projector power off
+[10/11/17,15:44:42] (tcp_client.py) sending command: off
+[10/11/17,15:44:42] (tcp_client.py) response: PJLINK 0
+[10/11/17,15:50:25] (capture.sh) KEY_O
+[10/11/17,15:50:25] (main.py) FIFO gave string: KEY_O
+[10/11/17,15:50:25] (presenter.py) displaying file: [7]7.pdf
+[10/11/17,15:50:25] () 
+[10/11/17,15:50:25] (main.py) projector power on
+[10/11/17,15:50:25] (tcp_client.py) sending command: on
+[10/11/17,15:50:26] (tcp_client.py) response: PJLINK 0
+[10/11/17,15:52:06] (capture.sh) KEY_VOLUMEUP
+[10/11/17,15:52:06] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/11/17,15:52:06] (presenter.py) displaying file: [34]35.pdf
+[10/11/17,15:52:06] () 
+[10/11/17,15:52:13] (capture.sh) KEY_P
+[10/11/17,15:52:13] (main.py) FIFO gave string: KEY_P
+[10/11/17,15:52:13] (main.py) projector power off
+[10/11/17,15:52:14] (tcp_client.py) sending command: off
+[10/11/17,15:52:14] (tcp_client.py) response: PJLINK 0
+[10/11/17,16:06:55] (capture.sh) KEY_O
+[10/11/17,16:06:55] (main.py) FIFO gave string: KEY_O
+[10/11/17,16:06:55] (presenter.py) displaying file: [34]35.pdf
+[10/11/17,16:06:55] () 
+[10/11/17,16:06:55] (main.py) projector power on
+[10/11/17,16:06:55] (tcp_client.py) sending command: on
+[10/11/17,16:06:55] (tcp_client.py) response: PJLINK 0
+[10/11/17,16:08:34] (capture.sh) KEY_VOLUMEUP
+[10/11/17,16:08:34] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/11/17,16:08:35] (presenter.py) displaying file: [57]61.pdf
+[10/11/17,16:08:35] () 
+[10/11/17,16:08:38] (capture.sh) KEY_O
+[10/11/17,16:08:38] (main.py) FIFO gave string: KEY_O
+[10/11/17,16:08:38] (presenter.py) displaying file: [57]61.pdf
+[10/11/17,16:08:39] () 
+[10/11/17,16:08:39] (main.py) projector power on
+[10/11/17,16:08:39] (tcp_client.py) sending command: on
+[10/11/17,16:08:39] (tcp_client.py) response: PJLINK 0
+[10/11/17,16:08:40] (capture.sh) KEY_P
+[10/11/17,16:08:41] (main.py) FIFO gave string: KEY_P
+[10/11/17,16:08:41] (main.py) projector power off
+[10/11/17,16:08:41] (tcp_client.py) sending command: off
+[10/11/17,16:08:41] (tcp_client.py) response: PJLINK 0
+[10/11/17,16:18:53] (capture.sh) KEY_O
+[10/11/17,16:18:53] (main.py) FIFO gave string: KEY_O
+[10/11/17,16:18:54] (presenter.py) displaying file: [57]61.pdf
+[10/11/17,16:18:54] () 
+[10/11/17,16:18:54] (main.py) projector power on
+[10/11/17,16:18:54] (tcp_client.py) sending command: on
+[10/11/17,16:18:54] (tcp_client.py) response: PJLINK 0
+[10/11/17,16:21:19] (capture.sh) KEY_VOLUMEUP
+[10/11/17,16:21:19] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/11/17,16:21:19] (presenter.py) displaying file: [103]135.pdf
+[10/11/17,16:21:19] () 
+[10/11/17,16:21:22] (capture.sh) KEY_P
+[10/11/17,16:21:23] (main.py) FIFO gave string: KEY_P
+[10/11/17,16:21:23] (main.py) projector power off
+[10/11/17,16:21:23] (tcp_client.py) sending command: off
+[10/11/17,16:21:23] (tcp_client.py) response: PJLINK 0
+[10/11/17,16:23:21] (capture.sh) KEY_O
+[10/11/17,16:23:21] (main.py) FIFO gave string: KEY_O
+[10/11/17,16:23:21] (presenter.py) displaying file: [103]135.pdf
+[10/11/17,16:23:22] () 
+[10/11/17,16:23:22] (main.py) projector power on
+[10/11/17,16:23:22] (tcp_client.py) sending command: on
+[10/11/17,16:23:22] (tcp_client.py) response: PJLINK 0
+[10/11/17,16:27:44] (capture.sh) KEY_P
+[10/11/17,16:27:45] (main.py) FIFO gave string: KEY_P
+[10/11/17,16:27:45] (main.py) projector power off
+[10/11/17,16:27:45] (tcp_client.py) sending command: off
+[10/11/17,16:27:45] (tcp_client.py) response: PJLINK 0
+[10/12/17,14:48:21] (capture.sh) KEY_ENTER
+[10/12/17,14:48:21] (main.py) FIFO gave string: KEY_ENTER
+[10/12/17,14:48:27] (capture.sh) KEY_O
+[10/12/17,14:48:27] (main.py) FIFO gave string: KEY_O
+[10/12/17,14:48:28] (presenter.py) displaying file: [103]135.pdf
+[10/12/17,14:48:28] () 
+[10/12/17,14:48:28] (main.py) projector power on
+[10/12/17,14:48:28] (tcp_client.py) sending command: on
+[10/12/17,14:48:28] (tcp_client.py) response: PJLINK 0
+[10/12/17,14:48:35] (capture.sh) 8
+[10/12/17,14:48:35] (main.py) FIFO gave string: 8
+[10/12/17,14:48:39] (capture.sh) 0
+[10/12/17,14:48:39] (main.py) FIFO gave string: 0
+[10/12/17,14:48:44] (capture.sh) KEY_ENTER
+[10/12/17,14:48:44] (main.py) FIFO gave string: KEY_ENTER
+[10/12/17,14:48:44] (presenter.py) displaying file: [76]80.pdf
+[10/12/17,14:48:45] () 
+[10/12/17,14:48:49] (capture.sh) 1
+[10/12/17,14:48:49] (main.py) FIFO gave string: 1
+[10/12/17,14:48:50] (capture.sh) 1
+[10/12/17,14:48:50] (main.py) FIFO gave string: 1
+[10/12/17,14:48:51] (capture.sh) 9
+[10/12/17,14:48:51] (main.py) FIFO gave string: 9
+[10/12/17,14:48:52] (capture.sh) KEY_ENTER
+[10/12/17,14:48:52] (main.py) FIFO gave string: KEY_ENTER
+[10/12/17,14:48:52] (presenter.py) displaying file: [94]119.pdf
+[10/12/17,14:48:52] () 
+[10/12/17,14:48:56] (capture.sh) 6
+[10/12/17,14:48:56] (main.py) FIFO gave string: 6
+[10/12/17,14:48:57] (capture.sh) 0
+[10/12/17,14:48:57] (main.py) FIFO gave string: 0
+[10/12/17,14:48:58] (capture.sh) 1
+[10/12/17,14:48:58] (main.py) FIFO gave string: 1
+[10/12/17,14:48:59] (capture.sh) KEY_ENTER
+[10/12/17,14:48:59] (main.py) FIFO gave string: KEY_ENTER
+[10/12/17,14:48:59] (presenter.py) displaying file: [371]601.pdf
+[10/12/17,14:48:59] () 
+[10/12/17,14:49:04] (capture.sh) 6
+[10/12/17,14:49:04] (main.py) FIFO gave string: 6
+[10/12/17,14:49:04] (capture.sh) 1
+[10/12/17,14:49:04] (main.py) FIFO gave string: 1
+[10/12/17,14:49:05] (capture.sh) 6
+[10/12/17,14:49:05] (main.py) FIFO gave string: 6
+[10/12/17,14:49:06] (capture.sh) KEY_ENTER
+[10/12/17,14:49:07] (main.py) FIFO gave string: KEY_ENTER
+[10/12/17,14:49:07] (presenter.py) displaying file: [386]616.pdf
+[10/12/17,14:49:07] () 
+[10/12/17,14:49:12] (capture.sh) 1
+[10/12/17,14:49:12] (main.py) FIFO gave string: 1
+[10/12/17,14:49:12] (capture.sh) 1
+[10/12/17,14:49:12] (main.py) FIFO gave string: 1
+[10/12/17,14:49:13] (capture.sh) 9
+[10/12/17,14:49:13] (main.py) FIFO gave string: 9
+[10/12/17,14:49:14] (capture.sh) KEY_ENTER
+[10/12/17,14:49:14] (main.py) FIFO gave string: KEY_ENTER
+[10/12/17,14:49:14] (presenter.py) displaying file: [94]119.pdf
+[10/12/17,14:49:14] () 
+[10/12/17,14:49:19] (capture.sh) 1
+[10/12/17,14:49:19] (main.py) FIFO gave string: 1
+[10/12/17,14:49:20] (capture.sh) 0
+[10/12/17,14:49:20] (main.py) FIFO gave string: 0
+[10/12/17,14:49:21] (capture.sh) KEY_ENTER
+[10/12/17,14:49:21] (main.py) FIFO gave string: KEY_ENTER
+[10/12/17,14:49:21] (presenter.py) displaying file: [10]10.pdf
+[10/12/17,14:49:21] () 
+[10/12/17,14:49:26] (capture.sh) 3
+[10/12/17,14:49:26] (main.py) FIFO gave string: 3
+[10/12/17,14:49:27] (capture.sh) 7
+[10/12/17,14:49:27] (main.py) FIFO gave string: 7
+[10/12/17,14:49:28] (capture.sh) KEY_ENTER
+[10/12/17,14:49:28] (main.py) FIFO gave string: KEY_ENTER
+[10/12/17,14:49:28] (presenter.py) displaying file: [36]37.pdf
+[10/12/17,14:49:28] () 
+[10/12/17,14:49:36] (capture.sh) 6
+[10/12/17,14:49:36] (main.py) FIFO gave string: 6
+[10/12/17,14:49:37] (capture.sh) 3
+[10/12/17,14:49:37] (main.py) FIFO gave string: 3
+[10/12/17,14:49:38] (capture.sh) KEY_ENTER
+[10/12/17,14:49:38] (main.py) FIFO gave string: KEY_ENTER
+[10/12/17,14:49:38] (presenter.py) displaying file: [59]63.pdf
+[10/12/17,14:49:38] () 
+[10/12/17,14:49:43] (capture.sh) 1
+[10/12/17,14:49:43] (main.py) FIFO gave string: 1
+[10/12/17,14:49:44] (capture.sh) 4
+[10/12/17,14:49:44] (main.py) FIFO gave string: 4
+[10/12/17,14:49:45] (capture.sh) 2
+[10/12/17,14:49:45] (main.py) FIFO gave string: 2
+[10/12/17,14:49:46] (capture.sh) KEY_ENTER
+[10/12/17,14:49:46] (main.py) FIFO gave string: KEY_ENTER
+[10/12/17,14:49:46] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,14:49:46] () 
+[10/12/17,14:49:50] (capture.sh) KEY_VOLUMEDOWN
+[10/12/17,14:49:50] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/12/17,14:49:51] (presenter.py) displaying file: [59]63.pdf
+[10/12/17,14:49:51] () 
+[10/12/17,14:49:52] (capture.sh) KEY_VOLUMEDOWN
+[10/12/17,14:49:52] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/12/17,14:49:53] (presenter.py) displaying file: [36]37.pdf
+[10/12/17,14:49:53] () 
+[10/12/17,14:49:55] (capture.sh) KEY_VOLUMEDOWN
+[10/12/17,14:49:55] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/12/17,14:49:55] (presenter.py) displaying file: [10]10.pdf
+[10/12/17,14:49:55] () 
+[10/12/17,14:49:57] (capture.sh) KEY_VOLUMEDOWN
+[10/12/17,14:49:57] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/12/17,14:49:57] (presenter.py) displaying file: [94]119.pdf
+[10/12/17,14:49:57] () 
+[10/12/17,14:49:59] (capture.sh) KEY_VOLUMEDOWN
+[10/12/17,14:49:59] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/12/17,14:49:59] (presenter.py) displaying file: [386]616.pdf
+[10/12/17,14:49:59] () 
+[10/12/17,14:50:03] (capture.sh) KEY_VOLUMEDOWN
+[10/12/17,14:50:03] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/12/17,14:50:03] (presenter.py) displaying file: [371]601.pdf
+[10/12/17,14:50:03] () 
+[10/12/17,14:50:06] (capture.sh) KEY_VOLUMEDOWN
+[10/12/17,14:50:06] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/12/17,14:50:06] (presenter.py) displaying file: [94]119.pdf
+[10/12/17,14:50:06] () 
+[10/12/17,14:50:19] (capture.sh) KEY_VOLUMEDOWN
+[10/12/17,14:50:19] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/12/17,14:50:19] (presenter.py) displaying file: [76]80.pdf
+[10/12/17,14:50:19] () 
+[10/12/17,14:50:24] (capture.sh) KEY_P
+[10/12/17,14:50:24] (main.py) FIFO gave string: KEY_P
+[10/12/17,14:50:25] (main.py) projector power off
+[10/12/17,14:50:25] (tcp_client.py) sending command: off
+[10/12/17,14:50:25] (tcp_client.py) response: PJLINK 0
+[10/12/17,14:59:47] (capture.sh) KEY_O
+[10/12/17,14:59:47] (main.py) FIFO gave string: KEY_O
+[10/12/17,14:59:47] (presenter.py) displaying file: [76]80.pdf
+[10/12/17,14:59:47] () 
+[10/12/17,14:59:47] (main.py) projector power on
+[10/12/17,14:59:48] (tcp_client.py) sending command: on
+[10/12/17,14:59:48] (tcp_client.py) response: PJLINK 0
+[10/12/17,15:00:52] (capture.sh) KEY_P
+[10/12/17,15:00:52] (main.py) FIFO gave string: KEY_P
+[10/12/17,15:00:52] (main.py) projector power off
+[10/12/17,15:00:52] (tcp_client.py) sending command: off
+[10/12/17,15:00:52] (tcp_client.py) response: PJLINK 0
+[10/12/17,15:29:37] (capture.sh) KEY_O
+[10/12/17,15:29:37] (main.py) FIFO gave string: KEY_O
+[10/12/17,15:29:37] (presenter.py) displaying file: [76]80.pdf
+[10/12/17,15:29:37] () 
+[10/12/17,15:29:37] (main.py) projector power on
+[10/12/17,15:29:37] (tcp_client.py) sending command: on
+[10/12/17,15:29:37] (tcp_client.py) response: PJLINK 0
+[10/12/17,15:30:53] (capture.sh) KEY_VOLUMEUP
+[10/12/17,15:30:53] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/12/17,15:30:54] (presenter.py) displaying file: [94]119.pdf
+[10/12/17,15:30:54] () 
+[10/12/17,15:30:57] (capture.sh) KEY_P
+[10/12/17,15:30:57] (main.py) FIFO gave string: KEY_P
+[10/12/17,15:30:57] (main.py) projector power off
+[10/12/17,15:30:58] (tcp_client.py) sending command: off
+[10/12/17,15:30:58] (tcp_client.py) response: PJLINK 0
+[10/12/17,15:36:59] (capture.sh) KEY_O
+[10/12/17,15:36:59] (main.py) FIFO gave string: KEY_O
+[10/12/17,15:36:59] (presenter.py) displaying file: [94]119.pdf
+[10/12/17,15:36:59] () 
+[10/12/17,15:36:59] (main.py) projector power on
+[10/12/17,15:36:59] (tcp_client.py) sending command: on
+[10/12/17,15:37:00] (tcp_client.py) response: PJLINK 0
+[10/12/17,15:37:52] (capture.sh) KEY_VOLUMEUP
+[10/12/17,15:37:52] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/12/17,15:37:53] (presenter.py) displaying file: [371]601.pdf
+[10/12/17,15:37:53] () 
+[10/12/17,15:37:57] (capture.sh) KEY_P
+[10/12/17,15:37:57] (main.py) FIFO gave string: KEY_P
+[10/12/17,15:37:57] (main.py) projector power off
+[10/12/17,15:37:57] (tcp_client.py) sending command: off
+[10/12/17,15:37:57] (tcp_client.py) response: PJLINK 0
+[10/12/17,15:42:10] (capture.sh) KEY_O
+[10/12/17,15:42:10] (main.py) FIFO gave string: KEY_O
+[10/12/17,15:42:10] (presenter.py) displaying file: [371]601.pdf
+[10/12/17,15:42:10] () 
+[10/12/17,15:42:10] (main.py) projector power on
+[10/12/17,15:42:10] (tcp_client.py) sending command: on
+[10/12/17,15:42:11] (tcp_client.py) response: PJLINK 0
+[10/12/17,15:42:46] (capture.sh) KEY_UP
+[10/12/17,15:42:46] (main.py) FIFO gave string: KEY_UP
+[10/12/17,15:42:46] (presenter.py) displaying file: [372]602.pdf
+[10/12/17,15:42:46] () 
+[10/12/17,15:43:24] (capture.sh) KEY_UP
+[10/12/17,15:43:24] (main.py) FIFO gave string: KEY_UP
+[10/12/17,15:43:24] (presenter.py) displaying file: [373]603.pdf
+[10/12/17,15:43:25] () 
+[10/12/17,15:43:49] (capture.sh) KEY_VOLUMEUP
+[10/12/17,15:43:49] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/12/17,15:43:49] (presenter.py) displaying file: [386]616.pdf
+[10/12/17,15:43:49] () 
+[10/12/17,15:44:26] (capture.sh) KEY_VOLUMEUP
+[10/12/17,15:44:26] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/12/17,15:44:26] (presenter.py) displaying file: [94]119.pdf
+[10/12/17,15:44:26] () 
+[10/12/17,15:45:15] (capture.sh) KEY_P
+[10/12/17,15:45:16] (main.py) FIFO gave string: KEY_P
+[10/12/17,15:45:16] (main.py) projector power off
+[10/12/17,15:45:16] (tcp_client.py) sending command: off
+[10/12/17,15:45:16] (tcp_client.py) response: PJLINK 0
+[10/12/17,15:47:24] (capture.sh) KEY_O
+[10/12/17,15:47:24] (main.py) FIFO gave string: KEY_O
+[10/12/17,15:47:25] (presenter.py) displaying file: [94]119.pdf
+[10/12/17,15:47:25] () 
+[10/12/17,15:47:25] (main.py) projector power on
+[10/12/17,15:47:25] (tcp_client.py) sending command: on
+[10/12/17,15:47:25] (tcp_client.py) response: PJLINK 0
+[10/12/17,15:48:31] (capture.sh) KEY_VOLUMEUP
+[10/12/17,15:48:31] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/12/17,15:48:32] (presenter.py) displaying file: [10]10.pdf
+[10/12/17,15:48:32] () 
+[10/12/17,15:52:13] (capture.sh) KEY_VOLUMEUP
+[10/12/17,15:52:13] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/12/17,15:52:13] (presenter.py) displaying file: [36]37.pdf
+[10/12/17,15:52:13] () 
+[10/12/17,15:52:16] (capture.sh) KEY_P
+[10/12/17,15:52:16] (main.py) FIFO gave string: KEY_P
+[10/12/17,15:52:16] (main.py) projector power off
+[10/12/17,15:52:16] (tcp_client.py) sending command: off
+[10/12/17,15:52:16] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:04:16] (capture.sh) KEY_O
+[10/12/17,16:04:16] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:04:16] (presenter.py) displaying file: [36]37.pdf
+[10/12/17,16:04:16] () 
+[10/12/17,16:04:16] (main.py) projector power on
+[10/12/17,16:04:16] (tcp_client.py) sending command: on
+[10/12/17,16:04:17] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:06:03] (capture.sh) KEY_VOLUMEUP
+[10/12/17,16:06:03] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/12/17,16:06:03] (presenter.py) displaying file: [59]63.pdf
+[10/12/17,16:06:03] () 
+[10/12/17,16:06:04] (capture.sh) KEY_VOLUMEUP
+[10/12/17,16:06:04] (capture.sh) KEY_VOLUMEUP
+[10/12/17,16:06:04] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/12/17,16:06:04] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:06:04] () 
+[10/12/17,16:06:05] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/12/17,16:06:05] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:06:05] () 
+[10/12/17,16:06:08] (capture.sh) KEY_P
+[10/12/17,16:06:08] (main.py) FIFO gave string: KEY_P
+[10/12/17,16:06:08] (main.py) projector power off
+[10/12/17,16:06:08] (tcp_client.py) sending command: off
+[10/12/17,16:06:08] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:13:46] (capture.sh) KEY_O
+[10/12/17,16:13:46] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:13:46] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:13:46] () 
+[10/12/17,16:13:47] (main.py) projector power on
+[10/12/17,16:13:47] (tcp_client.py) sending command: on
+[10/12/17,16:13:47] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:14:34] (capture.sh) KEY_VOLUMEDOWN
+[10/12/17,16:14:34] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/12/17,16:14:34] (presenter.py) displaying file: [59]63.pdf
+[10/12/17,16:14:34] () 
+[10/12/17,16:17:53] (capture.sh) KEY_VOLUMEUP
+[10/12/17,16:17:53] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/12/17,16:17:53] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:17:53] () 
+[10/12/17,16:17:56] (capture.sh) KEY_P
+[10/12/17,16:17:56] (main.py) FIFO gave string: KEY_P
+[10/12/17,16:17:56] (main.py) projector power off
+[10/12/17,16:17:56] (tcp_client.py) sending command: off
+[10/12/17,16:17:56] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:18:02] (capture.sh) KEY_O
+[10/12/17,16:18:02] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:18:02] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:18:02] () 
+[10/12/17,16:18:02] (capture.sh) KEY_O
+[10/12/17,16:18:03] (capture.sh) KEY_O
+[10/12/17,16:18:03] (capture.sh) KEY_O
+[10/12/17,16:18:03] (capture.sh) KEY_O
+[10/12/17,16:18:03] (capture.sh) KEY_O
+[10/12/17,16:18:03] (main.py) projector power on
+[10/12/17,16:18:03] (capture.sh) KEY_O
+[10/12/17,16:18:03] (capture.sh) KEY_O
+[10/12/17,16:18:03] (capture.sh) KEY_O
+[10/12/17,16:18:03] (capture.sh) KEY_O
+[10/12/17,16:18:04] (capture.sh) KEY_O
+[10/12/17,16:18:04] (tcp_client.py) sending command: on
+[10/12/17,16:18:04] (capture.sh) KEY_O
+[10/12/17,16:18:04] (capture.sh) KEY_O
+[10/12/17,16:18:04] (capture.sh) KEY_O
+[10/12/17,16:18:04] (capture.sh) KEY_O
+[10/12/17,16:18:04] (capture.sh) KEY_O
+[10/12/17,16:18:04] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:18:04] (capture.sh) KEY_O
+[10/12/17,16:18:04] (capture.sh) KEY_O
+[10/12/17,16:18:05] (capture.sh) KEY_O
+[10/12/17,16:18:05] (capture.sh) KEY_O
+[10/12/17,16:18:05] (capture.sh) KEY_O
+[10/12/17,16:18:05] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:18:05] (capture.sh) KEY_O
+[10/12/17,16:18:05] (capture.sh) KEY_O
+[10/12/17,16:18:05] (capture.sh) KEY_O
+[10/12/17,16:18:05] (capture.sh) KEY_O
+[10/12/17,16:18:05] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:18:05] (capture.sh) KEY_O
+[10/12/17,16:18:06] (capture.sh) KEY_O
+[10/12/17,16:18:06] (capture.sh) KEY_O
+[10/12/17,16:18:06] (capture.sh) KEY_O
+[10/12/17,16:18:06] (capture.sh) KEY_O
+[10/12/17,16:18:06] () 
+[10/12/17,16:18:06] (capture.sh) KEY_O
+[10/12/17,16:18:06] (capture.sh) KEY_O
+[10/12/17,16:18:06] (capture.sh) KEY_O
+[10/12/17,16:18:06] (capture.sh) KEY_O
+[10/12/17,16:18:06] (main.py) projector power on
+[10/12/17,16:18:06] (capture.sh) KEY_O
+[10/12/17,16:18:07] (capture.sh) KEY_O
+[10/12/17,16:18:07] (capture.sh) KEY_O
+[10/12/17,16:18:07] (capture.sh) KEY_O
+[10/12/17,16:18:07] (capture.sh) KEY_O
+[10/12/17,16:18:07] (tcp_client.py) sending command: on
+[10/12/17,16:18:07] (capture.sh) KEY_O
+[10/12/17,16:18:07] (capture.sh) KEY_O
+[10/12/17,16:18:07] (capture.sh) KEY_O
+[10/12/17,16:18:07] (capture.sh) KEY_O
+[10/12/17,16:18:07] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:18:07] (capture.sh) KEY_O
+[10/12/17,16:18:08] (capture.sh) KEY_O
+[10/12/17,16:18:08] (capture.sh) KEY_O
+[10/12/17,16:18:08] (capture.sh) KEY_O
+[10/12/17,16:18:08] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:18:08] (capture.sh) KEY_O
+[10/12/17,16:18:08] (capture.sh) KEY_O
+[10/12/17,16:18:08] (capture.sh) KEY_O
+[10/12/17,16:18:08] (capture.sh) KEY_O
+[10/12/17,16:18:08] (capture.sh) KEY_O
+[10/12/17,16:18:08] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:18:09] (capture.sh) KEY_O
+[10/12/17,16:18:09] (capture.sh) KEY_O
+[10/12/17,16:18:09] (capture.sh) KEY_O
+[10/12/17,16:18:09] () 
+[10/12/17,16:18:09] (capture.sh) KEY_O
+[10/12/17,16:18:09] (capture.sh) KEY_O
+[10/12/17,16:18:09] (capture.sh) KEY_O
+[10/12/17,16:18:09] (capture.sh) KEY_O
+[10/12/17,16:18:09] (capture.sh) KEY_O
+[10/12/17,16:18:09] (main.py) projector power on
+[10/12/17,16:18:10] (capture.sh) KEY_O
+[10/12/17,16:18:10] (capture.sh) KEY_O
+[10/12/17,16:18:10] (capture.sh) KEY_O
+[10/12/17,16:18:10] (capture.sh) KEY_O
+[10/12/17,16:18:10] (capture.sh) KEY_O
+[10/12/17,16:18:10] (tcp_client.py) sending command: on
+[10/12/17,16:18:10] (capture.sh) KEY_O
+[10/12/17,16:18:10] (capture.sh) KEY_O
+[10/12/17,16:18:10] (capture.sh) KEY_O
+[10/12/17,16:18:10] (capture.sh) KEY_O
+[10/12/17,16:18:11] (capture.sh) KEY_O
+[10/12/17,16:18:11] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:18:11] (capture.sh) KEY_O
+[10/12/17,16:18:11] (capture.sh) KEY_O
+[10/12/17,16:18:11] (capture.sh) KEY_O
+[10/12/17,16:18:11] (capture.sh) KEY_O
+[10/12/17,16:18:11] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:18:11] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:18:12] () 
+[10/12/17,16:18:12] (main.py) projector power on
+[10/12/17,16:18:12] (tcp_client.py) sending command: on
+[10/12/17,16:18:12] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:18:13] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:18:13] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:18:13] () 
+[10/12/17,16:18:13] (main.py) projector power on
+[10/12/17,16:18:13] (tcp_client.py) sending command: on
+[10/12/17,16:18:14] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:18:14] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:18:14] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:18:15] () 
+[10/12/17,16:18:15] (main.py) projector power on
+[10/12/17,16:18:15] (tcp_client.py) sending command: on
+[10/12/17,16:18:15] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:18:15] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:18:16] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:18:16] () 
+[10/12/17,16:18:16] (main.py) projector power on
+[10/12/17,16:18:16] (tcp_client.py) sending command: on
+[10/12/17,16:18:17] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:18:17] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:18:17] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:18:17] () 
+[10/12/17,16:18:18] (main.py) projector power on
+[10/12/17,16:18:18] (tcp_client.py) sending command: on
+[10/12/17,16:18:18] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:18:18] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:18:19] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:18:19] () 
+[10/12/17,16:18:19] (main.py) projector power on
+[10/12/17,16:18:19] (tcp_client.py) sending command: on
+[10/12/17,16:18:20] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:18:20] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:18:20] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:18:20] () 
+[10/12/17,16:18:20] (main.py) projector power on
+[10/12/17,16:18:21] (tcp_client.py) sending command: on
+[10/12/17,16:18:21] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:18:21] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:18:22] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:18:22] () 
+[10/12/17,16:18:22] (main.py) projector power on
+[10/12/17,16:18:22] (tcp_client.py) sending command: on
+[10/12/17,16:18:22] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:18:23] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:18:23] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:18:23] () 
+[10/12/17,16:18:23] (main.py) projector power on
+[10/12/17,16:18:24] (tcp_client.py) sending command: on
+[10/12/17,16:18:24] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:18:24] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:18:24] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:18:25] () 
+[10/12/17,16:18:25] (main.py) projector power on
+[10/12/17,16:18:25] (tcp_client.py) sending command: on
+[10/12/17,16:18:25] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:18:26] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:18:26] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:18:26] () 
+[10/12/17,16:18:26] (main.py) projector power on
+[10/12/17,16:18:26] (tcp_client.py) sending command: on
+[10/12/17,16:18:27] (capture.sh) KEY_O
+[10/12/17,16:18:27] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:18:27] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:18:27] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:18:27] () 
+[10/12/17,16:18:28] (main.py) projector power on
+[10/12/17,16:18:28] (tcp_client.py) sending command: on
+[10/12/17,16:18:28] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:18:28] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:18:29] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:18:29] () 
+[10/12/17,16:18:29] (main.py) projector power on
+[10/12/17,16:18:29] (tcp_client.py) sending command: on
+[10/12/17,16:18:30] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:18:30] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:18:30] (capture.sh) KEY_P
+[10/12/17,16:18:30] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:18:30] () 
+[10/12/17,16:18:31] (main.py) projector power on
+[10/12/17,16:18:31] (tcp_client.py) sending command: on
+[10/12/17,16:18:31] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:18:31] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:18:32] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:18:32] () 
+[10/12/17,16:18:32] (main.py) projector power on
+[10/12/17,16:18:32] (tcp_client.py) sending command: on
+[10/12/17,16:18:33] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:18:33] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:18:33] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:18:33] () 
+[10/12/17,16:18:33] (main.py) projector power on
+[10/12/17,16:18:34] (tcp_client.py) sending command: on
+[10/12/17,16:18:34] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:18:34] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:18:34] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:18:35] () 
+[10/12/17,16:18:35] (main.py) projector power on
+[10/12/17,16:18:35] (tcp_client.py) sending command: on
+[10/12/17,16:18:35] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:18:36] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:18:36] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:18:36] () 
+[10/12/17,16:18:36] (main.py) projector power on
+[10/12/17,16:18:36] (tcp_client.py) sending command: on
+[10/12/17,16:18:37] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:18:37] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:18:37] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:18:38] () 
+[10/12/17,16:18:38] (main.py) projector power on
+[10/12/17,16:18:38] (tcp_client.py) sending command: on
+[10/12/17,16:18:38] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:18:38] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:18:39] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:18:39] () 
+[10/12/17,16:18:39] (main.py) projector power on
+[10/12/17,16:18:39] (tcp_client.py) sending command: on
+[10/12/17,16:18:40] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:18:40] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:18:40] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:18:40] () 
+[10/12/17,16:18:41] (main.py) projector power on
+[10/12/17,16:18:41] (tcp_client.py) sending command: on
+[10/12/17,16:18:41] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:18:41] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:18:42] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:18:42] () 
+[10/12/17,16:18:42] (main.py) projector power on
+[10/12/17,16:18:42] (tcp_client.py) sending command: on
+[10/12/17,16:18:42] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:18:43] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:18:43] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:18:43] () 
+[10/12/17,16:18:43] (main.py) projector power on
+[10/12/17,16:18:44] (tcp_client.py) sending command: on
+[10/12/17,16:18:44] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:18:44] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:18:44] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:18:45] () 
+[10/12/17,16:18:45] (main.py) projector power on
+[10/12/17,16:18:45] (tcp_client.py) sending command: on
+[10/12/17,16:18:45] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:18:46] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:18:46] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:18:46] () 
+[10/12/17,16:18:46] (main.py) projector power on
+[10/12/17,16:18:47] (tcp_client.py) sending command: on
+[10/12/17,16:18:47] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:18:47] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:18:47] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:18:47] () 
+[10/12/17,16:18:48] (main.py) projector power on
+[10/12/17,16:18:48] (tcp_client.py) sending command: on
+[10/12/17,16:18:48] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:18:48] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:18:49] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:18:49] () 
+[10/12/17,16:18:49] (main.py) projector power on
+[10/12/17,16:18:49] (tcp_client.py) sending command: on
+[10/12/17,16:18:50] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:18:50] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:18:50] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:18:50] () 
+[10/12/17,16:18:51] (main.py) projector power on
+[10/12/17,16:18:51] (tcp_client.py) sending command: on
+[10/12/17,16:18:51] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:18:51] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:18:52] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:18:52] () 
+[10/12/17,16:18:52] (main.py) projector power on
+[10/12/17,16:18:52] (tcp_client.py) sending command: on
+[10/12/17,16:18:53] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:18:53] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:18:53] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:18:53] () 
+[10/12/17,16:18:54] (main.py) projector power on
+[10/12/17,16:18:54] (tcp_client.py) sending command: on
+[10/12/17,16:18:54] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:18:54] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:18:55] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:18:55] () 
+[10/12/17,16:18:55] (main.py) projector power on
+[10/12/17,16:18:55] (tcp_client.py) sending command: on
+[10/12/17,16:18:55] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:18:56] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:18:56] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:18:56] () 
+[10/12/17,16:18:56] (main.py) projector power on
+[10/12/17,16:18:57] (tcp_client.py) sending command: on
+[10/12/17,16:18:57] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:18:57] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:18:57] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:18:58] () 
+[10/12/17,16:18:58] (main.py) projector power on
+[10/12/17,16:18:58] (tcp_client.py) sending command: on
+[10/12/17,16:18:58] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:18:59] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:18:59] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:18:59] () 
+[10/12/17,16:18:59] (main.py) projector power on
+[10/12/17,16:19:00] (tcp_client.py) sending command: on
+[10/12/17,16:19:00] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:19:00] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:19:00] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:19:01] () 
+[10/12/17,16:19:01] (main.py) projector power on
+[10/12/17,16:19:01] (tcp_client.py) sending command: on
+[10/12/17,16:19:01] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:19:02] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:19:02] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:19:02] () 
+[10/12/17,16:19:02] (main.py) projector power on
+[10/12/17,16:19:03] (tcp_client.py) sending command: on
+[10/12/17,16:19:03] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:19:03] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:19:03] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:19:04] () 
+[10/12/17,16:19:04] (main.py) projector power on
+[10/12/17,16:19:04] (tcp_client.py) sending command: on
+[10/12/17,16:19:04] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:19:04] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:19:05] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:19:05] () 
+[10/12/17,16:19:05] (main.py) projector power on
+[10/12/17,16:19:05] (tcp_client.py) sending command: on
+[10/12/17,16:19:06] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:19:06] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:19:06] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:19:06] () 
+[10/12/17,16:19:07] (main.py) projector power on
+[10/12/17,16:19:07] (tcp_client.py) sending command: on
+[10/12/17,16:19:07] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:19:07] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:19:08] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:19:08] () 
+[10/12/17,16:19:08] (main.py) projector power on
+[10/12/17,16:19:08] (tcp_client.py) sending command: on
+[10/12/17,16:19:09] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:19:09] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:19:09] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:19:09] () 
+[10/12/17,16:19:10] (main.py) projector power on
+[10/12/17,16:19:10] (tcp_client.py) sending command: on
+[10/12/17,16:19:10] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:19:10] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:19:11] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:19:11] () 
+[10/12/17,16:19:11] (main.py) projector power on
+[10/12/17,16:19:11] (tcp_client.py) sending command: on
+[10/12/17,16:19:11] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:19:12] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:19:12] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:19:12] () 
+[10/12/17,16:19:12] (main.py) projector power on
+[10/12/17,16:19:13] (tcp_client.py) sending command: on
+[10/12/17,16:19:13] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:19:13] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:19:13] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:19:14] () 
+[10/12/17,16:19:14] (main.py) projector power on
+[10/12/17,16:19:14] (tcp_client.py) sending command: on
+[10/12/17,16:19:14] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:19:15] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:19:15] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:19:15] () 
+[10/12/17,16:19:15] (main.py) projector power on
+[10/12/17,16:19:15] (tcp_client.py) sending command: on
+[10/12/17,16:19:16] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:19:16] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:19:16] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:19:17] () 
+[10/12/17,16:19:17] (main.py) projector power on
+[10/12/17,16:19:17] (tcp_client.py) sending command: on
+[10/12/17,16:19:17] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:19:17] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:19:18] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:19:18] () 
+[10/12/17,16:19:18] (main.py) projector power on
+[10/12/17,16:19:18] (tcp_client.py) sending command: on
+[10/12/17,16:19:19] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:19:19] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:19:19] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:19:19] () 
+[10/12/17,16:19:20] (main.py) projector power on
+[10/12/17,16:19:20] (tcp_client.py) sending command: on
+[10/12/17,16:19:20] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:19:20] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:19:21] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:19:21] () 
+[10/12/17,16:19:21] (main.py) projector power on
+[10/12/17,16:19:21] (tcp_client.py) sending command: on
+[10/12/17,16:19:21] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:19:22] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:19:22] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:19:22] () 
+[10/12/17,16:19:23] (main.py) projector power on
+[10/12/17,16:19:23] (tcp_client.py) sending command: on
+[10/12/17,16:19:23] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:19:23] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:19:24] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:19:24] () 
+[10/12/17,16:19:24] (main.py) projector power on
+[10/12/17,16:19:24] (tcp_client.py) sending command: on
+[10/12/17,16:19:24] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:19:25] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:19:25] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:19:25] () 
+[10/12/17,16:19:25] (main.py) projector power on
+[10/12/17,16:19:26] (tcp_client.py) sending command: on
+[10/12/17,16:19:26] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:19:26] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:19:26] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:19:27] () 
+[10/12/17,16:19:27] (main.py) projector power on
+[10/12/17,16:19:27] (tcp_client.py) sending command: on
+[10/12/17,16:19:27] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:19:28] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:19:28] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:19:28] () 
+[10/12/17,16:19:28] (main.py) projector power on
+[10/12/17,16:19:28] (tcp_client.py) sending command: on
+[10/12/17,16:19:29] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:19:29] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:19:29] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:19:29] () 
+[10/12/17,16:19:30] (main.py) projector power on
+[10/12/17,16:19:30] (tcp_client.py) sending command: on
+[10/12/17,16:19:30] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:19:30] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:19:31] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:19:31] () 
+[10/12/17,16:19:31] (main.py) projector power on
+[10/12/17,16:19:31] (tcp_client.py) sending command: on
+[10/12/17,16:19:32] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:19:32] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:19:32] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:19:32] () 
+[10/12/17,16:19:33] (main.py) projector power on
+[10/12/17,16:19:33] (tcp_client.py) sending command: on
+[10/12/17,16:19:33] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:19:33] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:19:34] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:19:34] () 
+[10/12/17,16:19:34] (main.py) projector power on
+[10/12/17,16:19:34] (tcp_client.py) sending command: on
+[10/12/17,16:19:35] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:19:35] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:19:35] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:19:35] () 
+[10/12/17,16:19:35] (main.py) projector power on
+[10/12/17,16:19:36] (tcp_client.py) sending command: on
+[10/12/17,16:19:36] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:19:36] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:19:36] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:19:37] () 
+[10/12/17,16:19:37] (main.py) projector power on
+[10/12/17,16:19:37] (tcp_client.py) sending command: on
+[10/12/17,16:19:37] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:19:38] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:19:38] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:19:38] () 
+[10/12/17,16:19:38] (main.py) projector power on
+[10/12/17,16:19:39] (tcp_client.py) sending command: on
+[10/12/17,16:19:39] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:19:39] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:19:39] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:19:40] () 
+[10/12/17,16:19:40] (main.py) projector power on
+[10/12/17,16:19:40] (tcp_client.py) sending command: on
+[10/12/17,16:19:40] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:19:41] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:19:41] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:19:41] () 
+[10/12/17,16:19:41] (main.py) projector power on
+[10/12/17,16:19:41] (tcp_client.py) sending command: on
+[10/12/17,16:19:42] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:19:42] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:19:42] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:19:42] () 
+[10/12/17,16:19:43] (main.py) projector power on
+[10/12/17,16:19:43] (tcp_client.py) sending command: on
+[10/12/17,16:19:43] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:19:43] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:19:44] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:19:44] () 
+[10/12/17,16:19:44] (main.py) projector power on
+[10/12/17,16:19:44] (tcp_client.py) sending command: on
+[10/12/17,16:19:44] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:19:45] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:19:45] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:19:45] () 
+[10/12/17,16:19:45] (main.py) projector power on
+[10/12/17,16:19:46] (tcp_client.py) sending command: on
+[10/12/17,16:19:46] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:19:46] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:19:46] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:19:47] () 
+[10/12/17,16:19:47] (main.py) projector power on
+[10/12/17,16:19:47] (tcp_client.py) sending command: on
+[10/12/17,16:19:47] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:19:48] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:19:48] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:19:48] () 
+[10/12/17,16:19:48] (main.py) projector power on
+[10/12/17,16:19:48] (tcp_client.py) sending command: on
+[10/12/17,16:19:49] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:19:49] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:19:49] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:19:49] () 
+[10/12/17,16:19:50] (main.py) projector power on
+[10/12/17,16:19:50] (tcp_client.py) sending command: on
+[10/12/17,16:19:50] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:19:50] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:19:51] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:19:51] () 
+[10/12/17,16:19:51] (main.py) projector power on
+[10/12/17,16:19:51] (tcp_client.py) sending command: on
+[10/12/17,16:19:52] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:19:52] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:19:52] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:19:52] () 
+[10/12/17,16:19:52] (main.py) projector power on
+[10/12/17,16:19:53] (tcp_client.py) sending command: on
+[10/12/17,16:19:53] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:19:53] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:19:53] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:19:54] () 
+[10/12/17,16:19:54] (main.py) projector power on
+[10/12/17,16:19:54] (tcp_client.py) sending command: on
+[10/12/17,16:19:54] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:19:55] (main.py) FIFO gave string: KEY_P
+[10/12/17,16:19:55] (main.py) projector power off
+[10/12/17,16:19:55] (tcp_client.py) sending command: off
+[10/12/17,16:19:55] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:20:02] (capture.sh) KEY_O
+[10/12/17,16:20:03] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:20:03] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:20:03] () 
+[10/12/17,16:20:03] (main.py) projector power on
+[10/12/17,16:20:03] (tcp_client.py) sending command: on
+[10/12/17,16:20:03] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:21:57] (capture.sh) KEY_P
+[10/12/17,16:21:57] (main.py) FIFO gave string: KEY_P
+[10/12/17,16:21:57] (main.py) projector power off
+[10/12/17,16:21:57] (tcp_client.py) sending command: off
+[10/12/17,16:21:57] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:24:20] (capture.sh) KEY_O
+[10/12/17,16:24:20] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:24:21] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:24:21] () 
+[10/12/17,16:24:21] (main.py) projector power on
+[10/12/17,16:24:21] (tcp_client.py) sending command: on
+[10/12/17,16:24:21] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:24:39] (capture.sh) 1
+[10/12/17,16:24:39] (main.py) FIFO gave string: 1
+[10/12/17,16:24:40] (capture.sh) 4
+[10/12/17,16:24:40] (main.py) FIFO gave string: 4
+[10/12/17,16:24:41] (capture.sh) 0
+[10/12/17,16:24:41] (main.py) FIFO gave string: 0
+[10/12/17,16:24:43] (capture.sh) KEY_ENTER
+[10/12/17,16:24:43] (main.py) FIFO gave string: KEY_ENTER
+[10/12/17,16:24:43] (presenter.py) displaying file: [108]140.pdf
+[10/12/17,16:24:43] () 
+[10/12/17,16:25:07] (capture.sh) 3
+[10/12/17,16:25:07] (main.py) FIFO gave string: 3
+[10/12/17,16:25:08] (capture.sh) 3
+[10/12/17,16:25:08] (main.py) FIFO gave string: 3
+[10/12/17,16:25:09] (capture.sh) KEY_ENTER
+[10/12/17,16:25:10] (main.py) FIFO gave string: KEY_ENTER
+[10/12/17,16:25:10] (presenter.py) displaying file: [32]33.pdf
+[10/12/17,16:25:10] () 
+[10/12/17,16:25:14] (capture.sh) 4
+[10/12/17,16:25:14] (main.py) FIFO gave string: 4
+[10/12/17,16:25:15] (capture.sh) 5
+[10/12/17,16:25:15] (main.py) FIFO gave string: 5
+[10/12/17,16:25:16] (capture.sh) KEY_ENTER
+[10/12/17,16:25:16] (main.py) FIFO gave string: KEY_ENTER
+[10/12/17,16:25:16] (presenter.py) displaying file: [44]45.pdf
+[10/12/17,16:25:16] () 
+[10/12/17,16:25:25] (capture.sh) KEY_VOLUMEDOWN
+[10/12/17,16:25:25] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/12/17,16:25:25] (presenter.py) displaying file: [32]33.pdf
+[10/12/17,16:25:25] () 
+[10/12/17,16:25:27] (capture.sh) KEY_VOLUMEDOWN
+[10/12/17,16:25:27] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/12/17,16:25:27] (presenter.py) displaying file: [108]140.pdf
+[10/12/17,16:25:28] () 
+[10/12/17,16:25:31] (capture.sh) KEY_VOLUMEDOWN
+[10/12/17,16:25:31] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/12/17,16:25:31] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:25:32] () 
+[10/12/17,16:25:37] (capture.sh) KEY_P
+[10/12/17,16:25:37] (main.py) FIFO gave string: KEY_P
+[10/12/17,16:25:37] (main.py) projector power off
+[10/12/17,16:25:37] (tcp_client.py) sending command: off
+[10/12/17,16:25:37] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:25:39] (capture.sh) KEY_O
+[10/12/17,16:25:39] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:25:39] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:25:39] () 
+[10/12/17,16:25:39] (main.py) projector power on
+[10/12/17,16:25:40] (tcp_client.py) sending command: on
+[10/12/17,16:25:40] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:25:45] (capture.sh) KEY_O
+[10/12/17,16:25:45] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:25:46] (presenter.py) displaying file: [110]142.pdf
+[10/12/17,16:25:46] () 
+[10/12/17,16:25:46] (main.py) projector power on
+[10/12/17,16:25:46] (tcp_client.py) sending command: on
+[10/12/17,16:25:46] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:25:59] (capture.sh) KEY_VOLUMEUP
+[10/12/17,16:25:59] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/12/17,16:25:59] (presenter.py) displaying file: [108]140.pdf
+[10/12/17,16:25:59] () 
+[10/12/17,16:26:02] (capture.sh) KEY_P
+[10/12/17,16:26:02] (main.py) FIFO gave string: KEY_P
+[10/12/17,16:26:03] (main.py) projector power off
+[10/12/17,16:26:03] (tcp_client.py) sending command: off
+[10/12/17,16:26:03] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:26:08] (capture.sh) KEY_O
+[10/12/17,16:26:08] (main.py) FIFO gave string: KEY_O
+[10/12/17,16:26:08] (presenter.py) displaying file: [108]140.pdf
+[10/12/17,16:26:08] () 
+[10/12/17,16:26:08] (main.py) projector power on
+[10/12/17,16:26:08] (tcp_client.py) sending command: on
+[10/12/17,16:26:09] (tcp_client.py) response: PJLINK 0
+[10/12/17,16:26:57] (capture.sh) KEY_P
+[10/12/17,16:26:57] (main.py) FIFO gave string: KEY_P
+[10/12/17,16:26:58] (main.py) projector power off
+[10/12/17,16:26:58] (tcp_client.py) sending command: off
+[10/12/17,16:26:58] (tcp_client.py) response: PJLINK 0
+[10/13/17,05:42:40] (capture.sh) KEY_O
+[10/13/17,05:42:40] (main.py) FIFO gave string: KEY_O
+[10/13/17,05:42:41] (presenter.py) displaying file: [108]140.pdf
+[10/13/17,05:42:41] () 
+[10/13/17,05:42:41] (main.py) projector power on
+[10/13/17,05:42:41] (tcp_client.py) sending command: on
+[10/13/17,05:42:41] (tcp_client.py) response: PJLINK 0
+[10/13/17,05:42:48] (capture.sh) 1
+[10/13/17,05:42:48] (main.py) FIFO gave string: 1
+[10/13/17,05:42:49] (capture.sh) 6
+[10/13/17,05:42:49] (main.py) FIFO gave string: 6
+[10/13/17,05:42:50] (capture.sh) 6
+[10/13/17,05:42:50] (main.py) FIFO gave string: 6
+[10/13/17,05:42:51] (capture.sh) KEY_ENTER
+[10/13/17,05:42:51] (main.py) FIFO gave string: KEY_ENTER
+[10/13/17,05:42:51] (presenter.py) displaying file: [134]166.pdf
+[10/13/17,05:42:51] () 
+[10/13/17,05:42:55] (capture.sh) 1
+[10/13/17,05:42:55] (main.py) FIFO gave string: 1
+[10/13/17,05:42:57] (capture.sh) 7
+[10/13/17,05:42:57] (main.py) FIFO gave string: 7
+[10/13/17,05:42:58] (capture.sh) 5
+[10/13/17,05:42:58] (main.py) FIFO gave string: 5
+[10/13/17,05:42:59] (capture.sh) KEY_ENTER
+[10/13/17,05:42:59] (main.py) FIFO gave string: KEY_ENTER
+[10/13/17,05:42:59] (presenter.py) displaying file: [143]175.pdf
+[10/13/17,05:42:59] () 
+[10/13/17,05:43:02] (capture.sh) KEY_VOLUMEDOWN
+[10/13/17,05:43:03] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/13/17,05:43:03] (presenter.py) displaying file: [134]166.pdf
+[10/13/17,05:43:03] () 
+[10/13/17,05:43:06] (capture.sh) KEY_P
+[10/13/17,05:43:06] (main.py) FIFO gave string: KEY_P
+[10/13/17,05:43:06] (main.py) projector power off
+[10/13/17,05:43:06] (tcp_client.py) sending command: off
+[10/13/17,05:43:06] (tcp_client.py) response: PJLINK 0
+[10/13/17,05:50:17] (capture.sh) KEY_O
+[10/13/17,05:50:17] (main.py) FIFO gave string: KEY_O
+[10/13/17,05:50:17] (presenter.py) displaying file: [134]166.pdf
+[10/13/17,05:50:17] () 
+[10/13/17,05:50:18] (main.py) projector power on
+[10/13/17,05:50:18] (tcp_client.py) sending command: on
+[10/13/17,05:50:18] (tcp_client.py) response: PJLINK 0
+[10/13/17,05:51:51] (capture.sh) KEY_P
+[10/13/17,05:51:51] (main.py) FIFO gave string: KEY_P
+[10/13/17,05:51:51] (main.py) projector power off
+[10/13/17,05:51:51] (tcp_client.py) sending command: off
+[10/13/17,05:51:51] (tcp_client.py) response: PJLINK 0
+[10/13/17,05:57:07] (capture.sh) KEY_O
+[10/13/17,05:57:07] (main.py) FIFO gave string: KEY_O
+[10/13/17,05:57:07] (presenter.py) displaying file: [134]166.pdf
+[10/13/17,05:57:07] () 
+[10/13/17,05:57:08] (main.py) projector power on
+[10/13/17,05:57:08] (tcp_client.py) sending command: on
+[10/13/17,05:57:08] (tcp_client.py) response: PJLINK 0
+[10/13/17,05:58:07] (capture.sh) KEY_P
+[10/13/17,05:58:07] (main.py) FIFO gave string: KEY_P
+[10/13/17,05:58:07] (main.py) projector power off
+[10/13/17,05:58:07] (tcp_client.py) sending command: off
+[10/13/17,05:58:07] (tcp_client.py) response: PJLINK 0
+[10/13/17,06:08:08] (capture.sh) KEY_O
+[10/13/17,06:08:08] (main.py) FIFO gave string: KEY_O
+[10/13/17,06:08:08] (presenter.py) displaying file: [134]166.pdf
+[10/13/17,06:08:08] () 
+[10/13/17,06:08:08] (main.py) projector power on
+[10/13/17,06:08:09] (tcp_client.py) sending command: on
+[10/13/17,06:08:09] (tcp_client.py) response: PJLINK 0
+[10/13/17,06:09:59] (capture.sh) KEY_VOLUMEUP
+[10/13/17,06:09:59] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/13/17,06:09:59] (presenter.py) displaying file: [143]175.pdf
+[10/13/17,06:09:59] () 
+[10/13/17,06:10:01] (capture.sh) KEY_P
+[10/13/17,06:10:01] (main.py) FIFO gave string: KEY_P
+[10/13/17,06:10:01] (main.py) projector power off
+[10/13/17,06:10:02] (tcp_client.py) sending command: off
+[10/13/17,06:10:02] (tcp_client.py) response: PJLINK 0
+[10/13/17,06:21:30] (capture.sh) KEY_O
+[10/13/17,06:21:30] (main.py) FIFO gave string: KEY_O
+[10/13/17,06:21:30] (presenter.py) displaying file: [143]175.pdf
+[10/13/17,06:21:30] () 
+[10/13/17,06:21:30] (main.py) projector power on
+[10/13/17,06:21:30] (tcp_client.py) sending command: on
+[10/13/17,06:21:31] (tcp_client.py) response: PJLINK 0
+[10/13/17,06:22:55] (capture.sh) KEY_O
+[10/13/17,06:22:55] (main.py) FIFO gave string: KEY_O
+[10/13/17,06:22:55] (capture.sh) unknown
+[10/13/17,06:22:55] (presenter.py) displaying file: [143]175.pdf
+[10/13/17,06:22:55] () 
+[10/13/17,06:22:55] (main.py) projector power on
+[10/13/17,06:22:56] (tcp_client.py) sending command: on
+[10/13/17,06:22:56] (tcp_client.py) response: PJLINK 0
+[10/13/17,06:22:56] (main.py) FIFO gave string: unknown
+[10/13/17,06:24:06] (capture.sh) KEY_P
+[10/13/17,06:24:06] (main.py) FIFO gave string: KEY_P
+[10/13/17,06:24:06] (main.py) projector power off
+[10/13/17,06:24:06] (tcp_client.py) sending command: off
+[10/13/17,06:24:06] (tcp_client.py) response: PJLINK 0
+[10/13/17,15:31:27] (capture.sh) KEY_O
+[10/13/17,15:31:27] (main.py) FIFO gave string: KEY_O
+[10/13/17,15:31:27] (presenter.py) displaying file: [143]175.pdf
+[10/13/17,15:31:27] () 
+[10/13/17,15:31:28] (main.py) projector power on
+[10/13/17,15:31:28] (tcp_client.py) sending command: on
+[10/13/17,15:31:28] (tcp_client.py) response: PJLINK 0
+[10/13/17,15:31:36] (capture.sh) KEY_VOLUMEDOWN
+[10/13/17,15:31:36] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/13/17,15:31:36] (presenter.py) displaying file: [134]166.pdf
+[10/13/17,15:31:36] () 
+[10/13/17,15:31:38] (capture.sh) KEY_VOLUMEDOWN
+[10/13/17,15:31:38] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/13/17,15:31:38] (presenter.py) displaying file: [44]45.pdf
+[10/13/17,15:31:38] () 
+[10/13/17,15:31:42] (capture.sh) KEY_VOLUMEUP
+[10/13/17,15:31:42] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/13/17,15:31:43] (presenter.py) displaying file: [134]166.pdf
+[10/13/17,15:31:43] () 
+[10/13/17,15:31:51] (capture.sh) 6
+[10/13/17,15:31:51] (main.py) FIFO gave string: 6
+[10/13/17,15:31:52] (capture.sh) 8
+[10/13/17,15:31:52] (main.py) FIFO gave string: 8
+[10/13/17,15:31:53] (capture.sh) KEY_ENTER
+[10/13/17,15:31:53] (main.py) FIFO gave string: KEY_ENTER
+[10/13/17,15:31:53] (presenter.py) displaying file: [64]68.pdf
+[10/13/17,15:31:54] () 
+[10/13/17,15:32:28] (capture.sh) 1
+[10/13/17,15:32:28] (main.py) FIFO gave string: 1
+[10/13/17,15:32:29] (capture.sh) 7
+[10/13/17,15:32:29] (main.py) FIFO gave string: 7
+[10/13/17,15:32:29] (capture.sh) 5
+[10/13/17,15:32:30] (main.py) FIFO gave string: 5
+[10/13/17,15:32:31] (capture.sh) KEY_ENTER
+[10/13/17,15:32:31] (main.py) FIFO gave string: KEY_ENTER
+[10/13/17,15:32:31] (presenter.py) displaying file: [143]175.pdf
+[10/13/17,15:32:31] () 
+[10/13/17,15:32:35] (capture.sh) KEY_VOLUMEDOWN
+[10/13/17,15:32:35] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/13/17,15:32:35] (presenter.py) displaying file: [64]68.pdf
+[10/13/17,15:32:35] () 
+[10/13/17,15:32:37] (capture.sh) KEY_VOLUMEDOWN
+[10/13/17,15:32:37] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/13/17,15:32:37] (presenter.py) displaying file: [143]175.pdf
+[10/13/17,15:32:37] () 
+[10/13/17,15:32:42] (capture.sh) KEY_VOLUMEDOWN
+[10/13/17,15:32:42] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/13/17,15:32:42] (presenter.py) displaying file: [134]166.pdf
+[10/13/17,15:32:43] () 
+[10/13/17,15:32:54] (capture.sh) 6
+[10/13/17,15:32:54] (main.py) FIFO gave string: 6
+[10/13/17,15:32:55] (capture.sh) 8
+[10/13/17,15:32:55] (main.py) FIFO gave string: 8
+[10/13/17,15:32:56] (capture.sh) KEY_ENTER
+[10/13/17,15:32:56] (main.py) FIFO gave string: KEY_ENTER
+[10/13/17,15:32:56] (presenter.py) displaying file: [64]68.pdf
+[10/13/17,15:32:56] () 
+[10/13/17,15:33:06] (capture.sh) 1
+[10/13/17,15:33:06] (main.py) FIFO gave string: 1
+[10/13/17,15:33:07] (capture.sh) 7
+[10/13/17,15:33:07] (main.py) FIFO gave string: 7
+[10/13/17,15:33:08] (capture.sh) 5
+[10/13/17,15:33:08] (main.py) FIFO gave string: 5
+[10/13/17,15:33:09] (capture.sh) KEY_ENTER
+[10/13/17,15:33:09] (main.py) FIFO gave string: KEY_ENTER
+[10/13/17,15:33:09] (presenter.py) displaying file: [143]175.pdf
+[10/13/17,15:33:09] () 
+[10/13/17,15:33:12] (capture.sh) KEY_VOLUMEDOWN
+[10/13/17,15:33:12] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/13/17,15:33:12] (presenter.py) displaying file: [64]68.pdf
+[10/13/17,15:33:13] () 
+[10/13/17,15:33:15] (capture.sh) KEY_VOLUMEDOWN
+[10/13/17,15:33:15] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/13/17,15:33:15] (presenter.py) displaying file: [143]175.pdf
+[10/13/17,15:33:15] () 
+[10/13/17,15:33:22] (capture.sh) KEY_VOLUMEDOWN
+[10/13/17,15:33:22] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/13/17,15:33:22] (presenter.py) displaying file: [64]68.pdf
+[10/13/17,15:33:22] () 
+[10/13/17,15:33:25] (capture.sh) KEY_VOLUMEDOWN
+[10/13/17,15:33:25] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/13/17,15:33:25] (presenter.py) displaying file: [143]175.pdf
+[10/13/17,15:33:25] () 
+[10/13/17,15:33:29] (capture.sh) KEY_VOLUMEDOWN
+[10/13/17,15:33:29] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/13/17,15:33:29] (presenter.py) displaying file: [134]166.pdf
+[10/13/17,15:33:29] () 
+[10/13/17,15:33:43] (capture.sh) 6
+[10/13/17,15:33:43] (main.py) FIFO gave string: 6
+[10/13/17,15:33:44] (capture.sh) 8
+[10/13/17,15:33:44] (main.py) FIFO gave string: 8
+[10/13/17,15:33:45] (capture.sh) KEY_ENTER
+[10/13/17,15:33:45] (main.py) FIFO gave string: KEY_ENTER
+[10/13/17,15:33:45] (presenter.py) displaying file: [64]68.pdf
+[10/13/17,15:33:45] () 
+[10/13/17,15:33:49] (capture.sh) 1
+[10/13/17,15:33:49] (main.py) FIFO gave string: 1
+[10/13/17,15:33:50] (capture.sh) 7
+[10/13/17,15:33:50] (main.py) FIFO gave string: 7
+[10/13/17,15:33:50] (capture.sh) 5
+[10/13/17,15:33:50] (main.py) FIFO gave string: 5
+[10/13/17,15:33:51] (capture.sh) KEY_ENTER
+[10/13/17,15:33:51] (main.py) FIFO gave string: KEY_ENTER
+[10/13/17,15:33:52] (presenter.py) displaying file: [143]175.pdf
+[10/13/17,15:33:52] () 
+[10/13/17,15:33:54] (capture.sh) KEY_VOLUMEDOWN
+[10/13/17,15:33:54] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/13/17,15:33:54] (presenter.py) displaying file: [64]68.pdf
+[10/13/17,15:33:54] () 
+[10/13/17,15:33:56] (capture.sh) KEY_VOLUMEDOWN
+[10/13/17,15:33:56] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/13/17,15:33:57] (presenter.py) displaying file: [143]175.pdf
+[10/13/17,15:33:57] () 
+[10/13/17,15:34:01] (capture.sh) KEY_VOLUMEDOWN
+[10/13/17,15:34:02] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/13/17,15:34:02] (presenter.py) displaying file: [64]68.pdf
+[10/13/17,15:34:02] () 
+[10/13/17,15:34:04] (capture.sh) KEY_VOLUMEDOWN
+[10/13/17,15:34:04] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/13/17,15:34:04] (presenter.py) displaying file: [143]175.pdf
+[10/13/17,15:34:05] () 
+[10/13/17,15:34:09] (capture.sh) KEY_VOLUMEDOWN
+[10/13/17,15:34:09] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/13/17,15:34:09] (presenter.py) displaying file: [64]68.pdf
+[10/13/17,15:34:09] () 
+[10/13/17,15:34:13] (capture.sh) KEY_VOLUMEDOWN
+[10/13/17,15:34:13] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/13/17,15:34:13] (presenter.py) displaying file: [143]175.pdf
+[10/13/17,15:34:13] () 
+[10/13/17,15:34:16] (capture.sh) KEY_VOLUMEDOWN
+[10/13/17,15:34:16] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/13/17,15:34:16] (presenter.py) displaying file: [134]166.pdf
+[10/13/17,15:34:16] () 
+[10/13/17,15:34:34] (capture.sh) KEY_VOLUMEUP
+[10/13/17,15:34:34] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/13/17,15:34:34] (presenter.py) displaying file: [143]175.pdf
+[10/13/17,15:34:34] () 
+[10/13/17,15:34:38] (capture.sh) KEY_P
+[10/13/17,15:34:38] (capture.sh) unknown
+[10/13/17,15:34:38] (main.py) FIFO gave string: KEY_P
+[10/13/17,15:34:38] (main.py) projector power off
+[10/13/17,15:34:38] (tcp_client.py) sending command: off
+[10/13/17,15:34:38] (tcp_client.py) response: PJLINK 0
+[10/13/17,15:34:38] (main.py) FIFO gave string: unknown
+[10/13/17,15:34:41] (capture.sh) KEY_VOLUMEUP
+[10/13/17,15:34:41] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/13/17,15:34:41] (presenter.py) displaying file: [64]68.pdf
+[10/13/17,15:34:41] () 
+[10/13/17,15:34:49] (capture.sh) KEY_O
+[10/13/17,15:34:49] (main.py) FIFO gave string: KEY_O
+[10/13/17,15:34:49] (presenter.py) displaying file: [64]68.pdf
+[10/13/17,15:34:49] () 
+[10/13/17,15:34:49] (main.py) projector power on
+[10/13/17,15:34:49] (tcp_client.py) sending command: on
+[10/13/17,15:34:49] (tcp_client.py) response: PJLINK 0
+[10/13/17,15:34:58] (capture.sh) KEY_VOLUMEDOWN
+[10/13/17,15:34:58] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/13/17,15:34:58] (presenter.py) displaying file: [143]175.pdf
+[10/13/17,15:34:58] () 
+[10/13/17,15:35:24] (capture.sh) KEY_VOLUMEDOWN
+[10/13/17,15:35:24] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/13/17,15:35:24] (presenter.py) displaying file: [134]166.pdf
+[10/13/17,15:35:24] () 
+[10/13/17,15:35:27] (capture.sh) KEY_VOLUMEDOWN
+[10/13/17,15:35:27] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/13/17,15:35:27] (presenter.py) displaying file: [44]45.pdf
+[10/13/17,15:35:27] () 
+[10/13/17,15:35:32] (capture.sh) KEY_VOLUMEUP
+[10/13/17,15:35:32] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/13/17,15:35:32] (presenter.py) displaying file: [134]166.pdf
+[10/13/17,15:35:32] () 
+[10/13/17,15:35:36] (capture.sh) KEY_P
+[10/13/17,15:35:36] (main.py) FIFO gave string: KEY_P
+[10/13/17,15:35:36] (main.py) projector power off
+[10/13/17,15:35:37] (tcp_client.py) sending command: off
+[10/13/17,15:35:37] (tcp_client.py) response: PJLINK 0
+[10/13/17,15:49:53] (capture.sh) KEY_O
+[10/13/17,15:49:53] (main.py) FIFO gave string: KEY_O
+[10/13/17,15:49:53] (presenter.py) displaying file: [134]166.pdf
+[10/13/17,15:49:53] () 
+[10/13/17,15:49:53] (main.py) projector power on
+[10/13/17,15:49:54] (tcp_client.py) sending command: on
+[10/13/17,15:49:54] (tcp_client.py) response: PJLINK 0
+[10/13/17,15:51:53] (capture.sh) KEY_P
+[10/13/17,15:51:53] (main.py) FIFO gave string: KEY_P
+[10/13/17,15:51:53] (main.py) projector power off
+[10/13/17,15:51:53] (tcp_client.py) sending command: off
+[10/13/17,15:51:54] (tcp_client.py) response: PJLINK 0
+[10/13/17,16:02:53] (capture.sh) KEY_O
+[10/13/17,16:02:53] (main.py) FIFO gave string: KEY_O
+[10/13/17,16:02:53] (presenter.py) displaying file: [134]166.pdf
+[10/13/17,16:02:53] () 
+[10/13/17,16:02:54] (main.py) projector power on
+[10/13/17,16:02:54] (tcp_client.py) sending command: on
+[10/13/17,16:02:54] (tcp_client.py) response: PJLINK 0
+[10/13/17,16:05:14] (capture.sh) KEY_VOLUMEUP
+[10/13/17,16:05:14] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/13/17,16:05:14] (presenter.py) displaying file: [143]175.pdf
+[10/13/17,16:05:14] () 
+[10/13/17,16:05:14] (capture.sh) KEY_VOLUMEUP
+[10/13/17,16:05:14] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/13/17,16:05:15] (presenter.py) displaying file: [64]68.pdf
+[10/13/17,16:05:15] () 
+[10/13/17,16:05:20] (capture.sh) KEY_P
+[10/13/17,16:05:20] (main.py) FIFO gave string: KEY_P
+[10/13/17,16:05:20] (main.py) projector power off
+[10/13/17,16:05:20] (tcp_client.py) sending command: off
+[10/13/17,16:05:20] (tcp_client.py) response: PJLINK 0
+[10/13/17,16:13:51] (capture.sh) KEY_O
+[10/13/17,16:13:51] (main.py) FIFO gave string: KEY_O
+[10/13/17,16:13:52] (presenter.py) displaying file: [64]68.pdf
+[10/13/17,16:13:52] () 
+[10/13/17,16:13:52] (main.py) projector power on
+[10/13/17,16:13:52] (tcp_client.py) sending command: on
+[10/13/17,16:13:52] (tcp_client.py) response: PJLINK 0
+[10/13/17,16:17:39] (capture.sh) KEY_VOLUMEUP
+[10/13/17,16:17:39] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/13/17,16:17:39] (presenter.py) displaying file: [143]175.pdf
+[10/13/17,16:17:39] () 
+[10/13/17,16:17:43] (capture.sh) KEY_P
+[10/13/17,16:17:43] (main.py) FIFO gave string: KEY_P
+[10/13/17,16:17:43] (main.py) projector power off
+[10/13/17,16:17:43] (tcp_client.py) sending command: off
+[10/13/17,16:17:43] (tcp_client.py) response: PJLINK 0
+[10/13/17,16:18:18] (capture.sh) KEY_O
+[10/13/17,16:18:18] (main.py) FIFO gave string: KEY_O
+[10/13/17,16:18:18] (presenter.py) displaying file: [143]175.pdf
+[10/13/17,16:18:18] () 
+[10/13/17,16:18:19] (main.py) projector power on
+[10/13/17,16:18:19] (tcp_client.py) sending command: on
+[10/13/17,16:18:19] (tcp_client.py) response: PJLINK 0
+[10/13/17,16:20:24] (capture.sh) KEY_P
+[10/13/17,16:20:24] (main.py) FIFO gave string: KEY_P
+[10/13/17,16:20:24] (main.py) projector power off
+[10/13/17,16:20:24] (tcp_client.py) sending command: off
+[10/13/17,16:20:24] (tcp_client.py) response: PJLINK 0
+[10/14/17,15:27:34] (capture.sh) KEY_O
+[10/14/17,15:27:34] (main.py) FIFO gave string: KEY_O
+[10/14/17,15:27:35] (presenter.py) displaying file: [143]175.pdf
+[10/14/17,15:27:35] () 
+[10/14/17,15:27:35] (main.py) projector power on
+[10/14/17,15:27:35] (tcp_client.py) sending command: on
+[10/14/17,15:27:35] (tcp_client.py) response: PJLINK 0
+[10/14/17,15:27:49] (capture.sh) 1
+[10/14/17,15:27:49] (main.py) FIFO gave string: 1
+[10/14/17,15:27:51] (capture.sh) 6
+[10/14/17,15:27:51] (main.py) FIFO gave string: 6
+[10/14/17,15:27:51] (capture.sh) 6
+[10/14/17,15:27:51] (main.py) FIFO gave string: 6
+[10/14/17,15:27:53] (capture.sh) KEY_ENTER
+[10/14/17,15:27:53] (main.py) FIFO gave string: KEY_ENTER
+[10/14/17,15:27:53] (presenter.py) displaying file: [134]166.pdf
+[10/14/17,15:27:53] () 
+[10/14/17,15:28:07] (capture.sh) 3
+[10/14/17,15:28:07] (main.py) FIFO gave string: 3
+[10/14/17,15:28:08] (capture.sh) 9
+[10/14/17,15:28:08] (main.py) FIFO gave string: 9
+[10/14/17,15:28:09] (capture.sh) KEY_ENTER
+[10/14/17,15:28:09] (main.py) FIFO gave string: KEY_ENTER
+[10/14/17,15:28:10] (presenter.py) displaying file: [38]39.pdf
+[10/14/17,15:28:10] () 
+[10/14/17,15:28:14] (capture.sh) 6
+[10/14/17,15:28:14] (main.py) FIFO gave string: 6
+[10/14/17,15:28:15] (capture.sh) 8
+[10/14/17,15:28:15] (main.py) FIFO gave string: 8
+[10/14/17,15:28:17] (capture.sh) KEY_ENTER
+[10/14/17,15:28:17] (main.py) FIFO gave string: KEY_ENTER
+[10/14/17,15:28:17] (presenter.py) displaying file: [64]68.pdf
+[10/14/17,15:28:18] () 
+[10/14/17,15:28:21] (capture.sh) 1
+[10/14/17,15:28:21] (main.py) FIFO gave string: 1
+[10/14/17,15:28:22] (capture.sh) 7
+[10/14/17,15:28:23] (main.py) FIFO gave string: 7
+[10/14/17,15:28:23] (capture.sh) 5
+[10/14/17,15:28:23] (main.py) FIFO gave string: 5
+[10/14/17,15:28:24] (capture.sh) KEY_ENTER
+[10/14/17,15:28:24] (main.py) FIFO gave string: KEY_ENTER
+[10/14/17,15:28:24] (presenter.py) displaying file: [143]175.pdf
+[10/14/17,15:28:25] () 
+[10/14/17,15:28:30] (capture.sh) KEY_VOLUMEDOWN
+[10/14/17,15:28:30] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/14/17,15:28:30] (presenter.py) displaying file: [64]68.pdf
+[10/14/17,15:28:30] () 
+[10/14/17,15:28:32] (capture.sh) KEY_VOLUMEDOWN
+[10/14/17,15:28:32] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/14/17,15:28:32] (presenter.py) displaying file: [38]39.pdf
+[10/14/17,15:28:32] () 
+[10/14/17,15:28:34] (capture.sh) KEY_VOLUMEDOWN
+[10/14/17,15:28:34] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/14/17,15:28:34] (presenter.py) displaying file: [134]166.pdf
+[10/14/17,15:28:34] () 
+[10/14/17,15:28:38] (capture.sh) KEY_P
+[10/14/17,15:28:38] (main.py) FIFO gave string: KEY_P
+[10/14/17,15:28:38] (main.py) projector power off
+[10/14/17,15:28:38] (tcp_client.py) sending command: off
+[10/14/17,15:28:38] (tcp_client.py) response: PJLINK 0
+[10/14/17,15:50:25] (capture.sh) KEY_O
+[10/14/17,15:50:25] (main.py) FIFO gave string: KEY_O
+[10/14/17,15:50:25] (presenter.py) displaying file: [134]166.pdf
+[10/14/17,15:50:25] () 
+[10/14/17,15:50:25] (main.py) projector power on
+[10/14/17,15:50:25] (tcp_client.py) sending command: on
+[10/14/17,15:50:25] (tcp_client.py) response: PJLINK 0
+[10/14/17,15:51:38] (capture.sh) KEY_P
+[10/14/17,15:51:38] (main.py) FIFO gave string: KEY_P
+[10/14/17,15:51:38] (main.py) projector power off
+[10/14/17,15:51:38] (tcp_client.py) sending command: off
+[10/14/17,15:51:38] (tcp_client.py) response: PJLINK 0
+[10/14/17,15:57:10] (capture.sh) KEY_O
+[10/14/17,15:57:10] (main.py) FIFO gave string: KEY_O
+[10/14/17,15:57:10] (presenter.py) displaying file: [134]166.pdf
+[10/14/17,15:57:11] () 
+[10/14/17,15:57:11] (main.py) projector power on
+[10/14/17,15:57:11] (tcp_client.py) sending command: on
+[10/14/17,15:57:11] (tcp_client.py) response: PJLINK 0
+[10/14/17,15:58:10] (capture.sh) KEY_VOLUMEUP
+[10/14/17,15:58:10] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/14/17,15:58:10] (presenter.py) displaying file: [38]39.pdf
+[10/14/17,15:58:11] () 
+[10/14/17,15:58:14] (capture.sh) KEY_P
+[10/14/17,15:58:14] (main.py) FIFO gave string: KEY_P
+[10/14/17,15:58:14] (main.py) projector power off
+[10/14/17,15:58:14] (tcp_client.py) sending command: off
+[10/14/17,15:58:14] (tcp_client.py) response: PJLINK 0
+[10/14/17,16:13:02] (capture.sh) KEY_O
+[10/14/17,16:13:02] (main.py) FIFO gave string: KEY_O
+[10/14/17,16:13:03] (presenter.py) displaying file: [38]39.pdf
+[10/14/17,16:13:03] () 
+[10/14/17,16:13:03] (main.py) projector power on
+[10/14/17,16:13:03] (tcp_client.py) sending command: on
+[10/14/17,16:13:03] (tcp_client.py) response: PJLINK 0
+[10/14/17,16:13:39] (capture.sh) KEY_R
+[10/14/17,16:13:39] (main.py) FIFO gave string: KEY_R
+[10/14/17,16:13:39] (main.py) projector blank file
+[10/14/17,16:13:39] (presenter.py) displaying file: [38]0.pdf
+[10/14/17,16:13:40] () 
+[10/14/17,16:13:44] (capture.sh) KEY_O
+[10/14/17,16:13:44] (main.py) FIFO gave string: KEY_O
+[10/14/17,16:13:44] (presenter.py) displaying file: [38]39.pdf
+[10/14/17,16:13:44] () 
+[10/14/17,16:13:45] (main.py) projector power on
+[10/14/17,16:13:45] (tcp_client.py) sending command: on
+[10/14/17,16:13:45] (tcp_client.py) response: PJLINK 0
+[10/14/17,16:14:46] (capture.sh) KEY_VOLUMEUP
+[10/14/17,16:14:47] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/14/17,16:14:47] (presenter.py) displaying file: [64]68.pdf
+[10/14/17,16:14:47] () 
+[10/14/17,16:14:50] (capture.sh) KEY_P
+[10/14/17,16:14:50] (main.py) FIFO gave string: KEY_P
+[10/14/17,16:14:50] (main.py) projector power off
+[10/14/17,16:14:50] (tcp_client.py) sending command: off
+[10/14/17,16:14:50] (tcp_client.py) response: PJLINK 0
+[10/14/17,16:24:11] (capture.sh) KEY_O
+[10/14/17,16:24:11] (main.py) FIFO gave string: KEY_O
+[10/14/17,16:24:11] (presenter.py) displaying file: [64]68.pdf
+[10/14/17,16:24:12] () 
+[10/14/17,16:24:12] (main.py) projector power on
+[10/14/17,16:24:12] (tcp_client.py) sending command: on
+[10/14/17,16:24:12] (tcp_client.py) response: PJLINK 0
+[10/14/17,16:27:07] (capture.sh) KEY_VOLUMEUP
+[10/14/17,16:27:07] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/14/17,16:27:07] (presenter.py) displaying file: [143]175.pdf
+[10/14/17,16:27:07] () 
+[10/14/17,16:27:21] (capture.sh) KEY_P
+[10/14/17,16:27:21] (main.py) FIFO gave string: KEY_P
+[10/14/17,16:27:21] (main.py) projector power off
+[10/14/17,16:27:21] (tcp_client.py) sending command: off
+[10/14/17,16:27:21] (tcp_client.py) response: PJLINK 0
+[10/14/17,16:32:30] (capture.sh) KEY_O
+[10/14/17,16:32:30] (main.py) FIFO gave string: KEY_O
+[10/14/17,16:32:30] (presenter.py) displaying file: [143]175.pdf
+[10/14/17,16:32:30] () 
+[10/14/17,16:32:30] (main.py) projector power on
+[10/14/17,16:32:30] (tcp_client.py) sending command: on
+[10/14/17,16:32:31] (tcp_client.py) response: PJLINK 0
+[10/14/17,16:33:34] (capture.sh) KEY_P
+[10/14/17,16:33:34] (main.py) FIFO gave string: KEY_P
+[10/14/17,16:33:34] (main.py) projector power off
+[10/14/17,16:33:34] (tcp_client.py) sending command: off
+[10/14/17,16:33:34] (tcp_client.py) response: PJLINK 0
+[10/15/17,05:15:36] (capture.sh) KEY_O
+[10/15/17,05:15:36] (main.py) FIFO gave string: KEY_O
+[10/15/17,05:15:37] (presenter.py) displaying file: [143]175.pdf
+[10/15/17,05:15:37] () 
+[10/15/17,05:15:37] (main.py) projector power on
+[10/15/17,05:15:37] (tcp_client.py) sending command: on
+[10/15/17,05:15:37] (tcp_client.py) response: PJLINK 0
+[10/15/17,05:15:45] (capture.sh) KEY_VOLUMEDOWN
+[10/15/17,05:15:45] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/15/17,05:15:46] (presenter.py) displaying file: [64]68.pdf
+[10/15/17,05:15:46] () 
+[10/15/17,05:15:48] (capture.sh) KEY_VOLUMEDOWN
+[10/15/17,05:15:48] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/15/17,05:15:48] (presenter.py) displaying file: [38]39.pdf
+[10/15/17,05:15:48] () 
+[10/15/17,05:15:50] (capture.sh) KEY_VOLUMEDOWN
+[10/15/17,05:15:50] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/15/17,05:15:50] (presenter.py) displaying file: [134]166.pdf
+[10/15/17,05:15:50] () 
+[10/15/17,05:15:55] (capture.sh) KEY_P
+[10/15/17,05:15:55] (main.py) FIFO gave string: KEY_P
+[10/15/17,05:15:55] (main.py) projector power off
+[10/15/17,05:15:55] (tcp_client.py) sending command: off
+[10/15/17,05:15:55] (tcp_client.py) response: PJLINK 0
+[10/15/17,05:20:17] (capture.sh) KEY_O
+[10/15/17,05:20:18] (main.py) FIFO gave string: KEY_O
+[10/15/17,05:20:18] (presenter.py) displaying file: [134]166.pdf
+[10/15/17,05:20:18] () 
+[10/15/17,05:20:18] (main.py) projector power on
+[10/15/17,05:20:18] (tcp_client.py) sending command: on
+[10/15/17,05:20:18] (tcp_client.py) response: PJLINK 0
+[10/15/17,05:27:19] (capture.sh) KEY_P
+[10/15/17,05:27:19] (main.py) FIFO gave string: KEY_P
+[10/15/17,05:27:20] (main.py) projector power off
+[10/15/17,05:27:20] (tcp_client.py) sending command: off
+[10/15/17,05:27:20] (tcp_client.py) response: PJLINK 0
+[10/15/17,05:28:21] (capture.sh) KEY_O
+[10/15/17,05:28:21] (main.py) FIFO gave string: KEY_O
+[10/15/17,05:28:21] (presenter.py) displaying file: [134]166.pdf
+[10/15/17,05:28:21] () 
+[10/15/17,05:28:21] (main.py) projector power on
+[10/15/17,05:28:21] (tcp_client.py) sending command: on
+[10/15/17,05:28:22] (tcp_client.py) response: PJLINK 0
+[10/15/17,05:29:11] (capture.sh) KEY_P
+[10/15/17,05:29:11] (main.py) FIFO gave string: KEY_P
+[10/15/17,05:29:11] (main.py) projector power off
+[10/15/17,05:29:11] (tcp_client.py) sending command: off
+[10/15/17,05:29:11] (tcp_client.py) response: PJLINK 0
+[10/15/17,05:46:18] (capture.sh) KEY_O
+[10/15/17,05:46:18] (main.py) FIFO gave string: KEY_O
+[10/15/17,05:46:18] (presenter.py) displaying file: [134]166.pdf
+[10/15/17,05:46:18] () 
+[10/15/17,05:46:18] (main.py) projector power on
+[10/15/17,05:46:18] (tcp_client.py) sending command: on
+[10/15/17,05:46:19] (tcp_client.py) response: PJLINK 0
+[10/15/17,05:46:36] (capture.sh) KEY_VOLUMEUP
+[10/15/17,05:46:36] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/15/17,05:46:36] (presenter.py) displaying file: [38]39.pdf
+[10/15/17,05:46:36] () 
+[10/15/17,05:48:18] (capture.sh) KEY_VOLUMEUP
+[10/15/17,05:48:18] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/15/17,05:48:18] (presenter.py) displaying file: [64]68.pdf
+[10/15/17,05:48:18] () 
+[10/15/17,05:48:20] (capture.sh) KEY_P
+[10/15/17,05:48:20] (main.py) FIFO gave string: KEY_P
+[10/15/17,05:48:20] (main.py) projector power off
+[10/15/17,05:48:20] (tcp_client.py) sending command: off
+[10/15/17,05:48:20] (tcp_client.py) response: PJLINK 0
+[10/15/17,06:00:08] (capture.sh) KEY_O
+[10/15/17,06:00:08] (main.py) FIFO gave string: KEY_O
+[10/15/17,06:00:09] (presenter.py) displaying file: [64]68.pdf
+[10/15/17,06:00:09] () 
+[10/15/17,06:00:09] (main.py) projector power on
+[10/15/17,06:00:09] (tcp_client.py) sending command: on
+[10/15/17,06:00:09] (tcp_client.py) response: PJLINK 0
+[10/15/17,06:03:39] (capture.sh) KEY_VOLUMEUP
+[10/15/17,06:03:39] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/15/17,06:03:39] (presenter.py) displaying file: [143]175.pdf
+[10/15/17,06:03:40] () 
+[10/15/17,06:03:43] (capture.sh) KEY_P
+[10/15/17,06:03:43] (main.py) FIFO gave string: KEY_P
+[10/15/17,06:03:43] (main.py) projector power off
+[10/15/17,06:03:43] (tcp_client.py) sending command: off
+[10/15/17,06:03:43] (tcp_client.py) response: PJLINK 0
+[10/15/17,06:09:05] (capture.sh) KEY_O
+[10/15/17,06:09:05] (main.py) FIFO gave string: KEY_O
+[10/15/17,06:09:05] (presenter.py) displaying file: [143]175.pdf
+[10/15/17,06:09:05] () 
+[10/15/17,06:09:05] (main.py) projector power on
+[10/15/17,06:09:05] (tcp_client.py) sending command: on
+[10/15/17,06:09:06] (tcp_client.py) response: PJLINK 0
+[10/15/17,06:13:01] (capture.sh) KEY_P
+[10/15/17,06:13:01] (main.py) FIFO gave string: KEY_P
+[10/15/17,06:13:02] (main.py) projector power off
+[10/15/17,06:13:02] (tcp_client.py) sending command: off
+[10/15/17,06:13:02] (tcp_client.py) response: PJLINK 0
+[10/15/17,07:42:27] (capture.sh) KEY_O
+[10/15/17,07:42:27] (main.py) FIFO gave string: KEY_O
+[10/15/17,07:42:27] (presenter.py) displaying file: [143]175.pdf
+[10/15/17,07:42:27] () 
+[10/15/17,07:42:28] (main.py) projector power on
+[10/15/17,07:42:28] (tcp_client.py) sending command: on
+[10/15/17,07:42:28] (tcp_client.py) response: PJLINK 0
+[10/15/17,07:45:13] (capture.sh) KEY_P
+[10/15/17,07:45:13] (main.py) FIFO gave string: KEY_P
+[10/15/17,07:45:13] (main.py) projector power off
+[10/15/17,07:45:13] (tcp_client.py) sending command: off
+[10/15/17,07:45:14] (tcp_client.py) response: PJLINK 0
+[10/16/17,15:27:11] (capture.sh) KEY_O
+[10/16/17,15:27:11] (main.py) FIFO gave string: KEY_O
+[10/16/17,15:27:12] (presenter.py) displaying file: [143]175.pdf
+[10/16/17,15:27:12] () 
+[10/16/17,15:27:12] (main.py) projector power on
+[10/16/17,15:27:12] (tcp_client.py) sending command: on
+[10/16/17,15:27:12] (tcp_client.py) response: PJLINK 0
+[10/16/17,15:27:19] (capture.sh) 1
+[10/16/17,15:27:19] (main.py) FIFO gave string: 1
+[10/16/17,15:27:20] (capture.sh) 4
+[10/16/17,15:27:20] (main.py) FIFO gave string: 4
+[10/16/17,15:27:20] (capture.sh) 4
+[10/16/17,15:27:21] (main.py) FIFO gave string: 4
+[10/16/17,15:27:22] (capture.sh) KEY_ENTER
+[10/16/17,15:27:22] (main.py) FIFO gave string: KEY_ENTER
+[10/16/17,15:27:22] (presenter.py) displaying file: [112]144.pdf
+[10/16/17,15:27:22] () 
+[10/16/17,15:27:27] (capture.sh) 4
+[10/16/17,15:27:27] (main.py) FIFO gave string: 4
+[10/16/17,15:27:28] (capture.sh) 1
+[10/16/17,15:27:28] (main.py) FIFO gave string: 1
+[10/16/17,15:27:29] (capture.sh) KEY_ENTER
+[10/16/17,15:27:29] (main.py) FIFO gave string: KEY_ENTER
+[10/16/17,15:27:29] (presenter.py) displaying file: [40]41.pdf
+[10/16/17,15:27:29] () 
+[10/16/17,15:27:34] (capture.sh) 8
+[10/16/17,15:27:35] (main.py) FIFO gave string: 8
+[10/16/17,15:27:35] (capture.sh) 3
+[10/16/17,15:27:35] (main.py) FIFO gave string: 3
+[10/16/17,15:27:36] (capture.sh) KEY_ENTER
+[10/16/17,15:27:36] (main.py) FIFO gave string: KEY_ENTER
+[10/16/17,15:27:37] (presenter.py) displaying file: [79]83.pdf
+[10/16/17,15:27:37] () 
+[10/16/17,15:27:41] (capture.sh) 2
+[10/16/17,15:27:41] (main.py) FIFO gave string: 2
+[10/16/17,15:27:41] (capture.sh) 2
+[10/16/17,15:27:41] (main.py) FIFO gave string: 2
+[10/16/17,15:27:42] (capture.sh) 2
+[10/16/17,15:27:42] (main.py) FIFO gave string: 2
+[10/16/17,15:27:43] (capture.sh) KEY_ENTER
+[10/16/17,15:27:43] (main.py) FIFO gave string: KEY_ENTER
+[10/16/17,15:27:43] (presenter.py) displaying file: [176]222.pdf
+[10/16/17,15:27:43] () 
+[10/16/17,15:27:47] (capture.sh) KEY_VOLUMEDOWN
+[10/16/17,15:27:48] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/16/17,15:27:48] (presenter.py) displaying file: [79]83.pdf
+[10/16/17,15:27:48] () 
+[10/16/17,15:27:49] (capture.sh) KEY_VOLUMEDOWN
+[10/16/17,15:27:50] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/16/17,15:27:50] (presenter.py) displaying file: [40]41.pdf
+[10/16/17,15:27:50] () 
+[10/16/17,15:27:52] (capture.sh) KEY_VOLUMEDOWN
+[10/16/17,15:27:52] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/16/17,15:27:52] (presenter.py) displaying file: [112]144.pdf
+[10/16/17,15:27:52] () 
+[10/16/17,15:27:56] (capture.sh) KEY_P
+[10/16/17,15:27:56] (main.py) FIFO gave string: KEY_P
+[10/16/17,15:27:56] (main.py) projector power off
+[10/16/17,15:27:56] (tcp_client.py) sending command: off
+[10/16/17,15:27:56] (tcp_client.py) response: PJLINK 0
+[10/16/17,15:50:19] (capture.sh) KEY_O
+[10/16/17,15:50:19] (main.py) FIFO gave string: KEY_O
+[10/16/17,15:50:19] (presenter.py) displaying file: [112]144.pdf
+[10/16/17,15:50:19] () 
+[10/16/17,15:50:19] (main.py) projector power on
+[10/16/17,15:50:19] (tcp_client.py) sending command: on
+[10/16/17,15:50:20] (tcp_client.py) response: PJLINK 0
+[10/16/17,15:51:53] (capture.sh) KEY_VOLUMEUP
+[10/16/17,15:51:53] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/16/17,15:51:53] (presenter.py) displaying file: [40]41.pdf
+[10/16/17,15:51:53] () 
+[10/16/17,15:51:55] (capture.sh) KEY_P
+[10/16/17,15:51:55] (main.py) FIFO gave string: KEY_P
+[10/16/17,15:51:55] (main.py) projector power off
+[10/16/17,15:51:55] (tcp_client.py) sending command: off
+[10/16/17,15:51:55] (tcp_client.py) response: PJLINK 0
+[10/16/17,16:03:56] (capture.sh) KEY_O
+[10/16/17,16:03:56] (main.py) FIFO gave string: KEY_O
+[10/16/17,16:03:56] (presenter.py) displaying file: [40]41.pdf
+[10/16/17,16:03:56] () 
+[10/16/17,16:03:56] (main.py) projector power on
+[10/16/17,16:03:57] (tcp_client.py) sending command: on
+[10/16/17,16:03:57] (tcp_client.py) response: PJLINK 0
+[10/16/17,16:05:42] (capture.sh) KEY_VOLUMEUP
+[10/16/17,16:05:43] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/16/17,16:05:43] (presenter.py) displaying file: [79]83.pdf
+[10/16/17,16:05:43] () 
+[10/16/17,16:05:45] (capture.sh) KEY_O
+[10/16/17,16:05:45] (main.py) FIFO gave string: KEY_O
+[10/16/17,16:05:45] (presenter.py) displaying file: [79]83.pdf
+[10/16/17,16:05:45] () 
+[10/16/17,16:05:45] (main.py) projector power on
+[10/16/17,16:05:45] (tcp_client.py) sending command: on
+[10/16/17,16:05:46] (tcp_client.py) response: PJLINK 0
+[10/16/17,16:10:50] (capture.sh) KEY_P
+[10/16/17,16:10:50] (main.py) FIFO gave string: KEY_P
+[10/16/17,16:10:50] (main.py) projector power off
+[10/16/17,16:10:50] (tcp_client.py) sending command: off
+[10/16/17,16:10:50] (tcp_client.py) response: PJLINK 0
+[10/16/17,16:14:30] (capture.sh) KEY_O
+[10/16/17,16:14:30] (main.py) FIFO gave string: KEY_O
+[10/16/17,16:14:31] (presenter.py) displaying file: [79]83.pdf
+[10/16/17,16:14:31] () 
+[10/16/17,16:14:31] (main.py) projector power on
+[10/16/17,16:14:31] (tcp_client.py) sending command: on
+[10/16/17,16:14:31] (tcp_client.py) response: PJLINK 0
+[10/16/17,16:17:30] (capture.sh) KEY_VOLUMEUP
+[10/16/17,16:17:31] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/16/17,16:17:31] (presenter.py) displaying file: [176]222.pdf
+[10/16/17,16:17:31] () 
+[10/16/17,16:17:34] (capture.sh) KEY_P
+[10/16/17,16:17:34] (main.py) FIFO gave string: KEY_P
+[10/16/17,16:17:34] (main.py) projector power off
+[10/16/17,16:17:34] (tcp_client.py) sending command: off
+[10/16/17,16:17:34] (tcp_client.py) response: PJLINK 0
+[10/16/17,16:19:12] (capture.sh) KEY_O
+[10/16/17,16:19:12] (main.py) FIFO gave string: KEY_O
+[10/16/17,16:19:12] (presenter.py) displaying file: [176]222.pdf
+[10/16/17,16:19:12] () 
+[10/16/17,16:19:12] (main.py) projector power on
+[10/16/17,16:19:13] (tcp_client.py) sending command: on
+[10/16/17,16:19:13] (tcp_client.py) response: PJLINK 0
+[10/16/17,16:23:03] (capture.sh) KEY_P
+[10/16/17,16:23:03] (main.py) FIFO gave string: KEY_P
+[10/16/17,16:23:03] (main.py) projector power off
+[10/16/17,16:23:03] (tcp_client.py) sending command: off
+[10/16/17,16:23:04] (tcp_client.py) response: PJLINK 0
+[10/17/17,15:25:27] (capture.sh) KEY_O
+[10/17/17,15:25:27] (main.py) FIFO gave string: KEY_O
+[10/17/17,15:25:27] (presenter.py) displaying file: [176]222.pdf
+[10/17/17,15:25:28] () 
+[10/17/17,15:25:28] (main.py) projector power on
+[10/17/17,15:25:28] (tcp_client.py) sending command: on
+[10/17/17,15:25:28] (tcp_client.py) response: PJLINK 0
+[10/17/17,15:25:35] (capture.sh) 2
+[10/17/17,15:25:35] (main.py) FIFO gave string: 2
+[10/17/17,15:25:37] (capture.sh) 0
+[10/17/17,15:25:37] (main.py) FIFO gave string: 0
+[10/17/17,15:25:38] (capture.sh) KEY_ENTER
+[10/17/17,15:25:38] (main.py) FIFO gave string: KEY_ENTER
+[10/17/17,15:25:38] (presenter.py) displaying file: [20]20.pdf
+[10/17/17,15:25:38] () 
+[10/17/17,15:25:44] (capture.sh) 4
+[10/17/17,15:25:44] (main.py) FIFO gave string: 4
+[10/17/17,15:25:44] (capture.sh) 3
+[10/17/17,15:25:44] (main.py) FIFO gave string: 3
+[10/17/17,15:25:45] (capture.sh) KEY_ENTER
+[10/17/17,15:25:45] (main.py) FIFO gave string: KEY_ENTER
+[10/17/17,15:25:45] (presenter.py) displaying file: [42]43.pdf
+[10/17/17,15:25:45] () 
+[10/17/17,15:25:50] (capture.sh) 7
+[10/17/17,15:25:51] (main.py) FIFO gave string: 7
+[10/17/17,15:25:51] (capture.sh) 0
+[10/17/17,15:25:51] (main.py) FIFO gave string: 0
+[10/17/17,15:25:52] (capture.sh) KEY_ENTER
+[10/17/17,15:25:52] (main.py) FIFO gave string: KEY_ENTER
+[10/17/17,15:25:53] (presenter.py) displaying file: [66]70.pdf
+[10/17/17,15:25:53] () 
+[10/17/17,15:25:57] (capture.sh) 1
+[10/17/17,15:25:58] (main.py) FIFO gave string: 1
+[10/17/17,15:25:58] (capture.sh) 4
+[10/17/17,15:25:58] (main.py) FIFO gave string: 4
+[10/17/17,15:26:00] (capture.sh) 0
+[10/17/17,15:26:00] (main.py) FIFO gave string: 0
+[10/17/17,15:26:01] (capture.sh) KEY_ENTER
+[10/17/17,15:26:01] (main.py) FIFO gave string: KEY_ENTER
+[10/17/17,15:26:01] (presenter.py) displaying file: [108]140.pdf
+[10/17/17,15:26:01] () 
+[10/17/17,15:26:04] (capture.sh) KEY_VOLUMEDOWN
+[10/17/17,15:26:04] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/17/17,15:26:04] (presenter.py) displaying file: [66]70.pdf
+[10/17/17,15:26:04] () 
+[10/17/17,15:26:06] (capture.sh) KEY_VOLUMEDOWN
+[10/17/17,15:26:06] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/17/17,15:26:06] (presenter.py) displaying file: [42]43.pdf
+[10/17/17,15:26:06] () 
+[10/17/17,15:26:08] (capture.sh) KEY_VOLUMEDOWN
+[10/17/17,15:26:08] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/17/17,15:26:08] (presenter.py) displaying file: [20]20.pdf
+[10/17/17,15:26:09] () 
+[10/17/17,15:26:12] (capture.sh) KEY_P
+[10/17/17,15:26:12] (main.py) FIFO gave string: KEY_P
+[10/17/17,15:26:12] (main.py) projector power off
+[10/17/17,15:26:12] (tcp_client.py) sending command: off
+[10/17/17,15:26:12] (tcp_client.py) response: PJLINK 0
+[10/17/17,15:50:21] (capture.sh) KEY_O
+[10/17/17,15:50:21] (main.py) FIFO gave string: KEY_O
+[10/17/17,15:50:21] (presenter.py) displaying file: [20]20.pdf
+[10/17/17,15:50:21] () 
+[10/17/17,15:50:21] (main.py) projector power on
+[10/17/17,15:50:21] (tcp_client.py) sending command: on
+[10/17/17,15:50:21] (tcp_client.py) response: PJLINK 0
+[10/17/17,15:52:02] (capture.sh) KEY_VOLUMEUP
+[10/17/17,15:52:02] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/17/17,15:52:02] (presenter.py) displaying file: [42]43.pdf
+[10/17/17,15:52:03] () 
+[10/17/17,15:52:05] (capture.sh) KEY_P
+[10/17/17,15:52:06] (main.py) FIFO gave string: KEY_P
+[10/17/17,15:52:06] (capture.sh) KEY_R
+[10/17/17,15:52:06] (main.py) projector power off
+[10/17/17,15:52:06] (tcp_client.py) sending command: off
+[10/17/17,15:52:06] (tcp_client.py) response: PJLINK 0
+[10/17/17,15:52:06] (main.py) FIFO gave string: KEY_R
+[10/17/17,15:52:06] (main.py) projector blank file
+[10/17/17,15:52:06] (presenter.py) displaying file: [42]0.pdf
+[10/17/17,15:52:06] () 
+[10/17/17,16:02:24] (capture.sh) KEY_O
+[10/17/17,16:02:24] (main.py) FIFO gave string: KEY_O
+[10/17/17,16:02:24] (presenter.py) displaying file: [42]43.pdf
+[10/17/17,16:02:24] () 
+[10/17/17,16:02:24] (main.py) projector power on
+[10/17/17,16:02:24] (tcp_client.py) sending command: on
+[10/17/17,16:02:25] (tcp_client.py) response: PJLINK 0
+[10/17/17,16:04:16] (capture.sh) KEY_VOLUMEUP
+[10/17/17,16:04:16] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/17/17,16:04:16] (presenter.py) displaying file: [66]70.pdf
+[10/17/17,16:04:16] () 
+[10/17/17,16:04:18] (capture.sh) KEY_O
+[10/17/17,16:04:18] (main.py) FIFO gave string: KEY_O
+[10/17/17,16:04:18] (presenter.py) displaying file: [66]70.pdf
+[10/17/17,16:04:18] () 
+[10/17/17,16:04:18] (main.py) projector power on
+[10/17/17,16:04:19] (tcp_client.py) sending command: on
+[10/17/17,16:04:19] (tcp_client.py) response: PJLINK 0
+[10/17/17,16:04:20] (capture.sh) KEY_P
+[10/17/17,16:04:20] (main.py) FIFO gave string: KEY_P
+[10/17/17,16:04:20] (main.py) projector power off
+[10/17/17,16:04:20] (tcp_client.py) sending command: off
+[10/17/17,16:04:20] (tcp_client.py) response: PJLINK 0
+[10/17/17,16:13:06] (capture.sh) KEY_O
+[10/17/17,16:13:06] (main.py) FIFO gave string: KEY_O
+[10/17/17,16:13:06] (presenter.py) displaying file: [66]70.pdf
+[10/17/17,16:13:06] () 
+[10/17/17,16:13:06] (main.py) projector power on
+[10/17/17,16:13:06] (tcp_client.py) sending command: on
+[10/17/17,16:13:06] (tcp_client.py) response: PJLINK 0
+[10/17/17,16:17:34] (capture.sh) KEY_VOLUMEUP
+[10/17/17,16:17:34] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/17/17,16:17:35] (presenter.py) displaying file: [108]140.pdf
+[10/17/17,16:17:35] () 
+[10/17/17,16:17:39] (capture.sh) KEY_P
+[10/17/17,16:17:39] (main.py) FIFO gave string: KEY_P
+[10/17/17,16:17:39] (main.py) projector power off
+[10/17/17,16:17:40] (tcp_client.py) sending command: off
+[10/17/17,16:17:40] (tcp_client.py) response: PJLINK 0
+[10/17/17,16:17:56] (capture.sh) KEY_O
+[10/17/17,16:17:56] (main.py) FIFO gave string: KEY_O
+[10/17/17,16:17:57] (presenter.py) displaying file: [108]140.pdf
+[10/17/17,16:17:57] () 
+[10/17/17,16:17:57] (main.py) projector power on
+[10/17/17,16:17:57] (tcp_client.py) sending command: on
+[10/17/17,16:17:57] (tcp_client.py) response: PJLINK 0
+[10/17/17,16:20:38] (capture.sh) KEY_P
+[10/17/17,16:20:38] (main.py) FIFO gave string: KEY_P
+[10/17/17,16:20:38] (main.py) projector power off
+[10/17/17,16:20:38] (tcp_client.py) sending command: off
+[10/17/17,16:20:38] (tcp_client.py) response: PJLINK 0
+[10/18/17,15:48:35] (capture.sh) KEY_O
+[10/18/17,15:48:35] (main.py) FIFO gave string: KEY_O
+[10/18/17,15:48:35] (presenter.py) displaying file: [108]140.pdf
+[10/18/17,15:48:36] () 
+[10/18/17,15:48:36] (main.py) projector power on
+[10/18/17,15:48:36] (tcp_client.py) sending command: on
+[10/18/17,15:48:36] (tcp_client.py) response: PJLINK 0
+[10/18/17,15:48:43] (capture.sh) 2
+[10/18/17,15:48:43] (main.py) FIFO gave string: 2
+[10/18/17,15:48:44] (capture.sh) 3
+[10/18/17,15:48:44] (main.py) FIFO gave string: 3
+[10/18/17,15:48:45] (capture.sh) KEY_ENTER
+[10/18/17,15:48:45] (main.py) FIFO gave string: KEY_ENTER
+[10/18/17,15:48:45] (presenter.py) displaying file: [23]23.pdf
+[10/18/17,15:48:45] () 
+[10/18/17,15:48:50] (capture.sh) 4
+[10/18/17,15:48:50] (main.py) FIFO gave string: 4
+[10/18/17,15:48:50] (capture.sh) 6
+[10/18/17,15:48:51] (main.py) FIFO gave string: 6
+[10/18/17,15:48:52] (capture.sh) KEY_ENTER
+[10/18/17,15:48:52] (main.py) FIFO gave string: KEY_ENTER
+[10/18/17,15:48:52] (presenter.py) displaying file: [45]46.pdf
+[10/18/17,15:48:52] () 
+[10/18/17,15:48:55] (capture.sh) 7
+[10/18/17,15:48:55] (main.py) FIFO gave string: 7
+[10/18/17,15:48:56] (capture.sh) 2
+[10/18/17,15:48:56] (main.py) FIFO gave string: 2
+[10/18/17,15:48:57] (capture.sh) KEY_ENTER
+[10/18/17,15:48:57] (main.py) FIFO gave string: KEY_ENTER
+[10/18/17,15:48:58] (presenter.py) displaying file: [68]72.pdf
+[10/18/17,15:48:58] () 
+[10/18/17,15:49:01] (capture.sh) 1
+[10/18/17,15:49:01] (main.py) FIFO gave string: 1
+[10/18/17,15:49:03] (capture.sh) 4
+[10/18/17,15:49:03] (main.py) FIFO gave string: 4
+[10/18/17,15:49:05] (capture.sh) 0
+[10/18/17,15:49:05] (main.py) FIFO gave string: 0
+[10/18/17,15:49:06] (capture.sh) KEY_ENTER
+[10/18/17,15:49:06] (main.py) FIFO gave string: KEY_ENTER
+[10/18/17,15:49:06] (presenter.py) displaying file: [108]140.pdf
+[10/18/17,15:49:06] () 
+[10/18/17,15:49:10] (capture.sh) KEY_VOLUMEDOWN
+[10/18/17,15:49:10] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/18/17,15:49:10] (presenter.py) displaying file: [68]72.pdf
+[10/18/17,15:49:10] (capture.sh) KEY_VOLUMEDOWN
+[10/18/17,15:49:10] () 
+[10/18/17,15:49:10] (capture.sh) KEY_VOLUMEDOWN
+[10/18/17,15:49:10] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/18/17,15:49:11] (presenter.py) displaying file: [45]46.pdf
+[10/18/17,15:49:11] () 
+[10/18/17,15:49:11] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/18/17,15:49:12] (presenter.py) displaying file: [23]23.pdf
+[10/18/17,15:49:12] () 
+[10/18/17,15:49:13] (capture.sh) KEY_VOLUMEDOWN
+[10/18/17,15:49:14] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/18/17,15:49:14] (presenter.py) displaying file: [108]140.pdf
+[10/18/17,15:49:14] () 
+[10/18/17,15:49:15] (capture.sh) KEY_VOLUMEDOWN
+[10/18/17,15:49:15] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/18/17,15:49:16] (presenter.py) displaying file: [66]70.pdf
+[10/18/17,15:49:16] () 
+[10/18/17,15:49:20] (capture.sh) KEY_VOLUMEUP
+[10/18/17,15:49:20] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/18/17,15:49:20] (presenter.py) displaying file: [108]140.pdf
+[10/18/17,15:49:21] () 
+[10/18/17,15:49:23] (capture.sh) KEY_VOLUMEUP
+[10/18/17,15:49:23] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/18/17,15:49:23] (presenter.py) displaying file: [23]23.pdf
+[10/18/17,15:49:23] () 
+[10/18/17,15:49:30] (capture.sh) KEY_P
+[10/18/17,15:49:30] (main.py) FIFO gave string: KEY_P
+[10/18/17,15:49:30] (main.py) projector power off
+[10/18/17,15:49:31] (tcp_client.py) sending command: off
+[10/18/17,15:49:31] (tcp_client.py) response: PJLINK 0
+[10/18/17,15:51:35] (capture.sh) KEY_O
+[10/18/17,15:51:35] (main.py) FIFO gave string: KEY_O
+[10/18/17,15:51:35] (presenter.py) displaying file: [23]23.pdf
+[10/18/17,15:51:35] () 
+[10/18/17,15:51:36] (main.py) projector power on
+[10/18/17,15:51:36] (tcp_client.py) sending command: on
+[10/18/17,15:51:36] (tcp_client.py) response: PJLINK 0
+[10/18/17,15:52:57] (capture.sh) KEY_VOLUMEUP
+[10/18/17,15:52:57] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/18/17,15:52:58] (presenter.py) displaying file: [45]46.pdf
+[10/18/17,15:52:58] () 
+[10/18/17,15:53:00] (capture.sh) KEY_P
+[10/18/17,15:53:01] (main.py) FIFO gave string: KEY_P
+[10/18/17,15:53:01] (main.py) projector power off
+[10/18/17,15:53:01] (tcp_client.py) sending command: off
+[10/18/17,15:53:01] (tcp_client.py) response: PJLINK 0
+[10/18/17,16:06:15] (capture.sh) KEY_O
+[10/18/17,16:06:15] (main.py) FIFO gave string: KEY_O
+[10/18/17,16:06:15] (presenter.py) displaying file: [45]46.pdf
+[10/18/17,16:06:15] () 
+[10/18/17,16:06:15] (main.py) projector power on
+[10/18/17,16:06:15] (tcp_client.py) sending command: on
+[10/18/17,16:06:16] (tcp_client.py) response: PJLINK 0
+[10/18/17,16:08:20] (capture.sh) KEY_VOLUMEUP
+[10/18/17,16:08:20] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/18/17,16:08:20] (presenter.py) displaying file: [68]72.pdf
+[10/18/17,16:08:20] () 
+[10/18/17,16:08:23] (capture.sh) KEY_P
+[10/18/17,16:08:24] (main.py) FIFO gave string: KEY_P
+[10/18/17,16:08:24] (main.py) projector power off
+[10/18/17,16:08:24] (tcp_client.py) sending command: off
+[10/18/17,16:08:24] (tcp_client.py) response: PJLINK 0
+[10/18/17,16:18:49] (capture.sh) KEY_O
+[10/18/17,16:18:49] (main.py) FIFO gave string: KEY_O
+[10/18/17,16:18:49] (presenter.py) displaying file: [68]72.pdf
+[10/18/17,16:18:49] () 
+[10/18/17,16:18:50] (main.py) projector power on
+[10/18/17,16:18:50] (tcp_client.py) sending command: on
+[10/18/17,16:18:50] (tcp_client.py) response: PJLINK 0
+[10/18/17,16:22:08] (capture.sh) KEY_VOLUMEUP
+[10/18/17,16:22:08] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/18/17,16:22:08] (presenter.py) displaying file: [108]140.pdf
+[10/18/17,16:22:08] () 
+[10/18/17,16:22:13] (capture.sh) KEY_P
+[10/18/17,16:22:13] (main.py) FIFO gave string: KEY_P
+[10/18/17,16:22:13] (main.py) projector power off
+[10/18/17,16:22:13] (tcp_client.py) sending command: off
+[10/18/17,16:22:13] (tcp_client.py) response: PJLINK 0
+[10/18/17,16:24:59] (capture.sh) KEY_O
+[10/18/17,16:24:59] (main.py) FIFO gave string: KEY_O
+[10/18/17,16:24:59] (presenter.py) displaying file: [108]140.pdf
+[10/18/17,16:24:59] () 
+[10/18/17,16:24:59] (main.py) projector power on
+[10/18/17,16:25:00] (tcp_client.py) sending command: on
+[10/18/17,16:25:00] (tcp_client.py) response: PJLINK 0
+[10/18/17,16:29:36] (capture.sh) KEY_P
+[10/18/17,16:29:36] (main.py) FIFO gave string: KEY_P
+[10/18/17,16:29:36] (main.py) projector power off
+[10/18/17,16:29:36] (tcp_client.py) sending command: off
+[10/18/17,16:29:36] (tcp_client.py) response: PJLINK 0
+[10/19/17,15:25:25] (capture.sh) 2
+[10/19/17,15:25:25] (main.py) FIFO gave string: 2
+[10/19/17,15:25:27] (capture.sh) KEY_O
+[10/19/17,15:25:27] (main.py) FIFO gave string: KEY_O
+[10/19/17,15:25:27] (presenter.py) displaying file: [108]140.pdf
+[10/19/17,15:25:27] () 
+[10/19/17,15:25:27] (main.py) projector power on
+[10/19/17,15:25:28] (tcp_client.py) sending command: on
+[10/19/17,15:25:28] (tcp_client.py) response: PJLINK 0
+[10/19/17,15:25:36] (capture.sh) 2
+[10/19/17,15:25:36] (main.py) FIFO gave string: 2
+[10/19/17,15:25:37] (capture.sh) 6
+[10/19/17,15:25:37] (main.py) FIFO gave string: 6
+[10/19/17,15:25:38] (capture.sh) KEY_ENTER
+[10/19/17,15:25:39] (main.py) FIFO gave string: KEY_ENTER
+[10/19/17,15:25:39] (presenter.py) displaying file: [180]226.pdf
+[10/19/17,15:25:39] () 
+[10/19/17,15:26:03] (capture.sh) 2
+[10/19/17,15:26:03] (main.py) FIFO gave string: 2
+[10/19/17,15:26:04] (capture.sh) 6
+[10/19/17,15:26:04] (main.py) FIFO gave string: 6
+[10/19/17,15:26:05] (capture.sh) KEY_ENTER
+[10/19/17,15:26:05] (main.py) FIFO gave string: KEY_ENTER
+[10/19/17,15:26:05] (presenter.py) displaying file: [26]26.pdf
+[10/19/17,15:26:06] () 
+[10/19/17,15:26:13] (capture.sh) 3
+[10/19/17,15:26:13] (main.py) FIFO gave string: 3
+[10/19/17,15:26:13] (capture.sh) 1
+[10/19/17,15:26:13] (main.py) FIFO gave string: 1
+[10/19/17,15:26:15] (capture.sh) KEY_ENTER
+[10/19/17,15:26:15] (main.py) FIFO gave string: KEY_ENTER
+[10/19/17,15:26:15] (presenter.py) displaying file: [30]31.pdf
+[10/19/17,15:26:15] () 
+[10/19/17,15:26:20] (capture.sh) 7
+[10/19/17,15:26:20] (main.py) FIFO gave string: 7
+[10/19/17,15:26:21] (capture.sh) 4
+[10/19/17,15:26:21] (main.py) FIFO gave string: 4
+[10/19/17,15:26:22] (capture.sh) KEY_ENTER
+[10/19/17,15:26:22] (main.py) FIFO gave string: KEY_ENTER
+[10/19/17,15:26:23] (presenter.py) displaying file: [70]74.pdf
+[10/19/17,15:26:23] () 
+[10/19/17,15:26:27] (capture.sh) 1
+[10/19/17,15:26:27] (main.py) FIFO gave string: 1
+[10/19/17,15:26:29] (capture.sh) 5
+[10/19/17,15:26:29] (main.py) FIFO gave string: 5
+[10/19/17,15:26:29] (capture.sh) 5
+[10/19/17,15:26:29] (main.py) FIFO gave string: 5
+[10/19/17,15:26:30] (capture.sh) KEY_ENTER
+[10/19/17,15:26:30] (main.py) FIFO gave string: KEY_ENTER
+[10/19/17,15:26:31] (presenter.py) displaying file: [123]155.pdf
+[10/19/17,15:26:31] () 
+[10/19/17,15:26:36] (capture.sh) KEY_VOLUMEDOWN
+[10/19/17,15:26:36] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/19/17,15:26:36] (presenter.py) displaying file: [70]74.pdf
+[10/19/17,15:26:36] () 
+[10/19/17,15:26:38] (capture.sh) KEY_VOLUMEDOWN
+[10/19/17,15:26:38] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/19/17,15:26:38] (presenter.py) displaying file: [30]31.pdf
+[10/19/17,15:26:38] () 
+[10/19/17,15:26:40] (capture.sh) KEY_VOLUMEDOWN
+[10/19/17,15:26:40] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/19/17,15:26:41] (presenter.py) displaying file: [26]26.pdf
+[10/19/17,15:26:41] () 
+[10/19/17,15:26:45] (capture.sh) KEY_P
+[10/19/17,15:26:45] (main.py) FIFO gave string: KEY_P
+[10/19/17,15:26:45] (main.py) projector power off
+[10/19/17,15:26:45] (tcp_client.py) sending command: off
+[10/19/17,15:26:45] (tcp_client.py) response: PJLINK 0
+[10/19/17,15:27:37] (capture.sh) KEY_P
+[10/19/17,15:27:37] (main.py) FIFO gave string: KEY_P
+[10/19/17,15:27:37] (capture.sh) 9
+[10/19/17,15:27:37] (capture.sh) unknown
+[10/19/17,15:27:37] (main.py) projector power off
+[10/19/17,15:27:37] (tcp_client.py) sending command: off
+[10/19/17,15:27:37] (tcp_client.py) response: PJLINK 0
+[10/19/17,15:27:37] (main.py) FIFO gave string: 9
+[10/19/17,15:27:37] (main.py) FIFO gave string: unknown
+[10/19/17,15:50:53] (capture.sh) KEY_O
+[10/19/17,15:50:53] (main.py) FIFO gave string: KEY_O
+[10/19/17,15:50:54] (presenter.py) displaying file: [26]26.pdf
+[10/19/17,15:50:54] () 
+[10/19/17,15:50:54] (main.py) projector power on
+[10/19/17,15:50:54] (tcp_client.py) sending command: on
+[10/19/17,15:50:54] (tcp_client.py) response: PJLINK 0
+[10/19/17,15:51:48] (capture.sh) KEY_VOLUMEUP
+[10/19/17,15:51:48] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/19/17,15:51:49] (presenter.py) displaying file: [30]31.pdf
+[10/19/17,15:51:49] () 
+[10/19/17,15:51:51] (capture.sh) KEY_P
+[10/19/17,15:51:51] (main.py) FIFO gave string: KEY_P
+[10/19/17,15:51:52] (main.py) projector power off
+[10/19/17,15:51:52] (tcp_client.py) sending command: off
+[10/19/17,15:51:52] (tcp_client.py) response: PJLINK 0
+[10/19/17,16:04:50] (capture.sh) KEY_O
+[10/19/17,16:04:50] (main.py) FIFO gave string: KEY_O
+[10/19/17,16:04:50] (presenter.py) displaying file: [30]31.pdf
+[10/19/17,16:04:50] () 
+[10/19/17,16:04:50] (main.py) projector power on
+[10/19/17,16:04:50] (tcp_client.py) sending command: on
+[10/19/17,16:04:51] (tcp_client.py) response: PJLINK 0
+[10/19/17,16:06:47] (capture.sh) KEY_VOLUMEUP
+[10/19/17,16:06:47] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/19/17,16:06:48] (presenter.py) displaying file: [70]74.pdf
+[10/19/17,16:06:48] () 
+[10/19/17,16:06:51] (capture.sh) KEY_P
+[10/19/17,16:06:51] (main.py) FIFO gave string: KEY_P
+[10/19/17,16:06:51] (main.py) projector power off
+[10/19/17,16:06:52] (tcp_client.py) sending command: off
+[10/19/17,16:06:52] (tcp_client.py) response: PJLINK 0
+[10/19/17,16:15:39] (capture.sh) KEY_O
+[10/19/17,16:15:39] (main.py) FIFO gave string: KEY_O
+[10/19/17,16:15:40] (presenter.py) displaying file: [70]74.pdf
+[10/19/17,16:15:40] () 
+[10/19/17,16:15:40] (main.py) projector power on
+[10/19/17,16:15:40] (tcp_client.py) sending command: on
+[10/19/17,16:15:40] (tcp_client.py) response: PJLINK 0
+[10/19/17,16:19:58] (capture.sh) KEY_VOLUMEUP
+[10/19/17,16:19:58] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/19/17,16:19:58] (presenter.py) displaying file: [123]155.pdf
+[10/19/17,16:19:58] () 
+[10/19/17,16:20:02] (capture.sh) KEY_P
+[10/19/17,16:20:02] (main.py) FIFO gave string: KEY_P
+[10/19/17,16:20:02] (main.py) projector power off
+[10/19/17,16:20:02] (tcp_client.py) sending command: off
+[10/19/17,16:20:02] (tcp_client.py) response: PJLINK 0
+[10/19/17,16:20:56] (capture.sh) KEY_O
+[10/19/17,16:20:57] (main.py) FIFO gave string: KEY_O
+[10/19/17,16:20:57] (presenter.py) displaying file: [123]155.pdf
+[10/19/17,16:20:57] () 
+[10/19/17,16:20:57] (main.py) projector power on
+[10/19/17,16:20:57] (tcp_client.py) sending command: on
+[10/19/17,16:20:57] (tcp_client.py) response: PJLINK 0
+[10/19/17,16:25:21] (capture.sh) KEY_P
+[10/19/17,16:25:21] (main.py) FIFO gave string: KEY_P
+[10/19/17,16:25:21] (main.py) projector power off
+[10/19/17,16:25:21] (tcp_client.py) sending command: off
+[10/19/17,16:25:21] (tcp_client.py) response: PJLINK 0
+[10/20/17,15:49:57] (capture.sh) KEY_O
+[10/20/17,15:49:57] (main.py) FIFO gave string: KEY_O
+[10/20/17,15:49:57] (presenter.py) displaying file: [123]155.pdf
+[10/20/17,15:49:57] () 
+[10/20/17,15:49:57] (capture.sh) KEY_O
+[10/20/17,15:49:57] (main.py) projector power on
+[10/20/17,15:49:57] (capture.sh) KEY_O
+[10/20/17,15:49:57] (capture.sh) KEY_O
+[10/20/17,15:49:58] (capture.sh) KEY_O
+[10/20/17,15:49:58] (tcp_client.py) sending command: on
+[10/20/17,15:49:58] (tcp_client.py) response: PJLINK 0
+[10/20/17,15:49:58] (main.py) FIFO gave string: KEY_O
+[10/20/17,15:49:58] (presenter.py) displaying file: [123]155.pdf
+[10/20/17,15:49:58] () 
+[10/20/17,15:49:59] (main.py) projector power on
+[10/20/17,15:49:59] (tcp_client.py) sending command: on
+[10/20/17,15:49:59] (tcp_client.py) response: PJLINK 0
+[10/20/17,15:49:59] (main.py) FIFO gave string: KEY_O
+[10/20/17,15:50:00] (presenter.py) displaying file: [123]155.pdf
+[10/20/17,15:50:00] () 
+[10/20/17,15:50:00] (main.py) projector power on
+[10/20/17,15:50:00] (tcp_client.py) sending command: on
+[10/20/17,15:50:00] (tcp_client.py) response: PJLINK 0
+[10/20/17,15:50:01] (main.py) FIFO gave string: KEY_O
+[10/20/17,15:50:01] (presenter.py) displaying file: [123]155.pdf
+[10/20/17,15:50:01] () 
+[10/20/17,15:50:01] (main.py) projector power on
+[10/20/17,15:50:02] (tcp_client.py) sending command: on
+[10/20/17,15:50:02] (tcp_client.py) response: PJLINK 0
+[10/20/17,15:50:02] (main.py) FIFO gave string: KEY_O
+[10/20/17,15:50:03] (presenter.py) displaying file: [123]155.pdf
+[10/20/17,15:50:03] () 
+[10/20/17,15:50:03] (main.py) projector power on
+[10/20/17,15:50:03] (tcp_client.py) sending command: on
+[10/20/17,15:50:03] (tcp_client.py) response: PJLINK 0
+[10/20/17,15:50:09] (capture.sh) 1
+[10/20/17,15:50:09] (main.py) FIFO gave string: 1
+[10/20/17,15:50:11] (capture.sh) KEY_ENTER
+[10/20/17,15:50:11] (main.py) FIFO gave string: KEY_ENTER
+[10/20/17,15:50:31] (capture.sh) KEY_P
+[10/20/17,15:50:31] (main.py) FIFO gave string: KEY_P
+[10/20/17,15:50:31] (main.py) projector power off
+[10/20/17,15:50:31] (tcp_client.py) sending command: off
+[10/20/17,15:50:31] (tcp_client.py) response: PJLINK 0
+[10/20/17,15:50:40] (capture.sh) KEY_O
+[10/20/17,15:50:40] (main.py) FIFO gave string: KEY_O
+[10/20/17,15:50:41] (presenter.py) displaying file: [123]155.pdf
+[10/20/17,15:50:41] () 
+[10/20/17,15:50:41] (main.py) projector power on
+[10/20/17,15:50:41] (tcp_client.py) sending command: on
+[10/20/17,15:50:41] (tcp_client.py) response: PJLINK 0
+[10/20/17,15:50:49] (capture.sh) 1
+[10/20/17,15:50:49] (main.py) FIFO gave string: 1
+[10/20/17,15:50:50] (capture.sh) KEY_ENTER
+[10/20/17,15:50:50] (main.py) FIFO gave string: KEY_ENTER
+[10/20/17,15:50:50] (presenter.py) displaying file: [1]1.pdf
+[10/20/17,15:50:50] () 
+[10/20/17,15:52:34] (capture.sh) KEY_P
+[10/20/17,15:52:34] (main.py) FIFO gave string: KEY_P
+[10/20/17,15:52:34] (main.py) projector power off
+[10/20/17,15:52:34] (tcp_client.py) sending command: off
+[10/20/17,15:52:35] (tcp_client.py) response: PJLINK 0
+[10/20/17,15:53:42] (capture.sh) 3
+[10/20/17,15:53:42] (main.py) FIFO gave string: 3
+[10/20/17,15:53:43] (capture.sh) 5
+[10/20/17,15:53:44] (main.py) FIFO gave string: 5
+[10/20/17,15:53:45] (capture.sh) KEY_ENTER
+[10/20/17,15:53:45] (main.py) FIFO gave string: KEY_ENTER
+[10/20/17,15:53:45] (presenter.py) displaying file: [34]35.pdf
+[10/20/17,15:53:45] () 
+[10/20/17,16:02:15] (capture.sh) KEY_O
+[10/20/17,16:02:15] (main.py) FIFO gave string: KEY_O
+[10/20/17,16:02:15] (presenter.py) displaying file: [34]35.pdf
+[10/20/17,16:02:15] () 
+[10/20/17,16:02:15] (main.py) projector power on
+[10/20/17,16:02:15] (tcp_client.py) sending command: on
+[10/20/17,16:02:16] (tcp_client.py) response: PJLINK 0
+[10/20/17,16:06:12] (capture.sh) KEY_P
+[10/20/17,16:06:12] (main.py) FIFO gave string: KEY_P
+[10/20/17,16:06:12] (main.py) projector power off
+[10/20/17,16:06:12] (tcp_client.py) sending command: off
+[10/20/17,16:06:12] (tcp_client.py) response: PJLINK 0
+[10/20/17,16:07:34] (capture.sh) 8
+[10/20/17,16:07:34] (main.py) FIFO gave string: 8
+[10/20/17,16:07:35] (capture.sh) 1
+[10/20/17,16:07:35] (main.py) FIFO gave string: 1
+[10/20/17,16:07:37] (capture.sh) KEY_ENTER
+[10/20/17,16:07:37] (main.py) FIFO gave string: KEY_ENTER
+[10/20/17,16:07:37] (presenter.py) displaying file: [77]81.pdf
+[10/20/17,16:07:37] () 
+[10/20/17,16:15:55] (capture.sh) KEY_O
+[10/20/17,16:15:55] (main.py) FIFO gave string: KEY_O
+[10/20/17,16:15:55] (presenter.py) displaying file: [77]81.pdf
+[10/20/17,16:15:56] () 
+[10/20/17,16:15:56] (main.py) projector power on
+[10/20/17,16:15:56] (tcp_client.py) sending command: on
+[10/20/17,16:15:56] (tcp_client.py) response: PJLINK 0
+[10/20/17,16:20:19] (capture.sh) 3
+[10/20/17,16:20:19] (main.py) FIFO gave string: 3
+[10/20/17,16:20:20] (capture.sh) 5
+[10/20/17,16:20:20] (main.py) FIFO gave string: 5
+[10/20/17,16:20:20] (capture.sh) 5
+[10/20/17,16:20:20] (main.py) FIFO gave string: 5
+[10/20/17,16:20:20] (capture.sh) 5
+[10/20/17,16:20:20] (capture.sh) 5
+[10/20/17,16:20:21] (capture.sh) 5
+[10/20/17,16:20:21] (main.py) FIFO gave string: 5
+[10/20/17,16:20:21] (main.py) FIFO gave string: 5
+[10/20/17,16:20:21] (main.py) FIFO gave string: 5
+[10/20/17,16:20:21] (capture.sh) KEY_ENTER
+[10/20/17,16:20:21] (main.py) FIFO gave string: KEY_ENTER
+[10/20/17,16:20:27] (capture.sh) 1
+[10/20/17,16:20:27] (main.py) FIFO gave string: 1
+[10/20/17,16:20:28] (capture.sh) 3
+[10/20/17,16:20:28] (main.py) FIFO gave string: 3
+[10/20/17,16:20:29] (capture.sh) 5
+[10/20/17,16:20:29] (main.py) FIFO gave string: 5
+[10/20/17,16:20:30] (capture.sh) KEY_ENTER
+[10/20/17,16:20:30] (main.py) FIFO gave string: KEY_ENTER
+[10/20/17,16:20:30] (presenter.py) displaying file: [103]135.pdf
+[10/20/17,16:20:30] () 
+[10/20/17,16:26:03] (capture.sh) KEY_P
+[10/20/17,16:26:03] (main.py) FIFO gave string: KEY_P
+[10/20/17,16:26:03] (main.py) projector power off
+[10/20/17,16:26:03] (tcp_client.py) sending command: off
+[10/20/17,16:26:03] (tcp_client.py) response: PJLINK 0
+[10/21/17,15:28:16] (capture.sh) KEY_ENTER
+[10/21/17,15:28:16] (main.py) FIFO gave string: KEY_ENTER
+[10/21/17,15:28:18] (capture.sh) 1
+[10/21/17,15:28:18] (main.py) FIFO gave string: 1
+[10/21/17,15:28:18] (capture.sh) 1
+[10/21/17,15:28:18] (main.py) FIFO gave string: 1
+[10/21/17,15:28:19] (capture.sh) 1
+[10/21/17,15:28:19] (main.py) FIFO gave string: 1
+[10/21/17,15:28:20] (capture.sh) KEY_ENTER
+[10/21/17,15:28:20] (main.py) FIFO gave string: KEY_ENTER
+[10/21/17,15:28:20] (presenter.py) displaying file: [86]111.pdf
+[10/21/17,15:28:20] () 
+[10/21/17,15:28:22] (capture.sh) KEY_O
+[10/21/17,15:28:22] (main.py) FIFO gave string: KEY_O
+[10/21/17,15:28:22] (presenter.py) displaying file: [86]111.pdf
+[10/21/17,15:28:22] () 
+[10/21/17,15:28:23] (main.py) projector power on
+[10/21/17,15:28:23] (tcp_client.py) sending command: on
+[10/21/17,15:28:23] (tcp_client.py) response: PJLINK 0
+[10/21/17,15:28:31] (capture.sh) KEY_R
+[10/21/17,15:28:31] (main.py) FIFO gave string: KEY_R
+[10/21/17,15:28:31] (main.py) projector blank file
+[10/21/17,15:28:31] (presenter.py) displaying file: [86]0.pdf
+[10/21/17,15:28:31] () 
+[10/21/17,15:33:41] (capture.sh) KEY_O
+[10/21/17,15:33:41] (main.py) FIFO gave string: KEY_O
+[10/21/17,15:33:41] (presenter.py) displaying file: [86]111.pdf
+[10/21/17,15:33:41] () 
+[10/21/17,15:33:41] (main.py) projector power on
+[10/21/17,15:33:41] (tcp_client.py) sending command: on
+[10/21/17,15:33:41] (tcp_client.py) response: PJLINK 0
+[10/21/17,15:37:34] (capture.sh) KEY_R
+[10/21/17,15:37:34] (main.py) FIFO gave string: KEY_R
+[10/21/17,15:37:34] (main.py) projector blank file
+[10/21/17,15:37:34] (presenter.py) displaying file: [86]0.pdf
+[10/21/17,15:37:34] () 
+[10/21/17,15:45:33] (capture.sh) KEY_O
+[10/21/17,15:45:34] (main.py) FIFO gave string: KEY_O
+[10/21/17,15:45:34] (presenter.py) displaying file: [86]111.pdf
+[10/21/17,15:45:34] () 
+[10/21/17,15:45:34] (main.py) projector power on
+[10/21/17,15:45:34] (tcp_client.py) sending command: on
+[10/21/17,15:45:34] (tcp_client.py) response: PJLINK 0
+[10/21/17,15:46:52] (capture.sh) KEY_R
+[10/21/17,15:46:52] (main.py) FIFO gave string: KEY_R
+[10/21/17,15:46:52] (main.py) projector blank file
+[10/21/17,15:46:52] (presenter.py) displaying file: [86]0.pdf
+[10/21/17,15:46:53] () 
+[10/21/17,15:48:26] (capture.sh) 3
+[10/21/17,15:48:27] (main.py) FIFO gave string: 3
+[10/21/17,15:48:28] (capture.sh) 1
+[10/21/17,15:48:28] (main.py) FIFO gave string: 1
+[10/21/17,15:48:29] (capture.sh) 4
+[10/21/17,15:48:29] (main.py) FIFO gave string: 4
+[10/21/17,15:48:33] (capture.sh) KEY_ENTER
+[10/21/17,15:48:33] (main.py) FIFO gave string: KEY_ENTER
+[10/21/17,15:48:34] (presenter.py) displaying file: [209]314.pdf
+[10/21/17,15:48:34] () 
+[10/21/17,15:51:53] (capture.sh) KEY_UP
+[10/21/17,15:51:53] (main.py) FIFO gave string: KEY_UP
+[10/21/17,15:51:53] (presenter.py) displaying file: [210]315.pdf
+[10/21/17,15:51:53] () 
+[10/21/17,15:53:07] (capture.sh) KEY_R
+[10/21/17,15:53:07] (main.py) FIFO gave string: KEY_R
+[10/21/17,15:53:07] (main.py) projector blank file
+[10/21/17,15:53:08] (presenter.py) displaying file: [210]0.pdf
+[10/21/17,15:53:08] () 
+[10/21/17,15:56:58] (capture.sh) KEY_P
+[10/21/17,15:56:58] (main.py) FIFO gave string: KEY_P
+[10/21/17,15:56:58] (main.py) projector power off
+[10/21/17,15:56:58] (tcp_client.py) sending command: off
+[10/21/17,15:56:58] (tcp_client.py) response: PJLINK 0
+[10/21/17,15:57:24] (capture.sh) KEY_P
+[10/21/17,15:57:25] (main.py) FIFO gave string: KEY_P
+[10/21/17,15:57:25] (main.py) projector power off
+[10/21/17,15:57:25] (tcp_client.py) sending command: off
+[10/21/17,15:57:25] (tcp_client.py) response: PJLINK 0
+[10/21/17,15:57:33] (capture.sh) 3
+[10/21/17,15:57:33] (main.py) FIFO gave string: 3
+[10/21/17,15:57:35] (capture.sh) 0
+[10/21/17,15:57:35] (main.py) FIFO gave string: 0
+[10/21/17,15:57:36] (capture.sh) 8
+[10/21/17,15:57:36] (main.py) FIFO gave string: 8
+[10/21/17,15:57:37] (capture.sh) KEY_ENTER
+[10/21/17,15:57:37] (main.py) FIFO gave string: KEY_ENTER
+[10/21/17,15:57:37] (presenter.py) displaying file: [203]308.pdf
+[10/21/17,15:57:37] () 
+[10/21/17,16:14:23] (capture.sh) KEY_O
+[10/21/17,16:14:23] (main.py) FIFO gave string: KEY_O
+[10/21/17,16:14:23] (presenter.py) displaying file: [203]308.pdf
+[10/21/17,16:14:23] () 
+[10/21/17,16:14:24] (main.py) projector power on
+[10/21/17,16:14:24] (tcp_client.py) sending command: on
+[10/21/17,16:14:24] (tcp_client.py) response: PJLINK 0
+[10/21/17,16:17:25] (capture.sh) KEY_P
+[10/21/17,16:17:25] (main.py) FIFO gave string: KEY_P
+[10/21/17,16:17:25] (main.py) projector power off
+[10/21/17,16:17:26] (tcp_client.py) sending command: off
+[10/21/17,16:17:26] (tcp_client.py) response: PJLINK 0
+[10/21/17,16:26:17] (capture.sh) 2
+[10/21/17,16:26:17] (main.py) FIFO gave string: 2
+[10/21/17,16:26:18] (capture.sh) 3
+[10/21/17,16:26:18] (main.py) FIFO gave string: 3
+[10/21/17,16:26:19] (capture.sh) 3
+[10/21/17,16:26:19] (main.py) FIFO gave string: 3
+[10/21/17,16:26:20] (capture.sh) KEY_ENTER
+[10/21/17,16:26:20] (main.py) FIFO gave string: KEY_ENTER
+[10/21/17,16:26:20] (presenter.py) displaying file: [187]233.pdf
+[10/21/17,16:26:21] () 
+[10/21/17,16:26:28] (capture.sh) KEY_O
+[10/21/17,16:26:28] (main.py) FIFO gave string: KEY_O
+[10/21/17,16:26:28] (presenter.py) displaying file: [187]233.pdf
+[10/21/17,16:26:28] () 
+[10/21/17,16:26:28] (main.py) projector power on
+[10/21/17,16:26:29] (tcp_client.py) sending command: on
+[10/21/17,16:26:29] (tcp_client.py) response: PJLINK 0
+[10/21/17,16:26:30] (capture.sh) KEY_R
+[10/21/17,16:26:30] (main.py) FIFO gave string: KEY_R
+[10/21/17,16:26:30] (main.py) projector blank file
+[10/21/17,16:26:30] (presenter.py) displaying file: [187]0.pdf
+[10/21/17,16:26:30] () 
+[10/21/17,16:28:21] (capture.sh) 2
+[10/21/17,16:28:21] (main.py) FIFO gave string: 2
+[10/21/17,16:28:22] (capture.sh) 3
+[10/21/17,16:28:22] (main.py) FIFO gave string: 3
+[10/21/17,16:28:23] (capture.sh) 3
+[10/21/17,16:28:23] (main.py) FIFO gave string: 3
+[10/21/17,16:28:24] (capture.sh) KEY_ENTER
+[10/21/17,16:28:24] (main.py) FIFO gave string: KEY_ENTER
+[10/21/17,16:28:25] (presenter.py) displaying file: [187]233.pdf
+[10/21/17,16:28:25] () 
+[10/21/17,16:33:22] (capture.sh) KEY_R
+[10/21/17,16:33:22] (main.py) FIFO gave string: KEY_R
+[10/21/17,16:33:22] (main.py) projector blank file
+[10/21/17,16:33:22] (presenter.py) displaying file: [187]0.pdf
+[10/21/17,16:33:23] () 
+[10/21/17,16:35:59] (capture.sh) 2
+[10/21/17,16:35:59] (main.py) FIFO gave string: 2
+[10/21/17,16:36:00] (capture.sh) 3
+[10/21/17,16:36:00] (main.py) FIFO gave string: 3
+[10/21/17,16:36:01] (capture.sh) 1
+[10/21/17,16:36:01] (main.py) FIFO gave string: 1
+[10/21/17,16:36:02] (capture.sh) KEY_ENTER
+[10/21/17,16:36:02] (main.py) FIFO gave string: KEY_ENTER
+[10/21/17,16:36:02] (presenter.py) displaying file: [185]231.pdf
+[10/21/17,16:36:02] () 
+[10/21/17,16:43:39] (capture.sh) KEY_P
+[10/21/17,16:43:39] (main.py) FIFO gave string: KEY_P
+[10/21/17,16:43:40] (main.py) projector power off
+[10/21/17,16:43:40] (tcp_client.py) sending command: off
+[10/21/17,16:43:40] (tcp_client.py) response: PJLINK 0
+[10/22/17,05:14:00] (capture.sh) KEY_O
+[10/22/17,05:14:00] (main.py) FIFO gave string: KEY_O
+[10/22/17,05:14:00] (presenter.py) displaying file: [185]231.pdf
+[10/22/17,05:14:01] () 
+[10/22/17,05:14:01] (main.py) projector power on
+[10/22/17,05:14:01] (tcp_client.py) sending command: on
+[10/22/17,05:14:01] (tcp_client.py) response: PJLINK 0
+[10/22/17,05:14:10] (capture.sh) 3
+[10/22/17,05:14:10] (main.py) FIFO gave string: 3
+[10/22/17,05:14:11] (capture.sh) 1
+[10/22/17,05:14:11] (main.py) FIFO gave string: 1
+[10/22/17,05:14:13] (capture.sh) 4
+[10/22/17,05:14:13] (main.py) FIFO gave string: 4
+[10/22/17,05:14:14] (capture.sh) KEY_ENTER
+[10/22/17,05:14:14] (main.py) FIFO gave string: KEY_ENTER
+[10/22/17,05:14:14] (presenter.py) displaying file: [209]314.pdf
+[10/22/17,05:14:14] () 
+[10/22/17,05:14:19] (capture.sh) KEY_P
+[10/22/17,05:14:19] (main.py) FIFO gave string: KEY_P
+[10/22/17,05:14:19] (main.py) projector power off
+[10/22/17,05:14:19] (tcp_client.py) sending command: off
+[10/22/17,05:14:19] (tcp_client.py) response: PJLINK 0
+[10/22/17,06:04:57] (capture.sh) KEY_O
+[10/22/17,06:04:57] (main.py) FIFO gave string: KEY_O
+[10/22/17,06:04:57] (presenter.py) displaying file: [209]314.pdf
+[10/22/17,06:04:58] () 
+[10/22/17,06:04:58] (main.py) projector power on
+[10/22/17,06:04:58] (tcp_client.py) sending command: on
+[10/22/17,06:04:58] (tcp_client.py) response: PJLINK 0
+[10/22/17,06:07:19] (capture.sh) KEY_P
+[10/22/17,06:07:19] (main.py) FIFO gave string: KEY_P
+[10/22/17,06:07:19] (main.py) projector power off
+[10/22/17,06:07:19] (tcp_client.py) sending command: off
+[10/22/17,06:07:19] (tcp_client.py) response: PJLINK 0
+[10/22/17,06:45:38] (capture.sh) 1
+[10/22/17,06:45:38] (main.py) FIFO gave string: 1
+[10/22/17,06:45:38] (capture.sh) 4
+[10/22/17,06:45:38] (main.py) FIFO gave string: 4
+[10/22/17,06:45:39] (capture.sh) KEY_ENTER
+[10/22/17,06:45:39] (main.py) FIFO gave string: KEY_ENTER
+[10/22/17,06:45:39] (presenter.py) displaying file: [14]14.pdf
+[10/22/17,06:45:39] () 
+[10/22/17,06:46:15] (capture.sh) 2
+[10/22/17,06:46:15] (main.py) FIFO gave string: 2
+[10/22/17,06:46:16] (capture.sh) 9
+[10/22/17,06:46:17] (main.py) FIFO gave string: 9
+[10/22/17,06:46:17] (capture.sh) KEY_ENTER
+[10/22/17,06:46:17] (main.py) FIFO gave string: KEY_ENTER
+[10/22/17,06:46:17] (presenter.py) displaying file: [29]29.pdf
+[10/22/17,06:46:18] () 
+[10/22/17,06:46:26] (capture.sh) KEY_O
+[10/22/17,06:46:26] (main.py) FIFO gave string: KEY_O
+[10/22/17,06:46:26] (presenter.py) displaying file: [29]29.pdf
+[10/22/17,06:46:26] () 
+[10/22/17,06:46:27] (main.py) projector power on
+[10/22/17,06:46:27] (tcp_client.py) sending command: on
+[10/22/17,06:46:27] (tcp_client.py) response: PJLINK 0
+[10/22/17,06:46:34] (capture.sh) KEY_VOLUMEDOWN
+[10/22/17,06:46:34] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/22/17,06:46:34] (presenter.py) displaying file: [14]14.pdf
+[10/22/17,06:46:34] () 
+[10/22/17,06:46:52] (capture.sh) 3
+[10/22/17,06:46:52] (main.py) FIFO gave string: 3
+[10/22/17,06:46:52] (capture.sh) 1
+[10/22/17,06:46:53] (main.py) FIFO gave string: 1
+[10/22/17,06:46:53] (capture.sh) 4
+[10/22/17,06:46:53] (main.py) FIFO gave string: 4
+[10/22/17,06:46:54] (capture.sh) KEY_ENTER
+[10/22/17,06:46:54] (main.py) FIFO gave string: KEY_ENTER
+[10/22/17,06:46:54] (presenter.py) displaying file: [209]314.pdf
+[10/22/17,06:46:54] () 
+[10/22/17,06:47:00] (capture.sh) KEY_VOLUMEDOWN
+[10/22/17,06:47:00] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/22/17,06:47:01] (presenter.py) displaying file: [29]29.pdf
+[10/22/17,06:47:01] () 
+[10/22/17,06:47:04] (capture.sh) KEY_VOLUMEUP
+[10/22/17,06:47:05] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/22/17,06:47:05] (presenter.py) displaying file: [209]314.pdf
+[10/22/17,06:47:05] () 
+[10/22/17,06:47:18] (capture.sh) KEY_R
+[10/22/17,06:47:18] (main.py) FIFO gave string: KEY_R
+[10/22/17,06:47:18] (main.py) projector blank file
+[10/22/17,06:47:18] (presenter.py) displaying file: [209]0.pdf
+[10/22/17,06:47:19] () 
+[10/22/17,06:50:30] (capture.sh) KEY_O
+[10/22/17,06:50:30] (main.py) FIFO gave string: KEY_O
+[10/22/17,06:50:30] (presenter.py) displaying file: [209]314.pdf
+[10/22/17,06:50:30] () 
+[10/22/17,06:50:31] (main.py) projector power on
+[10/22/17,06:50:31] (tcp_client.py) sending command: on
+[10/22/17,06:50:31] (tcp_client.py) response: PJLINK 0
+[10/22/17,06:52:33] (capture.sh) KEY_R
+[10/22/17,06:52:33] (main.py) FIFO gave string: KEY_R
+[10/22/17,06:52:33] (main.py) projector blank file
+[10/22/17,06:52:33] (presenter.py) displaying file: [209]0.pdf
+[10/22/17,06:52:33] () 
+[10/22/17,06:56:09] (capture.sh) KEY_VOLUMEDOWN
+[10/22/17,06:56:09] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/22/17,06:56:09] (presenter.py) displaying file: [29]29.pdf
+[10/22/17,06:56:10] () 
+[10/22/17,06:57:21] (capture.sh) KEY_R
+[10/22/17,06:57:21] (main.py) FIFO gave string: KEY_R
+[10/22/17,06:57:21] (main.py) projector blank file
+[10/22/17,06:57:21] (presenter.py) displaying file: [29]0.pdf
+[10/22/17,06:57:21] () 
+[10/22/17,06:59:25] (capture.sh) KEY_VOLUMEUP
+[10/22/17,06:59:25] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/22/17,06:59:25] (presenter.py) displaying file: [209]314.pdf
+[10/22/17,06:59:25] () 
+[10/22/17,07:00:46] (capture.sh) KEY_P
+[10/22/17,07:00:46] (main.py) FIFO gave string: KEY_P
+[10/22/17,07:00:46] (main.py) projector power off
+[10/22/17,07:00:46] (tcp_client.py) sending command: off
+[10/22/17,07:00:46] (tcp_client.py) response: PJLINK 0
+[10/22/17,07:13:28] (capture.sh) 3
+[10/22/17,07:13:28] (main.py) FIFO gave string: 3
+[10/22/17,07:13:29] (capture.sh) 0
+[10/22/17,07:13:29] (main.py) FIFO gave string: 0
+[10/22/17,07:13:30] (capture.sh) 8
+[10/22/17,07:13:30] (main.py) FIFO gave string: 8
+[10/22/17,07:13:31] (capture.sh) KEY_ENTER
+[10/22/17,07:13:31] (main.py) FIFO gave string: KEY_ENTER
+[10/22/17,07:13:31] (presenter.py) displaying file: [203]308.pdf
+[10/22/17,07:13:31] () 
+[10/22/17,07:14:05] (capture.sh) 5
+[10/22/17,07:14:05] (main.py) FIFO gave string: 5
+[10/22/17,07:14:06] (capture.sh) 8
+[10/22/17,07:14:06] (main.py) FIFO gave string: 8
+[10/22/17,07:14:07] (capture.sh) KEY_ENTER
+[10/22/17,07:14:07] (main.py) FIFO gave string: KEY_ENTER
+[10/22/17,07:14:07] (presenter.py) displaying file: [54]58.pdf
+[10/22/17,07:14:07] () 
+[10/22/17,07:14:15] (capture.sh) 2
+[10/22/17,07:14:15] (main.py) FIFO gave string: 2
+[10/22/17,07:14:16] (capture.sh) 3
+[10/22/17,07:14:16] (main.py) FIFO gave string: 3
+[10/22/17,07:14:17] (capture.sh) 1
+[10/22/17,07:14:17] (main.py) FIFO gave string: 1
+[10/22/17,07:14:18] (capture.sh) KEY_ENTER
+[10/22/17,07:14:19] (main.py) FIFO gave string: KEY_ENTER
+[10/22/17,07:14:19] (presenter.py) displaying file: [185]231.pdf
+[10/22/17,07:14:19] () 
+[10/22/17,07:14:25] (capture.sh) KEY_VOLUMEDOWN
+[10/22/17,07:14:25] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/22/17,07:14:25] (presenter.py) displaying file: [54]58.pdf
+[10/22/17,07:14:25] () 
+[10/22/17,07:14:27] (capture.sh) KEY_VOLUMEDOWN
+[10/22/17,07:14:28] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/22/17,07:14:28] (presenter.py) displaying file: [203]308.pdf
+[10/22/17,07:14:28] () 
+[10/22/17,07:15:22] (capture.sh) KEY_O
+[10/22/17,07:15:22] (main.py) FIFO gave string: KEY_O
+[10/22/17,07:15:22] (presenter.py) displaying file: [203]308.pdf
+[10/22/17,07:15:22] () 
+[10/22/17,07:15:22] (main.py) projector power on
+[10/22/17,07:15:22] (tcp_client.py) sending command: on
+[10/22/17,07:15:23] (tcp_client.py) response: PJLINK 0
+[10/22/17,07:19:06] (capture.sh) KEY_R
+[10/22/17,07:19:06] (main.py) FIFO gave string: KEY_R
+[10/22/17,07:19:06] (main.py) projector blank file
+[10/22/17,07:19:06] (presenter.py) displaying file: [203]0.pdf
+[10/22/17,07:19:06] () 
+[10/22/17,07:30:59] (capture.sh) KEY_VOLUMEUP
+[10/22/17,07:30:59] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/22/17,07:30:59] (presenter.py) displaying file: [54]58.pdf
+[10/22/17,07:30:59] () 
+[10/22/17,07:33:04] (capture.sh) KEY_UP
+[10/22/17,07:33:04] (main.py) FIFO gave string: KEY_UP
+[10/22/17,07:33:04] (presenter.py) displaying file: [55]59.pdf
+[10/22/17,07:33:04] () 
+[10/22/17,07:34:34] (capture.sh) KEY_UP
+[10/22/17,07:34:34] (main.py) FIFO gave string: KEY_UP
+[10/22/17,07:34:34] (presenter.py) displaying file: [56]60.pdf
+[10/22/17,07:34:34] () 
+[10/22/17,07:36:10] (capture.sh) KEY_R
+[10/22/17,07:36:10] (main.py) FIFO gave string: KEY_R
+[10/22/17,07:36:10] (main.py) projector blank file
+[10/22/17,07:36:11] (presenter.py) displaying file: [56]0.pdf
+[10/22/17,07:36:11] () 
+[10/22/17,07:38:20] (capture.sh) 2
+[10/22/17,07:38:20] (main.py) FIFO gave string: 2
+[10/22/17,07:38:21] (capture.sh) 2
+[10/22/17,07:38:21] (main.py) FIFO gave string: 2
+[10/22/17,07:38:22] (capture.sh) 4
+[10/22/17,07:38:22] (main.py) FIFO gave string: 4
+[10/22/17,07:38:26] (capture.sh) KEY_ENTER
+[10/22/17,07:38:26] (main.py) FIFO gave string: KEY_ENTER
+[10/22/17,07:38:26] (presenter.py) displaying file: [178]224.pdf
+[10/22/17,07:38:27] () 
+[10/22/17,07:45:43] (capture.sh) KEY_P
+[10/22/17,07:45:43] (main.py) FIFO gave string: KEY_P
+[10/22/17,07:45:43] (main.py) projector power off
+[10/22/17,07:45:43] (tcp_client.py) sending command: off
+[10/22/17,07:45:43] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:29:18] (capture.sh) KEY_P
+[10/22/17,15:29:18] (main.py) FIFO gave string: KEY_P
+[10/22/17,15:29:18] (main.py) projector power off
+[10/22/17,15:29:18] (tcp_client.py) sending command: off
+[10/22/17,15:29:18] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:29:21] (capture.sh) KEY_O
+[10/22/17,15:29:21] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:29:21] (presenter.py) displaying file: [178]224.pdf
+[10/22/17,15:29:21] () 
+[10/22/17,15:29:22] (capture.sh) KEY_O
+[10/22/17,15:29:22] (capture.sh) KEY_O
+[10/22/17,15:29:22] (capture.sh) KEY_O
+[10/22/17,15:29:22] (capture.sh) KEY_O
+[10/22/17,15:29:22] (capture.sh) KEY_O
+[10/22/17,15:29:22] (main.py) projector power on
+[10/22/17,15:29:22] (capture.sh) KEY_O
+[10/22/17,15:29:22] (capture.sh) KEY_O
+[10/22/17,15:29:22] (capture.sh) KEY_O
+[10/22/17,15:29:23] (capture.sh) KEY_O
+[10/22/17,15:29:23] (tcp_client.py) sending command: on
+[10/22/17,15:29:23] (capture.sh) KEY_O
+[10/22/17,15:29:23] (capture.sh) KEY_O
+[10/22/17,15:29:23] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:29:23] (capture.sh) KEY_O
+[10/22/17,15:29:23] (capture.sh) KEY_O
+[10/22/17,15:29:23] (capture.sh) KEY_O
+[10/22/17,15:29:23] (capture.sh) KEY_O
+[10/22/17,15:29:23] (capture.sh) KEY_O
+[10/22/17,15:29:23] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:29:24] (capture.sh) KEY_O
+[10/22/17,15:29:24] (capture.sh) KEY_O
+[10/22/17,15:29:24] (capture.sh) KEY_O
+[10/22/17,15:29:24] (capture.sh) KEY_O
+[10/22/17,15:29:24] (capture.sh) KEY_O
+[10/22/17,15:29:24] (presenter.py) displaying file: [178]224.pdf
+[10/22/17,15:29:24] (capture.sh) KEY_O
+[10/22/17,15:29:24] (capture.sh) KEY_O
+[10/22/17,15:29:24] (capture.sh) KEY_O
+[10/22/17,15:29:24] (capture.sh) KEY_O
+[10/22/17,15:29:24] () 
+[10/22/17,15:29:25] (capture.sh) KEY_O
+[10/22/17,15:29:25] (capture.sh) KEY_O
+[10/22/17,15:29:25] (capture.sh) KEY_O
+[10/22/17,15:29:25] (main.py) projector power on
+[10/22/17,15:29:25] (tcp_client.py) sending command: on
+[10/22/17,15:29:25] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:29:26] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:29:26] (presenter.py) displaying file: [178]224.pdf
+[10/22/17,15:29:26] () 
+[10/22/17,15:29:26] (main.py) projector power on
+[10/22/17,15:29:26] (tcp_client.py) sending command: on
+[10/22/17,15:29:27] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:29:27] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:29:27] (presenter.py) displaying file: [178]224.pdf
+[10/22/17,15:29:27] () 
+[10/22/17,15:29:28] (main.py) projector power on
+[10/22/17,15:29:28] (tcp_client.py) sending command: on
+[10/22/17,15:29:28] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:29:28] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:29:29] (presenter.py) displaying file: [178]224.pdf
+[10/22/17,15:29:29] () 
+[10/22/17,15:29:29] (main.py) projector power on
+[10/22/17,15:29:29] (tcp_client.py) sending command: on
+[10/22/17,15:29:30] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:29:30] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:29:30] (presenter.py) displaying file: [178]224.pdf
+[10/22/17,15:29:30] () 
+[10/22/17,15:29:30] (main.py) projector power on
+[10/22/17,15:29:31] (tcp_client.py) sending command: on
+[10/22/17,15:29:31] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:29:31] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:29:31] (presenter.py) displaying file: [178]224.pdf
+[10/22/17,15:29:32] () 
+[10/22/17,15:29:32] (main.py) projector power on
+[10/22/17,15:29:32] (tcp_client.py) sending command: on
+[10/22/17,15:29:32] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:29:33] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:29:33] (presenter.py) displaying file: [178]224.pdf
+[10/22/17,15:29:33] () 
+[10/22/17,15:29:33] (main.py) projector power on
+[10/22/17,15:29:34] (tcp_client.py) sending command: on
+[10/22/17,15:29:34] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:29:34] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:29:34] (presenter.py) displaying file: [178]224.pdf
+[10/22/17,15:29:35] () 
+[10/22/17,15:29:35] (main.py) projector power on
+[10/22/17,15:29:35] (tcp_client.py) sending command: on
+[10/22/17,15:29:35] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:29:35] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:29:36] (presenter.py) displaying file: [178]224.pdf
+[10/22/17,15:29:36] () 
+[10/22/17,15:29:36] (main.py) projector power on
+[10/22/17,15:29:36] (tcp_client.py) sending command: on
+[10/22/17,15:29:37] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:29:37] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:29:37] (presenter.py) displaying file: [178]224.pdf
+[10/22/17,15:29:37] () 
+[10/22/17,15:29:38] (main.py) projector power on
+[10/22/17,15:29:38] (tcp_client.py) sending command: on
+[10/22/17,15:29:38] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:29:38] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:29:39] (presenter.py) displaying file: [178]224.pdf
+[10/22/17,15:29:39] () 
+[10/22/17,15:29:39] (main.py) projector power on
+[10/22/17,15:29:39] (tcp_client.py) sending command: on
+[10/22/17,15:29:40] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:29:40] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:29:40] (presenter.py) displaying file: [178]224.pdf
+[10/22/17,15:29:40] () 
+[10/22/17,15:29:40] (main.py) projector power on
+[10/22/17,15:29:41] (tcp_client.py) sending command: on
+[10/22/17,15:29:41] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:29:41] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:29:41] (presenter.py) displaying file: [178]224.pdf
+[10/22/17,15:29:42] () 
+[10/22/17,15:29:42] (main.py) projector power on
+[10/22/17,15:29:42] (tcp_client.py) sending command: on
+[10/22/17,15:29:42] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:29:43] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:29:43] (presenter.py) displaying file: [178]224.pdf
+[10/22/17,15:29:43] () 
+[10/22/17,15:29:43] (main.py) projector power on
+[10/22/17,15:29:43] (tcp_client.py) sending command: on
+[10/22/17,15:29:44] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:29:44] (capture.sh) 2
+[10/22/17,15:29:44] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:29:44] (presenter.py) displaying file: [178]224.pdf
+[10/22/17,15:29:44] () 
+[10/22/17,15:29:45] (main.py) projector power on
+[10/22/17,15:29:45] (tcp_client.py) sending command: on
+[10/22/17,15:29:45] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:29:46] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:29:46] (capture.sh) 0
+[10/22/17,15:29:46] (presenter.py) displaying file: [178]224.pdf
+[10/22/17,15:29:46] () 
+[10/22/17,15:29:46] (main.py) projector power on
+[10/22/17,15:29:47] (tcp_client.py) sending command: on
+[10/22/17,15:29:47] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:29:47] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:29:47] (presenter.py) displaying file: [178]224.pdf
+[10/22/17,15:29:48] () 
+[10/22/17,15:29:48] (main.py) projector power on
+[10/22/17,15:29:48] (tcp_client.py) sending command: on
+[10/22/17,15:29:48] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:29:49] (capture.sh) KEY_ENTER
+[10/22/17,15:29:49] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:29:49] (presenter.py) displaying file: [178]224.pdf
+[10/22/17,15:29:49] () 
+[10/22/17,15:29:49] (main.py) projector power on
+[10/22/17,15:29:50] (tcp_client.py) sending command: on
+[10/22/17,15:29:50] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:29:50] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:29:51] (presenter.py) displaying file: [178]224.pdf
+[10/22/17,15:29:51] () 
+[10/22/17,15:29:51] (main.py) projector power on
+[10/22/17,15:29:52] (tcp_client.py) sending command: on
+[10/22/17,15:29:52] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:29:52] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:29:53] (presenter.py) displaying file: [178]224.pdf
+[10/22/17,15:29:53] () 
+[10/22/17,15:29:53] (main.py) projector power on
+[10/22/17,15:29:53] (tcp_client.py) sending command: on
+[10/22/17,15:29:54] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:29:54] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:29:54] (presenter.py) displaying file: [178]224.pdf
+[10/22/17,15:29:54] () 
+[10/22/17,15:29:55] (main.py) projector power on
+[10/22/17,15:29:55] (tcp_client.py) sending command: on
+[10/22/17,15:29:55] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:29:55] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:29:56] (presenter.py) displaying file: [178]224.pdf
+[10/22/17,15:29:56] () 
+[10/22/17,15:29:56] (main.py) projector power on
+[10/22/17,15:29:56] (tcp_client.py) sending command: on
+[10/22/17,15:29:56] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:29:57] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:29:57] (presenter.py) displaying file: [178]224.pdf
+[10/22/17,15:29:57] () 
+[10/22/17,15:29:57] (capture.sh) 2
+[10/22/17,15:29:57] (main.py) projector power on
+[10/22/17,15:29:58] (tcp_client.py) sending command: on
+[10/22/17,15:29:58] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:29:58] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:29:58] (presenter.py) displaying file: [178]224.pdf
+[10/22/17,15:29:59] () 
+[10/22/17,15:29:59] (main.py) projector power on
+[10/22/17,15:29:59] (tcp_client.py) sending command: on
+[10/22/17,15:29:59] (capture.sh) 0
+[10/22/17,15:29:59] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:30:00] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:30:00] (presenter.py) displaying file: [178]224.pdf
+[10/22/17,15:30:00] () 
+[10/22/17,15:30:00] (main.py) projector power on
+[10/22/17,15:30:01] (tcp_client.py) sending command: on
+[10/22/17,15:30:01] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:30:01] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:30:01] (presenter.py) displaying file: [178]224.pdf
+[10/22/17,15:30:02] () 
+[10/22/17,15:30:02] (capture.sh) KEY_ENTER
+[10/22/17,15:30:02] (main.py) projector power on
+[10/22/17,15:30:02] (tcp_client.py) sending command: on
+[10/22/17,15:30:02] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:30:03] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:30:03] (presenter.py) displaying file: [178]224.pdf
+[10/22/17,15:30:03] () 
+[10/22/17,15:30:04] (main.py) projector power on
+[10/22/17,15:30:04] (tcp_client.py) sending command: on
+[10/22/17,15:30:04] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:30:05] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:30:05] (presenter.py) displaying file: [178]224.pdf
+[10/22/17,15:30:05] () 
+[10/22/17,15:30:05] (main.py) projector power on
+[10/22/17,15:30:05] (tcp_client.py) sending command: on
+[10/22/17,15:30:06] (capture.sh) unknown
+[10/22/17,15:30:06] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:30:06] (capture.sh) unknown
+[10/22/17,15:30:06] (capture.sh) unknown
+[10/22/17,15:30:06] (main.py) FIFO gave string: 2
+[10/22/17,15:30:06] (capture.sh) unknown
+[10/22/17,15:30:06] (capture.sh) unknown
+[10/22/17,15:30:07] (capture.sh) unknown
+[10/22/17,15:30:07] (main.py) FIFO gave string: 0
+[10/22/17,15:30:07] (main.py) FIFO gave string: KEY_ENTER
+[10/22/17,15:30:07] (presenter.py) displaying file: [20]20.pdf
+[10/22/17,15:30:07] () 
+[10/22/17,15:30:08] (main.py) FIFO gave string: 2
+[10/22/17,15:30:08] (main.py) FIFO gave string: 0
+[10/22/17,15:30:08] (main.py) FIFO gave string: KEY_ENTER
+[10/22/17,15:30:09] (presenter.py) displaying file: [20]20.pdf
+[10/22/17,15:30:09] () 
+[10/22/17,15:30:09] (main.py) FIFO gave string: unknown
+[10/22/17,15:30:10] (main.py) FIFO gave string: unknown
+[10/22/17,15:30:10] (main.py) FIFO gave string: unknown
+[10/22/17,15:30:10] (main.py) FIFO gave string: unknown
+[10/22/17,15:30:11] (main.py) FIFO gave string: unknown
+[10/22/17,15:30:11] (main.py) FIFO gave string: unknown
+[10/22/17,15:30:11] (capture.sh) KEY_VOLUMEDOWN
+[10/22/17,15:30:11] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/22/17,15:30:11] (presenter.py) displaying file: [20]20.pdf
+[10/22/17,15:30:12] (capture.sh) KEY_VOLUMEDOWN
+[10/22/17,15:30:12] (capture.sh) KEY_VOLUMEDOWN
+[10/22/17,15:30:12] (capture.sh) KEY_VOLUMEDOWN
+[10/22/17,15:30:12] (capture.sh) KEY_VOLUMEDOWN
+[10/22/17,15:30:12] (capture.sh) KEY_VOLUMEDOWN
+[10/22/17,15:30:12] () 
+[10/22/17,15:30:12] (capture.sh) KEY_VOLUMEDOWN
+[10/22/17,15:30:12] (capture.sh) KEY_VOLUMEDOWN
+[10/22/17,15:30:12] (capture.sh) KEY_VOLUMEDOWN
+[10/22/17,15:30:13] (capture.sh) KEY_VOLUMEDOWN
+[10/22/17,15:30:13] (capture.sh) KEY_VOLUMEDOWN
+[10/22/17,15:30:13] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/22/17,15:30:13] (capture.sh) KEY_VOLUMEDOWN
+[10/22/17,15:30:13] (capture.sh) KEY_VOLUMEDOWN
+[10/22/17,15:30:13] (capture.sh) KEY_VOLUMEDOWN
+[10/22/17,15:30:13] (presenter.py) displaying file: [178]224.pdf
+[10/22/17,15:30:14] () 
+[10/22/17,15:30:14] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/22/17,15:30:14] (presenter.py) displaying file: [185]231.pdf
+[10/22/17,15:30:14] () 
+[10/22/17,15:30:15] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/22/17,15:30:15] (presenter.py) displaying file: [54]58.pdf
+[10/22/17,15:30:15] () 
+[10/22/17,15:30:16] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/22/17,15:30:16] (presenter.py) displaying file: [203]308.pdf
+[10/22/17,15:30:16] () 
+[10/22/17,15:30:17] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/22/17,15:30:17] (presenter.py) displaying file: [209]314.pdf
+[10/22/17,15:30:17] () 
+[10/22/17,15:30:18] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/22/17,15:30:18] (presenter.py) displaying file: [29]29.pdf
+[10/22/17,15:30:18] () 
+[10/22/17,15:30:19] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/22/17,15:30:19] (presenter.py) displaying file: [14]14.pdf
+[10/22/17,15:30:19] () 
+[10/22/17,15:30:20] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/22/17,15:30:20] (presenter.py) displaying file: [209]314.pdf
+[10/22/17,15:30:20] () 
+[10/22/17,15:30:21] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/22/17,15:30:21] (presenter.py) displaying file: [185]231.pdf
+[10/22/17,15:30:21] () 
+[10/22/17,15:30:22] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/22/17,15:30:22] (presenter.py) displaying file: [187]233.pdf
+[10/22/17,15:30:22] () 
+[10/22/17,15:30:23] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/22/17,15:30:23] (presenter.py) displaying file: [187]233.pdf
+[10/22/17,15:30:23] () 
+[10/22/17,15:30:24] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/22/17,15:30:24] (presenter.py) displaying file: [203]308.pdf
+[10/22/17,15:30:24] () 
+[10/22/17,15:30:24] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/22/17,15:30:25] (presenter.py) displaying file: [209]314.pdf
+[10/22/17,15:30:25] () 
+[10/22/17,15:30:35] (capture.sh) KEY_P
+[10/22/17,15:30:35] (main.py) FIFO gave string: KEY_P
+[10/22/17,15:30:35] (capture.sh) unknown
+[10/22/17,15:30:35] (main.py) projector power off
+[10/22/17,15:30:35] (capture.sh) KEY_P
+[10/22/17,15:30:35] (capture.sh) unknown
+[10/22/17,15:30:35] (tcp_client.py) sending command: off
+[10/22/17,15:30:35] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:30:35] (main.py) FIFO gave string: unknown
+[10/22/17,15:30:36] (main.py) FIFO gave string: KEY_P
+[10/22/17,15:30:36] (main.py) projector power off
+[10/22/17,15:30:36] (tcp_client.py) sending command: off
+[10/22/17,15:30:36] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:30:36] (main.py) FIFO gave string: unknown
+[10/22/17,15:30:40] (capture.sh) KEY_O
+[10/22/17,15:30:40] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:30:40] (presenter.py) displaying file: [209]314.pdf
+[10/22/17,15:30:40] () 
+[10/22/17,15:30:41] (capture.sh) KEY_O
+[10/22/17,15:30:41] (main.py) projector power on
+[10/22/17,15:30:41] (capture.sh) KEY_O
+[10/22/17,15:30:41] (tcp_client.py) sending command: on
+[10/22/17,15:30:41] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:30:41] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:30:42] (presenter.py) displaying file: [209]314.pdf
+[10/22/17,15:30:42] (capture.sh) 2
+[10/22/17,15:30:42] () 
+[10/22/17,15:30:42] (main.py) projector power on
+[10/22/17,15:30:42] (tcp_client.py) sending command: on
+[10/22/17,15:30:43] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:30:43] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:30:43] (capture.sh) 0
+[10/22/17,15:30:43] (presenter.py) displaying file: [209]314.pdf
+[10/22/17,15:30:44] () 
+[10/22/17,15:30:44] (main.py) projector power on
+[10/22/17,15:30:44] (tcp_client.py) sending command: on
+[10/22/17,15:30:44] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:30:44] (main.py) FIFO gave string: 2
+[10/22/17,15:30:45] (main.py) FIFO gave string: 0
+[10/22/17,15:30:47] (capture.sh) KEY_VOLUMEUP
+[10/22/17,15:30:47] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/22/17,15:30:47] (presenter.py) displaying file: [203]308.pdf
+[10/22/17,15:30:47] () 
+[10/22/17,15:30:59] (capture.sh) KEY_P
+[10/22/17,15:31:00] (main.py) FIFO gave string: KEY_P
+[10/22/17,15:31:00] (capture.sh) unknown
+[10/22/17,15:31:00] (main.py) projector power off
+[10/22/17,15:31:00] (tcp_client.py) sending command: off
+[10/22/17,15:31:00] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:31:00] (main.py) FIFO gave string: unknown
+[10/22/17,15:31:05] (capture.sh) KEY_O
+[10/22/17,15:31:05] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:31:05] (presenter.py) displaying file: [203]308.pdf
+[10/22/17,15:31:05] () 
+[10/22/17,15:31:05] (main.py) projector power on
+[10/22/17,15:31:05] (tcp_client.py) sending command: on
+[10/22/17,15:31:06] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:32:07] (capture.sh) KEY_R
+[10/22/17,15:32:07] (main.py) FIFO gave string: KEY_R
+[10/22/17,15:32:07] (main.py) projector blank file
+[10/22/17,15:32:08] (presenter.py) displaying file: [203]0.pdf
+[10/22/17,15:32:08] (capture.sh) KEY_R
+[10/22/17,15:32:08] () 
+[10/22/17,15:32:08] (capture.sh) KEY_R
+[10/22/17,15:32:08] (capture.sh) KEY_R
+[10/22/17,15:32:08] (main.py) FIFO gave string: KEY_R
+[10/22/17,15:32:08] (main.py) projector blank file
+[10/22/17,15:32:09] (presenter.py) displaying file: [203]0.pdf
+[10/22/17,15:32:09] () 
+[10/22/17,15:32:09] (main.py) FIFO gave string: KEY_R
+[10/22/17,15:32:09] (main.py) projector blank file
+[10/22/17,15:32:10] (presenter.py) displaying file: [203]0.pdf
+[10/22/17,15:32:10] () 
+[10/22/17,15:32:10] (main.py) FIFO gave string: KEY_R
+[10/22/17,15:32:10] (main.py) projector blank file
+[10/22/17,15:32:11] (presenter.py) displaying file: [203]0.pdf
+[10/22/17,15:32:11] () 
+[10/22/17,15:32:12] (capture.sh) KEY_P
+[10/22/17,15:32:12] (capture.sh) unknown
+[10/22/17,15:32:12] (main.py) FIFO gave string: KEY_P
+[10/22/17,15:32:12] (main.py) projector power off
+[10/22/17,15:32:12] (capture.sh) KEY_P
+[10/22/17,15:32:12] (capture.sh) unknown
+[10/22/17,15:32:12] (capture.sh) KEY_P
+[10/22/17,15:32:12] (capture.sh) unknown
+[10/22/17,15:32:13] (capture.sh) KEY_P
+[10/22/17,15:32:13] (tcp_client.py) sending command: off
+[10/22/17,15:32:13] (capture.sh) unknown
+[10/22/17,15:32:13] (capture.sh) KEY_P
+[10/22/17,15:32:13] (capture.sh) unknown
+[10/22/17,15:32:13] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:32:13] (capture.sh) KEY_P
+[10/22/17,15:32:13] (capture.sh) unknown
+[10/22/17,15:32:13] (capture.sh) KEY_P
+[10/22/17,15:32:13] (capture.sh) unknown
+[10/22/17,15:32:13] (capture.sh) KEY_P
+[10/22/17,15:32:13] (main.py) FIFO gave string: unknown
+[10/22/17,15:32:14] (capture.sh) unknown
+[10/22/17,15:32:14] (capture.sh) KEY_P
+[10/22/17,15:32:14] (capture.sh) unknown
+[10/22/17,15:32:14] (main.py) FIFO gave string: KEY_P
+[10/22/17,15:32:14] (capture.sh) KEY_P
+[10/22/17,15:32:14] (capture.sh) unknown
+[10/22/17,15:32:14] (capture.sh) KEY_P
+[10/22/17,15:32:14] (main.py) projector power off
+[10/22/17,15:32:14] (capture.sh) unknown
+[10/22/17,15:32:14] (capture.sh) KEY_P
+[10/22/17,15:32:14] (capture.sh) unknown
+[10/22/17,15:32:15] (tcp_client.py) sending command: off
+[10/22/17,15:32:15] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:32:15] (main.py) FIFO gave string: unknown
+[10/22/17,15:32:15] (main.py) FIFO gave string: KEY_P
+[10/22/17,15:32:15] (main.py) projector power off
+[10/22/17,15:32:15] (tcp_client.py) sending command: off
+[10/22/17,15:32:16] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:32:16] (main.py) FIFO gave string: unknown
+[10/22/17,15:32:16] (main.py) FIFO gave string: KEY_P
+[10/22/17,15:32:16] (main.py) projector power off
+[10/22/17,15:32:16] (tcp_client.py) sending command: off
+[10/22/17,15:32:16] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:32:16] (main.py) FIFO gave string: unknown
+[10/22/17,15:32:17] (capture.sh) 2
+[10/22/17,15:32:17] (main.py) FIFO gave string: KEY_P
+[10/22/17,15:32:17] (main.py) projector power off
+[10/22/17,15:32:17] (tcp_client.py) sending command: off
+[10/22/17,15:32:17] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:32:17] (main.py) FIFO gave string: unknown
+[10/22/17,15:32:17] (main.py) FIFO gave string: KEY_P
+[10/22/17,15:32:17] (main.py) projector power off
+[10/22/17,15:32:17] (tcp_client.py) sending command: off
+[10/22/17,15:32:17] (capture.sh) 0
+[10/22/17,15:32:17] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:32:18] (main.py) FIFO gave string: unknown
+[10/22/17,15:32:18] (main.py) FIFO gave string: KEY_P
+[10/22/17,15:32:18] (main.py) projector power off
+[10/22/17,15:32:18] (tcp_client.py) sending command: off
+[10/22/17,15:32:18] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:32:18] (main.py) FIFO gave string: unknown
+[10/22/17,15:32:18] (main.py) FIFO gave string: KEY_P
+[10/22/17,15:32:19] (main.py) projector power off
+[10/22/17,15:32:19] (tcp_client.py) sending command: off
+[10/22/17,15:32:19] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:32:19] (main.py) FIFO gave string: unknown
+[10/22/17,15:32:19] (main.py) FIFO gave string: KEY_P
+[10/22/17,15:32:19] (main.py) projector power off
+[10/22/17,15:32:19] (tcp_client.py) sending command: off
+[10/22/17,15:32:19] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:32:19] (main.py) FIFO gave string: unknown
+[10/22/17,15:32:20] (main.py) FIFO gave string: KEY_P
+[10/22/17,15:32:20] (capture.sh) KEY_ENTER
+[10/22/17,15:32:20] (main.py) projector power off
+[10/22/17,15:32:20] (tcp_client.py) sending command: off
+[10/22/17,15:32:20] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:32:20] (main.py) FIFO gave string: unknown
+[10/22/17,15:32:20] (main.py) FIFO gave string: KEY_P
+[10/22/17,15:32:20] (main.py) projector power off
+[10/22/17,15:32:20] (tcp_client.py) sending command: off
+[10/22/17,15:32:21] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:32:21] (main.py) FIFO gave string: unknown
+[10/22/17,15:32:21] (main.py) FIFO gave string: KEY_P
+[10/22/17,15:32:21] (main.py) projector power off
+[10/22/17,15:32:21] (tcp_client.py) sending command: off
+[10/22/17,15:32:21] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:32:21] (main.py) FIFO gave string: unknown
+[10/22/17,15:32:21] (main.py) FIFO gave string: 2
+[10/22/17,15:32:22] (main.py) FIFO gave string: 0
+[10/22/17,15:32:22] (main.py) FIFO gave string: KEY_ENTER
+[10/22/17,15:32:29] (capture.sh) 2
+[10/22/17,15:32:29] (main.py) FIFO gave string: 2
+[10/22/17,15:32:30] (capture.sh) 0
+[10/22/17,15:32:30] (main.py) FIFO gave string: 0
+[10/22/17,15:32:33] (capture.sh) KEY_VOLUMEUP
+[10/22/17,15:32:33] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/22/17,15:32:33] (presenter.py) displaying file: [187]233.pdf
+[10/22/17,15:32:33] () 
+[10/22/17,15:32:46] (capture.sh) KEY_O
+[10/22/17,15:32:46] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:32:47] (presenter.py) displaying file: [187]233.pdf
+[10/22/17,15:32:47] () 
+[10/22/17,15:32:47] (capture.sh) KEY_O
+[10/22/17,15:32:47] (capture.sh) KEY_O
+[10/22/17,15:32:47] (capture.sh) KEY_O
+[10/22/17,15:32:47] (main.py) projector power on
+[10/22/17,15:32:47] (capture.sh) KEY_O
+[10/22/17,15:32:47] (capture.sh) KEY_O
+[10/22/17,15:32:47] (capture.sh) KEY_O
+[10/22/17,15:32:47] (tcp_client.py) sending command: on
+[10/22/17,15:32:48] (capture.sh) KEY_O
+[10/22/17,15:32:48] (capture.sh) KEY_O
+[10/22/17,15:32:48] (capture.sh) KEY_O
+[10/22/17,15:32:48] (capture.sh) KEY_O
+[10/22/17,15:32:48] (capture.sh) KEY_O
+[10/22/17,15:32:48] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:32:48] (capture.sh) KEY_O
+[10/22/17,15:32:48] (capture.sh) KEY_O
+[10/22/17,15:32:48] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:32:49] (presenter.py) displaying file: [187]233.pdf
+[10/22/17,15:32:49] () 
+[10/22/17,15:32:49] (main.py) projector power on
+[10/22/17,15:32:49] (tcp_client.py) sending command: on
+[10/22/17,15:32:49] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:32:50] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:32:50] (presenter.py) displaying file: [187]233.pdf
+[10/22/17,15:32:50] () 
+[10/22/17,15:32:50] (main.py) projector power on
+[10/22/17,15:32:51] (tcp_client.py) sending command: on
+[10/22/17,15:32:51] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:32:51] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:32:51] (presenter.py) displaying file: [187]233.pdf
+[10/22/17,15:32:52] () 
+[10/22/17,15:32:52] (main.py) projector power on
+[10/22/17,15:32:52] (tcp_client.py) sending command: on
+[10/22/17,15:32:52] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:32:52] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:32:53] (presenter.py) displaying file: [187]233.pdf
+[10/22/17,15:32:53] () 
+[10/22/17,15:32:53] (main.py) projector power on
+[10/22/17,15:32:53] (tcp_client.py) sending command: on
+[10/22/17,15:32:54] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:32:54] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:32:54] (presenter.py) displaying file: [187]233.pdf
+[10/22/17,15:32:54] () 
+[10/22/17,15:32:55] (main.py) projector power on
+[10/22/17,15:32:55] (tcp_client.py) sending command: on
+[10/22/17,15:32:55] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:32:55] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:32:56] (presenter.py) displaying file: [187]233.pdf
+[10/22/17,15:32:56] () 
+[10/22/17,15:32:56] (main.py) projector power on
+[10/22/17,15:32:56] (capture.sh) 2
+[10/22/17,15:32:56] (tcp_client.py) sending command: on
+[10/22/17,15:32:57] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:32:57] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:32:57] (capture.sh) 0
+[10/22/17,15:32:57] (presenter.py) displaying file: [187]233.pdf
+[10/22/17,15:32:57] () 
+[10/22/17,15:32:58] (main.py) projector power on
+[10/22/17,15:32:58] (tcp_client.py) sending command: on
+[10/22/17,15:32:58] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:32:58] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:32:58] (capture.sh) KEY_ENTER
+[10/22/17,15:32:59] (presenter.py) displaying file: [187]233.pdf
+[10/22/17,15:32:59] () 
+[10/22/17,15:32:59] (main.py) projector power on
+[10/22/17,15:32:59] (tcp_client.py) sending command: on
+[10/22/17,15:33:00] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:33:00] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:33:00] (presenter.py) displaying file: [187]233.pdf
+[10/22/17,15:33:00] () 
+[10/22/17,15:33:01] (main.py) projector power on
+[10/22/17,15:33:01] (tcp_client.py) sending command: on
+[10/22/17,15:33:01] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:33:01] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:33:02] (presenter.py) displaying file: [187]233.pdf
+[10/22/17,15:33:02] () 
+[10/22/17,15:33:02] (main.py) projector power on
+[10/22/17,15:33:02] (tcp_client.py) sending command: on
+[10/22/17,15:33:03] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:33:03] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:33:03] (presenter.py) displaying file: [187]233.pdf
+[10/22/17,15:33:03] () 
+[10/22/17,15:33:03] (main.py) projector power on
+[10/22/17,15:33:04] (tcp_client.py) sending command: on
+[10/22/17,15:33:04] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:33:04] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:33:04] (presenter.py) displaying file: [187]233.pdf
+[10/22/17,15:33:05] () 
+[10/22/17,15:33:05] (main.py) projector power on
+[10/22/17,15:33:05] (tcp_client.py) sending command: on
+[10/22/17,15:33:05] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:33:06] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:33:06] (presenter.py) displaying file: [187]233.pdf
+[10/22/17,15:33:06] () 
+[10/22/17,15:33:06] (main.py) projector power on
+[10/22/17,15:33:07] (tcp_client.py) sending command: on
+[10/22/17,15:33:07] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:33:07] (main.py) FIFO gave string: 2
+[10/22/17,15:33:07] (main.py) FIFO gave string: 0
+[10/22/17,15:33:08] (main.py) FIFO gave string: KEY_ENTER
+[10/22/17,15:33:17] (capture.sh) KEY_P
+[10/22/17,15:33:17] (main.py) FIFO gave string: KEY_P
+[10/22/17,15:33:17] (capture.sh) unknown
+[10/22/17,15:33:17] (main.py) projector power off
+[10/22/17,15:33:17] (tcp_client.py) sending command: off
+[10/22/17,15:33:17] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:33:17] (main.py) FIFO gave string: unknown
+[10/22/17,15:33:21] (capture.sh) KEY_O
+[10/22/17,15:33:21] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:33:21] (presenter.py) displaying file: [187]233.pdf
+[10/22/17,15:33:21] () 
+[10/22/17,15:33:21] (main.py) projector power on
+[10/22/17,15:33:22] (tcp_client.py) sending command: on
+[10/22/17,15:33:22] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:33:26] (capture.sh) 2
+[10/22/17,15:33:26] (main.py) FIFO gave string: 2
+[10/22/17,15:33:27] (capture.sh) 0
+[10/22/17,15:33:27] (main.py) FIFO gave string: 0
+[10/22/17,15:33:38] (capture.sh) KEY_DELETE
+[10/22/17,15:33:38] (main.py) FIFO gave string: KEY_DELETE
+[10/22/17,15:33:38] (presenter.py) displaying file: [20]20.pdf
+[10/22/17,15:33:39] () 
+[10/22/17,15:33:41] (capture.sh) KEY_ENTER
+[10/22/17,15:33:41] (main.py) FIFO gave string: KEY_ENTER
+[10/22/17,15:33:52] (capture.sh) unknown
+[10/22/17,15:33:52] (main.py) FIFO gave string: unknown
+[10/22/17,15:33:55] (capture.sh) 2
+[10/22/17,15:33:55] (main.py) FIFO gave string: 2
+[10/22/17,15:33:56] (capture.sh) 0
+[10/22/17,15:33:56] (main.py) FIFO gave string: 0
+[10/22/17,15:33:57] (capture.sh) unknown
+[10/22/17,15:33:57] (main.py) FIFO gave string: unknown
+[10/22/17,15:34:07] (capture.sh) KEY_P
+[10/22/17,15:34:07] (main.py) FIFO gave string: KEY_P
+[10/22/17,15:34:07] (main.py) projector power off
+[10/22/17,15:34:07] (tcp_client.py) sending command: off
+[10/22/17,15:34:07] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:34:14] (capture.sh) KEY_O
+[10/22/17,15:34:14] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:34:14] (presenter.py) displaying file: [20]20.pdf
+[10/22/17,15:34:14] () 
+[10/22/17,15:34:14] (capture.sh) KEY_O
+[10/22/17,15:34:15] (main.py) projector power on
+[10/22/17,15:34:15] (tcp_client.py) sending command: on
+[10/22/17,15:34:15] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:34:15] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:34:15] (presenter.py) displaying file: [20]20.pdf
+[10/22/17,15:34:16] () 
+[10/22/17,15:34:16] (main.py) projector power on
+[10/22/17,15:34:16] (tcp_client.py) sending command: on
+[10/22/17,15:34:16] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:34:19] (capture.sh) 2
+[10/22/17,15:34:19] (main.py) FIFO gave string: 2
+[10/22/17,15:34:20] (capture.sh) 0
+[10/22/17,15:34:20] (main.py) FIFO gave string: 0
+[10/22/17,15:34:35] (capture.sh) KEY_VOLUMEDOWN
+[10/22/17,15:34:35] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/22/17,15:34:35] (presenter.py) displaying file: [178]224.pdf
+[10/22/17,15:34:35] () 
+[10/22/17,15:34:41] (capture.sh) KEY_DOWN
+[10/22/17,15:34:41] (main.py) FIFO gave string: KEY_DOWN
+[10/22/17,15:34:41] (presenter.py) displaying file: [177]223.pdf
+[10/22/17,15:34:41] () 
+[10/22/17,15:34:45] (capture.sh) KEY_VOLUMEUP
+[10/22/17,15:34:45] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/22/17,15:34:46] (presenter.py) displaying file: [20]20.pdf
+[10/22/17,15:34:46] () 
+[10/22/17,15:35:08] (capture.sh) KEY_P
+[10/22/17,15:35:08] (main.py) FIFO gave string: KEY_P
+[10/22/17,15:35:08] (capture.sh) unknown
+[10/22/17,15:35:08] (main.py) projector power off
+[10/22/17,15:35:08] (tcp_client.py) sending command: off
+[10/22/17,15:35:08] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:35:09] (main.py) FIFO gave string: unknown
+[10/22/17,15:35:11] (capture.sh) KEY_O
+[10/22/17,15:35:11] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:35:11] (presenter.py) displaying file: [20]20.pdf
+[10/22/17,15:35:12] () 
+[10/22/17,15:35:12] (capture.sh) KEY_O
+[10/22/17,15:35:12] (capture.sh) KEY_O
+[10/22/17,15:35:12] (main.py) projector power on
+[10/22/17,15:35:12] (capture.sh) KEY_O
+[10/22/17,15:35:12] (capture.sh) KEY_O
+[10/22/17,15:35:12] (tcp_client.py) sending command: on
+[10/22/17,15:35:12] (capture.sh) KEY_O
+[10/22/17,15:35:12] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:35:13] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:35:13] (presenter.py) displaying file: [20]20.pdf
+[10/22/17,15:35:13] () 
+[10/22/17,15:35:13] (main.py) projector power on
+[10/22/17,15:35:14] (tcp_client.py) sending command: on
+[10/22/17,15:35:14] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:35:14] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:35:14] (presenter.py) displaying file: [20]20.pdf
+[10/22/17,15:35:15] () 
+[10/22/17,15:35:15] (main.py) projector power on
+[10/22/17,15:35:15] (tcp_client.py) sending command: on
+[10/22/17,15:35:15] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:35:15] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:35:16] (capture.sh) 2
+[10/22/17,15:35:16] (presenter.py) displaying file: [20]20.pdf
+[10/22/17,15:35:16] () 
+[10/22/17,15:35:16] (main.py) projector power on
+[10/22/17,15:35:17] (tcp_client.py) sending command: on
+[10/22/17,15:35:17] (capture.sh) 0
+[10/22/17,15:35:17] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:35:17] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:35:17] (presenter.py) displaying file: [20]20.pdf
+[10/22/17,15:35:18] () 
+[10/22/17,15:35:18] (main.py) projector power on
+[10/22/17,15:35:18] (tcp_client.py) sending command: on
+[10/22/17,15:35:18] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:35:19] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:35:19] (presenter.py) displaying file: [20]20.pdf
+[10/22/17,15:35:19] () 
+[10/22/17,15:35:19] (main.py) projector power on
+[10/22/17,15:35:19] (tcp_client.py) sending command: on
+[10/22/17,15:35:20] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:35:20] (main.py) FIFO gave string: 2
+[10/22/17,15:35:20] (main.py) FIFO gave string: 0
+[10/22/17,15:35:27] (capture.sh) KEY_VOLUMEUP
+[10/22/17,15:35:27] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/22/17,15:35:27] (presenter.py) displaying file: [20]20.pdf
+[10/22/17,15:35:27] () 
+[10/22/17,15:35:37] (capture.sh) 4
+[10/22/17,15:35:37] (main.py) FIFO gave string: 4
+[10/22/17,15:35:37] (capture.sh) 1
+[10/22/17,15:35:37] (main.py) FIFO gave string: 1
+[10/22/17,15:35:41] (capture.sh) KEY_DOWN
+[10/22/17,15:35:41] (main.py) FIFO gave string: KEY_DOWN
+[10/22/17,15:35:41] (presenter.py) displaying file: [19]19.pdf
+[10/22/17,15:35:41] () 
+[10/22/17,15:36:12] (capture.sh) KEY_ENTER
+[10/22/17,15:36:12] (main.py) FIFO gave string: KEY_ENTER
+[10/22/17,15:36:19] (capture.sh) KEY_VOLUMEUP
+[10/22/17,15:36:19] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/22/17,15:36:19] (presenter.py) displaying file: [20]20.pdf
+[10/22/17,15:36:19] () 
+[10/22/17,15:36:31] (capture.sh) 4
+[10/22/17,15:36:32] (main.py) FIFO gave string: 4
+[10/22/17,15:36:32] (capture.sh) 7
+[10/22/17,15:36:32] (main.py) FIFO gave string: 7
+[10/22/17,15:36:34] (capture.sh) KEY_ENTER
+[10/22/17,15:36:34] (main.py) FIFO gave string: KEY_ENTER
+[10/22/17,15:36:34] (presenter.py) displaying file: [46]47.pdf
+[10/22/17,15:36:34] () 
+[10/22/17,15:36:45] (capture.sh) KEY_O
+[10/22/17,15:36:45] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:36:46] (presenter.py) displaying file: [46]47.pdf
+[10/22/17,15:36:46] () 
+[10/22/17,15:36:46] (main.py) projector power on
+[10/22/17,15:36:46] (tcp_client.py) sending command: on
+[10/22/17,15:36:46] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:36:52] (capture.sh) KEY_P
+[10/22/17,15:36:52] (main.py) FIFO gave string: KEY_P
+[10/22/17,15:36:52] (capture.sh) unknown
+[10/22/17,15:36:52] (main.py) projector power off
+[10/22/17,15:36:52] (tcp_client.py) sending command: off
+[10/22/17,15:36:53] (tcp_client.py) response: PJLINK 0
+[10/22/17,15:36:53] (main.py) FIFO gave string: unknown
+[10/22/17,15:36:53] (capture.sh) KEY_O
+[10/22/17,15:36:54] (main.py) FIFO gave string: KEY_O
+[10/22/17,15:36:54] (presenter.py) displaying file: [46]47.pdf
+[10/22/17,15:36:54] () 
+[10/22/17,15:36:54] (main.py) projector power on
+[10/22/17,15:36:54] (tcp_client.py) sending command: on
+[10/22/17,15:36:54] (tcp_client.py) response: PJLINK 0
+[10/23/17,15:39:28] (capture.sh) KEY_O
+[10/23/17,15:39:28] (main.py) FIFO gave string: KEY_O
+[10/23/17,15:39:28] (presenter.py) displaying file: [46]47.pdf
+[10/23/17,15:39:29] () 
+[10/23/17,15:39:29] (main.py) projector power on
+[10/23/17,15:39:29] (tcp_client.py) sending command: on
+[10/23/17,15:39:29] (tcp_client.py) response: PJLINK 0
+[10/23/17,15:39:37] (capture.sh) 1
+[10/23/17,15:39:37] (main.py) FIFO gave string: 1
+[10/23/17,15:39:39] (capture.sh) KEY_ENTER
+[10/23/17,15:39:39] (main.py) FIFO gave string: KEY_ENTER
+[10/23/17,15:39:39] (presenter.py) displaying file: [1]1.pdf
+[10/23/17,15:39:39] () 
+[10/23/17,15:39:42] (capture.sh) 3
+[10/23/17,15:39:42] (main.py) FIFO gave string: 3
+[10/23/17,15:39:42] (capture.sh) 1
+[10/23/17,15:39:42] (main.py) FIFO gave string: 1
+[10/23/17,15:39:43] (capture.sh) KEY_ENTER
+[10/23/17,15:39:44] (main.py) FIFO gave string: KEY_ENTER
+[10/23/17,15:39:44] (presenter.py) displaying file: [30]31.pdf
+[10/23/17,15:39:44] () 
+[10/23/17,15:39:49] (capture.sh) 5
+[10/23/17,15:39:49] (main.py) FIFO gave string: 5
+[10/23/17,15:39:49] (capture.sh) 3
+[10/23/17,15:39:49] (main.py) FIFO gave string: 3
+[10/23/17,15:39:51] (capture.sh) KEY_ENTER
+[10/23/17,15:39:51] (main.py) FIFO gave string: KEY_ENTER
+[10/23/17,15:39:51] (presenter.py) displaying file: [49]53.pdf
+[10/23/17,15:39:51] () 
+[10/23/17,15:40:03] (capture.sh) 1
+[10/23/17,15:40:03] (main.py) FIFO gave string: 1
+[10/23/17,15:40:04] (capture.sh) 6
+[10/23/17,15:40:04] (main.py) FIFO gave string: 6
+[10/23/17,15:40:05] (capture.sh) 1
+[10/23/17,15:40:05] (main.py) FIFO gave string: 1
+[10/23/17,15:40:06] (capture.sh) KEY_ENTER
+[10/23/17,15:40:06] (main.py) FIFO gave string: KEY_ENTER
+[10/23/17,15:40:06] (presenter.py) displaying file: [129]161.pdf
+[10/23/17,15:40:07] () 
+[10/23/17,15:40:10] (capture.sh) KEY_VOLUMEDOWN
+[10/23/17,15:40:10] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/23/17,15:40:10] (presenter.py) displaying file: [49]53.pdf
+[10/23/17,15:40:11] () 
+[10/23/17,15:40:12] (capture.sh) KEY_VOLUMEDOWN
+[10/23/17,15:40:12] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/23/17,15:40:12] (presenter.py) displaying file: [30]31.pdf
+[10/23/17,15:40:13] () 
+[10/23/17,15:40:14] (capture.sh) KEY_VOLUMEDOWN
+[10/23/17,15:40:14] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/23/17,15:40:14] (presenter.py) displaying file: [1]1.pdf
+[10/23/17,15:40:15] () 
+[10/23/17,15:40:20] (capture.sh) KEY_P
+[10/23/17,15:40:20] (main.py) FIFO gave string: KEY_P
+[10/23/17,15:40:20] (main.py) projector power off
+[10/23/17,15:40:20] (tcp_client.py) sending command: off
+[10/23/17,15:40:20] (tcp_client.py) response: PJLINK 0
+[10/23/17,15:50:16] (capture.sh) KEY_O
+[10/23/17,15:50:16] (main.py) FIFO gave string: KEY_O
+[10/23/17,15:50:17] (presenter.py) displaying file: [1]1.pdf
+[10/23/17,15:50:17] () 
+[10/23/17,15:50:17] (main.py) projector power on
+[10/23/17,15:50:17] (tcp_client.py) sending command: on
+[10/23/17,15:50:17] (tcp_client.py) response: PJLINK 0
+[10/23/17,15:52:11] (capture.sh) KEY_VOLUMEUP
+[10/23/17,15:52:11] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/23/17,15:52:11] (presenter.py) displaying file: [30]31.pdf
+[10/23/17,15:52:11] () 
+[10/23/17,15:52:12] (capture.sh) KEY_P
+[10/23/17,15:52:12] (main.py) FIFO gave string: KEY_P
+[10/23/17,15:52:13] (main.py) projector power off
+[10/23/17,15:52:13] (tcp_client.py) sending command: off
+[10/23/17,15:52:13] (tcp_client.py) response: PJLINK 0
+[10/23/17,16:03:26] (capture.sh) KEY_O
+[10/23/17,16:03:27] (main.py) FIFO gave string: KEY_O
+[10/23/17,16:03:27] (presenter.py) displaying file: [30]31.pdf
+[10/23/17,16:03:27] () 
+[10/23/17,16:03:27] (main.py) projector power on
+[10/23/17,16:03:27] (tcp_client.py) sending command: on
+[10/23/17,16:03:27] (tcp_client.py) response: PJLINK 0
+[10/23/17,16:05:24] (capture.sh) KEY_VOLUMEUP
+[10/23/17,16:05:24] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/23/17,16:05:24] (presenter.py) displaying file: [49]53.pdf
+[10/23/17,16:05:25] () 
+[10/23/17,16:05:26] (capture.sh) KEY_P
+[10/23/17,16:05:26] (main.py) FIFO gave string: KEY_P
+[10/23/17,16:05:26] (main.py) projector power off
+[10/23/17,16:05:26] (tcp_client.py) sending command: off
+[10/23/17,16:05:27] (tcp_client.py) response: PJLINK 0
+[10/23/17,16:14:36] (capture.sh) KEY_O
+[10/23/17,16:14:36] (main.py) FIFO gave string: KEY_O
+[10/23/17,16:14:36] (presenter.py) displaying file: [49]53.pdf
+[10/23/17,16:14:36] () 
+[10/23/17,16:14:36] (main.py) projector power on
+[10/23/17,16:14:37] (tcp_client.py) sending command: on
+[10/23/17,16:14:37] (tcp_client.py) response: PJLINK 0
+[10/23/17,16:17:14] (capture.sh) KEY_VOLUMEUP
+[10/23/17,16:17:14] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/23/17,16:17:14] (presenter.py) displaying file: [129]161.pdf
+[10/23/17,16:17:15] () 
+[10/23/17,16:17:18] (capture.sh) KEY_P
+[10/23/17,16:17:18] (main.py) FIFO gave string: KEY_P
+[10/23/17,16:17:18] (main.py) projector power off
+[10/23/17,16:17:18] (tcp_client.py) sending command: off
+[10/23/17,16:17:18] (tcp_client.py) response: PJLINK 0
+[10/23/17,16:18:15] (capture.sh) KEY_O
+[10/23/17,16:18:15] (main.py) FIFO gave string: KEY_O
+[10/23/17,16:18:15] (presenter.py) displaying file: [129]161.pdf
+[10/23/17,16:18:15] () 
+[10/23/17,16:18:15] (main.py) projector power on
+[10/23/17,16:18:15] (tcp_client.py) sending command: on
+[10/23/17,16:18:15] (tcp_client.py) response: PJLINK 0
+[10/23/17,16:20:46] (capture.sh) KEY_P
+[10/23/17,16:20:47] (main.py) FIFO gave string: KEY_P
+[10/23/17,16:20:47] (main.py) projector power off
+[10/23/17,16:20:47] (tcp_client.py) sending command: off
+[10/23/17,16:20:47] (tcp_client.py) response: PJLINK 0
+[10/24/17,14:17:53] (main.py) ##### Starting powerpoint script. #####
+[10/24/17,14:17:53] (main.py) ##### Checking for USB. #####
+[10/24/17,14:18:33] (usblistener.py) detected USB with media: /media/pi/USB_KARTICA/diapozitivi
+[10/24/17,14:18:34] (presenter.py) displaying file: [0]0.pdf
+[10/24/17,14:18:35] () 
+[10/24/17,14:18:35] (main.py) using path to files: /media/pi/USB_KARTICA/diapozitivi
+[10/24/17,14:19:17] (main.py) FIFO gave string: KEY_O
+[10/24/17,14:19:17] (presenter.py) displaying file: [0]0.pdf
+[10/24/17,14:19:17] () 
+[10/24/17,14:19:17] (main.py) projector power on
+[10/24/17,14:19:18] (tcp_client.py) sending command: on
+[10/24/17,14:19:18] (tcp_client.py) response: PJLINK 0
+[10/24/17,14:19:46] (main.py) FIFO gave string: 1
+[10/24/17,14:19:49] (main.py) FIFO gave string: 12
+[10/24/17,14:19:55] (main.py) FIFO gave string: KEY_ENTER
+[10/24/17,14:19:55] (presenter.py) displaying file: [87]112.pdf
+[10/24/17,14:19:55] () 
+[10/24/17,14:20:36] (main.py) FIFO gave string: KEY_P
+[10/24/17,14:20:36] (main.py) projector power off
+[10/24/17,14:20:36] (tcp_client.py) sending command: off
+[10/24/17,14:20:36] (tcp_client.py) response: PJLINK 0
+[10/24/17,14:37:05] (capture.sh) KEY_O
+[10/24/17,14:37:05] (main.py) FIFO gave string: KEY_O
+[10/24/17,14:37:05] (presenter.py) displaying file: [87]112.pdf
+[10/24/17,14:37:05] () 
+[10/24/17,14:37:05] (main.py) projector power on
+[10/24/17,14:37:06] (tcp_client.py) sending command: on
+[10/24/17,14:37:06] (tcp_client.py) response: PJLINK 0
+[10/24/17,14:37:11] (capture.sh) 4
+[10/24/17,14:37:12] (main.py) FIFO gave string: 4
+[10/24/17,14:37:13] (capture.sh) KEY_ENTER
+[10/24/17,14:37:13] (main.py) FIFO gave string: KEY_ENTER
+[10/24/17,14:37:13] (presenter.py) displaying file: [4]4.pdf
+[10/24/17,14:37:14] () 
+[10/24/17,14:37:20] (capture.sh) 3
+[10/24/17,14:37:20] (main.py) FIFO gave string: 3
+[10/24/17,14:37:20] (capture.sh) 3
+[10/24/17,14:37:20] (main.py) FIFO gave string: 3
+[10/24/17,14:37:21] (capture.sh) KEY_ENTER
+[10/24/17,14:37:21] (main.py) FIFO gave string: KEY_ENTER
+[10/24/17,14:37:21] (presenter.py) displaying file: [32]33.pdf
+[10/24/17,14:37:22] () 
+[10/24/17,14:37:28] (capture.sh) 6
+[10/24/17,14:37:28] (main.py) FIFO gave string: 6
+[10/24/17,14:37:29] (capture.sh) 1
+[10/24/17,14:37:29] (main.py) FIFO gave string: 1
+[10/24/17,14:37:30] (capture.sh) KEY_ENTER
+[10/24/17,14:37:30] (main.py) FIFO gave string: KEY_ENTER
+[10/24/17,14:37:30] (presenter.py) displaying file: [57]61.pdf
+[10/24/17,14:37:30] () 
+[10/24/17,14:37:35] (capture.sh) 1
+[10/24/17,14:37:35] (main.py) FIFO gave string: 1
+[10/24/17,14:37:36] (capture.sh) 6
+[10/24/17,14:37:36] (main.py) FIFO gave string: 6
+[10/24/17,14:37:37] (capture.sh) 3
+[10/24/17,14:37:37] (main.py) FIFO gave string: 3
+[10/24/17,14:37:38] (capture.sh) KEY_ENTER
+[10/24/17,14:37:38] (main.py) FIFO gave string: KEY_ENTER
+[10/24/17,14:37:39] (presenter.py) displaying file: [131]163.pdf
+[10/24/17,14:37:39] () 
+[10/24/17,14:37:42] (capture.sh) KEY_VOLUMEDOWN
+[10/24/17,14:37:42] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/24/17,14:37:43] (presenter.py) displaying file: [57]61.pdf
+[10/24/17,14:37:43] () 
+[10/24/17,14:37:44] (capture.sh) KEY_VOLUMEDOWN
+[10/24/17,14:37:44] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/24/17,14:37:45] (presenter.py) displaying file: [32]33.pdf
+[10/24/17,14:37:45] () 
+[10/24/17,14:37:47] (capture.sh) KEY_VOLUMEDOWN
+[10/24/17,14:37:47] (main.py) FIFO gave string: KEY_VOLUMEDOWN
+[10/24/17,14:37:47] (presenter.py) displaying file: [4]4.pdf
+[10/24/17,14:37:47] () 
+[10/24/17,14:37:51] (main.py) FIFO gave string: KEY_P
+[10/24/17,14:37:51] (main.py) projector power off
+[10/24/17,14:37:51] (tcp_client.py) sending command: off
+[10/24/17,14:37:51] (tcp_client.py) response: PJLINK 0
+[10/24/17,14:37:52] (capture.sh) KEY_P
+[10/24/17,15:04:24] (capture.sh) KEY_O
+[10/24/17,15:04:25] (main.py) FIFO gave string: KEY_O
+[10/24/17,15:04:25] (capture.sh) unknown
+[10/24/17,15:04:25] (capture.sh) unknown
+[10/24/17,15:04:25] (presenter.py) displaying file: [4]4.pdf
+[10/24/17,15:04:25] () 
+[10/24/17,15:04:25] (main.py) projector power on
+[10/24/17,15:04:25] (tcp_client.py) sending command: on
+[10/24/17,15:04:25] (tcp_client.py) response: PJLINK 0
+[10/24/17,15:04:26] (main.py) FIFO gave string: unknown
+[10/24/17,15:04:26] (main.py) FIFO gave string: unknown
+[10/24/17,15:06:05] (capture.sh) KEY_VOLUMEUP
+[10/24/17,15:06:05] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/24/17,15:06:05] (presenter.py) displaying file: [32]33.pdf
+[10/24/17,15:06:05] () 
+[10/24/17,15:06:08] (capture.sh) KEY_P
+[10/24/17,15:06:08] (main.py) FIFO gave string: KEY_P
+[10/24/17,15:06:08] (main.py) projector power off
+[10/24/17,15:06:08] (tcp_client.py) sending command: off
+[10/24/17,15:06:08] (tcp_client.py) response: PJLINK 0
+[10/24/17,15:10:10] (capture.sh) KEY_P
+[10/24/17,15:10:10] (main.py) FIFO gave string: KEY_P
+[10/24/17,15:10:11] (main.py) projector power off
+[10/24/17,15:10:11] (tcp_client.py) sending command: off
+[10/24/17,15:10:11] (tcp_client.py) response: PJLINK 0
+[10/24/17,15:17:40] (capture.sh) KEY_O
+[10/24/17,15:17:40] (main.py) FIFO gave string: KEY_O
+[10/24/17,15:17:40] (presenter.py) displaying file: [32]33.pdf
+[10/24/17,15:17:40] () 
+[10/24/17,15:17:40] (main.py) projector power on
+[10/24/17,15:17:40] (tcp_client.py) sending command: on
+[10/24/17,15:17:40] (tcp_client.py) response: PJLINK 0
+[10/24/17,15:20:02] (capture.sh) KEY_VOLUMEUP
+[10/24/17,15:20:02] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/24/17,15:20:02] (presenter.py) displaying file: [57]61.pdf
+[10/24/17,15:20:02] () 
+[10/24/17,15:20:04] (capture.sh) KEY_P
+[10/24/17,15:20:04] (main.py) FIFO gave string: KEY_P
+[10/24/17,15:20:05] (main.py) projector power off
+[10/24/17,15:20:05] (tcp_client.py) sending command: off
+[10/24/17,15:20:05] (tcp_client.py) response: PJLINK 0
+[10/24/17,15:30:30] (capture.sh) KEY_O
+[10/24/17,15:30:30] (main.py) FIFO gave string: KEY_O
+[10/24/17,15:30:30] (presenter.py) displaying file: [57]61.pdf
+[10/24/17,15:30:30] () 
+[10/24/17,15:30:30] (main.py) projector power on
+[10/24/17,15:30:30] (tcp_client.py) sending command: on
+[10/24/17,15:30:30] (tcp_client.py) response: PJLINK 0
+[10/24/17,15:32:55] (capture.sh) KEY_VOLUMEUP
+[10/24/17,15:32:56] (main.py) FIFO gave string: KEY_VOLUMEUP
+[10/24/17,15:32:56] (presenter.py) displaying file: [131]163.pdf
+[10/24/17,15:32:56] () 
+[10/24/17,15:33:02] (capture.sh) KEY_P
+[10/24/17,15:33:02] (main.py) FIFO gave string: KEY_P
+[10/24/17,15:33:02] (main.py) projector power off
+[10/24/17,15:33:02] (tcp_client.py) sending command: off
+[10/24/17,15:33:02] (tcp_client.py) response: PJLINK 0
+[10/24/17,15:34:06] (capture.sh) KEY_O
+[10/24/17,15:34:06] (main.py) FIFO gave string: KEY_O
+[10/24/17,15:34:06] (presenter.py) displaying file: [131]163.pdf
+[10/24/17,15:34:06] () 
+[10/24/17,15:34:06] (main.py) projector power on
+[10/24/17,15:34:06] (tcp_client.py) sending command: on
+[10/24/17,15:34:07] (tcp_client.py) response: PJLINK 0
+[10/24/17,15:36:35] (capture.sh) KEY_P
+[10/24/17,15:36:35] (main.py) FIFO gave string: KEY_P
+[10/24/17,15:36:35] (main.py) projector power off
+[10/24/17,15:36:35] (tcp_client.py) sending command: off
+[10/24/17,15:36:36] (tcp_client.py) response: PJLINK 0
+[10/24/17,20:47:55] (main.py) ##### Starting powerpoint script. #####
+[10/24/17,20:47:56] (main.py) ##### Checking for USB. #####
