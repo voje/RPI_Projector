@@ -8,10 +8,26 @@
 	"buffers":
 	[
 		{
-			"file": "python_script/main.py",
+			"file": "/home/kristjan/git/mbrc/README.md",
 			"settings":
 			{
-				"buffer_size": 3986,
+				"buffer_size": 1345,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kristjan/git/mbrc/public/index.html",
+			"settings":
+			{
+				"buffer_size": 3515,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/kristjan/git/mbrc/server/server.js",
+			"settings":
+			{
+				"buffer_size": 788,
 				"line_ending": "Unix"
 			}
 		}
@@ -19,11 +35,15 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 264.0,
+		"height": 201.0,
 		"selected_items":
 		[
 			[
 				":w",
+				":w - Save"
+			],
+			[
+				":",
 				":w - Save"
 			],
 			[
@@ -41,10 +61,6 @@
 			[
 				":noh",
 				"HTML: Encode Special Characters"
-			],
-			[
-				":",
-				":w - Save"
 			],
 			[
 				":go",
@@ -80,10 +96,12 @@
 	},
 	"file_history":
 	[
+		"/home/kristjan/git/mbrc/index.html",
+		"/home/kristjan/git/stayinshape/angular/todolist/index.html",
+		"/home/kristjan/git/RPI_Projector/python_script/main.py",
 		"/home/kristjan/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
 		"/home/kristjan/git/RPI_Projector/README.md",
 		"/home/kristjan/git/RPI_Projector/rpi.sublime-workspace",
-		"/home/kristjan/git/RPI_Projector/python_script/main.py",
 		"/home/kristjan/git/stayinshape/angular/app1/exercise1.html",
 		"/home/kristjan/git/stayinshape/angular/app1/index.html",
 		"/home/kristjan/git/RPI_Projector/python_script/usblistener.py",
@@ -134,6 +152,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"33",
+			"keypad",
+			"class",
+			"input",
 			"api_call",
 			"translate_samples",
 			"translate",
@@ -234,6 +256,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"keypad_table",
 			"output_samples",
 			"transl",
 			"trans",
@@ -245,7 +268,7 @@
 			"0777",
 			"TRANSL_ERR"
 		],
-		"reverse": true,
+		"reverse": false,
 		"show_context": true,
 		"use_buffer2": true,
 		"whole_word": false,
@@ -254,43 +277,87 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "python_script/main.py",
+					"file": "/home/kristjan/git/mbrc/README.md",
 					"settings":
 					{
-						"buffer_size": 3986,
+						"buffer_size": 1345,
 						"regions":
 						{
-							"bookmark_f":
-							{
-								"flags": 144,
-								"regions":
-								[
-									[
-										3986,
-										3986
-									]
-								]
-							}
 						},
 						"selection":
 						[
 							[
-								3517,
-								3517
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage",
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/kristjan/git/mbrc/public/index.html",
+					"settings":
+					{
+						"buffer_size": 3515,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								925,
+								925
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1194.0,
+						"translation.y": 174.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/kristjan/git/mbrc/server/server.js",
+					"settings":
+					{
+						"buffer_size": 788,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								608,
+								608
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -353,7 +420,7 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 150.0,
 	"status_bar_visible": true
 }
