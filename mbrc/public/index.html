@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Remote Control</title>
+    <style>
+        #keypad_table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+            table-layout: fixed;
+        }
+        #keypad_table,
+        #keypad_table td,
+        #keypad_table tr {
+            border: 2px solid black;
+        }
+        #keypad_table td {
+            width: 25%;
+        }
+        .key {
+            background-color:#99ccff;
+            font-size: 50px;
+        }
+        .focused {
+            background-color:#3366ff;
+        }
+        html, body {
+            /*To take in the window header*/
+            height: 95%; 
+        }
+        .stretch {
+            height: 100%;
+        }
+        #prev_div {
+            height: 70px;
+            margin: 10px;
+        }
+        #prev {
+            padding: 0px 0px 5px 20px;
+            margin: 0px;
+            font-size: 65px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <noscript>
+        Your browser does not support javascript.
+    </noscript>
+
+    <script>
+        var focused
+        var prev
+        window.onload = function() {
+            console.log("DERP")
+            var keys = document.getElementsByClassName("key")
+            for (var i=0; i<keys.length; i++) {
+                keys[i].onclick = clickHandler
+            }
+            prev = document.getElementById("prev")
+            prev.innerText = ""
+        }
+
+        function clickHandler(e) {
+            if (focused != null) {
+                focused.className = "key"
+            }
+            focused = e.target
+            focused.className = "key focused"
+            var txt = focused.innerText
+            //alert(txt)
+
+            //send data
+            var xhttp = new XMLHttpRequest();
+            var url = "/command?key="+txt
+            xhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                   //document.getElementById("demo").innerHTML = xhttp.responseText;
+                    //update preview
+                    if (!isNaN(txt)) {
+                        prev.innerText += focused.innerText
+                    } else if (txt == "Enter") {
+                        prev.innerText = "" 
+                    }
+                }
+            }
+            xhttp.open("GET", url, true);
+            xhttp.send();
+        }
+    </script>
+
+    <div id="prev_div">
+        <p id="prev"></p>
+    </div>
+    <div class="stretch">
+        <table class="stretch" id="keypad_table">
+            <tr>
+                <td class="key">On</td>
+                <td class="key">Off</td>
+                <td class="key">Sleep</td>
+            </tr>
+            <tr>
+                <td class="key">1</td>
+                <td class="key">2</td>
+                <td class="key">3</td>
+                <td class="key">&rarr;</td>
+            </tr>
+            <tr>
+                <td class="key">4</td>
+                <td class="key">5</td>
+                <td class="key">6</td>
+                <td class="key">&larr;</td>
+            </tr>
+                <td class="key">7</td>
+                <td class="key">8</td>
+                <td class="key">9</td>
+                <td class="key">&uarr;</td>
+            </tr>
+            <tr>
+                <td class="key">Delete</td>
+                <td class="key">0</td>
+                <td class="key">Enter</td>
+                <td class="key">&darr;</td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+
+</html>

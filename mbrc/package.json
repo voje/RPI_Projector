@@ -1,0 +1,25 @@
+{
+  "name": "mbrc",
+  "version": "1.0.0",
+  "description": "Mobile Browser-based Remote Control",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voje/mbrc.git"
+  },
+  "keywords": [
+    "mbrc"
+  ],
+  "author": "kristjan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/voje/mbrc/issues"
+  },
+  "homepage": "https://github.com/voje/mbrc#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
