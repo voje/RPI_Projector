@@ -1,1 +1,123 @@
 
+[10/25/17,12:11:45] (capture.sh) KEY_UP
+[10/25/17,12:11:46] (capture.sh) KEY_DOWN
+[10/25/17,12:11:47] (capture.sh) KEY_VOLUMEDOWN
+[10/25/17,12:11:47] (capture.sh) KEY_VOLUMEUP
+[10/25/17,12:11:57] (capture.sh) KEY_R
+[10/25/17,12:11:59] (capture.sh) KEY_P
+[10/25/17,12:11:59] (capture.sh) KEY_O
+[10/25/17,12:12:00] (capture.sh) KEY_O
+[10/25/17,12:12:00] (capture.sh) KEY_P
+[10/25/17,12:12:01] (capture.sh) KEY_R
+[10/25/17,12:12:01] (capture.sh) KEY_O
+[10/25/17,12:12:01] (capture.sh) KEY_P
+[10/25/17,12:12:02] (capture.sh) KEY_R
+[10/25/17,12:12:03] (capture.sh) KEY_ENTER
+[10/25/17,12:12:04] (capture.sh) KEY_DELETE
+[10/25/17,12:12:05] (capture.sh) KEY_DELETE
+[10/25/17,12:12:06] (capture.sh) KEY_UP
+[10/25/17,12:12:06] (capture.sh) KEY_DOWN
+[10/25/17,12:12:08] (capture.sh) 1
+[10/25/17,12:12:09] (capture.sh) 2
+[10/25/17,12:12:09] (capture.sh) 3
+[10/25/17,12:12:09] (capture.sh) 4
+[10/25/17,12:12:09] (capture.sh) 5
+[10/25/17,12:12:09] (capture.sh) 6
+[10/25/17,12:12:10] (capture.sh) 7
+[10/25/17,12:12:10] (capture.sh) 8
+[10/25/17,12:12:10] (capture.sh) 9
+[10/25/17,12:12:11] (capture.sh) 0
+[10/25/17,12:12:11] (capture.sh) KEY_ENTER
+[10/25/17,12:12:14] (capture.sh) KEY_O
+[10/25/17,12:12:14] (capture.sh) KEY_P
+[10/25/17,12:12:15] (capture.sh) KEY_O
+[10/25/17,12:12:15] (capture.sh) KEY_P
+[10/25/17,12:12:18] (capture.sh) KEY_DELETE
+[10/25/17,12:12:19] (capture.sh) KEY_R
+[10/25/17,12:12:23] (capture.sh) KEY_UP
+[10/25/17,12:12:23] (capture.sh) KEY_VOLUMEDOWN
+[10/25/17,12:12:23] (capture.sh) KEY_VOLUMEUP
+[10/25/17,12:12:24] (capture.sh) KEY_DOWN
+[10/25/17,12:12:24] (capture.sh) KEY_DOWN
+[10/25/17,12:12:25] (capture.sh) KEY_DOWN
+[10/25/17,12:12:25] (capture.sh) KEY_DOWN
+[10/25/17,12:12:26] (capture.sh) KEY_VOLUMEDOWN
+[10/25/17,12:12:26] (capture.sh) KEY_VOLUMEUP
+[10/25/17,12:12:26] (capture.sh) KEY_VOLUMEUP
+[10/25/17,12:12:26] (capture.sh) KEY_VOLUMEDOWN
+[10/25/17,12:12:27] (capture.sh) KEY_UP
+[10/25/17,12:12:27] (capture.sh) KEY_VOLUMEDOWN
+[10/25/17,12:12:27] (capture.sh) KEY_VOLUMEUP
+[10/25/17,12:12:28] (capture.sh) KEY_DOWN
+[10/25/17,12:12:30] (capture.sh) KEY_DOWN
+[10/25/17,12:12:30] (capture.sh) KEY_UP
+[10/25/17,12:12:30] (capture.sh) KEY_DOWN
+[10/25/17,12:12:30] (capture.sh) KEY_UP
+[10/25/17,12:12:30] (capture.sh) KEY_DOWN
+[10/25/17,12:12:30] (capture.sh) KEY_UP
+[10/25/17,12:12:30] (capture.sh) KEY_DOWN
+[10/25/17,12:12:31] (capture.sh) KEY_DOWN
+[10/25/17,12:12:31] (capture.sh) KEY_UP
+[10/25/17,12:12:31] (capture.sh) KEY_DOWN
+[10/25/17,12:12:31] (capture.sh) KEY_UP
+[10/25/17,12:12:31] (capture.sh) KEY_DOWN
+[10/25/17,12:12:31] (capture.sh) KEY_DOWN
+[10/25/17,12:12:31] (capture.sh) KEY_UP
+[10/25/17,12:12:31] (capture.sh) KEY_DOWN
+[10/25/17,12:12:32] (capture.sh) KEY_UP
+[10/25/17,12:12:32] (capture.sh) KEY_DOWN
+[10/25/17,12:12:32] (capture.sh) KEY_UP
+[10/25/17,12:12:32] (capture.sh) KEY_DOWN
+[10/25/17,12:12:32] (capture.sh) KEY_UP
+[10/25/17,12:12:34] (capture.sh) KEY_DOWN
+[10/25/17,12:12:34] (capture.sh) KEY_UP
+[10/25/17,12:12:34] (capture.sh) KEY_VOLUMEUP
+[10/25/17,12:12:35] (capture.sh) KEY_VOLUMEUP
+[10/25/17,12:12:35] (capture.sh) KEY_UP
+[10/25/17,12:12:35] (capture.sh) KEY_DOWN
+[10/25/17,12:12:36] (capture.sh) KEY_VOLUMEUP
+[10/25/17,12:12:37] (capture.sh) KEY_UP
+[10/25/17,12:12:37] (capture.sh) KEY_VOLUMEUP
+[10/25/17,12:12:37] (capture.sh) KEY_UP
+[10/25/17,12:12:37] (capture.sh) KEY_DOWN
+[10/25/17,12:12:38] (capture.sh) KEY_UP
+[10/25/17,12:12:38] (capture.sh) KEY_DOWN
+[10/25/17,12:12:38] (capture.sh) KEY_VOLUMEUP
+[10/25/17,12:12:38] (capture.sh) KEY_UP
+[10/25/17,12:12:39] (capture.sh) KEY_VOLUMEDOWN
+[10/25/17,12:12:40] (capture.sh) KEY_VOLUMEDOWN
+[10/25/17,12:12:40] (capture.sh) KEY_UP
+[10/25/17,12:12:40] (capture.sh) KEY_VOLUMEUP
+[10/25/17,12:12:40] (capture.sh) KEY_UP
+[10/25/17,12:12:40] (capture.sh) KEY_VOLUMEDOWN
+[10/25/17,12:12:41] (capture.sh) KEY_UP
+[10/25/17,12:12:41] (capture.sh) KEY_VOLUMEUP
+[10/25/17,12:12:42] (capture.sh) KEY_VOLUMEUP
+[10/25/17,12:12:42] (capture.sh) KEY_UP
+[10/25/17,12:12:42] (capture.sh) KEY_VOLUMEDOWN
+[10/25/17,12:12:43] (capture.sh) KEY_VOLUMEUP
+[10/25/17,12:12:43] (capture.sh) KEY_VOLUMEUP
+[10/25/17,12:12:43] (capture.sh) KEY_VOLUMEUP
+[10/25/17,12:12:43] (capture.sh) KEY_VOLUMEUP
+[10/25/17,12:12:45] (capture.sh) KEY_UP
+[10/25/17,12:12:45] (capture.sh) KEY_UP
+[10/25/17,12:12:45] (capture.sh) KEY_UP
+[10/25/17,12:12:46] (capture.sh) KEY_UP
+[10/25/17,12:12:46] (capture.sh) KEY_VOLUMEUP
+[10/25/17,12:12:46] (capture.sh) KEY_UP
+[10/25/17,12:12:46] (capture.sh) KEY_VOLUMEDOWN
+[10/25/17,12:12:48] (capture.sh) KEY_VOLUMEDOWN
+[10/25/17,12:12:48] (capture.sh) KEY_UP
+[10/25/17,12:12:48] (capture.sh) KEY_VOLUMEUP
+[10/25/17,12:49:12] (main.py) ##### Starting powerpoint script. #####
+[10/25/17,12:49:12] (main.py) ##### Checking for USB. #####
+[10/25/17,12:57:00] (main.py) ##### Starting powerpoint script. #####
+[10/25/17,12:57:00] (main.py) ##### Checking for USB. #####
+[10/25/17,12:59:28] (main.py) ##### Starting powerpoint script. #####
+[10/25/17,12:59:28] (main.py) ##### Checking for USB. #####
+[10/25/17,13:00:34] (main.py) ##### Starting powerpoint script. #####
+[10/25/17,13:00:34] (main.py) ##### Checking for USB. #####
+[10/25/17,13:01:51] (main.py) ##### Starting powerpoint script. #####
+[10/25/17,13:01:51] (main.py) ##### Checking for USB. #####
+[10/25/17,13:03:44] (main.py) ##### Starting powerpoint script. #####
+[10/25/17,13:03:44] (main.py) ##### Checking for USB. #####

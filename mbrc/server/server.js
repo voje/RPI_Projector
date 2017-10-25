@@ -3,7 +3,9 @@ const fs = require('fs')
 
 const app = express()
 const port = 3345
-//const filepath = "test.txt" // TODO write to fifo
+
+const index_path = "./mbrc/public/index.html"
+const fifo_path = "./python_script/ir.fifo"
 
 const map = {
     "←": "KEY_VOLUMEDOWN",
@@ -18,7 +20,7 @@ const map = {
 }
 
 app.get('/client', function(req, res) {
-    var html = fs.readFileSync('./public/index.html', 'utf8')
+    var html = fs.readFileSync(index_path, 'utf8')
     res.send(html)
 })
 
@@ -28,11 +30,14 @@ app.get('/command', function(req, res) {
     if (typeof(k1) == 'undefined') {
         k1 = k  //use the default input
     }
-    console.log(k1) //TODO: write to file
-    res.send("ello")
+    fs.appendFile(fifo_path, k1+"\n", function(err) {  
+	    if (err) throw err
+	    console.log("Written to ir.fifo: " + k1)
+    })
+    res.send("OK")
     //&rarr;
 })
 
 app.listen(port, function () {
-    console.log('Example app listening on port '+port+'!')
+    console.log('Capture app listening on port '+port+'!')
 })
