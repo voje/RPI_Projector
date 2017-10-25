@@ -21,6 +21,9 @@
             background-color:#99ccff;
             font-size: 50px;
         }
+	.num {
+	    background-color:#cce6ff;	
+	}
         .focused {
             background-color:#3366ff;
         }
@@ -51,6 +54,7 @@
 
     <script>
         var focused
+	var saved_classes //when a button loses focus, it gets its old classes
         var prev
         window.onload = function() {
             console.log("DERP")
@@ -64,9 +68,10 @@
 
         function clickHandler(e) {
             if (focused != null) {
-                focused.className = "key"
+                focused.className = saved_classes
             }
             focused = e.target
+	    saved_classes = focused.className
             focused.className = "key focused"
             var txt = focused.innerText
             //alert(txt)
@@ -98,30 +103,30 @@
             <tr>
                 <td class="key">On</td>
                 <td class="key">Off</td>
+                <td colspan=2 style="width:50%" class="key">&uarr;</td>
+            </tr>
+            <tr>
+                <td class="key num">1</td>
+                <td class="key num">2</td>
+                <td class="key num">3</td>
+                <td class="key">&darr;</td>
+            </tr>
+            <tr>
+                <td class="key num">4</td>
+                <td class="key num">5</td>
+                <td class="key num">6</td>
                 <td class="key">Sleep</td>
             </tr>
-            <tr>
-                <td class="key">1</td>
-                <td class="key">2</td>
-                <td class="key">3</td>
-                <td class="key">&rarr;</td>
-            </tr>
-            <tr>
-                <td class="key">4</td>
-                <td class="key">5</td>
-                <td class="key">6</td>
+                <td class="key num">7</td>
+                <td class="key num">8</td>
+                <td class="key num">9</td>
                 <td class="key">&larr;</td>
-            </tr>
-                <td class="key">7</td>
-                <td class="key">8</td>
-                <td class="key">9</td>
-                <td class="key">&uarr;</td>
             </tr>
             <tr>
                 <td class="key">Delete</td>
-                <td class="key">0</td>
+                <td class="key num">0</td>
                 <td class="key">Enter</td>
-                <td class="key">&darr;</td>
+                <td class="key">&rarr;</td>
             </tr>
         </table>
     </div>

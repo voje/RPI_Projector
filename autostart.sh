@@ -8,6 +8,7 @@ export DISPLAY=:0
 
 # Start nodejs server for capturing input over network
 # Relative paths are important here!
+cd /home/pi/git/RPI_Projector/
 nodejs ./mbrc/server/server.js &
 
 # Wait for Xpdf

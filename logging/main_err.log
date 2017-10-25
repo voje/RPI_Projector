@@ -1,1 +1,21 @@
 
+Traceback (most recent call last):
+  File "/home/pi/git/RPI_Projector/python_script/main.py", line 27, in <module>
+    check_for_usb()
+  File "/home/pi/git/RPI_Projector/python_script/main.py", line 13, in check_for_usb
+    pr.get_files_list(pr.ul.usb_dir_path)
+  File "/home/pi/git/RPI_Projector/python_script/presenter.py", line 91, in get_files_list
+    tuples = [(self.extract_number(x),x) for x in self.files_list]
+  File "/home/pi/git/RPI_Projector/python_script/presenter.py", line 132, in extract_number
+    num = res.group(0)
+AttributeError: 'NoneType' object has no attribute 'group'
+Traceback (most recent call last):
+  File "/home/pi/git/RPI_Projector/python_script/main.py", line 27, in <module>
+    check_for_usb()
+  File "/home/pi/git/RPI_Projector/python_script/main.py", line 13, in check_for_usb
+    pr.get_files_list(pr.ul.usb_dir_path)
+  File "/home/pi/git/RPI_Projector/python_script/presenter.py", line 91, in get_files_list
+    tuples = [(self.extract_number(x),x) for x in self.files_list]
+  File "/home/pi/git/RPI_Projector/python_script/presenter.py", line 132, in extract_number
+    num = res.group(0)
+AttributeError: 'NoneType' object has no attribute 'group'
