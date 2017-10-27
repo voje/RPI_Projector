@@ -6,11 +6,11 @@ Zbudi telefon:
 2. Odkleni zaslon: s prston povleci preko ekrana.
 3. Če je vse vredu, se je prikazala tipkovnica. Ekran se bo po 30 minutah neuporabe spet izklopil.  
 
-V primeru, da na zaslonu ni tipkovnice sledi naslednjim korakom:
+V primeru, da na zaslonu ni tipkovnice, sledi naslednjim korakom:
 1. Pritisni veliko tipko na sprednjem spodnjem delu telefona. 
 2. Prikaže se namizje. Pritisni ikono **modri planet** (brskalnik). 
-3. Prikazala se bo stran s tipkovnico. V primeru, da povečava ni primerna, povlecu z dvema prstoma po zaslonu kot da bi ga uščipnil. (zoom out) Pogled se bo prilagodil.  
+3. Prikazala se bo stran s tipkovnico. V primeru, da povečava ni primerna, povleci z dvema prstoma po zaslonu, kot da bi ga uščipnil (zoom out). Pogled se bo prilagodil.  
 
 ## Alternativni dostop ##
-Do tipkovnice lahko dostopamo preko poljubne naprave, ki ima dostop do WIFI omrežja. Ime omrežja je **sv_jurij**. Za dostop je potrebno geslo (piši na *kristjan.voje@gmail.com*).  
-Po povezavi na omrežje lahko dostopamo do tipkovnice na naslovu **192.168.1.142:3345/client**  
+Do tipkovnice lahko dostopamo preko poljubne naprave, ki ima dostop do WIFI omrežja. Ime omrežja je **sv_jurij**. Za geslo piši na *kristjan.voje@gmail.com*.  
+Ko smo povezani na omrežje, pridemo do tipkovnice na naslovu **192.168.1.142:3345/client** .
