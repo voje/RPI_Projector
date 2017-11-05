@@ -12,7 +12,7 @@ done
 echo "LOOK, a wild $wname appeared!"
 
 # Resize and move (top-left, smallest possible)
-wmctrl -r "$wname" -e "0,0,0,3,6"
+wmctrl -r "$wname" -e "0,490,0,1,1"
 
 # Keep in foreground
 while true; do

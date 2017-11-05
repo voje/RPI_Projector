@@ -1,510 +1,81 @@
 
-[10/25/17,12:11:45] (capture.sh) KEY_UP
-[10/25/17,12:11:46] (capture.sh) KEY_DOWN
-[10/25/17,12:11:47] (capture.sh) KEY_VOLUMEDOWN
-[10/25/17,12:11:47] (capture.sh) KEY_VOLUMEUP
-[10/25/17,12:11:57] (capture.sh) KEY_R
-[10/25/17,12:11:59] (capture.sh) KEY_P
-[10/25/17,12:11:59] (capture.sh) KEY_O
-[10/25/17,12:12:00] (capture.sh) KEY_O
-[10/25/17,12:12:00] (capture.sh) KEY_P
-[10/25/17,12:12:01] (capture.sh) KEY_R
-[10/25/17,12:12:01] (capture.sh) KEY_O
-[10/25/17,12:12:01] (capture.sh) KEY_P
-[10/25/17,12:12:02] (capture.sh) KEY_R
-[10/25/17,12:12:03] (capture.sh) KEY_ENTER
-[10/25/17,12:12:04] (capture.sh) KEY_DELETE
-[10/25/17,12:12:05] (capture.sh) KEY_DELETE
-[10/25/17,12:12:06] (capture.sh) KEY_UP
-[10/25/17,12:12:06] (capture.sh) KEY_DOWN
-[10/25/17,12:12:08] (capture.sh) 1
-[10/25/17,12:12:09] (capture.sh) 2
-[10/25/17,12:12:09] (capture.sh) 3
-[10/25/17,12:12:09] (capture.sh) 4
-[10/25/17,12:12:09] (capture.sh) 5
-[10/25/17,12:12:09] (capture.sh) 6
-[10/25/17,12:12:10] (capture.sh) 7
-[10/25/17,12:12:10] (capture.sh) 8
-[10/25/17,12:12:10] (capture.sh) 9
-[10/25/17,12:12:11] (capture.sh) 0
-[10/25/17,12:12:11] (capture.sh) KEY_ENTER
-[10/25/17,12:12:14] (capture.sh) KEY_O
-[10/25/17,12:12:14] (capture.sh) KEY_P
-[10/25/17,12:12:15] (capture.sh) KEY_O
-[10/25/17,12:12:15] (capture.sh) KEY_P
-[10/25/17,12:12:18] (capture.sh) KEY_DELETE
-[10/25/17,12:12:19] (capture.sh) KEY_R
-[10/25/17,12:12:23] (capture.sh) KEY_UP
-[10/25/17,12:12:23] (capture.sh) KEY_VOLUMEDOWN
-[10/25/17,12:12:23] (capture.sh) KEY_VOLUMEUP
-[10/25/17,12:12:24] (capture.sh) KEY_DOWN
-[10/25/17,12:12:24] (capture.sh) KEY_DOWN
-[10/25/17,12:12:25] (capture.sh) KEY_DOWN
-[10/25/17,12:12:25] (capture.sh) KEY_DOWN
-[10/25/17,12:12:26] (capture.sh) KEY_VOLUMEDOWN
-[10/25/17,12:12:26] (capture.sh) KEY_VOLUMEUP
-[10/25/17,12:12:26] (capture.sh) KEY_VOLUMEUP
-[10/25/17,12:12:26] (capture.sh) KEY_VOLUMEDOWN
-[10/25/17,12:12:27] (capture.sh) KEY_UP
-[10/25/17,12:12:27] (capture.sh) KEY_VOLUMEDOWN
-[10/25/17,12:12:27] (capture.sh) KEY_VOLUMEUP
-[10/25/17,12:12:28] (capture.sh) KEY_DOWN
-[10/25/17,12:12:30] (capture.sh) KEY_DOWN
-[10/25/17,12:12:30] (capture.sh) KEY_UP
-[10/25/17,12:12:30] (capture.sh) KEY_DOWN
-[10/25/17,12:12:30] (capture.sh) KEY_UP
-[10/25/17,12:12:30] (capture.sh) KEY_DOWN
-[10/25/17,12:12:30] (capture.sh) KEY_UP
-[10/25/17,12:12:30] (capture.sh) KEY_DOWN
-[10/25/17,12:12:31] (capture.sh) KEY_DOWN
-[10/25/17,12:12:31] (capture.sh) KEY_UP
-[10/25/17,12:12:31] (capture.sh) KEY_DOWN
-[10/25/17,12:12:31] (capture.sh) KEY_UP
-[10/25/17,12:12:31] (capture.sh) KEY_DOWN
-[10/25/17,12:12:31] (capture.sh) KEY_DOWN
-[10/25/17,12:12:31] (capture.sh) KEY_UP
-[10/25/17,12:12:31] (capture.sh) KEY_DOWN
-[10/25/17,12:12:32] (capture.sh) KEY_UP
-[10/25/17,12:12:32] (capture.sh) KEY_DOWN
-[10/25/17,12:12:32] (capture.sh) KEY_UP
-[10/25/17,12:12:32] (capture.sh) KEY_DOWN
-[10/25/17,12:12:32] (capture.sh) KEY_UP
-[10/25/17,12:12:34] (capture.sh) KEY_DOWN
-[10/25/17,12:12:34] (capture.sh) KEY_UP
-[10/25/17,12:12:34] (capture.sh) KEY_VOLUMEUP
-[10/25/17,12:12:35] (capture.sh) KEY_VOLUMEUP
-[10/25/17,12:12:35] (capture.sh) KEY_UP
-[10/25/17,12:12:35] (capture.sh) KEY_DOWN
-[10/25/17,12:12:36] (capture.sh) KEY_VOLUMEUP
-[10/25/17,12:12:37] (capture.sh) KEY_UP
-[10/25/17,12:12:37] (capture.sh) KEY_VOLUMEUP
-[10/25/17,12:12:37] (capture.sh) KEY_UP
-[10/25/17,12:12:37] (capture.sh) KEY_DOWN
-[10/25/17,12:12:38] (capture.sh) KEY_UP
-[10/25/17,12:12:38] (capture.sh) KEY_DOWN
-[10/25/17,12:12:38] (capture.sh) KEY_VOLUMEUP
-[10/25/17,12:12:38] (capture.sh) KEY_UP
-[10/25/17,12:12:39] (capture.sh) KEY_VOLUMEDOWN
-[10/25/17,12:12:40] (capture.sh) KEY_VOLUMEDOWN
-[10/25/17,12:12:40] (capture.sh) KEY_UP
-[10/25/17,12:12:40] (capture.sh) KEY_VOLUMEUP
-[10/25/17,12:12:40] (capture.sh) KEY_UP
-[10/25/17,12:12:40] (capture.sh) KEY_VOLUMEDOWN
-[10/25/17,12:12:41] (capture.sh) KEY_UP
-[10/25/17,12:12:41] (capture.sh) KEY_VOLUMEUP
-[10/25/17,12:12:42] (capture.sh) KEY_VOLUMEUP
-[10/25/17,12:12:42] (capture.sh) KEY_UP
-[10/25/17,12:12:42] (capture.sh) KEY_VOLUMEDOWN
-[10/25/17,12:12:43] (capture.sh) KEY_VOLUMEUP
-[10/25/17,12:12:43] (capture.sh) KEY_VOLUMEUP
-[10/25/17,12:12:43] (capture.sh) KEY_VOLUMEUP
-[10/25/17,12:12:43] (capture.sh) KEY_VOLUMEUP
-[10/25/17,12:12:45] (capture.sh) KEY_UP
-[10/25/17,12:12:45] (capture.sh) KEY_UP
-[10/25/17,12:12:45] (capture.sh) KEY_UP
-[10/25/17,12:12:46] (capture.sh) KEY_UP
-[10/25/17,12:12:46] (capture.sh) KEY_VOLUMEUP
-[10/25/17,12:12:46] (capture.sh) KEY_UP
-[10/25/17,12:12:46] (capture.sh) KEY_VOLUMEDOWN
-[10/25/17,12:12:48] (capture.sh) KEY_VOLUMEDOWN
-[10/25/17,12:12:48] (capture.sh) KEY_UP
-[10/25/17,12:12:48] (capture.sh) KEY_VOLUMEUP
-[10/25/17,12:49:12] (main.py) ##### Starting powerpoint script. #####
-[10/25/17,12:49:12] (main.py) ##### Checking for USB. #####
-[10/25/17,12:57:00] (main.py) ##### Starting powerpoint script. #####
-[10/25/17,12:57:00] (main.py) ##### Checking for USB. #####
-[10/25/17,12:59:28] (main.py) ##### Starting powerpoint script. #####
-[10/25/17,12:59:28] (main.py) ##### Checking for USB. #####
-[10/25/17,13:00:34] (main.py) ##### Starting powerpoint script. #####
-[10/25/17,13:00:34] (main.py) ##### Checking for USB. #####
-[10/25/17,13:01:51] (main.py) ##### Starting powerpoint script. #####
-[10/25/17,13:01:51] (main.py) ##### Checking for USB. #####
-[10/25/17,13:03:44] (main.py) ##### Starting powerpoint script. #####
-[10/25/17,13:03:44] (main.py) ##### Checking for USB. #####
-[10/25/17,13:10:03] (main.py) ##### Starting powerpoint script. #####
-[10/25/17,13:10:04] (main.py) ##### Checking for USB. #####
-[10/25/17,13:17:19] (usblistener.py) detected USB with media: /media/pi/KINGSTON/diapozitivi
-[10/25/17,13:20:14] (main.py) ##### Starting powerpoint script. #####
-[10/25/17,13:20:14] (main.py) ##### Checking for USB. #####
-[10/25/17,13:21:00] (usblistener.py) detected USB with media: /media/pi/KINGSTON/diapozitivi
-[10/25/17,13:27:26] (main.py) ##### Starting powerpoint script. #####
-[10/25/17,13:27:27] (main.py) ##### Checking for USB. #####
-[10/25/17,13:28:13] (usblistener.py) detected USB with media: /media/pi/KINGSTON/diapozitivi
-[10/25/17,13:28:13] (presenter.py) displaying file: [0]0_partition.pdf
-[10/25/17,13:28:13] () 
-[10/25/17,13:28:14] (main.py) using path to files: /media/pi/KINGSTON/diapozitivi
-[10/25/17,13:30:29] (capture.sh) KEY_DOWN
-[10/25/17,13:30:30] (main.py) FIFO gave string: KEY_DOWN
-[10/25/17,13:30:30] (presenter.py) displaying file: [0]0_partition.pdf
-[10/25/17,13:30:30] () 
-[10/25/17,13:30:31] (capture.sh) KEY_ENTER
-[10/25/17,13:30:31] (main.py) FIFO gave string: KEY_ENTER
-[10/25/17,13:30:44] (capture.sh) KEY_DOWN
-[10/25/17,13:30:44] (main.py) FIFO gave string: KEY_DOWN
-[10/25/17,13:30:44] (presenter.py) displaying file: [0]0_partition.pdf
-[10/25/17,13:30:45] () 
-[10/25/17,13:30:47] (capture.sh) 2
-[10/25/17,13:30:47] (main.py) FIFO gave string: 2
-[10/25/17,13:30:47] (capture.sh) KEY_ENTER
-[10/25/17,13:30:47] (main.py) FIFO gave string: KEY_ENTER
-[10/25/17,13:30:48] (presenter.py) displaying file: [2]test2.pdf
-[10/25/17,13:30:48] () 
-[10/25/17,13:30:54] (capture.sh) 5
-[10/25/17,13:30:54] (main.py) FIFO gave string: 5
-[10/25/17,13:30:54] (capture.sh) KEY_ENTER
-[10/25/17,13:30:54] (main.py) FIFO gave string: KEY_ENTER
-[10/25/17,13:30:59] (capture.sh) 0
-[10/25/17,13:30:59] (main.py) FIFO gave string: 0
-[10/25/17,13:30:59] (capture.sh) KEY_ENTER
-[10/25/17,13:30:59] (main.py) FIFO gave string: KEY_ENTER
-[10/25/17,13:31:00] (presenter.py) displaying file: [0]0_partition.pdf
-[10/25/17,13:31:00] () 
-[10/25/17,13:31:03] (capture.sh) 1
-[10/25/17,13:31:03] (main.py) FIFO gave string: 1
-[10/25/17,13:31:03] (capture.sh) KEY_ENTER
-[10/25/17,13:31:03] (main.py) FIFO gave string: KEY_ENTER
-[10/25/17,13:31:04] (presenter.py) displaying file: [1]pdf_1_sample.pdf
-[10/25/17,13:31:04] () 
-[10/25/17,13:31:08] (capture.sh) KEY_VOLUMEDOWN
-[10/25/17,13:31:09] (main.py) FIFO gave string: KEY_VOLUMEDOWN
-[10/25/17,13:31:09] (presenter.py) displaying file: [0]0_partition.pdf
-[10/25/17,13:31:09] () 
-[10/25/17,13:31:11] (capture.sh) KEY_VOLUMEDOWN
-[10/25/17,13:31:11] (main.py) FIFO gave string: KEY_VOLUMEDOWN
-[10/25/17,13:31:11] (presenter.py) displaying file: [2]test2.pdf
-[10/25/17,13:31:11] () 
-[10/25/17,13:31:13] (capture.sh) KEY_VOLUMEDOWN
-[10/25/17,13:31:13] (main.py) FIFO gave string: KEY_VOLUMEDOWN
-[10/25/17,13:31:14] (presenter.py) displaying file: [2]test2.pdf
-[10/25/17,13:31:14] () 
-[10/25/17,13:31:17] (capture.sh) KEY_VOLUMEDOWN
-[10/25/17,13:31:17] (main.py) FIFO gave string: KEY_VOLUMEDOWN
-[10/25/17,13:31:17] (presenter.py) displaying file: [2]test2.pdf
-[10/25/17,13:31:17] () 
-[10/25/17,13:31:18] (capture.sh) KEY_VOLUMEDOWN
-[10/25/17,13:31:19] (main.py) FIFO gave string: KEY_VOLUMEDOWN
-[10/25/17,13:31:19] (presenter.py) displaying file: [2]test2.pdf
-[10/25/17,13:31:19] () 
-[10/25/17,13:31:20] (capture.sh) KEY_VOLUMEDOWN
-[10/25/17,13:31:20] (main.py) FIFO gave string: KEY_VOLUMEDOWN
-[10/25/17,13:31:20] (presenter.py) displaying file: [2]test2.pdf
-[10/25/17,13:31:20] (capture.sh) KEY_UP
-[10/25/17,13:31:20] () 
-[10/25/17,13:31:21] (main.py) FIFO gave string: KEY_UP
-[10/25/17,13:31:21] (presenter.py) displaying file: [2]test2.pdf
-[10/25/17,13:31:22] () 
-[10/25/17,13:31:24] (capture.sh) KEY_DOWN
-[10/25/17,13:31:24] (main.py) FIFO gave string: KEY_DOWN
-[10/25/17,13:31:24] (presenter.py) displaying file: [1]pdf_1_sample.pdf
-[10/25/17,13:31:24] () 
-[10/25/17,13:31:27] (capture.sh) KEY_DOWN
-[10/25/17,13:31:27] (main.py) FIFO gave string: KEY_DOWN
-[10/25/17,13:31:27] (presenter.py) displaying file: [0]0_partition.pdf
-[10/25/17,13:31:28] () 
-[10/25/17,13:39:37] (main.py) ##### Starting powerpoint script. #####
-[10/25/17,13:39:37] (main.py) ##### Checking for USB. #####
-[10/25/17,13:40:29] (usblistener.py) detected USB with media: /media/pi/KINGSTON/diapozitivi
-[10/25/17,13:40:29] (presenter.py) displaying file: [0]0_partition.pdf
-[10/25/17,13:40:30] () 
-[10/25/17,13:40:30] (main.py) using path to files: /media/pi/KINGSTON/diapozitivi
-[10/25/17,13:40:39] (capture.sh) KEY_P
-[10/25/17,13:40:39] (main.py) FIFO gave string: KEY_P
-[10/25/17,13:40:39] (main.py) projector power off
-[10/25/17,13:40:39] (tcp_client.py) sending command: off
-[10/25/17,13:40:41] (capture.sh) KEY_O
-[10/25/17,13:40:42] (main.py) power off exception: timed out
-[10/25/17,13:40:42] (main.py) FIFO gave string: KEY_O
-[10/25/17,13:40:42] (presenter.py) displaying file: [0]0_partition.pdf
-[10/25/17,13:40:42] () 
-[10/25/17,13:40:42] (main.py) projector power on
-[10/25/17,13:40:42] (tcp_client.py) sending command: on
-[10/25/17,13:40:43] (capture.sh) KEY_O
-[10/25/17,13:40:43] (main.py) power on exception: [Errno 113] No route to host
-[10/25/17,13:40:43] (main.py) FIFO gave string: KEY_O
-[10/25/17,13:40:44] (presenter.py) displaying file: [0]0_partition.pdf
-[10/25/17,13:40:44] () 
-[10/25/17,13:40:44] (main.py) projector power on
-[10/25/17,13:40:44] (tcp_client.py) sending command: on
-[10/25/17,13:40:46] (main.py) power on exception: [Errno 113] No route to host
-[10/25/17,13:40:47] (capture.sh) KEY_R
-[10/25/17,13:40:47] (main.py) FIFO gave string: KEY_R
-[10/25/17,13:40:47] (main.py) projector blank file
-[10/25/17,13:40:47] (presenter.py) displaying file: [0]0_partition.pdf
-[10/25/17,13:40:47] () 
-[10/25/17,13:40:48] (capture.sh) KEY_DELETE
-[10/25/17,13:40:49] (main.py) FIFO gave string: KEY_DELETE
-[10/25/17,13:40:49] (presenter.py) displaying file: [0]0_partition.pdf
-[10/25/17,13:40:49] () 
-[10/25/17,13:42:43] (capture.sh) KEY_UP
-[10/25/17,13:42:43] (main.py) FIFO gave string: KEY_UP
-[10/25/17,13:42:44] (presenter.py) displaying file: [1]pdf_1_sample.pdf
-[10/25/17,13:42:44] () 
-[10/25/17,13:42:46] (capture.sh) KEY_UP
-[10/25/17,13:42:46] (main.py) FIFO gave string: KEY_UP
-[10/25/17,13:42:47] (presenter.py) displaying file: [2]test2.pdf
-[10/25/17,13:42:47] () 
-[10/25/17,13:42:52] (capture.sh) 1
-[10/25/17,13:42:52] (main.py) FIFO gave string: 1
-[10/25/17,13:42:54] (capture.sh) KEY_ENTER
-[10/25/17,13:42:54] (main.py) FIFO gave string: KEY_ENTER
-[10/25/17,13:42:54] (presenter.py) displaying file: [1]pdf_1_sample.pdf
-[10/25/17,13:42:54] () 
-[10/25/17,13:42:57] (capture.sh) 0
-[10/25/17,13:42:57] (main.py) FIFO gave string: 0
-[10/25/17,13:42:58] (capture.sh) KEY_ENTER
-[10/25/17,13:42:58] (main.py) FIFO gave string: KEY_ENTER
-[10/25/17,13:42:58] (presenter.py) displaying file: [0]0_partition.pdf
-[10/25/17,13:42:58] () 
-[10/25/17,13:43:02] (capture.sh) KEY_VOLUMEDOWN
-[10/25/17,13:43:02] (main.py) FIFO gave string: KEY_VOLUMEDOWN
-[10/25/17,13:43:02] (presenter.py) displaying file: [1]pdf_1_sample.pdf
-[10/25/17,13:43:02] () 
-[10/25/17,13:43:05] (capture.sh) KEY_VOLUMEDOWN
-[10/25/17,13:43:05] (main.py) FIFO gave string: KEY_VOLUMEDOWN
-[10/25/17,13:43:06] (presenter.py) displaying file: [1]pdf_1_sample.pdf
-[10/25/17,13:43:06] () 
-[10/25/17,13:44:14] (main.py) FIFO gave string: 0
-[10/25/17,13:44:15] (main.py) FIFO gave string: KEY_ENTER
-[10/25/17,13:44:15] (presenter.py) displaying file: [0]0_partition.pdf
-[10/25/17,13:44:15] () 
-[10/25/17,13:44:18] (main.py) FIFO gave string: 1
-[10/25/17,13:44:19] (main.py) FIFO gave string: KEY_ENTER
-[10/25/17,13:44:20] (presenter.py) displaying file: [1]pdf_1_sample.pdf
-[10/25/17,13:44:20] () 
-[10/25/17,13:44:23] (main.py) FIFO gave string: 2
-[10/25/17,13:44:24] (main.py) FIFO gave string: KEY_ENTER
-[10/25/17,13:44:24] (presenter.py) displaying file: [2]test2.pdf
-[10/25/17,13:44:24] () 
-[10/25/17,13:44:30] (main.py) FIFO gave string: KEY_DOWN
-[10/25/17,13:44:31] (presenter.py) displaying file: [1]pdf_1_sample.pdf
-[10/25/17,13:44:31] () 
-[10/25/17,13:44:34] (main.py) FIFO gave string: KEY_DOWN
-[10/25/17,13:44:34] (presenter.py) displaying file: [0]0_partition.pdf
-[10/25/17,13:44:34] () 
-[10/25/17,13:44:50] (main.py) FIFO gave string: 1
-[10/25/17,13:44:52] (main.py) FIFO gave string: KEY_ENTER
-[10/25/17,13:44:52] (presenter.py) displaying file: [1]pdf_1_sample.pdf
-[10/25/17,13:44:52] () 
-[10/25/17,13:44:56] (main.py) FIFO gave string: 2
-[10/25/17,13:44:57] (main.py) FIFO gave string: KEY_ENTER
-[10/25/17,13:44:57] (presenter.py) displaying file: [2]test2.pdf
-[10/25/17,13:44:57] () 
-[10/25/17,13:45:12] (main.py) FIFO gave string: 2
-[10/25/17,13:45:13] (main.py) FIFO gave string: KEY_ENTER
-[10/25/17,13:45:13] (presenter.py) displaying file: [2]test2.pdf
-[10/25/17,13:45:13] () 
-[10/25/17,13:45:18] (main.py) FIFO gave string: 1
-[10/25/17,13:45:20] (main.py) FIFO gave string: KEY_ENTER
-[10/25/17,13:45:20] (presenter.py) displaying file: [1]pdf_1_sample.pdf
-[10/25/17,13:45:20] () 
-[10/25/17,13:45:22] (main.py) FIFO gave string: 2
-[10/25/17,13:45:23] (main.py) FIFO gave string: 3
-[10/25/17,13:45:23] (main.py) FIFO gave string: 5
-[10/25/17,13:45:25] (main.py) FIFO gave string: KEY_ENTER
-[10/25/17,13:45:30] (main.py) FIFO gave string: 0
-[10/25/17,13:45:31] (main.py) FIFO gave string: KEY_ENTER
-[10/25/17,13:45:31] (presenter.py) displaying file: [0]0_partition.pdf
-[10/25/17,13:45:31] () 
-[10/25/17,13:45:35] (main.py) FIFO gave string: KEY_UP
-[10/25/17,13:45:36] (presenter.py) displaying file: [1]pdf_1_sample.pdf
-[10/25/17,13:45:36] () 
-[10/25/17,13:45:40] (main.py) FIFO gave string: KEY_DOWN
-[10/25/17,13:45:40] (presenter.py) displaying file: [0]0_partition.pdf
-[10/25/17,13:45:40] () 
-[10/25/17,13:45:43] (main.py) FIFO gave string: KEY_UP
-[10/25/17,13:45:44] (presenter.py) displaying file: [1]pdf_1_sample.pdf
-[10/25/17,13:45:44] () 
-[10/25/17,13:45:47] (main.py) FIFO gave string: KEY_UP
-[10/25/17,13:45:47] (presenter.py) displaying file: [2]test2.pdf
-[10/25/17,13:45:48] () 
-[10/25/17,13:46:11] (main.py) FIFO gave string: KEY_UP
-[10/25/17,13:46:11] (presenter.py) displaying file: [2]test2.pdf
-[10/25/17,13:46:11] () 
-[10/25/17,13:46:13] (main.py) FIFO gave string: KEY_DOWN
-[10/25/17,13:46:14] (presenter.py) displaying file: [1]pdf_1_sample.pdf
-[10/25/17,13:46:14] () 
-[10/25/17,13:46:17] (main.py) FIFO gave string: KEY_UP
-[10/25/17,13:46:17] (presenter.py) displaying file: [2]test2.pdf
-[10/25/17,13:46:17] () 
-[10/25/17,13:46:19] (main.py) FIFO gave string: KEY_DOWN
-[10/25/17,13:46:20] (presenter.py) displaying file: [1]pdf_1_sample.pdf
-[10/25/17,13:46:20] () 
-[10/25/17,13:46:21] (main.py) FIFO gave string: KEY_UP
-[10/25/17,13:46:22] (presenter.py) displaying file: [2]test2.pdf
-[10/25/17,13:46:22] () 
-[10/25/17,13:46:23] (main.py) FIFO gave string: KEY_DOWN
-[10/25/17,13:46:23] (presenter.py) displaying file: [1]pdf_1_sample.pdf
-[10/25/17,13:46:23] () 
-[10/25/17,13:46:26] (main.py) FIFO gave string: KEY_UP
-[10/25/17,13:46:26] (presenter.py) displaying file: [2]test2.pdf
-[10/25/17,13:46:26] () 
-[10/25/17,13:46:27] (main.py) FIFO gave string: KEY_DOWN
-[10/25/17,13:46:28] (presenter.py) displaying file: [1]pdf_1_sample.pdf
-[10/25/17,13:46:28] () 
-[10/25/17,13:46:30] (main.py) FIFO gave string: KEY_UP
-[10/25/17,13:46:30] (presenter.py) displaying file: [2]test2.pdf
-[10/25/17,13:46:31] () 
-[10/25/17,13:54:10] (main.py) FIFO gave string: KEY_ENTER
-[10/25/17,13:56:49] (main.py) FIFO gave string: KEY_R
-[10/25/17,13:56:49] (main.py) projector blank file
-[10/25/17,13:56:49] (presenter.py) displaying file: [2]0_partition.pdf
-[10/25/17,13:56:49] () 
-[10/25/17,14:03:44] (main.py) FIFO gave string: KEY_O
-[10/25/17,14:03:44] (presenter.py) displaying file: [2]test2.pdf
-[10/25/17,14:03:45] () 
-[10/25/17,14:03:45] (main.py) projector power on
-[10/25/17,14:03:45] (tcp_client.py) sending command: on
-[10/25/17,14:03:47] (main.py) power on exception: timed out
-[10/25/17,14:03:47] (main.py) FIFO gave string: KEY_P
-[10/25/17,14:03:47] (main.py) projector power off
-[10/25/17,14:03:47] (tcp_client.py) sending command: off
-[10/25/17,14:03:48] (main.py) power off exception: [Errno 113] No route to host
-[10/25/17,14:03:48] (main.py) FIFO gave string: KEY_UP
-[10/25/17,14:03:48] (presenter.py) displaying file: [2]test2.pdf
-[10/25/17,14:03:49] () 
-[10/25/17,14:03:49] (main.py) FIFO gave string: KEY_DOWN
-[10/25/17,14:03:50] (presenter.py) displaying file: [1]pdf_1_sample.pdf
-[10/25/17,14:03:50] () 
-[10/25/17,14:03:51] (main.py) FIFO gave string: KEY_R
-[10/25/17,14:03:51] (main.py) projector blank file
-[10/25/17,14:03:51] (presenter.py) displaying file: [1]0_partition.pdf
-[10/25/17,14:03:52] () 
-[10/25/17,14:03:52] (main.py) FIFO gave string: KEY_VOLUMEDOWN
-[10/25/17,14:03:52] (presenter.py) displaying file: [1]pdf_1_sample.pdf
-[10/25/17,14:03:53] () 
-[10/25/17,14:04:10] (main.py) FIFO gave string: KEY_DOWN
-[10/25/17,14:04:10] (presenter.py) displaying file: [0]0_partition.pdf
-[10/25/17,14:04:10] () 
-[10/25/17,14:04:14] (main.py) FIFO gave string: KEY_UP
-[10/25/17,14:04:14] (presenter.py) displaying file: [1]pdf_1_sample.pdf
-[10/25/17,14:04:14] () 
-[10/25/17,14:04:20] (main.py) FIFO gave string: 5
-[10/25/17,14:04:22] (main.py) FIFO gave string: 7
-[10/25/17,14:04:23] (main.py) FIFO gave string: 0
-[10/25/17,14:04:25] (main.py) FIFO gave string: 9
-[10/25/17,14:04:27] (main.py) FIFO gave string: 6
-[10/25/17,14:04:28] (main.py) FIFO gave string: 3
-[10/25/17,14:04:29] (main.py) FIFO gave string: 2
-[10/25/17,14:04:38] (main.py) FIFO gave string: KEY_ENTER
-[10/25/17,14:04:40] (main.py) FIFO gave string: KEY_VOLUMEUP
-[10/25/17,14:04:41] (presenter.py) displaying file: [0]0_partition.pdf
-[10/25/17,14:04:41] () 
-[10/25/17,14:04:43] (main.py) FIFO gave string: KEY_ENTER
-[10/25/17,14:04:44] (main.py) FIFO gave string: KEY_VOLUMEUP
-[10/25/17,14:04:44] (presenter.py) displaying file: [0]0_partition.pdf
-[10/25/17,14:04:44] () 
-[10/25/17,14:04:48] (main.py) FIFO gave string: KEY_VOLUMEUP
-[10/25/17,14:04:48] (presenter.py) displaying file: [0]0_partition.pdf
-[10/25/17,14:04:48] () 
-[10/25/17,14:04:53] (main.py) FIFO gave string: KEY_ENTER
-[10/25/17,14:04:55] (main.py) FIFO gave string: KEY_VOLUMEDOWN
-[10/25/17,14:04:55] (presenter.py) displaying file: [1]pdf_1_sample.pdf
-[10/25/17,14:04:55] () 
-[10/25/17,14:04:56] (main.py) FIFO gave string: KEY_ENTER
-[10/25/17,14:04:57] (main.py) FIFO gave string: 5
-[10/25/17,14:04:58] (main.py) FIFO gave string: 4
-[10/25/17,14:04:59] (main.py) FIFO gave string: 1
-[10/25/17,14:05:00] (main.py) FIFO gave string: 8
-[10/25/17,14:05:01] (main.py) FIFO gave string: 7
-[10/25/17,14:10:20] (main.py) FIFO gave string: 1
-[10/25/17,14:10:21] (main.py) FIFO gave string: 2
-[10/25/17,14:10:23] (main.py) FIFO gave string: 3
-[10/25/17,14:10:23] (main.py) FIFO gave string: 6
-[10/25/17,14:10:24] (main.py) FIFO gave string: KEY_UP
-[10/25/17,14:10:25] (presenter.py) displaying file: [2]test2.pdf
-[10/25/17,14:10:25] () 
-[10/25/17,14:10:25] (main.py) FIFO gave string: KEY_P
-[10/25/17,14:10:26] (main.py) projector power off
-[10/25/17,14:10:26] (tcp_client.py) sending command: off
-[10/25/17,14:10:28] (main.py) power off exception: timed out
-[10/25/17,14:10:28] (main.py) FIFO gave string: KEY_O
-[10/25/17,14:10:28] (presenter.py) displaying file: [2]test2.pdf
-[10/25/17,14:10:28] () 
-[10/25/17,14:10:29] (main.py) projector power on
-[10/25/17,14:10:29] (tcp_client.py) sending command: on
-[10/25/17,14:10:29] (main.py) power on exception: [Errno 113] No route to host
-[10/25/17,14:10:29] (main.py) FIFO gave string: KEY_ENTER
-[10/25/17,14:10:30] (main.py) FIFO gave string: KEY_VOLUMEDOWN
-[10/25/17,14:10:30] (presenter.py) displaying file: [2]test2.pdf
-[10/25/17,14:10:30] () 
-[10/25/17,14:10:31] (main.py) FIFO gave string: KEY_R
-[10/25/17,14:10:31] (main.py) projector blank file
-[10/25/17,14:10:32] (presenter.py) displaying file: [2]0_partition.pdf
-[10/25/17,14:10:32] () 
-[10/25/17,14:10:32] (main.py) FIFO gave string: KEY_DOWN
-[10/25/17,14:10:33] (presenter.py) displaying file: [1]pdf_1_sample.pdf
-[10/25/17,14:10:33] () 
-[10/25/17,14:10:33] (main.py) FIFO gave string: KEY_UP
-[10/25/17,14:10:34] (presenter.py) displaying file: [2]test2.pdf
-[10/25/17,14:10:34] () 
-[10/25/17,14:10:35] (main.py) FIFO gave string: KEY_VOLUMEUP
-[10/25/17,14:10:35] (presenter.py) displaying file: [1]pdf_1_sample.pdf
-[10/25/17,14:10:35] () 
-[10/25/17,14:10:36] (main.py) FIFO gave string: KEY_VOLUMEDOWN
-[10/25/17,14:10:36] (presenter.py) displaying file: [2]test2.pdf
-[10/25/17,14:10:37] () 
-[10/25/17,14:10:37] (main.py) FIFO gave string: KEY_ENTER
-[10/25/17,14:10:37] (main.py) FIFO gave string: KEY_DELETE
-[10/25/17,14:10:38] (presenter.py) displaying file: [1]pdf_1_sample.pdf
-[10/25/17,14:10:38] () 
-[10/25/17,14:10:38] (main.py) FIFO gave string: 0
-[10/25/17,14:10:39] (main.py) FIFO gave string: 8
-[10/25/17,14:10:39] (main.py) FIFO gave string: 5
-[10/25/17,14:10:39] (main.py) FIFO gave string: 2
-[10/25/17,14:10:40] (main.py) FIFO gave string: KEY_ENTER
-[10/25/17,14:10:42] (main.py) FIFO gave string: 0
-[10/25/17,14:10:43] (main.py) FIFO gave string: 0
-[10/25/17,14:10:44] (main.py) FIFO gave string: 1
-[10/25/17,14:10:46] (main.py) FIFO gave string: KEY_ENTER
-[10/25/17,14:10:57] (main.py) FIFO gave string: 0
-[10/25/17,14:10:58] (main.py) FIFO gave string: 0
-[10/25/17,14:10:59] (main.py) FIFO gave string: 0
-[10/25/17,14:11:00] (main.py) FIFO gave string: 3
-[10/25/17,14:11:01] (main.py) FIFO gave string: KEY_ENTER
-[10/25/17,14:11:05] (main.py) FIFO gave string: 0
-[10/25/17,14:11:05] (main.py) FIFO gave string: 0
-[10/25/17,14:11:06] (main.py) FIFO gave string: 0
-[10/25/17,14:11:06] (main.py) FIFO gave string: KEY_ENTER
-[10/25/17,14:11:13] (main.py) FIFO gave string: 0
-[10/25/17,14:11:14] (main.py) FIFO gave string: KEY_ENTER
-[10/25/17,14:11:14] (presenter.py) displaying file: [0]0_partition.pdf
-[10/25/17,14:11:14] () 
-[10/25/17,14:11:17] (main.py) FIFO gave string: 0
-[10/25/17,14:11:18] (main.py) FIFO gave string: 0
-[10/25/17,14:11:19] (main.py) FIFO gave string: KEY_ENTER
-[10/25/17,14:11:19] (presenter.py) displaying file: [0]0_partition.pdf
-[10/25/17,14:11:19] () 
-[10/25/17,14:11:23] (main.py) FIFO gave string: 0
-[10/25/17,14:11:24] (main.py) FIFO gave string: 1
-[10/25/17,14:11:25] (main.py) FIFO gave string: KEY_ENTER
-[10/25/17,14:11:25] (presenter.py) displaying file: [0]0_partition.pdf
-[10/25/17,14:11:25] () 
-[10/25/17,14:11:30] (main.py) FIFO gave string: 1
-[10/25/17,14:11:31] (main.py) FIFO gave string: 0
-[10/25/17,14:11:37] (main.py) FIFO gave string: KEY_ENTER
-[10/25/17,14:11:39] (main.py) FIFO gave string: 0
-[10/25/17,14:11:40] (main.py) FIFO gave string: 1
-[10/25/17,14:11:41] (main.py) FIFO gave string: KEY_ENTER
-[10/25/17,14:11:46] (main.py) FIFO gave string: 1
-[10/25/17,14:11:47] (main.py) FIFO gave string: KEY_ENTER
-[10/25/17,14:11:48] (presenter.py) displaying file: [1]pdf_1_sample.pdf
-[10/25/17,14:11:48] () 
-[10/25/17,14:11:52] (main.py) FIFO gave string: 2
-[10/25/17,14:11:53] (main.py) FIFO gave string: KEY_ENTER
-[10/25/17,14:11:53] (presenter.py) displaying file: [2]test2.pdf
-[10/25/17,14:11:53] () 
-[10/25/17,14:11:57] (main.py) FIFO gave string: 0
-[10/25/17,14:11:57] (main.py) FIFO gave string: 2
-[10/25/17,14:11:59] (main.py) FIFO gave string: KEY_ENTER
-[10/25/17,14:11:59] (presenter.py) displaying file: [2]test2.pdf
-[10/25/17,14:11:59] () 
-[10/25/17,14:12:04] (main.py) FIFO gave string: KEY_ENTER
-[10/25/17,14:12:05] (main.py) FIFO gave string: 0
-[10/25/17,14:12:06] (main.py) FIFO gave string: 1
-[10/25/17,14:12:07] (main.py) FIFO gave string: KEY_ENTER
-[10/25/17,14:12:08] (presenter.py) displaying file: [2]test2.pdf
-[10/25/17,14:12:08] () 
-[10/25/17,14:12:13] (main.py) FIFO gave string: 1
-[10/25/17,14:12:14] (main.py) FIFO gave string: KEY_ENTER
-[10/25/17,14:12:14] (presenter.py) displaying file: [1]pdf_1_sample.pdf
-[10/25/17,14:12:14] () 
+[11/01/17,19:35:39] (main.py) FIFO gave string: KEY_O
+[11/01/17,19:35:39] (presenter.py) displaying file: [79]83.pdf
+[11/01/17,19:35:39] () 
+[11/01/17,19:35:39] (main.py) projector power on
+[11/01/17,19:35:39] (tcp_client.py) sending command: on
+[11/01/17,19:35:40] (tcp_client.py) response: PJLINK 0
+[11/01/17,19:36:37] (main.py) ##### Starting powerpoint script. #####
+[11/01/17,19:36:38] (main.py) ##### Checking for USB. #####
+[11/01/17,19:37:11] (usblistener.py) detected USB with media: /media/pi/USB_KARTICA/diapozitivi
+[11/01/17,19:37:11] (presenter.py) displaying file: [0]0.pdf
+[11/01/17,19:37:11] () 
+[11/01/17,19:37:11] (main.py) using path to files: /media/pi/USB_KARTICA/diapozitivi
+[11/01/17,19:37:49] (main.py) FIFO gave string: KEY_UP
+[11/01/17,19:37:50] (presenter.py) displaying file: [1]1.pdf
+[11/01/17,19:37:50] () 
+[11/01/17,19:37:54] (main.py) FIFO gave string: KEY_UP
+[11/01/17,19:37:54] (presenter.py) displaying file: [2]2.pdf
+[11/01/17,19:37:54] () 
+[11/01/17,19:38:42] (main.py) FIFO gave string: KEY_P
+[11/01/17,19:38:43] (main.py) projector power off
+[11/01/17,19:38:43] (tcp_client.py) sending command: off
+[11/01/17,19:38:43] (tcp_client.py) response: PJLINK 0
+[11/01/17,19:39:40] (main.py) ##### Starting powerpoint script. #####
+[11/01/17,19:39:40] (main.py) ##### Checking for USB. #####
+[11/01/17,19:40:13] (usblistener.py) detected USB with media: /media/pi/USB_KARTICA/diapozitivi
+[11/01/17,19:40:13] (presenter.py) displaying file: [0]0.pdf
+[11/01/17,19:40:14] () 
+[11/01/17,19:40:14] (main.py) using path to files: /media/pi/USB_KARTICA/diapozitivi
+[11/01/17,19:42:15] (main.py) FIFO gave string: KEY_O
+[11/01/17,19:42:15] (presenter.py) displaying file: [0]0.pdf
+[11/01/17,19:42:15] () 
+[11/01/17,19:42:15] (main.py) projector power on
+[11/01/17,19:42:15] (tcp_client.py) sending command: on
+[11/01/17,19:42:15] (tcp_client.py) response: PJLINK 0
+[11/01/17,19:42:32] (main.py) FIFO gave string: KEY_UP
+[11/01/17,19:42:32] (presenter.py) displaying file: [1]1.pdf
+[11/01/17,19:42:32] () 
+[11/01/17,20:00:11] (main.py) ##### Starting powerpoint script. #####
+[11/01/17,20:00:12] (main.py) ##### Checking for USB. #####
+[11/01/17,20:00:51] (usblistener.py) detected USB with media: /media/pi/USB_KARTICA/diapozitivi
+[11/01/17,20:00:51] (presenter.py) displaying file: [0]0.pdf
+[11/01/17,20:00:52] () 
+[11/01/17,20:00:52] (main.py) using path to files: /media/pi/USB_KARTICA/diapozitivi
+[11/01/17,20:04:56] (main.py) ##### Starting powerpoint script. #####
+[11/01/17,20:04:56] (main.py) ##### Checking for USB. #####
+[11/01/17,20:05:33] (usblistener.py) detected USB with media: /media/pi/USB_KARTICA/diapozitivi
+[11/01/17,20:05:33] (presenter.py) displaying file: [0]0.pdf
+[11/01/17,20:05:33] () 
+[11/01/17,20:05:33] (main.py) using path to files: /media/pi/USB_KARTICA/diapozitivi
+[11/01/17,20:05:54] (main.py) FIFO gave string: KEY_UP
+[11/01/17,20:05:55] (presenter.py) displaying file: [1]1.pdf
+[11/01/17,20:05:55] () 
+[11/01/17,20:07:11] (main.py) FIFO gave string: KEY_UP
+[11/01/17,20:07:12] (presenter.py) displaying file: [2]2.pdf
+[11/01/17,20:07:12] () 
+[11/01/17,20:07:14] (main.py) FIFO gave string: KEY_UP
+[11/01/17,20:07:14] (presenter.py) displaying file: [3]3.pdf
+[11/01/17,20:07:14] () 
+[11/01/17,20:07:17] (main.py) FIFO gave string: KEY_UP
+[11/01/17,20:07:17] (presenter.py) displaying file: [4]4.pdf
+[11/01/17,20:07:17] () 
+[11/01/17,20:10:06] (main.py) ##### Starting powerpoint script. #####
+[11/01/17,20:10:07] (main.py) ##### Checking for USB. #####
+[11/01/17,20:10:43] (usblistener.py) detected USB with media: /media/pi/USB_KARTICA/diapozitivi
+[11/01/17,20:10:43] (presenter.py) displaying file: [0]0.pdf
+[11/01/17,20:10:43] () 
+[11/01/17,20:10:43] (main.py) using path to files: /media/pi/USB_KARTICA/diapozitivi
+[11/01/17,20:12:00] (main.py) ##### Starting powerpoint script. #####
+[11/01/17,20:12:00] (main.py) ##### Checking for USB. #####
+[11/01/17,20:12:03] (usblistener.py) detected USB with media: /media/pi/USB_KARTICA/diapozitivi
+[11/01/17,20:12:03] (presenter.py) displaying file: [0]0.pdf
+[11/01/17,20:12:04] () 
+[11/01/17,20:12:04] (main.py) using path to files: /media/pi/USB_KARTICA/diapozitivi
+[11/01/17,20:12:32] (main.py) FIFO gave string: KEY_UP
+[11/01/17,20:12:32] (presenter.py) displaying file: [1]1.pdf
+[11/01/17,20:12:32] () 
+[11/01/17,20:12:51] (main.py) FIFO gave string: KEY_P
+[11/01/17,20:12:51] (main.py) projector power off
+[11/01/17,20:12:51] (tcp_client.py) sending command: off
+[11/01/17,20:12:51] (tcp_client.py) response: PJLINK 0
