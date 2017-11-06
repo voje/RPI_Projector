@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
     <title>Remote Control</title>
     <style>
         #keypad_table {
@@ -18,14 +19,14 @@
             width: 25%;
         }
         .key {
-            background-color:#99ccff;
+            background-color:#66a3ff;
             font-size: 50px;
         }
-	.num {
-	    background-color:#cce6ff;	
-	}
+		.num {
+		    background-color:#99c2ff;	
+		}
         .focused {
-            background-color:#3366ff;
+            background-color:#0066ff;
         }
         html, body {
             /*To take in the window header*/
@@ -35,13 +36,20 @@
             height: 100%;
         }
         #prev_div {
+        	padding: 5px 5px 5px 5px;
+        	margin: 5px;
+            font-size: 55px;
+        	width: 100%;
             height: 70px;
-            margin: 10px;
         }
         #prev {
             padding: 0px 0px 5px 20px;
             margin: 0px;
-            font-size: 65px;
+        }
+        #prev1 {
+            padding: 0px 20px 5px 0px;
+            margin: 0px;
+        	float: right;	
         }
     </style>
 </head>
@@ -54,16 +62,19 @@
 
     <script>
         var focused
-	var saved_classes //when a button loses focus, it gets its old classes
+		var saved_classes //when a button loses focus, it gets its old classes
         var prev
+        var prev1
+        var prevList = []
         window.onload = function() {
-            console.log("DERP")
             var keys = document.getElementsByClassName("key")
             for (var i=0; i<keys.length; i++) {
                 keys[i].onclick = clickHandler
             }
             prev = document.getElementById("prev")
+            prev1 = document.getElementById("prev1")
             prev.innerText = ""
+            prev1.innerText = ""
         }
 
         function clickHandler(e) {
@@ -71,7 +82,7 @@
                 focused.className = saved_classes
             }
             focused = e.target
-	    saved_classes = focused.className
+		    saved_classes = focused.className
             focused.className = "key focused"
             var txt = focused.innerText
             //alert(txt)
@@ -80,14 +91,25 @@
             var xhttp = new XMLHttpRequest();
             var url = "/command?key="+txt
             xhttp.onreadystatechange = function() {
-                if (this.readyState == 4 && this.status == 200) {
-                   //document.getElementById("demo").innerHTML = xhttp.responseText;
+            	if (this.readyState == 4 && this.status == 200) {
+                	//document.getElementById("demo").innerHTML = xhttp.responseText;
                     //update preview
                     if (!isNaN(txt)) {
                         prev.innerText += focused.innerText
-                    } else if (txt == "Enter") {
+                    } else if (txt == "Enter" && prev.innerText != "") {
+                    	prevList.push(prev.innerText)
+                    	prev1.innerText = prevList[prevList.length-1]
                         prev.innerText = "" 
+                    } else if (txt == "Delete") {
+                    	prevList.splice(-1,1)
+                    	if (prevList.length > 0) {
+                    		prev1.innerText = prevList[prevList.length-1]
+                    	} else {
+                    		prev1.innerText = ""
+                    	}
                     }
+                } else {
+                	//prev.innerText = "Napaka 1"
                 }
             }
             xhttp.open("GET", url, true);
@@ -96,7 +118,8 @@
     </script>
 
     <div id="prev_div">
-        <p id="prev"></p>
+        <span id="prev"></span>
+        <span id="prev1"></span>
     </div>
     <div class="stretch">
         <table class="stretch" id="keypad_table">

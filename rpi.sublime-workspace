@@ -7,30 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/home/kristjan/git/mbrc/README.md",
-			"settings":
-			{
-				"buffer_size": 1345,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/kristjan/git/mbrc/public/index.html",
-			"settings":
-			{
-				"buffer_size": 3515,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/kristjan/git/mbrc/server/server.js",
-			"settings":
-			{
-				"buffer_size": 788,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -96,6 +72,9 @@
 	},
 	"file_history":
 	[
+		"/home/kristjan/git/mbrc/server/server.js",
+		"/home/kristjan/git/mbrc/public/index.html",
+		"/home/kristjan/git/mbrc/README.md",
 		"/home/kristjan/git/mbrc/index.html",
 		"/home/kristjan/git/stayinshape/angular/todolist/index.html",
 		"/home/kristjan/git/RPI_Projector/python_script/main.py",
@@ -277,91 +256,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/home/kristjan/git/mbrc/README.md",
-					"settings":
-					{
-						"buffer_size": 1345,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/home/kristjan/git/mbrc/public/index.html",
-					"settings":
-					{
-						"buffer_size": 3515,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								925,
-								925
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 174.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/home/kristjan/git/mbrc/server/server.js",
-					"settings":
-					{
-						"buffer_size": 788,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								608,
-								608
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
