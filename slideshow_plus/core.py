@@ -1,7 +1,7 @@
 # Core application for slideshow_plus.
 import getpass
 from os import listdir
-from os.path import isfile, join, basename, realpath, dirname
+from os.path import isfile, join, basename, realpath, dirname, exists
 
 
 class Core():
@@ -25,7 +25,13 @@ class Core():
         # bool = False if files are from default fallback folder.
         # Requires system to automount USB. !!!
 
+        default_dir = join(
+            (dirname(realpath(__file__))), self.default_files_dir
+        )
+
         media_user_dir = join(self.media_root_dir, getpass.getuser())
+        if not exists(media_user_dir):
+            return (default_dir, False)
         for usb_dir in [
             join(media_user_dir, x) for x in listdir(media_user_dir)
             if not isfile(join(media_user_dir, x))
@@ -37,7 +43,4 @@ class Core():
                 if basename(files_dir) == self.files_dir_basename:
                     return (files_dir, True)
         # default
-        default_dir = join(
-            (dirname(realpath(__file__))), self.default_files_dir
-        )
         return (default_dir, False)

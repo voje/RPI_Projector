@@ -1,5 +1,7 @@
+README.md
 slideshow_plus/__init__.py
-slideshow_plus/app.py
+slideshow_plus/core.py
+slideshow_plus/tests.py
 slideshow_plus.egg-info/PKG-INFO
 slideshow_plus.egg-info/SOURCES.txt
 slideshow_plus.egg-info/dependency_links.txt
