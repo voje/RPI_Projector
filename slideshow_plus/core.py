@@ -3,6 +3,9 @@ import getpass
 from os import listdir
 from os.path import isfile, join, basename, realpath, dirname, exists
 
+import logging
+log = logging.getLogger(__name__)
+
 
 class Core():
     def __init__(
@@ -31,6 +34,8 @@ class Core():
 
         media_user_dir = join(self.media_root_dir, getpass.getuser())
         if not exists(media_user_dir):
+            log.info(
+                "detected USB [{}]".format(default_dir))
             return (default_dir, False)
         for usb_dir in [
             join(media_user_dir, x) for x in listdir(media_user_dir)
@@ -41,6 +46,11 @@ class Core():
                 if not isfile(join(usb_dir, x))
             ]:
                 if basename(files_dir) == self.files_dir_basename:
+                    log.info(
+                        "find_usb_files(): "
+                        "found USB path [{}]".format(files_dir))
                     return (files_dir, True)
         # default
+        log.info(
+            "default USB path [{}]".format(default_dir))
         return (default_dir, False)

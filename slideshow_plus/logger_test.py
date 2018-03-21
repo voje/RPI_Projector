@@ -1,8 +1,10 @@
 import logging
 
-logging.basicConfig(filename="./testlog.log")
+logging.basicConfig(filename="logtest.log", filemode="a", level=logging.INFO)
 
-log = logging.Logger("my_logger")
+log = logging.getLogger(__name__)
+# log.setLevel(logging.DEBUG)
 
-log.debug("asdf")
-log.info("test")
+log.warning("Warning level.")  # will print a message to the console
+log.info("Info level.")  # will not print anything
+log.debug("Debug level.")
