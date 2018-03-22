@@ -18,20 +18,66 @@ def t_init_files(core):
 
 
 def t_display(core):
-    for file in core.files:
+    for i in range(len(core.files) + 2):
         core.display()
-        time.sleep(3)
+        time.sleep(1)
         core.next_file()
+
+    for i in range(len(core.files) + 2):
+        core.display()
+        time.sleep(1)
+        core.prev_file()
+
+    time.sleep(2)
+
+    for i in range(core.HIST_LEN + 2):
+        core.display(add_to_history=False)
+        time.sleep(1)
+        core.prev_hist_file()
+
+    for i in range(core.HIST_LEN + 2):
+        core.display(add_to_history=False)
+        time.sleep(1)
+        core.next_hist_file()
+
+    time.sleep(2)
+
+    core.file_by_number("0")
+    core.display()
+    time.sleep(1)
+
+    core.file_by_number("-1")
+    core.display()
+    time.sleep(1)
+
+    core.file_by_number("3")
+    core.display()
+    time.sleep(1)
+
+    core.file_by_number(101)
+    core.display()
+    time.sleep(1)
+
+    core.file_by_number(33)
+    core.display()
+    time.sleep(1)
+
+    time.sleep(2)
+
+    for i in range(core.HIST_LEN + 2):
+        core.display(add_to_history=False)
+        time.sleep(1)
+        core.prev_hist_file()
 
 
 if __name__ == "__main__":
     # Set logging preferences here, not in modules.
-    logging.basicConfig(level=logging.DEBUG)
+    logging.basicConfig(filename="debugging.log", level=logging.DEBUG)
 
     core = Core(
         media_root_dir="/run/media",
         files_dir_basename="diapozitivi",
-        default_files_dir="/home/kristjan/Pictures/mock_usb/diapozitivi"
+        default_files_dir="/home/kristjan/Pictures/mock_usb/diapozitivi1"
     )
 
     # t_find_usb_files(core)

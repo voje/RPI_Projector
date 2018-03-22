@@ -1,0 +1,190 @@
+DEBUG:core:looking for media in [/run/media/kristjan]
+DEBUG:core:init_files():no USB path found, fallback to /home/kristjan/Pictures/mock_usb/diapozitivi1
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():self.history:[0]
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_cat1.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/2_min.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/bush_3.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/cat33cat
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_vold.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_plank.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_plank.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_plank.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_plank.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_vold.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/cat33cat
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/bush_3.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/2_min.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_cat1.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/bush_3.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/bush_3.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/cat33cat
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/cat33cat
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/cat33cat
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/cat33cat
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/cat33cat
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/cat33cat
+DEBUG:core:looking for media in [/run/media/kristjan]
+DEBUG:core:init_files():no USB path found, fallback to /home/kristjan/Pictures/mock_usb/diapozitivi1
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():self.history:[0]
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_cat1.pdf
+DEBUG:core:display():self.history:[0, 1]
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/2_min.pdf
+DEBUG:core:display():self.history:[0, 1, 2]
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/bush_3.pdf
+DEBUG:core:display():self.history:[1, 2, 3]
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/cat33cat
+DEBUG:core:display():self.history:[2, 3, 4]
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_vold.pdf
+DEBUG:core:display():self.history:[3, 4, 5]
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_plank.pdf
+DEBUG:core:display():self.history:[4, 5, 6]
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_plank.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_plank.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_plank.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_vold.pdf
+DEBUG:core:display():self.history:[5, 6, 5]
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/cat33cat
+DEBUG:core:display():self.history:[6, 5, 4]
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/bush_3.pdf
+DEBUG:core:display():self.history:[5, 4, 3]
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/2_min.pdf
+DEBUG:core:display():self.history:[4, 3, 2]
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_cat1.pdf
+DEBUG:core:display():self.history:[3, 2, 1]
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():self.history:[2, 1, 0]
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/bush_3.pdf
+DEBUG:core:display():self.history:[1, 0, 3]
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/bush_3.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/cat33cat
+DEBUG:core:display():self.history:[0, 3, 4]
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/cat33cat
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/cat33cat
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/cat33cat
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/cat33cat
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/cat33cat
+DEBUG:core:looking for media in [/run/media/kristjan]
+DEBUG:core:init_files():no USB path found, fallback to /home/kristjan/Pictures/mock_usb/diapozitivi1
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():self.history:[0]
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_cat1.pdf
+DEBUG:core:display():self.history:[0, 1]
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/2_min.pdf
+DEBUG:core:display():self.history:[0, 1, 2]
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/bush_3.pdf
+DEBUG:core:display():self.history:[1, 2, 3]
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/cat33cat
+DEBUG:core:display():self.history:[2, 3, 4]
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_vold.pdf
+DEBUG:core:display():self.history:[3, 4, 5]
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_plank.pdf
+DEBUG:core:display():self.history:[4, 5, 6]
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_plank.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_plank.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_plank.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_vold.pdf
+DEBUG:core:display():self.history:[5, 6, 5]
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/cat33cat
+DEBUG:core:display():self.history:[6, 5, 4]
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/bush_3.pdf
+DEBUG:core:display():self.history:[5, 4, 3]
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/2_min.pdf
+DEBUG:core:display():self.history:[4, 3, 2]
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_cat1.pdf
+DEBUG:core:display():self.history:[3, 2, 1]
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():self.history:[2, 1, 0]
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/bush_3.pdf
+DEBUG:core:display():self.history:[1, 0, 3]
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/bush_3.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/cat33cat
+DEBUG:core:display():self.history:[0, 3, 4]
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/cat33cat
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/cat33cat
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/cat33cat
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/cat33cat
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/cat33cat
+DEBUG:core:looking for media in [/run/media/kristjan]
+DEBUG:core:init_files():no USB path found, fallback to /home/kristjan/Pictures/mock_usb/diapozitivi1
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():self.history:[0]
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_cat1.pdf
+DEBUG:core:display():self.history:[0, 1]
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/2_min.pdf
+DEBUG:core:display():self.history:[0, 1, 2]
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/bush_3.pdf
+DEBUG:core:display():self.history:[1, 2, 3]
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/cat33cat
+DEBUG:core:display():self.history:[2, 3, 4]
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_vold.pdf
+DEBUG:core:display():self.history:[3, 4, 5]
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_plank.pdf
+DEBUG:core:display():self.history:[4, 5, 6]
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_plank.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_plank.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_plank.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_vold.pdf
+DEBUG:core:display():self.history:[5, 6, 5]
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/cat33cat
+DEBUG:core:display():self.history:[6, 5, 4]
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/bush_3.pdf
+DEBUG:core:display():self.history:[5, 4, 3]
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/2_min.pdf
+DEBUG:core:display():self.history:[4, 3, 2]
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_cat1.pdf
+DEBUG:core:display():self.history:[3, 2, 1]
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():self.history:[2, 1, 0]
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
+DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf

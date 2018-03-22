@@ -5,6 +5,7 @@ import getpass
 from os import listdir, system
 from os.path import isfile, join, basename, realpath, dirname, exists
 import re
+import magic
 
 import logging
 log = logging.getLogger(__name__)
@@ -26,17 +27,20 @@ class Core():
         self.default_files_dir = default_files_dir or "default_files"
         self.files_dir = None
 
+        # Add default files.
+        self.reserved_filenames = ["r_blank"]
+
         # File indexing.
+        # File unique ID is the list index in self.files.
         self.files = []
         self.current_idx = 0
-        self.idx_map = {}
+        self.idx_map = {}  # filename number to list index
         self.idx_history = []
-        self.HIST_LEN = 20
+        self.current_hist_idx = -1
+        self.HIST_LEN = 3
         self.init_files()
 
     def init_files(self):
-        # Add default files.
-        reserved = ["r_blank"]
         ordered = []
         unordered = []
         # Read user files.
@@ -46,13 +50,14 @@ class Core():
                 self.default_files_dir))
         for filename in [
             fn for fn in listdir(self.files_dir)
-            if isfile(join(self.files_dir, fn))
+            if isfile(join(self.files_dir, fn)) and
+            magic.from_file(join(self.files_dir, fn))[:3] == "PDF"
         ]:
-            while filename in reserved:
+            while filename in self.reserved_filenames:
                 filename = "_" + filename
             entry = {
                 "filename": filename,
-                "number": None
+                "number": None,  # from filename
             }
             nu = get_numbers.findall(filename)
             if nu:
@@ -70,13 +75,22 @@ class Core():
             exit(1)
         return True
 
-    def display(self):
+    def display(self, add_to_history=None):
+        add_to_history = add_to_history or True
         file = self.files[self.current_idx]
         filepath = join(self.files_dir, file["filename"])
         log.debug("display():displaying current file: {}".format(filepath))
-        self.idx_history.append(self.current_idx)
-        self.idx_history = self.idx_history[-self.HIST_LEN:]
-        log.debug("display():self.history:{}".format(self.idx_history))
+        if (
+            add_to_history and (
+                len(self.idx_history) == 0 or
+                (self.idx_history[-1] != self.current_idx)
+            )
+        ):
+            # TODO .. this event doesn't fire...
+            self.idx_history.append(self.current_idx)
+            self.idx_history = self.idx_history[-self.HIST_LEN:]
+            self.current_hist_idx = len(self.idx_history) - 1
+            log.debug("display():self.history:{}".format(self.idx_history))
         system("xpdf -fullscreen -remote my_server '{}' &".format(filepath))
 
     def next_file(self):
@@ -89,6 +103,14 @@ class Core():
         if self.current_idx <= 0:
             self.current_idx = 0
 
+    def file_by_number(self, number):
+        str_num = str(int(number))
+        if str_num not in self.idx_map:
+            return False
+        self.current_idx = self.idx_map[str_num]
+        return True
+
+    # Todo: calling add_to_history in display.
     def next_hist_file(self):
         self.current_hist_idx += 1
         if self.current_hist_idx >= self.HIST_LEN:
@@ -98,6 +120,10 @@ class Core():
         self.current_hist_idx -= 1
         if self.current_hist_idx < 0:
             self.current_hist_idx = 0
+
+    def del_hist_file(self):
+        self.idx_history = self.idx_history[:-1]
+        self.current_hist_idx = len(self.idx_history) - 1
 
     def find_usb_files(self):
         # Returns (path_fo_files, bool)
