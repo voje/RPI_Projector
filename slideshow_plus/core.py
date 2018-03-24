@@ -6,8 +6,8 @@ from os import listdir, system
 from os.path import isfile, join, basename, realpath, dirname, exists
 import re
 import magic
-
 import logging
+
 log = logging.getLogger(__name__)
 
 get_numbers = re.compile(r'\d+')
@@ -76,22 +76,26 @@ class Core():
         return True
 
     def display(self, add_to_history=None):
-        add_to_history = add_to_history or True
+        if add_to_history is None:
+            add_to_history = True
         file = self.files[self.current_idx]
         filepath = join(self.files_dir, file["filename"])
         log.debug("display():displaying current file: {}".format(filepath))
-        if (
-            add_to_history and (
+        if add_to_history:
+            if (
                 len(self.idx_history) == 0 or
                 (self.idx_history[-1] != self.current_idx)
-            )
-        ):
-            # TODO .. this event doesn't fire...
-            self.idx_history.append(self.current_idx)
-            self.idx_history = self.idx_history[-self.HIST_LEN:]
-            self.current_hist_idx = len(self.idx_history) - 1
-            log.debug("display():self.history:{}".format(self.idx_history))
-        system("xpdf -fullscreen -remote my_server '{}' &".format(filepath))
+            ):
+                # TODO .. this event doesn't fire...
+                self.idx_history.append(self.current_idx)
+                self.idx_history = self.idx_history[-self.HIST_LEN:]
+                self.current_hist_idx = len(self.idx_history) - 1
+                log.debug("display():self.history:{}".format(self.idx_history))
+        # -fullscreen
+        system((
+            "xpdf -remote my_server '{}' "
+            ">/dev/null 2>&1 &".format(filepath)
+        ))
 
     def next_file(self):
         self.current_idx += 1
@@ -104,6 +108,8 @@ class Core():
             self.current_idx = 0
 
     def file_by_number(self, number):
+        if number == "":
+            return False
         str_num = str(int(number))
         if str_num not in self.idx_map:
             return False
@@ -115,11 +121,13 @@ class Core():
         self.current_hist_idx += 1
         if self.current_hist_idx >= self.HIST_LEN:
             self.current_hist_idx = self.HIST_LEN - 1
+        self.current_idx = self.idx_history[self.current_hist_idx]
 
     def prev_hist_file(self):
         self.current_hist_idx -= 1
         if self.current_hist_idx < 0:
             self.current_hist_idx = 0
+        self.current_idx = self.idx_history[self.current_hist_idx]
 
     def del_hist_file(self):
         self.idx_history = self.idx_history[:-1]

@@ -50,7 +50,7 @@ def t_display(core):
     core.display()
     time.sleep(1)
 
-    core.file_by_number("3")
+    core.file_by_number("2")
     core.display()
     time.sleep(1)
 
