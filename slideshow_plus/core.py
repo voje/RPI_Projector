@@ -16,15 +16,15 @@ get_numbers = re.compile(r'\d+')
 class Core():
     def __init__(
         self, media_root_dir=None, files_dir_basename=None,
-        default_files_dir=None
+        static_slides_dir=None
     ):
         if media_root_dir is None:
             raise Exception("core parameter missing: media_root_dir")
         if files_dir_basename is None:
             raise Exception("core parameter missing: files_dir_basename")
         self.media_root_dir = media_root_dir
-        self.files_dir_basename = files_dir_basename  # e.g. diapozitivi
-        self.default_files_dir = default_files_dir or "default_files"
+        self.static_slides_dir = static_slides_dir or "flask_app/static/slides"
+        self.files_dir_basename = files_dir_basename or "diapozitivi"
         self.files_dir = None
 
         # Add default files.
@@ -37,8 +37,11 @@ class Core():
         self.idx_map = {}  # filename number to list index
         self.idx_history = []
         self.current_hist_idx = -1
-        self.HIST_LEN = 3
+        self.HIST_LEN = 20
         self.init_files()
+
+    def convert_files_to_pdf(self):
+        return None
 
     def init_files(self):
         ordered = []
@@ -47,7 +50,7 @@ class Core():
         self.files_dir, found = self.find_usb_files()
         if not found:
             log.debug("init_files():no USB path found, fallback to {}".format(
-                self.default_files_dir))
+                self.static_slides_dir))
         for filename in [
             fn for fn in listdir(self.files_dir)
             if isfile(join(self.files_dir, fn)) and
@@ -139,7 +142,7 @@ class Core():
         # bool = False if files are from default fallback folder.
         # Requires system to automount USB. !!!
         default_dir = join(
-            (dirname(realpath(__file__))), self.default_files_dir
+            self.static_slides_dir, self.files_dir_basename
         )
         media_user_dir = join(self.media_root_dir, getpass.getuser())
         log.debug("looking for media in [{}]".format(media_user_dir))

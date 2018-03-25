@@ -70,12 +70,12 @@ if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
     core = Core(
         media_root_dir="/run/media",
-        files_dir_basename="diapozitivi",
-        default_files_dir="/home/kristjan/Pictures/mock_usb/diapozitivi1"
+        static_slides_dir="static/slides",
+        files_dir_basename="diapozitivi"
     )
     core.find_usb_files()
 
     if app.debug:
-        app.run(port=5001)
+        app.run(port=5000)
     else:
         app.run("0.0.0.0")
