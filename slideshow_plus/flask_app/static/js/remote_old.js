@@ -1,18 +1,18 @@
 var focused;
 var saved_classes; //when a button loses focus, it gets its old classes
-var prev;
+var prevr;
 var prev1;
-var prevList = [];
 
 window.onload = function () {
     var i, keys = document.getElementsByClassName("key");
     for (i = 0; i < keys.length; i += 1) {
         keys[i].onclick = clickHandler;
     }
-    prev = document.getElementById("prev");
-    prev1 = document.getElementById("prev1");
-    prev.innerText = "";
-    prev1.innerText = "";
+    prevl = document.getElementById("prev-l");
+    prevl.innerText = "";
+    prevr = document.getElementById("prev-r");
+    prevr.innerText = "";
+    body = document.getElementByTagName("body")
 };
 
 function command_map(text) {
@@ -53,25 +53,25 @@ function clickHandler(e) {
 
             //update control
             if (!isNaN(txt)) {
-                prev.innerText += focused.innerText
-            } else if (txt == "Enter" && prev.innerText != "") {
-                prevList.push(prev.innerText)
-                prev1.innerText = prevList[prevList.length-1]
-                prev.innerText = "" 
-            } else if (txt == "Delete") {
-                prevList.splice(-1,1)
-                if (prevList.length > 0) {
-                    prev1.innerText = prevList[prevList.length-1]
-                } else {
-                    prev1.innerText = ""
-                }
+                prevl.innerText += focused.innerText;
+            } else {
+                prevl.innerText = "" ;
             }
         } else {
             //prev.innerText = "Napaka 1"
         }
         //TODO: json parser complaining
         var response = JSON.parse(this.responseText);
-        prev1.innerText = response["current_file"]["filename"];
+        if (!response["success"]) {
+            body.className = "red-bg";
+            return;
+        }
+        prevr.innerText = response["current_file"]["filename"];
+        if (!response["blank"] && response["projector_state"] == "on") {
+            prevr.className = "green-text"
+        } else {
+            prevr.className = "";
+        }
     }
     xhttp.open("GET", url, true);
     xhttp.send();

@@ -9,6 +9,7 @@ import re
 import magic
 import logging
 from time import time
+from slideshow_plus.projector import pjlink
 
 log = logging.getLogger(__name__)
 
@@ -49,6 +50,9 @@ class Core():
         self.convert_files()
         self.init_files()
 
+        self.blank = False
+        self.projector = pjlink.Pjlink()
+
     def convert_files(self):
         # If not pdf, convert to pdf and store in converted_ folder.
         tstart = time()
@@ -63,6 +67,13 @@ class Core():
             time() - tstart))
 
     def init_files(self):
+        # Reset values
+        self.files = []
+        self.current_idx = 0
+        self.idx_map = {}  # filename number to list index
+        self.idx_history = []
+        self.current_hist_idx = -1
+
         ordered = []
         unordered = []
         # Read user files.
@@ -115,8 +126,12 @@ class Core():
     def display(self, add_to_history=None):
         if add_to_history is None:
             add_to_history = True
-        file = self.files[self.current_idx]
-        filepath = join(self.files_dir, file["filepath"])
+        filepath = None
+        if self.blank:
+            filepath = join(self.static_files_dir, "r_slides/r_blank.pdf")
+        else:
+            file = self.files[self.current_idx]
+            filepath = join(self.files_dir, file["filepath"])
         log.debug("display():displaying current file: {}".format(filepath))
         if add_to_history:
             if (
@@ -153,14 +168,17 @@ class Core():
         self.current_idx = self.idx_map[str_num]
         return True
 
-    # Todo: calling add_to_history in display.
     def next_hist_file(self):
+        if not len(self.idx_history):
+            return False
         self.current_hist_idx += 1
-        if self.current_hist_idx >= self.HIST_LEN:
-            self.current_hist_idx = self.HIST_LEN - 1
+        if self.current_hist_idx >= len(self.idx_history):
+            self.current_hist_idx = len(self.idx_history) - 1
         self.current_idx = self.idx_history[self.current_hist_idx]
 
     def prev_hist_file(self):
+        if not len(self.idx_history):
+            return False
         self.current_hist_idx -= 1
         if self.current_hist_idx < 0:
             self.current_hist_idx = 0
@@ -169,6 +187,17 @@ class Core():
     def del_hist_file(self):
         self.idx_history = self.idx_history[:-1]
         self.current_hist_idx = len(self.idx_history) - 1
+
+    def toggle_blank(self):
+        self.blank = not self.blank
+        self.display(add_to_history=False)
+
+    def special_command(self, command):
+        log.info("special_command:{}".format(command))
+        if command == "0001":
+            self.files_dir = self.find_usb_files()
+            self.init_files()
+            self.display()
 
     def find_usb_files(self):
         # Returns (path_fo_files, bool)
