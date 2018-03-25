@@ -381,3 +381,13 @@ DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/d
 DEBUG:core:display():self.history:[1, 0, 1]
 DEBUG:core:display():displaying current file: /home/kristjan/Pictures/mock_usb/diapozitivi1/converted_0_dog.pdf
 DEBUG:core:display():self.history:[0, 1, 0]
+DEBUG:core:looking for media in [/run/media/kristjan]
+INFO:core:ran mass_convert.sh in 0.00s
+DEBUG:core:looking for media in [/run/media/kristjan]
+INFO:core:ran mass_convert.sh in 0.01s
+DEBUG:core:looking for media in [/run/media/kristjan]
+INFO:core:ran mass_convert.sh in 0.29s
+DEBUG:core:looking for media in [/run/media/kristjan]
+INFO:core:ran mass_convert.sh in 0.37s
+DEBUG:core:looking for media in [/run/media/kristjan]
+INFO:core:ran mass_convert.sh in 0.38s

@@ -1,11 +1,19 @@
 #!/bin/bash
 # use absolute full paths!
 
-default_dir="$(pwd .)/diapozitivi"
-indir="${1:-${default_dir}}"
+indir="$(pwd .)/diapozitivi"
+indir="${1:-${indir}}"
+
 dname=$(dirname "$indir")
 bname=$(basename "$indir")
-dest_dir="${dname}/pdf_${bname}"
+
+dest_dir="${dname}/converted_${bname}"
+dest_dir="${2:-${dest_dir}}"
+
+# echo "$indir"
+# echo "$dest_dir"
+# exit 0
+
 mkdir "${dest_dir}"
 
 cd "${indir}"
@@ -14,10 +22,8 @@ for filename in $(ls); do
     if [ -f "$filename" ]; then
         if [ $(head -c 4 "${filename}") != "%PDF" ]; then
             no_ext=$(basename "${filename}" | cut -d. -f1)
-            new_path="${dest_dir}/${no_ext}_c.pdf"
+            new_path="${dest_dir}/${no_ext}.pdf"
             convert "$filename" "${new_path}"
-        else
-            cp "${filename}" "${dest_dir}/${filename}"
         fi
     fi
 done

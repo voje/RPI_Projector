@@ -6,3 +6,8 @@ Version 3.04 has the -remote function.
 ## System dependencies:
 imgmagick
 xpdf (version with -remote function (3.4 has it))
+
+## Settings:
+* media_root_dir (/run/media/ on manjaro),
+* files_dir_basename (the program looks for this folder in 
+media_root_dir/<username>/,

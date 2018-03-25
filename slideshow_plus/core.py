@@ -1,12 +1,14 @@
 # -*- coding: utf-8 -*-
 
 # Core application for slideshow_plus.
+# Rule of thumb: always use absolute paths.
 import getpass
 from os import listdir, system
-from os.path import isfile, join, basename, realpath, dirname, exists
+from os.path import isfile, join, basename, dirname, exists, splitext
 import re
 import magic
 import logging
+from time import time
 
 log = logging.getLogger(__name__)
 
@@ -15,20 +17,19 @@ get_numbers = re.compile(r'\d+')
 
 class Core():
     def __init__(
-        self, media_root_dir=None, files_dir_basename=None,
-        static_slides_dir=None
+        self, media_root_dir=None, files_dir_basename=None
     ):
         if media_root_dir is None:
             raise Exception("core parameter missing: media_root_dir")
         if files_dir_basename is None:
             raise Exception("core parameter missing: files_dir_basename")
         self.media_root_dir = media_root_dir
-        self.static_slides_dir = static_slides_dir or "flask_app/static/slides"
+        self.static_files_dir = join(
+            dirname(__file__), "core_static")
         self.files_dir_basename = files_dir_basename or "diapozitivi"
-        self.files_dir = None
 
         # Add default files.
-        self.reserved_filenames = ["r_blank"]
+        self.reserved_filenames = ["r_blank.pdf"]
 
         # File indexing.
         # File unique ID is the list index in self.files.
@@ -38,30 +39,63 @@ class Core():
         self.idx_history = []
         self.current_hist_idx = -1
         self.HIST_LEN = 20
+
+        # Function order is important.
+        self.files_dir = self.find_usb_files()[0]
+        self.converted_files_dir = join(
+            dirname(self.files_dir),
+            "converted_" + self.files_dir_basename
+        )
+        self.convert_files()
         self.init_files()
 
-    def convert_files_to_pdf(self):
-        return None
+    def convert_files(self):
+        # If not pdf, convert to pdf and store in converted_ folder.
+        tstart = time()
+        mass_convert = "{}/core_static/mass_convert.sh".format(
+            dirname(__file__))
+        system(("bash {} {} {}").format(
+            mass_convert,
+            self.files_dir,
+            self.converted_files_dir
+        ))
+        log.info("ran mass_convert.sh in {:.2f}s".format(
+            time() - tstart))
 
     def init_files(self):
         ordered = []
         unordered = []
         # Read user files.
-        self.files_dir, found = self.find_usb_files()
-        if not found:
-            log.debug("init_files():no USB path found, fallback to {}".format(
-                self.static_slides_dir))
         for filename in [
             fn for fn in listdir(self.files_dir)
-            if isfile(join(self.files_dir, fn)) and
-            magic.from_file(join(self.files_dir, fn))[:3] == "PDF"
+            if isfile(join(self.files_dir, fn))
         ]:
+            filepath = None
+            if (
+                magic.from_file(join(self.files_dir, filename))[:3] == "PDF"
+            ):
+                filepath = join(self.files_dir, filename)
+            else:
+                converted_filename = join(
+                    self.converted_files_dir,
+                    splitext(basename(filename))[0] + ".pdf"
+                )
+                log.debug(converted_filename)
+                if isfile(converted_filename):
+                    filepath = join(
+                        self.converted_files_dir,
+                        converted_filename
+                    )
+                else:
+                    continue
             while filename in self.reserved_filenames:
                 filename = "_" + filename
             entry = {
                 "filename": filename,
+                "filepath": filepath,
                 "number": None,  # from filename
             }
+            log.debug(entry)
             nu = get_numbers.findall(filename)
             if nu:
                 entry["number"] = str(int(nu[0]))
@@ -82,7 +116,7 @@ class Core():
         if add_to_history is None:
             add_to_history = True
         file = self.files[self.current_idx]
-        filepath = join(self.files_dir, file["filename"])
+        filepath = join(self.files_dir, file["filepath"])
         log.debug("display():displaying current file: {}".format(filepath))
         if add_to_history:
             if (
@@ -142,7 +176,7 @@ class Core():
         # bool = False if files are from default fallback folder.
         # Requires system to automount USB. !!!
         default_dir = join(
-            self.static_slides_dir, self.files_dir_basename
+            self.static_files_dir, self.files_dir_basename
         )
         media_user_dir = join(self.media_root_dir, getpass.getuser())
         log.debug("looking for media in [{}]".format(media_user_dir))

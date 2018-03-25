@@ -72,14 +72,14 @@ def t_display(core):
 
 if __name__ == "__main__":
     # Set logging preferences here, not in modules.
-    logging.basicConfig(filename="debugging.log", level=logging.DEBUG)
+    # logging.basicConfig(filename="debugging.log", level=logging.DEBUG)
+    logging.basicConfig(level=logging.DEBUG)
 
     core = Core(
         media_root_dir="/run/media",
-        files_dir_basename="diapozitivi",
-        default_files_dir="/home/kristjan/Pictures/mock_usb/diapozitivi1"
+        files_dir_basename="diapozitivi"
     )
 
     # t_find_usb_files(core)
     # t_init_files(core)
-    t_display(core)
+    # t_display(core)
