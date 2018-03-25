@@ -1,0 +1,60 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+#keypad-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: fixed;
+}
+#keypad-table {
+    margin: 3px 5px 5px 5px;
+}
+#keypad-table,
+#keypad-table td,
+#keypad-table tr {
+    border: 2px solid black;
+}
+#keypad-table td {
+    width: 25%;
+}
+.key {
+    background-color:#66a3ff;
+    font-size: 50px;
+}
+.num {
+    background-color:#99c2ff;   
+}
+.focused {
+    background-color:#0066ff;
+}
+html, body {
+    /*To take in the window header*/
+    height: 95%; 
+}
+.stretch {
+    height: 100%;
+}
+#prev-div {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px 5px 0px 5px;
+    width: 98%;
+    height: 70px;
+}
+#prev-l {
+    font-size: 55px;
+    padding: 0px 0px 0px 20px;
+    float: left;
+    height: 100%;
+    width: 26%;
+    overflow: hidden;
+}
+#prev-r {
+    float: right;
+    text-align: right;
+    width: 66%;
+    font-size: 30px;
+    overflow: hidden;
+}
