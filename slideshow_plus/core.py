@@ -42,11 +42,7 @@ class Core():
         self.HIST_LEN = 20
 
         # Function order is important.
-        self.files_dir = self.find_usb_files()[0]
-        self.converted_files_dir = join(
-            dirname(self.files_dir),
-            "converted_" + self.files_dir_basename
-        )
+        self.find_usb_files_wrapper()
         self.convert_files()
         self.init_files()
 
@@ -91,7 +87,6 @@ class Core():
                     self.converted_files_dir,
                     splitext(basename(filename))[0] + ".pdf"
                 )
-                log.debug(converted_filename)
                 if isfile(converted_filename):
                     filepath = join(
                         self.converted_files_dir,
@@ -106,7 +101,6 @@ class Core():
                 "filepath": filepath,
                 "number": None,  # from filename
             }
-            log.debug(entry)
             nu = get_numbers.findall(filename)
             if nu:
                 entry["number"] = str(int(nu[0]))
@@ -118,6 +112,7 @@ class Core():
         for i, entry in enumerate(self.files):
             if entry["number"] is not None:
                 self.idx_map[entry["number"]] = i
+            log.debug(entry)
         if not self.files:
             log.error("Empty self.files list. Exiting.")
             exit(1)
@@ -126,12 +121,13 @@ class Core():
     def display(self, add_to_history=None):
         if add_to_history is None:
             add_to_history = True
-        filepath = None
+        blank_filepath = join(self.static_files_dir, "r_slides/r_blank.pdf")
+        filepath = self.files[self.current_idx]["filepath"]
         if self.blank:
-            filepath = join(self.static_files_dir, "r_slides/r_blank.pdf")
-        else:
-            file = self.files[self.current_idx]
-            filepath = join(self.files_dir, file["filepath"])
+            filepath = blank_filepath
+        elif not isfile(filepath):
+            log.warning("file not found: {}")
+            filepath = blank_filepath
         log.debug("display():displaying current file: {}".format(filepath))
         if add_to_history:
             if (
@@ -195,9 +191,17 @@ class Core():
     def special_command(self, command):
         log.info("special_command:{}".format(command))
         if command == "0001":
-            self.files_dir = self.find_usb_files()
+            self.find_usb_files_wrapper()
             self.init_files()
             self.display()
+
+    def find_usb_files_wrapper(self):
+        self.files_dir = self.find_usb_files()[0]
+        self.converted_files_dir = join(
+            dirname(self.files_dir),
+            "converted_" + self.files_dir_basename
+        )
+        log.info("found files in {}".format(self.files_dir))
 
     def find_usb_files(self):
         # Returns (path_fo_files, bool)

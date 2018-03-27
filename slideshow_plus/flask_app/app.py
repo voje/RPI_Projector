@@ -4,21 +4,28 @@ from flask import Flask, render_template, jsonify, request
 from slideshow_plus.core import Core
 import logging
 import re
+from time import time
 
 log = logging.getLogger(__name__)
-
+LOGFILE = "../log/main.log"
 app = Flask(__name__)
-app.debug = True
-
 core = None
 buff = ""
-# 0001,... special commands
 zeros = re.compile(r'000[1-9]+')
 
 
 @app.route("/")
 def home():
     return render_template("home.html")
+
+
+@app.route("/log")
+def log():
+    lines = []
+    with open(LOGFILE, "r") as file:
+        for line in file:
+            lines.insert(0, line)
+    return "<br><br>".join(lines)
 
 
 @app.route("/remote_old")
@@ -75,8 +82,15 @@ def command():
 
 
 if __name__ == "__main__":
-    # logging.basicconfig(filename="debugging.log", level=logging.debug)
-    logging.basicConfig(level=logging.DEBUG)
+    # Most of the settings in here. TODO: config file.
+    logging.basicConfig(filename=LOGFILE, level=logging.DEBUG)
+    # logging.basicConfig(level=logging.DEBUG)
+    app.debug = True
+    wait_for_usb = False
+
+    if wait_for_usb:
+        time.sleep(60)
+
     core = Core(
         media_root_dir="/run/media",
         files_dir_basename="diapozitivi"

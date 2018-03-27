@@ -6,7 +6,7 @@ log = logging.getLogger(__name__)
 class Projector:
     def __init__(self, name=None):
         self.name = name or "skeleton for a projector class"
-        self.state = "on"   # For debugging. TODO change to undefined
+        self.state = "off"   # For debugging. TODO change to undefined
 
     def on(self):
         self.state = "on"
