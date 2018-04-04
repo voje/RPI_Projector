@@ -52,9 +52,21 @@ $ sudo nmap -sn 192.168.1.1/24 | grep -E -o -e '[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+' 
 * Use the one-liner for nmap (see this manual).
 * `$sudo ssh pi@<ip>`, add key to known hosts. Default password is "raspberry".
 * First time logged in, enable ssh. `$sudo systemctl enable ssh`.
-* systemd, running indefinitely (tutorial)[https://bloggerbrothers.com/2016/12/20/raspberry-pi-run-on-boot-and-run-forever-systemdsystemctl/].
 * `$sudo apt-get update && apt-get upgrade`.
-* TODO: Install vim, git, usbmount (check if you have /etc/usbmount/) and xpdf (version 3.4 or lower).
+* Install vim, git, usbmount (check if you have /etc/usbmount/) and xpdf (version 3.4 or lower).
+* Create an access point ((tutorial)[https://www.raspberrypi.org/documentation/configuration/wireless/access-point.md].
+* Adding to the tutorial:
+* If needed, unblock wireless interface: `$sudo rfkill unblock wifi`.
+* In `/etc/dhcpcd.conf`, added the following:
+```
+interface wlan0
+static ip_address=192.168.2.1/24
+static routers=192.168.1.1
+static domain_name_servers=192.168.1.1
+```
+
+## Other TODOs
+* systemd, running indefinitely (tutorial)[https://bloggerbrothers.com/2016/12/20/raspberry-pi-run-on-boot-and-run-forever-systemdsystemctl/].
 
 
 
