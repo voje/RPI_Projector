@@ -1,0 +1,24 @@
+DEBUG:slideshow_plus.core:looking for media in [/run/media/kristjan]
+INFO:slideshow_plus.core:found files in /home/kristjan/git/RPI_Projector/slideshow_plus/core_static/diapozitivi
+INFO:slideshow_plus.core:ran mass_convert.sh in 1.31s
+DEBUG:slideshow_plus.core:{'filename': 'cat1.jpg', 'filepath': '/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/converted_diapozitivi/cat1.pdf', 'number': '1'}
+DEBUG:slideshow_plus.core:{'filename': '5lank.jpg', 'filepath': '/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/converted_diapozitivi/5lank.pdf', 'number': '5'}
+DEBUG:slideshow_plus.core:{'filename': 'bu5sh.pdf', 'filepath': '/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/bu5sh.pdf', 'number': '5'}
+DEBUG:slideshow_plus.core:{'filename': 'min10n.pdf', 'filepath': '/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/min10n.pdf', 'number': '10'}
+DEBUG:slideshow_plus.core:{'filename': 'vold.jpg', 'filepath': '/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/converted_diapozitivi/vold.pdf', 'number': None}
+DEBUG:slideshow_plus.core:{'filename': 'dog.jpg', 'filepath': '/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/converted_diapozitivi/dog.pdf', 'number': None}
+DEBUG:slideshow_plus.core:{'filename': 'cat.pdf', 'filepath': '/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/cat.pdf', 'number': None}
+INFO:werkzeug: * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:slideshow_plus.core:looking for media in [/run/media/kristjan]
+INFO:slideshow_plus.core:found files in /home/kristjan/git/RPI_Projector/slideshow_plus/core_static/diapozitivi
+INFO:slideshow_plus.core:ran mass_convert.sh in 0.30s
+DEBUG:slideshow_plus.core:{'filename': 'cat1.jpg', 'filepath': '/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/converted_diapozitivi/cat1.pdf', 'number': '1'}
+DEBUG:slideshow_plus.core:{'filename': '5lank.jpg', 'filepath': '/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/converted_diapozitivi/5lank.pdf', 'number': '5'}
+DEBUG:slideshow_plus.core:{'filename': 'bu5sh.pdf', 'filepath': '/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/bu5sh.pdf', 'number': '5'}
+DEBUG:slideshow_plus.core:{'filename': 'min10n.pdf', 'filepath': '/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/min10n.pdf', 'number': '10'}
+DEBUG:slideshow_plus.core:{'filename': 'vold.jpg', 'filepath': '/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/converted_diapozitivi/vold.pdf', 'number': None}
+DEBUG:slideshow_plus.core:{'filename': 'dog.jpg', 'filepath': '/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/converted_diapozitivi/dog.pdf', 'number': None}
+DEBUG:slideshow_plus.core:{'filename': 'cat.pdf', 'filepath': '/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/cat.pdf', 'number': None}
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 150-646-823

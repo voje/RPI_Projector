@@ -34,7 +34,7 @@ $ nmcli device wifi
 $ nmcli device wifi connect
 
 # One-liner for discovering network devices (takes a few minutes):
-$ sudo nmap -sn 192.168.1.1/24 | grep -E -o -e '[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+' | while read -r line; do echo ""; echo "##################################################"; echo "processing: $line"; nmap -A -T4 $line; done
+$ sudo nmap -sn 192.168.2.1/24 | grep -E -o -e '[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+' | while read -r line; do echo ""; echo "##################################################"; echo "processing: $line"; nmap -A -T4 $line; done
 ```
 
 
@@ -53,7 +53,7 @@ $ sudo nmap -sn 192.168.1.1/24 | grep -E -o -e '[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+' 
 * `$sudo ssh pi@<ip>`, add key to known hosts. Default password is "raspberry".
 * First time logged in, enable ssh. `$sudo systemctl enable ssh`.
 * `$sudo apt-get update && apt-get upgrade`.
-* Install vim, git, usbmount (check if you have /etc/usbmount/) and xpdf (version 3.4 or lower).
+* Install vim, git, imagemagick, usbmount (check if you have /etc/usbmount/) and xpdf (version 3.4 or lower).
 * Create an access point ((tutorial)[https://www.raspberrypi.org/documentation/configuration/wireless/access-point.md].
 * Adding to the tutorial:
 * If needed, unblock wireless interface: `$sudo rfkill unblock wifi`.
@@ -64,10 +64,28 @@ static ip_address=192.168.2.1/24
 static routers=192.168.1.1
 static domain_name_servers=192.168.1.1
 ```
+* Reboot rpi. It should show up in your wifi menu now.
+* ssh onto rpi, git clone the app, run `$pip3 --user -e install .` in the folcer with `.setup.py`.
+* Select a port to ues, add it in the `app.py` file (also turn off debug mode).
+* Open the port in linux firewall:  
+```
+$ sudo iptables -A INPUT -p tcp -m tcp --dport 5003 -j ACCEPT
+$ sudo sh -c "iptables-save > /etc/iptables.ipv4.nat"
+```
 
 ## Other TODOs
 * systemd, running indefinitely (tutorial)[https://bloggerbrothers.com/2016/12/20/raspberry-pi-run-on-boot-and-run-forever-systemdsystemctl/].
+* usbmount privileges!
 
+
+## APP settings:
+* port
+* media_root_dir (`/media` on raspbian)
+
+
+## APP todos:
+* Start a slide on startup.
+* Notify disconnected remote.
 
 
 
