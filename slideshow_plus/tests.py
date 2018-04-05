@@ -70,6 +70,17 @@ def t_display(core):
         core.prev_hist_file()
 
 
+def t_display_index(core):
+    core.display_index()
+
+
+def t_gen_pdf(core):
+    filename = "t_file.pdf"
+    text = "I am a test file.\nNothing bad ever happens to me."
+    print("t_gen_pdf: {}".format(filename))
+    core.gen_pdf(text, filename)
+
+
 if __name__ == "__main__":
     # Set logging preferences here, not in modules.
     # logging.basicConfig(filename="debugging.log", level=logging.DEBUG)
@@ -83,3 +94,5 @@ if __name__ == "__main__":
     # t_find_usb_files(core)
     # t_init_files(core)
     # t_display(core)
+    # t_gen_pdf(core)
+    t_display_index(core)

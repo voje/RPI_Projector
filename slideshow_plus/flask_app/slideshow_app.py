@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 # Main thread.
 
 from flask import Flask, render_template, jsonify, request
@@ -85,7 +86,7 @@ if __name__ == "__main__":
     # Most of the settings in here. TODO: config file.
     logging.basicConfig(filename=LOGFILE, level=logging.DEBUG)
     # logging.basicConfig(level=logging.DEBUG)
-    app.debug = True
+    app.debug = False
     wait_for_usb = False
 
     if wait_for_usb:
@@ -99,4 +100,4 @@ if __name__ == "__main__":
     if app.debug:
         app.run(port=5001)
     else:
-        app.run("0.0.0.0")
+        app.run("0.0.0.0", port=5001)

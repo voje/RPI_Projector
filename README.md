@@ -53,7 +53,7 @@ $ sudo nmap -sn 192.168.2.1/24 | grep -E -o -e '[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+' 
 * `$sudo ssh pi@<ip>`, add key to known hosts. Default password is "raspberry".
 * First time logged in, enable ssh. `$sudo systemctl enable ssh`.
 * `$sudo apt-get update && apt-get upgrade`.
-* Install vim, git, imagemagick, usbmount (check if you have /etc/usbmount/) and xpdf (version 3.4 or lower).
+* Install vim, git, wmctrl, geeqie, imagemagick, paps, ghostscript, usbmount (check if you have /etc/usbmount/) and xpdf (version 3.4 or lower).
 * Create an access point ((tutorial)[https://www.raspberrypi.org/documentation/configuration/wireless/access-point.md].
 * Adding to the tutorial:
 * If needed, unblock wireless interface: `$sudo rfkill unblock wifi`.
@@ -85,13 +85,8 @@ $ sudo sh -c "iptables-save > /etc/iptables.ipv4.nat"
 
 
 ## APP todos:
-* store tmp files on raspberry (check filesize)
-* Generate pdfs on the fly (user info):
-Dependencies: paps, ghostscript.
-`$ paps test.txt | ps2pdf - > test.pdf`
-* Start a slide on startup or after usb read:
-list all the files with indices
 * Notify disconnected remote.
+* Fix remote: lag, better response logic.
 
 
 

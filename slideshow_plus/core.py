@@ -4,9 +4,8 @@
 # Rule of thumb: always use absolute paths.
 import getpass
 from os import listdir, system
-from os.path import isfile, join, basename, dirname, exists, splitext
+from os.path import isfile, join, basename, dirname, exists
 import re
-import magic
 import logging
 from time import time
 from slideshow_plus.projector import pjlink
@@ -25,9 +24,10 @@ class Core():
         if files_dir_basename is None:
             raise Exception("core parameter missing: files_dir_basename")
         self.media_root_dir = media_root_dir
-        self.static_files_dir = join(
-            dirname(__file__), "core_static")
         self.files_dir_basename = files_dir_basename or "diapozitivi"
+
+        self.core_static = join(
+            dirname(__file__), "core_static")
 
         # Add default files.
         self.reserved_filenames = ["r_blank.pdf"]
@@ -41,15 +41,18 @@ class Core():
         self.current_hist_idx = -1
         self.HIST_LEN = 20
 
-        # Function order is important.
-        self.find_usb_files_wrapper()
-        self.convert_files()
-        self.init_files()
-
         self.blank = False
+        self.blanked = None  # file hiding behind blank
         self.projector = pjlink.Pjlink()
 
+        # Function order is important.
+        self.find_usb_files_wrapper()
+        self.init_files()
+        self.display_index()
+
     def convert_files(self):
+        # deprecated
+        return None
         # If not pdf, convert to pdf and store in converted_ folder.
         tstart = time()
         mass_convert = "{}/core_static/mass_convert.sh".format(
@@ -77,28 +80,11 @@ class Core():
             fn for fn in listdir(self.files_dir)
             if isfile(join(self.files_dir, fn))
         ]:
-            filepath = None
-            if (
-                magic.from_file(join(self.files_dir, filename))[:3] == "PDF"
-            ):
-                filepath = join(self.files_dir, filename)
-            else:
-                converted_filename = join(
-                    self.converted_files_dir,
-                    splitext(basename(filename))[0] + ".pdf"
-                )
-                if isfile(converted_filename):
-                    filepath = join(
-                        self.converted_files_dir,
-                        converted_filename
-                    )
-                else:
-                    continue
             while filename in self.reserved_filenames:
                 filename = "_" + filename
             entry = {
                 "filename": filename,
-                "filepath": filepath,
+                "filepath": join(self.files_dir, filename),
                 "number": None,  # from filename
             }
             nu = get_numbers.findall(filename)
@@ -118,32 +104,56 @@ class Core():
             exit(1)
         return True
 
+    def gen_pdf(self, text, filename):
+        filepath = join(self.core_static, "tmp_files", filename)
+        log.info("gen_pdf: {}".format(filepath))
+        status = system("echo '{}' | paps | ps2pdf -> {}".format(
+            text, filepath))  # should be blocking
+        return (True if status == 0 else False)
+
+    def display_index(self):
+        filename = "index.pdf"
+        filepath = join(self.core_static, "tmp_files", filename)
+        text = "Pot do datotek:\n{}\n\nIndeks:\n------\n".format(
+            self.files_dir)
+        for f in self.files:
+            text += "[{:^4}] {}\n".format(f["number"] or "", f["filename"])
+        if self.gen_pdf(text, filename):
+            wait = time()
+            print(filepath)
+            while not isfile(filepath):
+                if time() - wait > 5:
+                    log.error("display_index failed")
+                    return
+            self.low_display(filepath)
+
+    def low_display(self, filepath):
+        if self.blank:
+            self.blanked = filepath
+            filepath = join(self.core_static, "r_slides/r_blank.pdf")
+        else:
+            self.blanked = None
+        system("{}/bash_scripts/display_any.sh {}".format(
+            self.core_static, filepath))
+
     def display(self, add_to_history=None):
         if add_to_history is None:
             add_to_history = True
-        blank_filepath = join(self.static_files_dir, "r_slides/r_blank.pdf")
         filepath = self.files[self.current_idx]["filepath"]
-        if self.blank:
-            filepath = blank_filepath
-        elif not isfile(filepath):
+        if not isfile(filepath):
             log.warning("file not found: {}")
-            filepath = blank_filepath
+            return
         log.debug("display():displaying current file: {}".format(filepath))
         if add_to_history:
             if (
                 len(self.idx_history) == 0 or
                 (self.idx_history[-1] != self.current_idx)
             ):
-                # TODO .. this event doesn't fire...
                 self.idx_history.append(self.current_idx)
                 self.idx_history = self.idx_history[-self.HIST_LEN:]
                 self.current_hist_idx = len(self.idx_history) - 1
                 log.debug("display():self.history:{}".format(self.idx_history))
-        # -fullscreen
-        system((
-            "xpdf -remote my_server '{}' "
-            ">/dev/null 2>&1 &".format(filepath)
-        ))
+        self.low_display(filepath)
 
     def next_file(self):
         self.current_idx += 1
@@ -197,10 +207,6 @@ class Core():
 
     def find_usb_files_wrapper(self):
         self.files_dir = self.find_usb_files()[0]
-        self.converted_files_dir = join(
-            dirname(self.files_dir),
-            "converted_" + self.files_dir_basename
-        )
         log.info("found files in {}".format(self.files_dir))
 
     def find_usb_files(self):
@@ -209,7 +215,7 @@ class Core():
         # bool = False if files are from default fallback folder.
         # Requires system to automount USB. !!!
         default_dir = join(
-            self.static_files_dir, self.files_dir_basename
+            self.core_static, self.files_dir_basename
         )
         media_user_dir = join(self.media_root_dir, getpass.getuser())
         log.debug("looking for media in [{}]".format(media_user_dir))

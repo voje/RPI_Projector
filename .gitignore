@@ -1,2 +1,3 @@
 *.pyc
 venv/
+slideshow_plus.egg-info/
