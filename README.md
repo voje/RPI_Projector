@@ -76,15 +76,21 @@ $ sudo sh -c "iptables-save > /etc/iptables.ipv4.nat"
 ## Other TODOs
 * systemd, running indefinitely (tutorial)[https://bloggerbrothers.com/2016/12/20/raspberry-pi-run-on-boot-and-run-forever-systemdsystemctl/].
 * usbmount privileges!
+* wifi access point doesn't establish without ethernet cable
 
 
 ## APP settings:
-* port
+* port (I opened up 5003 for the app)
 * media_root_dir (`/media` on raspbian)
 
 
 ## APP todos:
-* Start a slide on startup.
+* store tmp files on raspberry (check filesize)
+* Generate pdfs on the fly (user info):
+Dependencies: paps, ghostscript.
+`$ paps test.txt | ps2pdf - > test.pdf`
+* Start a slide on startup or after usb read:
+list all the files with indices
 * Notify disconnected remote.
 
 

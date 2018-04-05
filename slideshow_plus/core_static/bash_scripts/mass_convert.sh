@@ -1,4 +1,9 @@
 #!/bin/bash
+
+# Obsolete: using geeqie for displaying images instead of converting to .pdf.
+echo "OBSOLETE!"
+exit 1
+
 # use absolute full paths!
 
 indir="$(pwd .)/diapozitivi"
@@ -27,3 +32,4 @@ for filename in $(ls); do
         fi
     fi
 done
+
