@@ -79,3 +79,5 @@ $ sudo sh -c "iptables-save > /etc/iptables.ipv4.nat"
 ## Other TODOs
 * systemd, running indefinitely (tutorial)[https://bloggerbrothers.com/2016/12/20/raspberry-pi-run-on-boot-and-run-forever-systemdsystemctl/].
 * wifi access point doesn't establish without ethernet cable
+* projector access
+* bluetooth keyboard access
