@@ -1365,3 +1365,300 @@ DEBUG:slideshow_plus.core:{'number': None, 'filepath': '/home/pi/git/RPI_Project
 DEBUG:slideshow_plus.core:{'number': None, 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/cat.pdf', 'filename': 'cat.pdf'}
 INFO:slideshow_plus.core:gen_pdf: /home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf
 INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+DEBUG:slideshow_plus.core:looking for media in [/media/pi]
+INFO:slideshow_plus.core:found files in /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi
+DEBUG:slideshow_plus.core:{'filename': 'number_1.png', 'number': '1', 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_1.png'}
+DEBUG:slideshow_plus.core:{'filename': 'number_2.png', 'number': '2', 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_2.png'}
+DEBUG:slideshow_plus.core:{'filename': 'number3.png', 'number': '3', 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number3.png'}
+DEBUG:slideshow_plus.core:{'filename': '5lank.jpg', 'number': '5', 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/5lank.jpg'}
+DEBUG:slideshow_plus.core:{'filename': 'min10n.pdf', 'number': '10', 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/min10n.pdf'}
+DEBUG:slideshow_plus.core:{'filename': 'dog.jpg', 'number': None, 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/dog.jpg'}
+DEBUG:slideshow_plus.core:{'filename': 'vold.jpg', 'number': None, 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/vold.jpg'}
+DEBUG:slideshow_plus.core:{'filename': 'cat.pdf', 'number': None, 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/cat.pdf'}
+INFO:slideshow_plus.core:gen_pdf: /home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf
+INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 14:47:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 14:47:52] "GET /remote_old HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_1.png
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 14:48:22] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_2.png
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 14:48:31] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number3.png
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 14:48:40] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/5lank.jpg
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 14:48:49] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/min10n.pdf
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 14:48:49] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/dog.jpg
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 14:48:59] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/vold.jpg
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 14:49:08] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/cat.pdf
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 14:49:08] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/cat.pdf
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 14:49:08] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/cat.pdf
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 14:49:09] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+INFO:/home/pi/git/RPI_Projector/slideshow_plus/projector/pjlink.py:on
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 14:49:09] "GET /command?key=KEY_O HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/cat.pdf
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 14:49:09] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/cat.pdf
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 14:49:10] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+WARNING:/home/pi/git/RPI_Projector/slideshow_plus/projector/pjlink.py:timed out
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/cat.pdf
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 14:49:28] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/cat.pdf
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 14:49:31] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/vold.jpg
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 14:49:42] "GET /command?key=KEY_DOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/dog.jpg
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 14:49:51] "GET /command?key=KEY_DOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:looking for media in [/media/pi]
+INFO:slideshow_plus.core:found files in /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi
+DEBUG:slideshow_plus.core:{'number': '1', 'filename': 'number_1.png', 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_1.png'}
+DEBUG:slideshow_plus.core:{'number': '2', 'filename': 'number_2.png', 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_2.png'}
+DEBUG:slideshow_plus.core:{'number': '3', 'filename': 'number3.png', 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number3.png'}
+DEBUG:slideshow_plus.core:{'number': '5', 'filename': '5lank.jpg', 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/5lank.jpg'}
+DEBUG:slideshow_plus.core:{'number': '10', 'filename': 'min10n.pdf', 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/min10n.pdf'}
+DEBUG:slideshow_plus.core:{'number': None, 'filename': 'dog.jpg', 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/dog.jpg'}
+DEBUG:slideshow_plus.core:{'number': None, 'filename': 'vold.jpg', 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/vold.jpg'}
+DEBUG:slideshow_plus.core:{'number': None, 'filename': 'cat.pdf', 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/cat.pdf'}
+INFO:slideshow_plus.core:gen_pdf: /home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf
+INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+DEBUG:slideshow_plus.core:looking for media in [/media/pi]
+INFO:slideshow_plus.core:found files in /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi
+DEBUG:slideshow_plus.core:{'number': '1', 'filename': 'number_1.png', 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_1.png'}
+DEBUG:slideshow_plus.core:{'number': '2', 'filename': 'number_2.png', 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_2.png'}
+DEBUG:slideshow_plus.core:{'number': '3', 'filename': 'number3.png', 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number3.png'}
+DEBUG:slideshow_plus.core:{'number': '5', 'filename': '5lank.jpg', 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/5lank.jpg'}
+DEBUG:slideshow_plus.core:{'number': '10', 'filename': 'min10n.pdf', 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/min10n.pdf'}
+DEBUG:slideshow_plus.core:{'number': None, 'filename': 'dog.jpg', 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/dog.jpg'}
+DEBUG:slideshow_plus.core:{'number': None, 'filename': 'vold.jpg', 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/vold.jpg'}
+DEBUG:slideshow_plus.core:{'number': None, 'filename': 'cat.pdf', 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/cat.pdf'}
+INFO:slideshow_plus.core:gen_pdf: /home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf
+INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:17:58] "GET /log HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:18:05] "GET /remote_old HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_1.png
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:18:34] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_2.png
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:18:36] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number3.png
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:18:37] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/5lank.jpg
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:18:38] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/min10n.pdf
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:18:38] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/dog.jpg
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:18:42] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/vold.jpg
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:18:43] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/cat.pdf
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:18:43] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/cat.pdf
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:18:44] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/cat.pdf
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:18:45] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/cat.pdf
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:18:46] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/vold.jpg
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:18:47] "GET /command?key=KEY_DOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/dog.jpg
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:18:49] "GET /command?key=KEY_DOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/min10n.pdf
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:18:49] "GET /command?key=KEY_DOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/5lank.jpg
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:18:51] "GET /command?key=KEY_DOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/min10n.pdf
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:18:54] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/dog.jpg
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:18:57] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/min10n.pdf
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:18:59] "GET /command?key=KEY_DOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/5lank.jpg
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:19:02] "GET /command?key=KEY_DOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number3.png
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:19:04] "GET /command?key=KEY_DOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_2.png
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:19:07] "GET /command?key=KEY_DOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_1.png
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:19:08] "GET /command?key=KEY_DOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_1.png
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:19:10] "GET /command?key=KEY_DOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_1.png
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:19:11] "GET /command?key=KEY_DOWN HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:19:12] "GET /command?key=0 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:19:13] "GET /command?key=0 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:19:13] "GET /command?key=0 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:19:14] "GET /command?key=2 HTTP/1.1" 200 -
+INFO:slideshow_plus.core:special_command:0002
+INFO:slideshow_plus.core:gen_pdf: /home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:19:18] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:19:24] "GET /command?key=1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:19:25] "GET /command?key=0 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/min10n.pdf
+DEBUG:slideshow_plus.core:display():self.history:[4]
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:19:27] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/dog.jpg
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:19:31] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/vold.jpg
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:19:33] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/cat.pdf
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:19:33] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/vold.jpg
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:19:36] "GET /command?key=KEY_DOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/dog.jpg
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:19:38] "GET /command?key=KEY_DOWN HTTP/1.1" 200 -
+INFO:/home/pi/git/RPI_Projector/slideshow_plus/projector/pjlink.py:on
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:19:40] "GET /command?key=KEY_O HTTP/1.1" 200 -
+WARNING:/home/pi/git/RPI_Projector/slideshow_plus/projector/pjlink.py:timed out
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/dog.jpg
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:19:43] "GET /command?key=KEY_R HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/dog.jpg
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:19:45] "GET /command?key=KEY_R HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/min10n.pdf
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:19:46] "GET /command?key=KEY_DOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/5lank.jpg
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:19:48] "GET /command?key=KEY_DOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number3.png
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:19:49] "GET /command?key=KEY_DOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_2.png
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:19:50] "GET /command?key=KEY_DOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_1.png
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:19:51] "GET /command?key=KEY_DOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_2.png
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:19:52] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number3.png
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:19:53] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number3.png
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:19:54] "GET /command?key=KEY_R HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number3.png
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:19:57] "GET /command?key=KEY_R HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/5lank.jpg
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:19:59] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/min10n.pdf
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:19:59] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/dog.jpg
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:20:04] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/vold.jpg
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:20:06] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/cat.pdf
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:20:06] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/cat.pdf
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:20:08] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/cat.pdf
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:20:09] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/vold.jpg
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:20:10] "GET /command?key=KEY_DOWN HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:20:12] "GET /command?key=3 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number3.png
+DEBUG:slideshow_plus.core:display():self.history:[4, 2]
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:20:13] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:20:17] "GET /command?key=2 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_2.png
+DEBUG:slideshow_plus.core:display():self.history:[4, 2, 1]
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:20:19] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:20:20] "GET /command?key=3 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number3.png
+DEBUG:slideshow_plus.core:display():self.history:[4, 2, 1, 2]
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:20:21] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:20:21] "GET /command?key=1 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_1.png
+DEBUG:slideshow_plus.core:display():self.history:[4, 2, 1, 2, 0]
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:20:24] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:20:25] "GET /command?key=1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:20:25] "GET /command?key=1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:20:25] "GET /command?key=1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:20:26] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:20:28] "GET /command?key=3 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:20:29] "GET /command?key=0 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:20:30] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:20:32] "GET /command?key=1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:20:32] "GET /command?key=0 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/min10n.pdf
+DEBUG:slideshow_plus.core:display():self.history:[4, 2, 1, 2, 0, 4]
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:20:34] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_1.png
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:20:39] "GET /command?key=KEY_VOLUMEDOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number3.png
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:20:41] "GET /command?key=KEY_VOLUMEDOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_2.png
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:20:42] "GET /command?key=KEY_VOLUMEDOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number3.png
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:20:43] "GET /command?key=KEY_VOLUMEDOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/min10n.pdf
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:20:44] "GET /command?key=KEY_VOLUMEDOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/min10n.pdf
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:20:45] "GET /command?key=KEY_VOLUMEDOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/min10n.pdf
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:20:45] "GET /command?key=KEY_VOLUMEDOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number3.png
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:20:47] "GET /command?key=KEY_VOLUMEUP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_2.png
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:20:49] "GET /command?key=KEY_VOLUMEUP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number3.png
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:20:49] "GET /command?key=KEY_VOLUMEUP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_1.png
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:20:50] "GET /command?key=KEY_VOLUMEUP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/min10n.pdf
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:20:50] "GET /command?key=KEY_VOLUMEUP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/min10n.pdf
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:20:51] "GET /command?key=KEY_VOLUMEUP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/min10n.pdf
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:20:52] "GET /command?key=KEY_VOLUMEUP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/min10n.pdf
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:20:52] "GET /command?key=KEY_VOLUMEUP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/min10n.pdf
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:20:53] "GET /command?key=KEY_VOLUMEUP HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:20:54] "GET /command?key=KEY_DELETE HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number3.png
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:20:56] "GET /command?key=KEY_VOLUMEDOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_2.png
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:20:57] "GET /command?key=KEY_VOLUMEDOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number3.png
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:20:57] "GET /command?key=KEY_VOLUMEDOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/min10n.pdf
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:20:58] "GET /command?key=KEY_VOLUMEDOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/min10n.pdf
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:20:58] "GET /command?key=KEY_VOLUMEDOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/min10n.pdf
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:20:58] "GET /command?key=KEY_VOLUMEDOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/min10n.pdf
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:20:59] "GET /command?key=KEY_VOLUMEDOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/min10n.pdf
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:20:59] "GET /command?key=KEY_VOLUMEDOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/min10n.pdf
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:20:59] "GET /command?key=KEY_VOLUMEDOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number3.png
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:21:00] "GET /command?key=KEY_VOLUMEUP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_2.png
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:21:01] "GET /command?key=KEY_VOLUMEUP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number3.png
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:21:02] "GET /command?key=KEY_VOLUMEUP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_1.png
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:21:03] "GET /command?key=KEY_VOLUMEUP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_1.png
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:21:03] "GET /command?key=KEY_VOLUMEUP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_1.png
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:21:04] "GET /command?key=KEY_VOLUMEUP HTTP/1.1" 200 -
+INFO:/home/pi/git/RPI_Projector/slideshow_plus/projector/pjlink.py:off
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:21:06] "GET /command?key=KEY_P HTTP/1.1" 200 -
+WARNING:/home/pi/git/RPI_Projector/slideshow_plus/projector/pjlink.py:timed out
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_1.png
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:21:09] "GET /command?key=KEY_R HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_1.png
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:21:10] "GET /command?key=KEY_R HTTP/1.1" 200 -
+INFO:/home/pi/git/RPI_Projector/slideshow_plus/projector/pjlink.py:on
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:21:11] "GET /command?key=KEY_O HTTP/1.1" 200 -
+WARNING:/home/pi/git/RPI_Projector/slideshow_plus/projector/pjlink.py:timed out
+INFO:/home/pi/git/RPI_Projector/slideshow_plus/projector/pjlink.py:on
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:21:14] "GET /command?key=KEY_O HTTP/1.1" 200 -
+WARNING:/home/pi/git/RPI_Projector/slideshow_plus/projector/pjlink.py:[Errno 113] No route to host
+INFO:/home/pi/git/RPI_Projector/slideshow_plus/projector/pjlink.py:off
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:21:16] "GET /command?key=KEY_P HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_1.png
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:21:17] "GET /command?key=KEY_R HTTP/1.1" 200 -
+WARNING:/home/pi/git/RPI_Projector/slideshow_plus/projector/pjlink.py:timed out
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_1.png
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 15:21:18] "GET /command?key=KEY_R HTTP/1.1" 200 -
