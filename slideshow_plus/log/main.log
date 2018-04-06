@@ -1353,3 +1353,15 @@ DEBUG:slideshow_plus.core:{'filepath': '/home/pi/git/RPI_Projector/slideshow_plu
 INFO:slideshow_plus.core:gen_pdf: /home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf
 INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
 INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 07:24:20] "GET /log HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:looking for media in [/media/pi]
+INFO:slideshow_plus.core:found files in /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi
+DEBUG:slideshow_plus.core:{'number': '1', 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_1.png', 'filename': 'number_1.png'}
+DEBUG:slideshow_plus.core:{'number': '2', 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_2.png', 'filename': 'number_2.png'}
+DEBUG:slideshow_plus.core:{'number': '3', 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number3.png', 'filename': 'number3.png'}
+DEBUG:slideshow_plus.core:{'number': '5', 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/5lank.jpg', 'filename': '5lank.jpg'}
+DEBUG:slideshow_plus.core:{'number': '10', 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/min10n.pdf', 'filename': 'min10n.pdf'}
+DEBUG:slideshow_plus.core:{'number': None, 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/dog.jpg', 'filename': 'dog.jpg'}
+DEBUG:slideshow_plus.core:{'number': None, 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/vold.jpg', 'filename': 'vold.jpg'}
+DEBUG:slideshow_plus.core:{'number': None, 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/cat.pdf', 'filename': 'cat.pdf'}
+INFO:slideshow_plus.core:gen_pdf: /home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf
+INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)

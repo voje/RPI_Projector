@@ -3,12 +3,13 @@
 
 from flask import Flask, render_template, jsonify, request
 from slideshow_plus.core import Core
+from os.path import dirname, join
 import logging
 import re
 from time import time, sleep
 
 log = logging.getLogger(__name__)
-LOGFILE = "../log/main.log"
+LOGFILE = join(dirname(__file__), "../log/main.log")
 app = Flask(__name__)
 core = None
 buff = ""
