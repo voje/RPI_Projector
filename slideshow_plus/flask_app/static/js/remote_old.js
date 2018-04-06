@@ -12,7 +12,7 @@ window.onload = function () {
     prevl.innerText = "";
     prevr = document.getElementById("prev-r");
     prevr.innerText = "";
-    body = document.getElementByTagName("body")
+    body = document.getElementsByTagName("body")[0]
 };
 
 function command_map(text) {
@@ -42,35 +42,36 @@ function clickHandler(e) {
     saved_classes = focused.className;
     focused.className = "key focused";
     var txt = focused.innerText;
-    //alert(txt)
+
+    //update control
+    if (!isNaN(txt)) {
+        prevl.innerText += txt;
+    } else {
+        prevl.innerText = "" ;
+    }
 
     //send data
     var xhttp = new XMLHttpRequest();
     var url = "/command?key="+command_map(txt);
     xhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-            //document.getElementById("demo").innerHTML = xhttp.responseText;
-
-            //update control
-            if (!isNaN(txt)) {
-                prevl.innerText += focused.innerText;
-            } else {
-                prevl.innerText = "" ;
+        if (this.readyState == 4) {
+            if (this.status == 200) {
+                var response = JSON.parse(this.responseText);
+                var current_file = response["current_file"];
+                if (current_file != null) {
+                    prevr.innerText = response["current_file"]["filename"];
+                } else {
+                    prevr.innerText = ""
+                }
+                if (!response["blank"] && response["projector_state"] == "on") {
+                    prevr.className = "green-text"
+                } else {
+                    prevr.className = "";
+                }
+                body.className = ""; 
+            } else if (this.status == 0) {
+                body.className = "red-bg";
             }
-        } else {
-            //prev.innerText = "Napaka 1"
-        }
-        //TODO: json parser complaining
-        var response = JSON.parse(this.responseText);
-        if (!response["success"]) {
-            body.className = "red-bg";
-            return;
-        }
-        prevr.innerText = response["current_file"]["filename"];
-        if (!response["blank"] && response["projector_state"] == "on") {
-            prevr.className = "green-text"
-        } else {
-            prevr.className = "";
         }
     }
     xhttp.open("GET", url, true);

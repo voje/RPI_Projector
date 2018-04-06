@@ -66,8 +66,11 @@ static domain_name_servers=192.168.1.1
 ```
 * Reboot rpi. It should show up in your wifi menu now.
 * ssh onto rpi, git clone the app, run `$pip3 --user -e install .` in the folcer with `.setup.py`.
-* Select a port to ues, add it in the `app.py` file (also turn off debug mode).
+* App settings:
+* disable debug mode
+* set port (the same one you will open, 5003 in my case)
 * Open the port in linux firewall:  
+* set media_root_dir (on manjaro it was /run/media, on raspbian it was /media)
 ```
 $ sudo iptables -A INPUT -p tcp -m tcp --dport 5003 -j ACCEPT
 $ sudo sh -c "iptables-save > /etc/iptables.ipv4.nat"
@@ -75,24 +78,4 @@ $ sudo sh -c "iptables-save > /etc/iptables.ipv4.nat"
 
 ## Other TODOs
 * systemd, running indefinitely (tutorial)[https://bloggerbrothers.com/2016/12/20/raspberry-pi-run-on-boot-and-run-forever-systemdsystemctl/].
-* usbmount privileges!
 * wifi access point doesn't establish without ethernet cable
-
-
-## APP settings:
-* port (I opened up 5003 for the app)
-* media_root_dir (`/media` on raspbian)
-
-
-## APP todos:
-* Notify disconnected remote.
-* Fix remote: lag, better response logic.
-
-
-
-
-
-
-
-
-

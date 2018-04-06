@@ -12,7 +12,7 @@ LOGFILE = "../log/main.log"
 app = Flask(__name__)
 core = None
 buff = ""
-zeros = re.compile(r'000[1-9]+')
+re_zeros = re.compile(r'000[1-9]+')
 
 
 @app.route("/")
@@ -42,7 +42,7 @@ def command():
     if key.isdigit():
         buff += key
     elif key == "KEY_ENTER":
-        if zeros.findall(buff):
+        if re_zeros.findall(buff):
             core.special_command(buff)
         elif core.file_by_number(buff):
             core.display()
@@ -73,12 +73,16 @@ def command():
             core.toggle_blank()
         else:
             success = False
-    ret = jsonify({
+    current_file = (
+        None if core.current_idx < 0 else core.files[core.current_idx]
+    )
+    ret_dict = {
         "success": success,
-        "current_file": core.files[core.current_idx],
+        "current_file": current_file,
         "blank": core.blank,
         "projector_state": core.projector.state
-    })
+    }
+    ret = jsonify(ret_dict)
     return ret
 
 

@@ -35,7 +35,7 @@ class Core():
         # File indexing.
         # File unique ID is the list index in self.files.
         self.files = []
-        self.current_idx = 0
+        self.current_idx = -1
         self.idx_map = {}  # filename number to list index
         self.idx_history = []
         self.current_hist_idx = -1
@@ -68,7 +68,7 @@ class Core():
     def init_files(self):
         # Reset values
         self.files = []
-        self.current_idx = 0
+        self.current_idx = -1
         self.idx_map = {}  # filename number to list index
         self.idx_history = []
         self.current_hist_idx = -1
@@ -120,7 +120,6 @@ class Core():
             text += "[{:^4}] {}\n".format(f["number"] or "", f["filename"])
         if self.gen_pdf(text, filename):
             wait = time()
-            print(filepath)
             while not isfile(filepath):
                 if time() - wait > 5:
                     log.error("display_index failed")
@@ -137,6 +136,8 @@ class Core():
             self.core_static, filepath))
 
     def display(self, add_to_history=None):
+        if self.current_idx < 0:
+            return
         if add_to_history is None:
             add_to_history = True
         filepath = self.files[self.current_idx]["filepath"]
@@ -203,7 +204,9 @@ class Core():
         if command == "0001":
             self.find_usb_files_wrapper()
             self.init_files()
-            self.display()
+            self.display_index()
+        elif command == "0002":
+            self.display_index()
 
     def find_usb_files_wrapper(self):
         self.files_dir = self.find_usb_files()[0]

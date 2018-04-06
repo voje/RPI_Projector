@@ -3,7 +3,7 @@
     margin: 0px;
 }
 .red-bg {
-    background: red;
+    background: #FF6347;
 }
 .green-text {
     color: green;
@@ -27,7 +27,7 @@
 }
 .key {
     background-color:#66a3ff;
-    font-size: 50px;
+    font-size: 80px;
 }
 .num {
     background-color:#99c2ff;   
@@ -45,12 +45,12 @@ html, body {
 #prev-div {
     display: inline-block;
     vertical-align: middle;
-    margin: 5px 5px 0px 5px;
+    margin: 0px 5px 0px 5px;
     width: 98%;
-    height: 70px;
+    height: 100px;
 }
 #prev-l {
-    font-size: 55px;
+    font-size: 70px;
     padding: 0px 0px 0px 20px;
     float: left;
     height: 100%;
@@ -61,6 +61,6 @@ html, body {
     float: right;
     text-align: right;
     width: 66%;
-    font-size: 30px;
+    font-size: 50px;
     overflow: hidden;
 }
