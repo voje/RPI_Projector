@@ -1275,3 +1275,81 @@ DEBUG:slideshow_plus.core:display():displaying current file: /home/kristjan/git/
 INFO:werkzeug:192.168.1.115 - - [06/Apr/2018 04:35:06] "GET /command?key=KEY_DOWN HTTP/1.1" 200 -
 DEBUG:slideshow_plus.core:display():displaying current file: /home/kristjan/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/min10n.pdf
 INFO:werkzeug:192.168.1.115 - - [06/Apr/2018 04:35:07] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:looking for media in [/run/media/pi]
+INFO:slideshow_plus.core:found files in /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi
+DEBUG:slideshow_plus.core:{'filename': 'number_1.png', 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_1.png', 'number': '1'}
+DEBUG:slideshow_plus.core:{'filename': 'number_2.png', 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_2.png', 'number': '2'}
+DEBUG:slideshow_plus.core:{'filename': 'number3.png', 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number3.png', 'number': '3'}
+DEBUG:slideshow_plus.core:{'filename': '5lank.jpg', 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/5lank.jpg', 'number': '5'}
+DEBUG:slideshow_plus.core:{'filename': 'min10n.pdf', 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/min10n.pdf', 'number': '10'}
+DEBUG:slideshow_plus.core:{'filename': 'dog.jpg', 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/dog.jpg', 'number': None}
+DEBUG:slideshow_plus.core:{'filename': 'vold.jpg', 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/vold.jpg', 'number': None}
+DEBUG:slideshow_plus.core:{'filename': 'cat.pdf', 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/cat.pdf', 'number': None}
+INFO:slideshow_plus.core:gen_pdf: /home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf
+INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+DEBUG:slideshow_plus.core:looking for media in [/run/media/pi]
+INFO:slideshow_plus.core:found files in /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi
+DEBUG:slideshow_plus.core:{'number': '1', 'filename': 'number_1.png', 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_1.png'}
+DEBUG:slideshow_plus.core:{'number': '2', 'filename': 'number_2.png', 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_2.png'}
+DEBUG:slideshow_plus.core:{'number': '3', 'filename': 'number3.png', 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number3.png'}
+DEBUG:slideshow_plus.core:{'number': '5', 'filename': '5lank.jpg', 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/5lank.jpg'}
+DEBUG:slideshow_plus.core:{'number': '10', 'filename': 'min10n.pdf', 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/min10n.pdf'}
+DEBUG:slideshow_plus.core:{'number': None, 'filename': 'dog.jpg', 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/dog.jpg'}
+DEBUG:slideshow_plus.core:{'number': None, 'filename': 'vold.jpg', 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/vold.jpg'}
+DEBUG:slideshow_plus.core:{'number': None, 'filename': 'cat.pdf', 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/cat.pdf'}
+INFO:slideshow_plus.core:gen_pdf: /home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf
+INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 07:09:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 07:09:36] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 07:09:36] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 07:09:47] "GET /log HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 07:12:16] "GET /remote_old HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 07:12:16] "GET /static/css/remote_old.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 07:12:16] "GET /static/js/remote_old.js HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_1.png
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 07:12:25] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+INFO:/home/pi/git/RPI_Projector/slideshow_plus/projector/pjlink.py:on
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 07:12:27] "GET /command?key=KEY_O HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_2.png
+WARNING:/home/pi/git/RPI_Projector/slideshow_plus/projector/pjlink.py:timed out
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 07:12:30] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():displaying current file: /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_1.png
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 07:12:59] "GET /command?key=KEY_DOWN HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 07:13:16] "GET /log HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:looking for media in [/media/pi]
+INFO:slideshow_plus.core:found files in /media/pi/KINGSTON/diapozitivi
+DEBUG:slideshow_plus.core:{'filename': 'number_1.png', 'number': '1', 'filepath': '/media/pi/KINGSTON/diapozitivi/number_1.png'}
+DEBUG:slideshow_plus.core:{'filename': 'number_2.png', 'number': '2', 'filepath': '/media/pi/KINGSTON/diapozitivi/number_2.png'}
+INFO:slideshow_plus.core:gen_pdf: /home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf
+INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 07:14:52] "GET /log HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 07:18:44] "GET /remote_old HTTP/1.1" 200 -
+WARNING:slideshow_plus.core:file not found: {}
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 07:18:46] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+WARNING:slideshow_plus.core:file not found: {}
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 07:18:51] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+INFO:/home/pi/git/RPI_Projector/slideshow_plus/projector/pjlink.py:on
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 07:18:54] "GET /command?key=KEY_O HTTP/1.1" 200 -
+WARNING:slideshow_plus.core:file not found: {}
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 07:18:55] "GET /command?key=KEY_DOWN HTTP/1.1" 200 -
+WARNING:slideshow_plus.core:file not found: {}
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 07:18:56] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+WARNING:/home/pi/git/RPI_Projector/slideshow_plus/projector/pjlink.py:timed out
+WARNING:slideshow_plus.core:file not found: {}
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 07:18:56] "GET /command?key=KEY_DOWN HTTP/1.1" 200 -
+WARNING:slideshow_plus.core:file not found: {}
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 07:18:57] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 07:19:19] "GET /log HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:looking for media in [/media/pi]
+INFO:slideshow_plus.core:found files in /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi
+DEBUG:slideshow_plus.core:{'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_1.png', 'number': '1', 'filename': 'number_1.png'}
+DEBUG:slideshow_plus.core:{'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_2.png', 'number': '2', 'filename': 'number_2.png'}
+DEBUG:slideshow_plus.core:{'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number3.png', 'number': '3', 'filename': 'number3.png'}
+DEBUG:slideshow_plus.core:{'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/5lank.jpg', 'number': '5', 'filename': '5lank.jpg'}
+DEBUG:slideshow_plus.core:{'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/min10n.pdf', 'number': '10', 'filename': 'min10n.pdf'}
+DEBUG:slideshow_plus.core:{'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/dog.jpg', 'number': None, 'filename': 'dog.jpg'}
+DEBUG:slideshow_plus.core:{'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/vold.jpg', 'number': None, 'filename': 'vold.jpg'}
+DEBUG:slideshow_plus.core:{'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/cat.pdf', 'number': None, 'filename': 'cat.pdf'}
+INFO:slideshow_plus.core:gen_pdf: /home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf
+INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.1.106 - - [06/Apr/2018 07:24:20] "GET /log HTTP/1.1" 200 -

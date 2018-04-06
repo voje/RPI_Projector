@@ -142,7 +142,8 @@ class Core():
             add_to_history = True
         filepath = self.files[self.current_idx]["filepath"]
         if not isfile(filepath):
-            log.warning("file not found: {}")
+            log.warning("file not found: {}".format(
+                filepath))
             return
         log.debug("display():displaying current file: {}".format(filepath))
         if add_to_history:

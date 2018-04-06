@@ -7,7 +7,6 @@
 
 # Wait for the visual program to load the image, before
 # toggling it in front of the screen.
-exit 0
 slp=0.3
 
 filename=$1

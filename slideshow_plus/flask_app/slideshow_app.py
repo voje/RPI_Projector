@@ -5,7 +5,7 @@ from flask import Flask, render_template, jsonify, request
 from slideshow_plus.core import Core
 import logging
 import re
-from time import time
+from time import time, sleep
 
 log = logging.getLogger(__name__)
 LOGFILE = "../log/main.log"
@@ -94,10 +94,10 @@ if __name__ == "__main__":
     wait_for_usb = True
 
     if wait_for_usb:
-        time.sleep(20)
+        sleep(20)
 
     core = Core(
-        media_root_dir="/run/media",
+        media_root_dir="/media",
         files_dir_basename="diapozitivi"
     )
 
