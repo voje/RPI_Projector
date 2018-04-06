@@ -77,9 +77,12 @@ static domain_name_servers=192.168.1.1
 $ sudo iptables -A INPUT -p tcp -m tcp --dport 5003 -j ACCEPT
 $ sudo sh -c "iptables-save > /etc/iptables.ipv4.nat"
 ```
+* enable fire up autostart.sh on desktop load:
+* in `./config/lxsession/<user_session>/autostart` add a line: `@/home/pi/git/RPI_Projector/autostart.sh`.
 
-## Other TODOs
-* systemd, running indefinitely (tutorial)[https://bloggerbrothers.com/2016/12/20/raspberry-pi-run-on-boot-and-run-forever-systemdsystemctl/].
-* wifi access point doesn't establish without ethernet cable
+
+## TODO
+
+* remote: border around sleep, on, off
 * projector access
 * bluetooth keyboard access
