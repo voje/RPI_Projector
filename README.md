@@ -53,7 +53,9 @@ $ sudo nmap -sn 192.168.2.1/24 | grep -E -o -e '[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+' 
 * `$sudo ssh pi@<ip>`, add key to known hosts. Default password is "raspberry".
 * First time logged in, enable ssh. `$sudo systemctl enable ssh`.
 * `$sudo apt-get update && apt-get upgrade`.
-* Install vim, git, wmctrl, geeqie, imagemagick, paps, ghostscript, usbmount (check if you have /etc/usbmount/) and xpdf (version 3.4 or lower).
+* Install some programs: `$sudo apt-get install vim git wmctrl geeqie imagemagick paps ghostscript usbmount xpdf`
+* xpdf should be version 3.4 or lower (one with a -remote option)
+* To disable removable media popup, edit `~/.config/pcmanfm/LXDE-pi/pcmanfm.conf`: `autorun=0`
 * Create an access point ((tutorial)[https://www.raspberrypi.org/documentation/configuration/wireless/access-point.md].
 * Adding to the tutorial:
 * If needed, unblock wireless interface: `$sudo rfkill unblock wifi`.
@@ -65,12 +67,12 @@ static routers=192.168.1.1
 static domain_name_servers=192.168.1.1
 ```
 * Reboot rpi. It should show up in your wifi menu now.
-* ssh onto rpi, git clone the app, run `$pip3 --user -e install .` in the folcer with `.setup.py`.
+* ssh onto rpi, git clone the app, run `$pip3 --user -e install .` in the folder with `.setup.py`.
 * App settings:
 * disable debug mode
 * set port (the same one you will open, 5003 in my case)
-* Open the port in linux firewall:  
 * set media_root_dir (on manjaro it was /run/media, on raspbian it was /media)
+* open the app port in iptables:  
 ```
 $ sudo iptables -A INPUT -p tcp -m tcp --dport 5003 -j ACCEPT
 $ sudo sh -c "iptables-save > /etc/iptables.ipv4.nat"

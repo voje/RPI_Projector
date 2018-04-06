@@ -91,10 +91,10 @@ if __name__ == "__main__":
     logging.basicConfig(filename=LOGFILE, level=logging.DEBUG)
     # logging.basicConfig(level=logging.DEBUG)
     app.debug = False
-    wait_for_usb = False
+    wait_for_usb = True
 
     if wait_for_usb:
-        time.sleep(60)
+        time.sleep(20)
 
     core = Core(
         media_root_dir="/run/media",
