@@ -83,6 +83,5 @@ $ sudo sh -c "iptables-save > /etc/iptables.ipv4.nat"
 
 ## TODO
 
-* remote: border around sleep, on, off
 * projector access
 * bluetooth keyboard access

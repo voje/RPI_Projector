@@ -1,7 +1,6 @@
 var focused;
 var saved_classes; //when a button loses focus, it gets its old classes
-var prevr;
-var prev1;
+var prevr, prevl, body, key_sleep, key_on, key_off;
 
 window.onload = function () {
     var i, keys = document.getElementsByClassName("key");
@@ -12,7 +11,10 @@ window.onload = function () {
     prevl.innerText = "";
     prevr = document.getElementById("prev-r");
     prevr.innerText = "";
-    body = document.getElementsByTagName("body")[0]
+    body = document.getElementsByTagName("body")[0];
+    key_sleep = document.getElementById("key-sleep");
+    key_on = document.getElementById("key-on");
+    key_off = document.getElementById("key-off");
 };
 
 function command_map(text) {
@@ -69,6 +71,20 @@ function clickHandler(e) {
                     prevr.className = "";
                 }
                 body.className = ""; 
+
+                // ugh this is ugly, I'm sick of bare js...
+                if (response["blank"]) {
+                    key_sleep.className = "key outl";
+                } else {
+                    key_sleep.className = "key";
+                }
+                if (response["projector_state"] === "on") {
+                    key_on.className = "key outl";
+                    key_off.className = "key";
+                } else {
+                    key_off.className = "key outl";
+                    key_on.className = "key";
+                }
             } else if (this.status == 0) {
                 body.className = "red-bg";
             }
