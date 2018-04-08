@@ -6,7 +6,12 @@ from slideshow_plus.core import Core
 from os.path import dirname, join
 import logging
 import re
-from time import time, sleep
+from time import sleep
+import sys
+
+args = []
+for arg in sys.argv:
+    args.extend(arg.split())
 
 log = logging.getLogger(__name__)
 LOGFILE = join(dirname(__file__), "../log/main.log")
@@ -92,14 +97,14 @@ if __name__ == "__main__":
     logging.basicConfig(filename=LOGFILE, level=logging.DEBUG)
     # logging.basicConfig(level=logging.DEBUG)
     app.debug = False
-    wait_for_usb = True
 
-    if wait_for_usb:
+    if "--no_usb_wait" not in args:
         sleep(20)
 
     core = Core(
         media_root_dir="/media",
-        files_dir_basename="diapozitivi"
+        files_dir_basename="diapozitivi",
+        no_display="--no_display" in args
     )
 
     if app.debug:

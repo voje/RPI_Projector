@@ -17,12 +17,16 @@ get_numbers = re.compile(r'\d+')
 
 class Core():
     def __init__(
-        self, media_root_dir=None, files_dir_basename=None
+        self, media_root_dir=None, files_dir_basename=None,
+        no_display=None
     ):
         if media_root_dir is None:
             raise Exception("core parameter missing: media_root_dir")
         if files_dir_basename is None:
             raise Exception("core parameter missing: files_dir_basename")
+        self.no_display = no_display  # Debug mode with xpdf off.
+        if no_display is None:
+            self.no_display = False
         self.media_root_dir = media_root_dir
         self.files_dir_basename = files_dir_basename or "diapozitivi"
 
@@ -49,6 +53,7 @@ class Core():
         self.find_usb_files_wrapper()
         self.init_files()
         self.display_index()
+        log.debug("Core ready.")
 
     def convert_files(self):
         # deprecated
@@ -132,6 +137,8 @@ class Core():
             filepath = join(self.core_static, "r_slides/r_blank.pdf")
         else:
             self.blanked = None
+        if self.no_display:
+            return
         system("{}/bash_scripts/display_any.sh {}".format(
             self.core_static, filepath))
 
