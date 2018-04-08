@@ -35,7 +35,7 @@ def log():
     return "<br><br>".join(lines)
 
 
-@app.route("/remote_old")
+@app.route("/remote")
 def remote_old():
     return render_template("remote_old.html")
 

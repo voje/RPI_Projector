@@ -2,6 +2,7 @@
 
 IFS='£' #I want to catch enter and space.
 pipe="/home/pi/git/RPI_Projector/python_script/ir.fifo"
+capture="localhost:5001/capture"
 
 while true; do
 	out=''
@@ -84,8 +85,9 @@ while true; do
 	if [[ ! -z "$out" ]]; then
 		#echo $out
 		#echo ''
-		echo "$out" >"$pipe"
-		/home/pi/git/RPI_Projector/logging/log_event.sh "capture.sh" "$out"
+		# echo "$out" >"$pipe"
+		# /home/pi/git/RPI_Projector/logging/log_event.sh "capture.sh" "$out"
+        curl "${capture}?key=$out" > /dev/null 2>&1
 	fi
 
 done

@@ -1998,3 +1998,77 @@ DEBUG:slideshow_plus.core:{'filename': 'number3.png', 'filepath': '/home/kristja
 INFO:slideshow_plus.core:gen_pdf: /home/kristjan/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf
 DEBUG:slideshow_plus.core:Core ready.
 INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+DEBUG:slideshow_plus.core:looking for media in [/media/kristjan]
+INFO:slideshow_plus.core:found files in /home/kristjan/git/RPI_Projector/slideshow_plus/core_static/diapozitivi
+DEBUG:slideshow_plus.core:{'filename': 'number_1.png', 'filepath': '/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_1.png', 'number': '1'}
+DEBUG:slideshow_plus.core:{'filename': 'number_2.png', 'filepath': '/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_2.png', 'number': '2'}
+DEBUG:slideshow_plus.core:{'filename': 'number3.png', 'filepath': '/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number3.png', 'number': '3'}
+INFO:slideshow_plus.core:gen_pdf: /home/kristjan/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf
+DEBUG:slideshow_plus.core:Core ready.
+INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2018 20:56:53] "GET /remote_old HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2018 20:56:54] "GET /static/css/remote_old.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2018 20:56:54] "GET /static/js/remote_old.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2018 20:56:55] "GET /command?key=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2018 20:58:15] "POST /remote_old/command HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2018 20:58:35] "GET /remote_old/command?key=1 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2018 21:01:15] "GET /command?key=6 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2018 21:04:38] "GET /capture?key=1 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2018 21:04:40] "GET /capture?key=2 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2018 21:04:40] "GET /capture?key=3 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2018 21:04:41] "GET /capture?key=4 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2018 21:04:41] "GET /capture?key=5 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2018 21:04:41] "GET /capture?key=6 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2018 21:04:42] "GET /capture?key=6 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2018 21:04:42] "GET /capture?key=7 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2018 21:04:43] "GET /capture?key=8 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2018 21:04:43] "GET /capture?key=9 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2018 21:04:44] "GET /capture?key=KEY_UP HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2018 21:04:44] "GET /capture?key=KEY_DOWN HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2018 21:04:45] "GET /capture?key=KEY_VOLUMEUP HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2018 21:04:45] "GET /capture?key=KEY_VOLUMEDOWN HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2018 21:05:16] "GET /capture?key=KEY_ENTER HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2018 21:05:16] "GET /capture?key=KEY_ENTER HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2018 21:05:17] "GET /capture?key=1 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2018 21:05:18] "GET /capture?key=2 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2018 21:05:18] "GET /capture?key=3 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2018 21:05:18] "GET /capture?key=4 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2018 21:05:22] "GET /capture?key=5 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2018 21:05:22] "GET /capture?key=6 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2018 21:06:34] "GET /capture?key=1 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2018 21:06:34] "GET /capture?key=2 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2018 21:06:34] "GET /capture?key=3 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2018 21:06:35] "GET /capture?key=4 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2018 21:06:35] "GET /capture?key=5 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2018 21:06:35] "GET /capture?key=6 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2018 21:06:35] "GET /capture?key=KEY_UP HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2018 21:06:36] "GET /capture?key=KEY_DOWN HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2018 21:06:36] "GET /capture?key=KEY_VOLUMEUP HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2018 21:06:36] "GET /capture?key=KEY_VOLUMEDOWN HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2018 21:06:37] "GET /capture?key=KEY_ENTER HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2018 21:06:37] "GET /capture?key=KEY_ENTER HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2018 21:09:21] "GET /remote_old HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2018 21:09:21] "GET /static/css/remote_old.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2018 21:09:21] "GET /static/js/remote_old.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2018 21:09:22] "GET /command?key=2 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:looking for media in [/media/kristjan]
+INFO:slideshow_plus.core:found files in /home/kristjan/git/RPI_Projector/slideshow_plus/core_static/diapozitivi
+DEBUG:slideshow_plus.core:{'filename': 'number_1.png', 'filepath': '/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_1.png', 'number': '1'}
+DEBUG:slideshow_plus.core:{'filename': 'number_2.png', 'filepath': '/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_2.png', 'number': '2'}
+DEBUG:slideshow_plus.core:{'filename': 'number3.png', 'filepath': '/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number3.png', 'number': '3'}
+INFO:slideshow_plus.core:gen_pdf: /home/kristjan/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf
+DEBUG:slideshow_plus.core:Core ready.
+INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2018 21:09:50] "GET /home HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2018 21:09:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2018 21:10:01] "GET /remote.html HTTP/1.1" 404 -
+DEBUG:slideshow_plus.core:looking for media in [/media/kristjan]
+INFO:slideshow_plus.core:found files in /home/kristjan/git/RPI_Projector/slideshow_plus/core_static/diapozitivi
+DEBUG:slideshow_plus.core:{'filename': 'number_1.png', 'filepath': '/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_1.png', 'number': '1'}
+DEBUG:slideshow_plus.core:{'filename': 'number_2.png', 'filepath': '/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_2.png', 'number': '2'}
+DEBUG:slideshow_plus.core:{'filename': 'number3.png', 'filepath': '/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number3.png', 'number': '3'}
+INFO:slideshow_plus.core:gen_pdf: /home/kristjan/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf
+DEBUG:slideshow_plus.core:Core ready.
+INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2018 21:10:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2018 21:10:25] "GET /remote HTTP/1.1" 200 -
