@@ -50,7 +50,7 @@ while [[ $# -gt 0 ]]; do
 done
 
 # Hardcoded...
-capture_keyboard=true
+capture_keyboard=false
 
 # If we're capturing keyboard, run the capture_parent.sh
 if $capture_keyboard; then
