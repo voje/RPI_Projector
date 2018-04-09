@@ -83,5 +83,7 @@ $ sudo sh -c "iptables-save > /etc/iptables.ipv4.nat"
 
 ## TODO
 
-* projector access
-* bluetooth keyboard access
+* backup for both,
+* install on pink
+* test black
+* ship pink
