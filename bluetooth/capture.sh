@@ -2,7 +2,7 @@
 
 IFS='£' #I want to catch enter and space.
 pipe="/home/pi/git/RPI_Projector/python_script/ir.fifo"
-capture="localhost:5001/capture"
+capture="localhost:5001/command"
 
 while true; do
 	out=''
