@@ -1,8 +1,24 @@
 #!/bin/bash
 # Script that starts the whole application.
 
+export DISPLAY=:0
+
+project_dir="/home/pi/git/RPI_Projector"
+
+capture_parent_pid=""
+
+function fn_cleanup() {
+	echo "Clenup after kill."
+	bash "${project_dir}/slideshow_plus/core_static/bash_scripts/cleanup.sh"	
+	if [ $cleanup_pid ]; then
+		kill $capture_parent_pid
+	fi
+}
+trap fn_cleanup INT
+
 # Parse arguments
 args=""
+
 capture_keyboard=false
 while [[ $# -gt 0 ]]; do
     key="$1"
@@ -33,14 +49,13 @@ while [[ $# -gt 0 ]]; do
     esac
 done
 
-# Helps if we're running it from ssh.
-export DISPLAY=:0
-
-project_dir=$(pwd $(dirname "$0"))
+# Hardcoded...
+capture_keyboard=true
 
 # If we're capturing keyboard, run the capture_parent.sh
 if $capture_keyboard; then
-    bash "${project_dir}/bluetooth/capture_parent.sh"
+    	bash "${project_dir}/bluetooth/capture_parent.sh" &
+	capture_parent_pid=$!
 fi
 
 # Run the flask webserver.

@@ -121,7 +121,10 @@ class Core():
         filepath = join(self.core_static, "tmp_files", filename)
         text = "Pot do datotek:\n{}\n\nIndeks:\n------\n".format(
             self.files_dir)
-        for f in self.files:
+        for i, f in enumerate(self.files):
+            if i == 50:
+                text += "..."
+                break
             text += "[{:^4}] {}\n".format(f["number"] or "", f["filename"])
         if self.gen_pdf(text, filename):
             wait = time()
@@ -132,6 +135,7 @@ class Core():
             self.low_display(filepath)
 
     def low_display(self, filepath):
+        log.debug("low_display():{}".format(filepath))
         if self.blank:
             self.blanked = filepath
             filepath = join(self.core_static, "r_slides/r_blank.pdf")
@@ -152,7 +156,6 @@ class Core():
             log.warning("file not found: {}".format(
                 filepath))
             return
-        log.debug("display():displaying current file: {}".format(filepath))
         if add_to_history:
             if (
                 len(self.idx_history) == 0 or

@@ -79,6 +79,8 @@ $ sudo sh -c "iptables-save > /etc/iptables.ipv4.nat"
 ```
 * enable fire up autostart.sh on desktop load:
 * in `./config/lxsession/<user_session>/autostart` add a line: `@/home/pi/git/RPI_Projector/autostart.sh`.
+* in `autostart.sh`, change the start parameters (capture keyboard, ...)
+* in `slideshow_app.py` change debug level
 
 
 ## TODO
