@@ -3643,3 +3643,559 @@ INFO:slideshow_plus.core:gen_pdf: /home/pi/git/RPI_Projector/slideshow_plus/core
 DEBUG:slideshow_plus.core:low_display():/home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf
 DEBUG:slideshow_plus.core:Core ready.
 INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+DEBUG:slideshow_plus.core:looking for media in [/media/pi]
+INFO:slideshow_plus.core:found files in /media/pi/Silver/diapozitivi
+DEBUG:slideshow_plus.core:{'filename': '0.pdf', 'filepath': '/media/pi/Silver/diapozitivi/0.pdf', 'number': '0'}
+DEBUG:slideshow_plus.core:{'filename': '1.pdf', 'filepath': '/media/pi/Silver/diapozitivi/1.pdf', 'number': '1'}
+DEBUG:slideshow_plus.core:{'filename': '2.pdf', 'filepath': '/media/pi/Silver/diapozitivi/2.pdf', 'number': '2'}
+DEBUG:slideshow_plus.core:{'filename': '3.pdf', 'filepath': '/media/pi/Silver/diapozitivi/3.pdf', 'number': '3'}
+DEBUG:slideshow_plus.core:{'filename': '4.pdf', 'filepath': '/media/pi/Silver/diapozitivi/4.pdf', 'number': '4'}
+DEBUG:slideshow_plus.core:{'filename': '5.pdf', 'filepath': '/media/pi/Silver/diapozitivi/5.pdf', 'number': '5'}
+DEBUG:slideshow_plus.core:{'filename': '6.pdf', 'filepath': '/media/pi/Silver/diapozitivi/6.pdf', 'number': '6'}
+DEBUG:slideshow_plus.core:{'filename': '7.pdf', 'filepath': '/media/pi/Silver/diapozitivi/7.pdf', 'number': '7'}
+DEBUG:slideshow_plus.core:{'filename': '8.pdf', 'filepath': '/media/pi/Silver/diapozitivi/8.pdf', 'number': '8'}
+DEBUG:slideshow_plus.core:{'filename': '9.pdf', 'filepath': '/media/pi/Silver/diapozitivi/9.pdf', 'number': '9'}
+DEBUG:slideshow_plus.core:{'filename': '10.pdf', 'filepath': '/media/pi/Silver/diapozitivi/10.pdf', 'number': '10'}
+DEBUG:slideshow_plus.core:{'filename': '11.pdf', 'filepath': '/media/pi/Silver/diapozitivi/11.pdf', 'number': '11'}
+DEBUG:slideshow_plus.core:{'filename': '12.pdf', 'filepath': '/media/pi/Silver/diapozitivi/12.pdf', 'number': '12'}
+DEBUG:slideshow_plus.core:{'filename': '13.pdf', 'filepath': '/media/pi/Silver/diapozitivi/13.pdf', 'number': '13'}
+DEBUG:slideshow_plus.core:{'filename': '14.pdf', 'filepath': '/media/pi/Silver/diapozitivi/14.pdf', 'number': '14'}
+DEBUG:slideshow_plus.core:{'filename': '15.pdf', 'filepath': '/media/pi/Silver/diapozitivi/15.pdf', 'number': '15'}
+DEBUG:slideshow_plus.core:{'filename': '16.pdf', 'filepath': '/media/pi/Silver/diapozitivi/16.pdf', 'number': '16'}
+DEBUG:slideshow_plus.core:{'filename': '17.pdf', 'filepath': '/media/pi/Silver/diapozitivi/17.pdf', 'number': '17'}
+DEBUG:slideshow_plus.core:{'filename': '18.pdf', 'filepath': '/media/pi/Silver/diapozitivi/18.pdf', 'number': '18'}
+DEBUG:slideshow_plus.core:{'filename': '19.pdf', 'filepath': '/media/pi/Silver/diapozitivi/19.pdf', 'number': '19'}
+DEBUG:slideshow_plus.core:{'filename': '20.pdf', 'filepath': '/media/pi/Silver/diapozitivi/20.pdf', 'number': '20'}
+DEBUG:slideshow_plus.core:{'filename': '21.pdf', 'filepath': '/media/pi/Silver/diapozitivi/21.pdf', 'number': '21'}
+DEBUG:slideshow_plus.core:{'filename': '22.pdf', 'filepath': '/media/pi/Silver/diapozitivi/22.pdf', 'number': '22'}
+DEBUG:slideshow_plus.core:{'filename': '23.pdf', 'filepath': '/media/pi/Silver/diapozitivi/23.pdf', 'number': '23'}
+DEBUG:slideshow_plus.core:{'filename': '24.pdf', 'filepath': '/media/pi/Silver/diapozitivi/24.pdf', 'number': '24'}
+DEBUG:slideshow_plus.core:{'filename': '25.pdf', 'filepath': '/media/pi/Silver/diapozitivi/25.pdf', 'number': '25'}
+DEBUG:slideshow_plus.core:{'filename': '26.pdf', 'filepath': '/media/pi/Silver/diapozitivi/26.pdf', 'number': '26'}
+DEBUG:slideshow_plus.core:{'filename': '27.pdf', 'filepath': '/media/pi/Silver/diapozitivi/27.pdf', 'number': '27'}
+DEBUG:slideshow_plus.core:{'filename': '28.pdf', 'filepath': '/media/pi/Silver/diapozitivi/28.pdf', 'number': '28'}
+DEBUG:slideshow_plus.core:{'filename': '29.pdf', 'filepath': '/media/pi/Silver/diapozitivi/29.pdf', 'number': '29'}
+DEBUG:slideshow_plus.core:{'filename': '30.pdf', 'filepath': '/media/pi/Silver/diapozitivi/30.pdf', 'number': '30'}
+DEBUG:slideshow_plus.core:{'filename': '31.pdf', 'filepath': '/media/pi/Silver/diapozitivi/31.pdf', 'number': '31'}
+DEBUG:slideshow_plus.core:{'filename': '32.pdf', 'filepath': '/media/pi/Silver/diapozitivi/32.pdf', 'number': '32'}
+DEBUG:slideshow_plus.core:{'filename': '33.pdf', 'filepath': '/media/pi/Silver/diapozitivi/33.pdf', 'number': '33'}
+DEBUG:slideshow_plus.core:{'filename': '34.pdf', 'filepath': '/media/pi/Silver/diapozitivi/34.pdf', 'number': '34'}
+DEBUG:slideshow_plus.core:{'filename': '35.pdf', 'filepath': '/media/pi/Silver/diapozitivi/35.pdf', 'number': '35'}
+DEBUG:slideshow_plus.core:{'filename': '36.pdf', 'filepath': '/media/pi/Silver/diapozitivi/36.pdf', 'number': '36'}
+DEBUG:slideshow_plus.core:{'filename': '37.pdf', 'filepath': '/media/pi/Silver/diapozitivi/37.pdf', 'number': '37'}
+DEBUG:slideshow_plus.core:{'filename': '38.pdf', 'filepath': '/media/pi/Silver/diapozitivi/38.pdf', 'number': '38'}
+DEBUG:slideshow_plus.core:{'filename': '39.pdf', 'filepath': '/media/pi/Silver/diapozitivi/39.pdf', 'number': '39'}
+DEBUG:slideshow_plus.core:{'filename': '40.pdf', 'filepath': '/media/pi/Silver/diapozitivi/40.pdf', 'number': '40'}
+DEBUG:slideshow_plus.core:{'filename': '41.pdf', 'filepath': '/media/pi/Silver/diapozitivi/41.pdf', 'number': '41'}
+DEBUG:slideshow_plus.core:{'filename': '42.pdf', 'filepath': '/media/pi/Silver/diapozitivi/42.pdf', 'number': '42'}
+DEBUG:slideshow_plus.core:{'filename': '43.pdf', 'filepath': '/media/pi/Silver/diapozitivi/43.pdf', 'number': '43'}
+DEBUG:slideshow_plus.core:{'filename': '44.pdf', 'filepath': '/media/pi/Silver/diapozitivi/44.pdf', 'number': '44'}
+DEBUG:slideshow_plus.core:{'filename': '45.pdf', 'filepath': '/media/pi/Silver/diapozitivi/45.pdf', 'number': '45'}
+DEBUG:slideshow_plus.core:{'filename': '46.pdf', 'filepath': '/media/pi/Silver/diapozitivi/46.pdf', 'number': '46'}
+DEBUG:slideshow_plus.core:{'filename': '51.pdf', 'filepath': '/media/pi/Silver/diapozitivi/51.pdf', 'number': '51'}
+DEBUG:slideshow_plus.core:{'filename': '52.pdf', 'filepath': '/media/pi/Silver/diapozitivi/52.pdf', 'number': '52'}
+DEBUG:slideshow_plus.core:{'filename': '53.pdf', 'filepath': '/media/pi/Silver/diapozitivi/53.pdf', 'number': '53'}
+DEBUG:slideshow_plus.core:{'filename': '54.pdf', 'filepath': '/media/pi/Silver/diapozitivi/54.pdf', 'number': '54'}
+DEBUG:slideshow_plus.core:{'filename': '55.pdf', 'filepath': '/media/pi/Silver/diapozitivi/55.pdf', 'number': '55'}
+DEBUG:slideshow_plus.core:{'filename': '56.pdf', 'filepath': '/media/pi/Silver/diapozitivi/56.pdf', 'number': '56'}
+DEBUG:slideshow_plus.core:{'filename': '57.pdf', 'filepath': '/media/pi/Silver/diapozitivi/57.pdf', 'number': '57'}
+DEBUG:slideshow_plus.core:{'filename': '58.pdf', 'filepath': '/media/pi/Silver/diapozitivi/58.pdf', 'number': '58'}
+DEBUG:slideshow_plus.core:{'filename': '59.pdf', 'filepath': '/media/pi/Silver/diapozitivi/59.pdf', 'number': '59'}
+DEBUG:slideshow_plus.core:{'filename': '60.pdf', 'filepath': '/media/pi/Silver/diapozitivi/60.pdf', 'number': '60'}
+DEBUG:slideshow_plus.core:{'filename': '61.pdf', 'filepath': '/media/pi/Silver/diapozitivi/61.pdf', 'number': '61'}
+DEBUG:slideshow_plus.core:{'filename': '62.pdf', 'filepath': '/media/pi/Silver/diapozitivi/62.pdf', 'number': '62'}
+DEBUG:slideshow_plus.core:{'filename': '63.pdf', 'filepath': '/media/pi/Silver/diapozitivi/63.pdf', 'number': '63'}
+DEBUG:slideshow_plus.core:{'filename': '64.pdf', 'filepath': '/media/pi/Silver/diapozitivi/64.pdf', 'number': '64'}
+DEBUG:slideshow_plus.core:{'filename': '65.pdf', 'filepath': '/media/pi/Silver/diapozitivi/65.pdf', 'number': '65'}
+DEBUG:slideshow_plus.core:{'filename': '66.pdf', 'filepath': '/media/pi/Silver/diapozitivi/66.pdf', 'number': '66'}
+DEBUG:slideshow_plus.core:{'filename': '67.pdf', 'filepath': '/media/pi/Silver/diapozitivi/67.pdf', 'number': '67'}
+DEBUG:slideshow_plus.core:{'filename': '68.pdf', 'filepath': '/media/pi/Silver/diapozitivi/68.pdf', 'number': '68'}
+DEBUG:slideshow_plus.core:{'filename': '69.pdf', 'filepath': '/media/pi/Silver/diapozitivi/69.pdf', 'number': '69'}
+DEBUG:slideshow_plus.core:{'filename': '70.pdf', 'filepath': '/media/pi/Silver/diapozitivi/70.pdf', 'number': '70'}
+DEBUG:slideshow_plus.core:{'filename': '71.pdf', 'filepath': '/media/pi/Silver/diapozitivi/71.pdf', 'number': '71'}
+DEBUG:slideshow_plus.core:{'filename': '72.pdf', 'filepath': '/media/pi/Silver/diapozitivi/72.pdf', 'number': '72'}
+DEBUG:slideshow_plus.core:{'filename': '73.pdf', 'filepath': '/media/pi/Silver/diapozitivi/73.pdf', 'number': '73'}
+DEBUG:slideshow_plus.core:{'filename': '74.pdf', 'filepath': '/media/pi/Silver/diapozitivi/74.pdf', 'number': '74'}
+DEBUG:slideshow_plus.core:{'filename': '75.pdf', 'filepath': '/media/pi/Silver/diapozitivi/75.pdf', 'number': '75'}
+DEBUG:slideshow_plus.core:{'filename': '76.pdf', 'filepath': '/media/pi/Silver/diapozitivi/76.pdf', 'number': '76'}
+DEBUG:slideshow_plus.core:{'filename': '77.pdf', 'filepath': '/media/pi/Silver/diapozitivi/77.pdf', 'number': '77'}
+DEBUG:slideshow_plus.core:{'filename': '78.pdf', 'filepath': '/media/pi/Silver/diapozitivi/78.pdf', 'number': '78'}
+DEBUG:slideshow_plus.core:{'filename': '79.pdf', 'filepath': '/media/pi/Silver/diapozitivi/79.pdf', 'number': '79'}
+DEBUG:slideshow_plus.core:{'filename': '80.pdf', 'filepath': '/media/pi/Silver/diapozitivi/80.pdf', 'number': '80'}
+DEBUG:slideshow_plus.core:{'filename': '81.pdf', 'filepath': '/media/pi/Silver/diapozitivi/81.pdf', 'number': '81'}
+DEBUG:slideshow_plus.core:{'filename': '82.pdf', 'filepath': '/media/pi/Silver/diapozitivi/82.pdf', 'number': '82'}
+DEBUG:slideshow_plus.core:{'filename': '83.pdf', 'filepath': '/media/pi/Silver/diapozitivi/83.pdf', 'number': '83'}
+DEBUG:slideshow_plus.core:{'filename': '84.pdf', 'filepath': '/media/pi/Silver/diapozitivi/84.pdf', 'number': '84'}
+DEBUG:slideshow_plus.core:{'filename': '85.pdf', 'filepath': '/media/pi/Silver/diapozitivi/85.pdf', 'number': '85'}
+DEBUG:slideshow_plus.core:{'filename': '86.pdf', 'filepath': '/media/pi/Silver/diapozitivi/86.pdf', 'number': '86'}
+DEBUG:slideshow_plus.core:{'filename': '87.pdf', 'filepath': '/media/pi/Silver/diapozitivi/87.pdf', 'number': '87'}
+DEBUG:slideshow_plus.core:{'filename': '88.pdf', 'filepath': '/media/pi/Silver/diapozitivi/88.pdf', 'number': '88'}
+DEBUG:slideshow_plus.core:{'filename': '89.pdf', 'filepath': '/media/pi/Silver/diapozitivi/89.pdf', 'number': '89'}
+DEBUG:slideshow_plus.core:{'filename': '90.pdf', 'filepath': '/media/pi/Silver/diapozitivi/90.pdf', 'number': '90'}
+DEBUG:slideshow_plus.core:{'filename': '91.pdf', 'filepath': '/media/pi/Silver/diapozitivi/91.pdf', 'number': '91'}
+DEBUG:slideshow_plus.core:{'filename': '92.pdf', 'filepath': '/media/pi/Silver/diapozitivi/92.pdf', 'number': '92'}
+DEBUG:slideshow_plus.core:{'filename': '93.pdf', 'filepath': '/media/pi/Silver/diapozitivi/93.pdf', 'number': '93'}
+DEBUG:slideshow_plus.core:{'filename': '94.pdf', 'filepath': '/media/pi/Silver/diapozitivi/94.pdf', 'number': '94'}
+DEBUG:slideshow_plus.core:{'filename': '95.pdf', 'filepath': '/media/pi/Silver/diapozitivi/95.pdf', 'number': '95'}
+DEBUG:slideshow_plus.core:{'filename': '96.pdf', 'filepath': '/media/pi/Silver/diapozitivi/96.pdf', 'number': '96'}
+DEBUG:slideshow_plus.core:{'filename': '97.pdf', 'filepath': '/media/pi/Silver/diapozitivi/97.pdf', 'number': '97'}
+DEBUG:slideshow_plus.core:{'filename': '98.pdf', 'filepath': '/media/pi/Silver/diapozitivi/98.pdf', 'number': '98'}
+DEBUG:slideshow_plus.core:{'filename': '111.pdf', 'filepath': '/media/pi/Silver/diapozitivi/111.pdf', 'number': '111'}
+DEBUG:slideshow_plus.core:{'filename': '112.pdf', 'filepath': '/media/pi/Silver/diapozitivi/112.pdf', 'number': '112'}
+DEBUG:slideshow_plus.core:{'filename': '113.pdf', 'filepath': '/media/pi/Silver/diapozitivi/113.pdf', 'number': '113'}
+DEBUG:slideshow_plus.core:{'filename': '114.pdf', 'filepath': '/media/pi/Silver/diapozitivi/114.pdf', 'number': '114'}
+DEBUG:slideshow_plus.core:{'filename': '115.pdf', 'filepath': '/media/pi/Silver/diapozitivi/115.pdf', 'number': '115'}
+DEBUG:slideshow_plus.core:{'filename': '116.pdf', 'filepath': '/media/pi/Silver/diapozitivi/116.pdf', 'number': '116'}
+DEBUG:slideshow_plus.core:{'filename': '117.pdf', 'filepath': '/media/pi/Silver/diapozitivi/117.pdf', 'number': '117'}
+DEBUG:slideshow_plus.core:{'filename': '118.pdf', 'filepath': '/media/pi/Silver/diapozitivi/118.pdf', 'number': '118'}
+DEBUG:slideshow_plus.core:{'filename': '119.pdf', 'filepath': '/media/pi/Silver/diapozitivi/119.pdf', 'number': '119'}
+DEBUG:slideshow_plus.core:{'filename': '120.pdf', 'filepath': '/media/pi/Silver/diapozitivi/120.pdf', 'number': '120'}
+DEBUG:slideshow_plus.core:{'filename': '121.pdf', 'filepath': '/media/pi/Silver/diapozitivi/121.pdf', 'number': '121'}
+DEBUG:slideshow_plus.core:{'filename': '122.pdf', 'filepath': '/media/pi/Silver/diapozitivi/122.pdf', 'number': '122'}
+DEBUG:slideshow_plus.core:{'filename': '123.pdf', 'filepath': '/media/pi/Silver/diapozitivi/123.pdf', 'number': '123'}
+DEBUG:slideshow_plus.core:{'filename': '131.pdf', 'filepath': '/media/pi/Silver/diapozitivi/131.pdf', 'number': '131'}
+DEBUG:slideshow_plus.core:{'filename': '132.pdf', 'filepath': '/media/pi/Silver/diapozitivi/132.pdf', 'number': '132'}
+DEBUG:slideshow_plus.core:{'filename': '133.pdf', 'filepath': '/media/pi/Silver/diapozitivi/133.pdf', 'number': '133'}
+DEBUG:slideshow_plus.core:{'filename': '134.pdf', 'filepath': '/media/pi/Silver/diapozitivi/134.pdf', 'number': '134'}
+DEBUG:slideshow_plus.core:{'filename': '135.pdf', 'filepath': '/media/pi/Silver/diapozitivi/135.pdf', 'number': '135'}
+DEBUG:slideshow_plus.core:{'filename': '136.pdf', 'filepath': '/media/pi/Silver/diapozitivi/136.pdf', 'number': '136'}
+DEBUG:slideshow_plus.core:{'filename': '137.pdf', 'filepath': '/media/pi/Silver/diapozitivi/137.pdf', 'number': '137'}
+DEBUG:slideshow_plus.core:{'filename': '138.pdf', 'filepath': '/media/pi/Silver/diapozitivi/138.pdf', 'number': '138'}
+DEBUG:slideshow_plus.core:{'filename': '139.pdf', 'filepath': '/media/pi/Silver/diapozitivi/139.pdf', 'number': '139'}
+DEBUG:slideshow_plus.core:{'filename': '140.pdf', 'filepath': '/media/pi/Silver/diapozitivi/140.pdf', 'number': '140'}
+DEBUG:slideshow_plus.core:{'filename': '141.pdf', 'filepath': '/media/pi/Silver/diapozitivi/141.pdf', 'number': '141'}
+DEBUG:slideshow_plus.core:{'filename': '142.pdf', 'filepath': '/media/pi/Silver/diapozitivi/142.pdf', 'number': '142'}
+DEBUG:slideshow_plus.core:{'filename': '143.pdf', 'filepath': '/media/pi/Silver/diapozitivi/143.pdf', 'number': '143'}
+DEBUG:slideshow_plus.core:{'filename': '144.pdf', 'filepath': '/media/pi/Silver/diapozitivi/144.pdf', 'number': '144'}
+DEBUG:slideshow_plus.core:{'filename': '145.pdf', 'filepath': '/media/pi/Silver/diapozitivi/145.pdf', 'number': '145'}
+DEBUG:slideshow_plus.core:{'filename': '146.pdf', 'filepath': '/media/pi/Silver/diapozitivi/146.pdf', 'number': '146'}
+DEBUG:slideshow_plus.core:{'filename': '147.pdf', 'filepath': '/media/pi/Silver/diapozitivi/147.pdf', 'number': '147'}
+DEBUG:slideshow_plus.core:{'filename': '148.pdf', 'filepath': '/media/pi/Silver/diapozitivi/148.pdf', 'number': '148'}
+DEBUG:slideshow_plus.core:{'filename': '149.pdf', 'filepath': '/media/pi/Silver/diapozitivi/149.pdf', 'number': '149'}
+DEBUG:slideshow_plus.core:{'filename': '150.pdf', 'filepath': '/media/pi/Silver/diapozitivi/150.pdf', 'number': '150'}
+DEBUG:slideshow_plus.core:{'filename': '151.pdf', 'filepath': '/media/pi/Silver/diapozitivi/151.pdf', 'number': '151'}
+DEBUG:slideshow_plus.core:{'filename': '152.pdf', 'filepath': '/media/pi/Silver/diapozitivi/152.pdf', 'number': '152'}
+DEBUG:slideshow_plus.core:{'filename': '153.pdf', 'filepath': '/media/pi/Silver/diapozitivi/153.pdf', 'number': '153'}
+DEBUG:slideshow_plus.core:{'filename': '154.pdf', 'filepath': '/media/pi/Silver/diapozitivi/154.pdf', 'number': '154'}
+DEBUG:slideshow_plus.core:{'filename': '155.pdf', 'filepath': '/media/pi/Silver/diapozitivi/155.pdf', 'number': '155'}
+DEBUG:slideshow_plus.core:{'filename': '156.pdf', 'filepath': '/media/pi/Silver/diapozitivi/156.pdf', 'number': '156'}
+DEBUG:slideshow_plus.core:{'filename': '157.pdf', 'filepath': '/media/pi/Silver/diapozitivi/157.pdf', 'number': '157'}
+DEBUG:slideshow_plus.core:{'filename': '158.pdf', 'filepath': '/media/pi/Silver/diapozitivi/158.pdf', 'number': '158'}
+DEBUG:slideshow_plus.core:{'filename': '159.pdf', 'filepath': '/media/pi/Silver/diapozitivi/159.pdf', 'number': '159'}
+DEBUG:slideshow_plus.core:{'filename': '160.pdf', 'filepath': '/media/pi/Silver/diapozitivi/160.pdf', 'number': '160'}
+DEBUG:slideshow_plus.core:{'filename': '161.pdf', 'filepath': '/media/pi/Silver/diapozitivi/161.pdf', 'number': '161'}
+DEBUG:slideshow_plus.core:{'filename': '162.pdf', 'filepath': '/media/pi/Silver/diapozitivi/162.pdf', 'number': '162'}
+DEBUG:slideshow_plus.core:{'filename': '163.pdf', 'filepath': '/media/pi/Silver/diapozitivi/163.pdf', 'number': '163'}
+DEBUG:slideshow_plus.core:{'filename': '164.pdf', 'filepath': '/media/pi/Silver/diapozitivi/164.pdf', 'number': '164'}
+DEBUG:slideshow_plus.core:{'filename': '165.pdf', 'filepath': '/media/pi/Silver/diapozitivi/165.pdf', 'number': '165'}
+DEBUG:slideshow_plus.core:{'filename': '166.pdf', 'filepath': '/media/pi/Silver/diapozitivi/166.pdf', 'number': '166'}
+DEBUG:slideshow_plus.core:{'filename': '167.pdf', 'filepath': '/media/pi/Silver/diapozitivi/167.pdf', 'number': '167'}
+DEBUG:slideshow_plus.core:{'filename': '168.pdf', 'filepath': '/media/pi/Silver/diapozitivi/168.pdf', 'number': '168'}
+DEBUG:slideshow_plus.core:{'filename': '169.pdf', 'filepath': '/media/pi/Silver/diapozitivi/169.pdf', 'number': '169'}
+DEBUG:slideshow_plus.core:{'filename': '170.pdf', 'filepath': '/media/pi/Silver/diapozitivi/170.pdf', 'number': '170'}
+DEBUG:slideshow_plus.core:{'filename': '171.pdf', 'filepath': '/media/pi/Silver/diapozitivi/171.pdf', 'number': '171'}
+DEBUG:slideshow_plus.core:{'filename': '172.pdf', 'filepath': '/media/pi/Silver/diapozitivi/172.pdf', 'number': '172'}
+DEBUG:slideshow_plus.core:{'filename': '173.pdf', 'filepath': '/media/pi/Silver/diapozitivi/173.pdf', 'number': '173'}
+DEBUG:slideshow_plus.core:{'filename': '174.pdf', 'filepath': '/media/pi/Silver/diapozitivi/174.pdf', 'number': '174'}
+DEBUG:slideshow_plus.core:{'filename': '175.pdf', 'filepath': '/media/pi/Silver/diapozitivi/175.pdf', 'number': '175'}
+DEBUG:slideshow_plus.core:{'filename': '176.pdf', 'filepath': '/media/pi/Silver/diapozitivi/176.pdf', 'number': '176'}
+DEBUG:slideshow_plus.core:{'filename': '177.pdf', 'filepath': '/media/pi/Silver/diapozitivi/177.pdf', 'number': '177'}
+DEBUG:slideshow_plus.core:{'filename': '178.pdf', 'filepath': '/media/pi/Silver/diapozitivi/178.pdf', 'number': '178'}
+DEBUG:slideshow_plus.core:{'filename': '179.pdf', 'filepath': '/media/pi/Silver/diapozitivi/179.pdf', 'number': '179'}
+DEBUG:slideshow_plus.core:{'filename': '180.pdf', 'filepath': '/media/pi/Silver/diapozitivi/180.pdf', 'number': '180'}
+DEBUG:slideshow_plus.core:{'filename': '181.pdf', 'filepath': '/media/pi/Silver/diapozitivi/181.pdf', 'number': '181'}
+DEBUG:slideshow_plus.core:{'filename': '182.pdf', 'filepath': '/media/pi/Silver/diapozitivi/182.pdf', 'number': '182'}
+DEBUG:slideshow_plus.core:{'filename': '183.pdf', 'filepath': '/media/pi/Silver/diapozitivi/183.pdf', 'number': '183'}
+DEBUG:slideshow_plus.core:{'filename': '184.pdf', 'filepath': '/media/pi/Silver/diapozitivi/184.pdf', 'number': '184'}
+DEBUG:slideshow_plus.core:{'filename': '185.pdf', 'filepath': '/media/pi/Silver/diapozitivi/185.pdf', 'number': '185'}
+DEBUG:slideshow_plus.core:{'filename': '186.pdf', 'filepath': '/media/pi/Silver/diapozitivi/186.pdf', 'number': '186'}
+DEBUG:slideshow_plus.core:{'filename': '187.pdf', 'filepath': '/media/pi/Silver/diapozitivi/187.pdf', 'number': '187'}
+DEBUG:slideshow_plus.core:{'filename': '188.pdf', 'filepath': '/media/pi/Silver/diapozitivi/188.pdf', 'number': '188'}
+DEBUG:slideshow_plus.core:{'filename': '189.pdf', 'filepath': '/media/pi/Silver/diapozitivi/189.pdf', 'number': '189'}
+DEBUG:slideshow_plus.core:{'filename': '190.pdf', 'filepath': '/media/pi/Silver/diapozitivi/190.pdf', 'number': '190'}
+DEBUG:slideshow_plus.core:{'filename': '211.pdf', 'filepath': '/media/pi/Silver/diapozitivi/211.pdf', 'number': '211'}
+DEBUG:slideshow_plus.core:{'filename': '212.pdf', 'filepath': '/media/pi/Silver/diapozitivi/212.pdf', 'number': '212'}
+DEBUG:slideshow_plus.core:{'filename': '213.pdf', 'filepath': '/media/pi/Silver/diapozitivi/213.pdf', 'number': '213'}
+DEBUG:slideshow_plus.core:{'filename': '214.pdf', 'filepath': '/media/pi/Silver/diapozitivi/214.pdf', 'number': '214'}
+DEBUG:slideshow_plus.core:{'filename': '215.pdf', 'filepath': '/media/pi/Silver/diapozitivi/215.pdf', 'number': '215'}
+DEBUG:slideshow_plus.core:{'filename': '216.pdf', 'filepath': '/media/pi/Silver/diapozitivi/216.pdf', 'number': '216'}
+DEBUG:slideshow_plus.core:{'filename': '217.pdf', 'filepath': '/media/pi/Silver/diapozitivi/217.pdf', 'number': '217'}
+DEBUG:slideshow_plus.core:{'filename': '218.pdf', 'filepath': '/media/pi/Silver/diapozitivi/218.pdf', 'number': '218'}
+DEBUG:slideshow_plus.core:{'filename': '219.pdf', 'filepath': '/media/pi/Silver/diapozitivi/219.pdf', 'number': '219'}
+DEBUG:slideshow_plus.core:{'filename': '220.pdf', 'filepath': '/media/pi/Silver/diapozitivi/220.pdf', 'number': '220'}
+DEBUG:slideshow_plus.core:{'filename': '221.pdf', 'filepath': '/media/pi/Silver/diapozitivi/221.pdf', 'number': '221'}
+DEBUG:slideshow_plus.core:{'filename': '222.pdf', 'filepath': '/media/pi/Silver/diapozitivi/222.pdf', 'number': '222'}
+DEBUG:slideshow_plus.core:{'filename': '223.pdf', 'filepath': '/media/pi/Silver/diapozitivi/223.pdf', 'number': '223'}
+DEBUG:slideshow_plus.core:{'filename': '224.pdf', 'filepath': '/media/pi/Silver/diapozitivi/224.pdf', 'number': '224'}
+DEBUG:slideshow_plus.core:{'filename': '225.pdf', 'filepath': '/media/pi/Silver/diapozitivi/225.pdf', 'number': '225'}
+DEBUG:slideshow_plus.core:{'filename': '226.pdf', 'filepath': '/media/pi/Silver/diapozitivi/226.pdf', 'number': '226'}
+DEBUG:slideshow_plus.core:{'filename': '227.pdf', 'filepath': '/media/pi/Silver/diapozitivi/227.pdf', 'number': '227'}
+DEBUG:slideshow_plus.core:{'filename': '228.pdf', 'filepath': '/media/pi/Silver/diapozitivi/228.pdf', 'number': '228'}
+DEBUG:slideshow_plus.core:{'filename': '229.pdf', 'filepath': '/media/pi/Silver/diapozitivi/229.pdf', 'number': '229'}
+DEBUG:slideshow_plus.core:{'filename': '230.pdf', 'filepath': '/media/pi/Silver/diapozitivi/230.pdf', 'number': '230'}
+DEBUG:slideshow_plus.core:{'filename': '231.pdf', 'filepath': '/media/pi/Silver/diapozitivi/231.pdf', 'number': '231'}
+DEBUG:slideshow_plus.core:{'filename': '232.pdf', 'filepath': '/media/pi/Silver/diapozitivi/232.pdf', 'number': '232'}
+DEBUG:slideshow_plus.core:{'filename': '233.pdf', 'filepath': '/media/pi/Silver/diapozitivi/233.pdf', 'number': '233'}
+DEBUG:slideshow_plus.core:{'filename': '234.pdf', 'filepath': '/media/pi/Silver/diapozitivi/234.pdf', 'number': '234'}
+DEBUG:slideshow_plus.core:{'filename': '235.pdf', 'filepath': '/media/pi/Silver/diapozitivi/235.pdf', 'number': '235'}
+DEBUG:slideshow_plus.core:{'filename': '236.pdf', 'filepath': '/media/pi/Silver/diapozitivi/236.pdf', 'number': '236'}
+DEBUG:slideshow_plus.core:{'filename': '237.pdf', 'filepath': '/media/pi/Silver/diapozitivi/237.pdf', 'number': '237'}
+DEBUG:slideshow_plus.core:{'filename': '238.pdf', 'filepath': '/media/pi/Silver/diapozitivi/238.pdf', 'number': '238'}
+DEBUG:slideshow_plus.core:{'filename': '239.pdf', 'filepath': '/media/pi/Silver/diapozitivi/239.pdf', 'number': '239'}
+DEBUG:slideshow_plus.core:{'filename': '240.pdf', 'filepath': '/media/pi/Silver/diapozitivi/240.pdf', 'number': '240'}
+DEBUG:slideshow_plus.core:{'filename': '241.pdf', 'filepath': '/media/pi/Silver/diapozitivi/241.pdf', 'number': '241'}
+DEBUG:slideshow_plus.core:{'filename': '301.pdf', 'filepath': '/media/pi/Silver/diapozitivi/301.pdf', 'number': '301'}
+DEBUG:slideshow_plus.core:{'filename': '302.pdf', 'filepath': '/media/pi/Silver/diapozitivi/302.pdf', 'number': '302'}
+DEBUG:slideshow_plus.core:{'filename': '303.pdf', 'filepath': '/media/pi/Silver/diapozitivi/303.pdf', 'number': '303'}
+DEBUG:slideshow_plus.core:{'filename': '304.pdf', 'filepath': '/media/pi/Silver/diapozitivi/304.pdf', 'number': '304'}
+DEBUG:slideshow_plus.core:{'filename': '305.pdf', 'filepath': '/media/pi/Silver/diapozitivi/305.pdf', 'number': '305'}
+DEBUG:slideshow_plus.core:{'filename': '306.pdf', 'filepath': '/media/pi/Silver/diapozitivi/306.pdf', 'number': '306'}
+DEBUG:slideshow_plus.core:{'filename': '307.pdf', 'filepath': '/media/pi/Silver/diapozitivi/307.pdf', 'number': '307'}
+DEBUG:slideshow_plus.core:{'filename': '308.pdf', 'filepath': '/media/pi/Silver/diapozitivi/308.pdf', 'number': '308'}
+DEBUG:slideshow_plus.core:{'filename': '309.pdf', 'filepath': '/media/pi/Silver/diapozitivi/309.pdf', 'number': '309'}
+DEBUG:slideshow_plus.core:{'filename': '310.pdf', 'filepath': '/media/pi/Silver/diapozitivi/310.pdf', 'number': '310'}
+DEBUG:slideshow_plus.core:{'filename': '311.pdf', 'filepath': '/media/pi/Silver/diapozitivi/311.pdf', 'number': '311'}
+DEBUG:slideshow_plus.core:{'filename': '312.pdf', 'filepath': '/media/pi/Silver/diapozitivi/312.pdf', 'number': '312'}
+DEBUG:slideshow_plus.core:{'filename': '313.pdf', 'filepath': '/media/pi/Silver/diapozitivi/313.pdf', 'number': '313'}
+DEBUG:slideshow_plus.core:{'filename': '314.pdf', 'filepath': '/media/pi/Silver/diapozitivi/314.pdf', 'number': '314'}
+DEBUG:slideshow_plus.core:{'filename': '315.pdf', 'filepath': '/media/pi/Silver/diapozitivi/315.pdf', 'number': '315'}
+DEBUG:slideshow_plus.core:{'filename': '316.pdf', 'filepath': '/media/pi/Silver/diapozitivi/316.pdf', 'number': '316'}
+DEBUG:slideshow_plus.core:{'filename': '317.pdf', 'filepath': '/media/pi/Silver/diapozitivi/317.pdf', 'number': '317'}
+DEBUG:slideshow_plus.core:{'filename': '318.pdf', 'filepath': '/media/pi/Silver/diapozitivi/318.pdf', 'number': '318'}
+DEBUG:slideshow_plus.core:{'filename': '319.pdf', 'filepath': '/media/pi/Silver/diapozitivi/319.pdf', 'number': '319'}
+DEBUG:slideshow_plus.core:{'filename': '320.pdf', 'filepath': '/media/pi/Silver/diapozitivi/320.pdf', 'number': '320'}
+DEBUG:slideshow_plus.core:{'filename': '321.pdf', 'filepath': '/media/pi/Silver/diapozitivi/321.pdf', 'number': '321'}
+DEBUG:slideshow_plus.core:{'filename': '322.pdf', 'filepath': '/media/pi/Silver/diapozitivi/322.pdf', 'number': '322'}
+DEBUG:slideshow_plus.core:{'filename': '323.pdf', 'filepath': '/media/pi/Silver/diapozitivi/323.pdf', 'number': '323'}
+DEBUG:slideshow_plus.core:{'filename': '324.pdf', 'filepath': '/media/pi/Silver/diapozitivi/324.pdf', 'number': '324'}
+DEBUG:slideshow_plus.core:{'filename': '325.pdf', 'filepath': '/media/pi/Silver/diapozitivi/325.pdf', 'number': '325'}
+DEBUG:slideshow_plus.core:{'filename': '326.pdf', 'filepath': '/media/pi/Silver/diapozitivi/326.pdf', 'number': '326'}
+DEBUG:slideshow_plus.core:{'filename': '327.pdf', 'filepath': '/media/pi/Silver/diapozitivi/327.pdf', 'number': '327'}
+DEBUG:slideshow_plus.core:{'filename': '328.pdf', 'filepath': '/media/pi/Silver/diapozitivi/328.pdf', 'number': '328'}
+DEBUG:slideshow_plus.core:{'filename': '329.pdf', 'filepath': '/media/pi/Silver/diapozitivi/329.pdf', 'number': '329'}
+DEBUG:slideshow_plus.core:{'filename': '330.pdf', 'filepath': '/media/pi/Silver/diapozitivi/330.pdf', 'number': '330'}
+DEBUG:slideshow_plus.core:{'filename': '331.pdf', 'filepath': '/media/pi/Silver/diapozitivi/331.pdf', 'number': '331'}
+DEBUG:slideshow_plus.core:{'filename': '332.pdf', 'filepath': '/media/pi/Silver/diapozitivi/332.pdf', 'number': '332'}
+DEBUG:slideshow_plus.core:{'filename': '333.pdf', 'filepath': '/media/pi/Silver/diapozitivi/333.pdf', 'number': '333'}
+DEBUG:slideshow_plus.core:{'filename': '334.pdf', 'filepath': '/media/pi/Silver/diapozitivi/334.pdf', 'number': '334'}
+DEBUG:slideshow_plus.core:{'filename': '335.pdf', 'filepath': '/media/pi/Silver/diapozitivi/335.pdf', 'number': '335'}
+DEBUG:slideshow_plus.core:{'filename': '336.pdf', 'filepath': '/media/pi/Silver/diapozitivi/336.pdf', 'number': '336'}
+DEBUG:slideshow_plus.core:{'filename': '337.pdf', 'filepath': '/media/pi/Silver/diapozitivi/337.pdf', 'number': '337'}
+DEBUG:slideshow_plus.core:{'filename': '338.pdf', 'filepath': '/media/pi/Silver/diapozitivi/338.pdf', 'number': '338'}
+DEBUG:slideshow_plus.core:{'filename': '339.pdf', 'filepath': '/media/pi/Silver/diapozitivi/339.pdf', 'number': '339'}
+DEBUG:slideshow_plus.core:{'filename': '340.pdf', 'filepath': '/media/pi/Silver/diapozitivi/340.pdf', 'number': '340'}
+DEBUG:slideshow_plus.core:{'filename': '341.pdf', 'filepath': '/media/pi/Silver/diapozitivi/341.pdf', 'number': '341'}
+DEBUG:slideshow_plus.core:{'filename': '342.pdf', 'filepath': '/media/pi/Silver/diapozitivi/342.pdf', 'number': '342'}
+DEBUG:slideshow_plus.core:{'filename': '343.pdf', 'filepath': '/media/pi/Silver/diapozitivi/343.pdf', 'number': '343'}
+DEBUG:slideshow_plus.core:{'filename': '344.pdf', 'filepath': '/media/pi/Silver/diapozitivi/344.pdf', 'number': '344'}
+DEBUG:slideshow_plus.core:{'filename': '345.pdf', 'filepath': '/media/pi/Silver/diapozitivi/345.pdf', 'number': '345'}
+DEBUG:slideshow_plus.core:{'filename': '346.pdf', 'filepath': '/media/pi/Silver/diapozitivi/346.pdf', 'number': '346'}
+DEBUG:slideshow_plus.core:{'filename': '347.pdf', 'filepath': '/media/pi/Silver/diapozitivi/347.pdf', 'number': '347'}
+DEBUG:slideshow_plus.core:{'filename': '348.pdf', 'filepath': '/media/pi/Silver/diapozitivi/348.pdf', 'number': '348'}
+DEBUG:slideshow_plus.core:{'filename': '349.pdf', 'filepath': '/media/pi/Silver/diapozitivi/349.pdf', 'number': '349'}
+DEBUG:slideshow_plus.core:{'filename': '350.pdf', 'filepath': '/media/pi/Silver/diapozitivi/350.pdf', 'number': '350'}
+DEBUG:slideshow_plus.core:{'filename': '351.pdf', 'filepath': '/media/pi/Silver/diapozitivi/351.pdf', 'number': '351'}
+DEBUG:slideshow_plus.core:{'filename': '352.pdf', 'filepath': '/media/pi/Silver/diapozitivi/352.pdf', 'number': '352'}
+DEBUG:slideshow_plus.core:{'filename': '353.pdf', 'filepath': '/media/pi/Silver/diapozitivi/353.pdf', 'number': '353'}
+DEBUG:slideshow_plus.core:{'filename': '354.pdf', 'filepath': '/media/pi/Silver/diapozitivi/354.pdf', 'number': '354'}
+DEBUG:slideshow_plus.core:{'filename': '355.pdf', 'filepath': '/media/pi/Silver/diapozitivi/355.pdf', 'number': '355'}
+DEBUG:slideshow_plus.core:{'filename': '356.pdf', 'filepath': '/media/pi/Silver/diapozitivi/356.pdf', 'number': '356'}
+DEBUG:slideshow_plus.core:{'filename': '357.pdf', 'filepath': '/media/pi/Silver/diapozitivi/357.pdf', 'number': '357'}
+DEBUG:slideshow_plus.core:{'filename': '358.pdf', 'filepath': '/media/pi/Silver/diapozitivi/358.pdf', 'number': '358'}
+DEBUG:slideshow_plus.core:{'filename': '359.pdf', 'filepath': '/media/pi/Silver/diapozitivi/359.pdf', 'number': '359'}
+DEBUG:slideshow_plus.core:{'filename': '360.pdf', 'filepath': '/media/pi/Silver/diapozitivi/360.pdf', 'number': '360'}
+DEBUG:slideshow_plus.core:{'filename': '361.pdf', 'filepath': '/media/pi/Silver/diapozitivi/361.pdf', 'number': '361'}
+DEBUG:slideshow_plus.core:{'filename': '362.pdf', 'filepath': '/media/pi/Silver/diapozitivi/362.pdf', 'number': '362'}
+DEBUG:slideshow_plus.core:{'filename': '363.pdf', 'filepath': '/media/pi/Silver/diapozitivi/363.pdf', 'number': '363'}
+DEBUG:slideshow_plus.core:{'filename': '364.pdf', 'filepath': '/media/pi/Silver/diapozitivi/364.pdf', 'number': '364'}
+DEBUG:slideshow_plus.core:{'filename': '365.pdf', 'filepath': '/media/pi/Silver/diapozitivi/365.pdf', 'number': '365'}
+DEBUG:slideshow_plus.core:{'filename': '366.pdf', 'filepath': '/media/pi/Silver/diapozitivi/366.pdf', 'number': '366'}
+DEBUG:slideshow_plus.core:{'filename': '367.pdf', 'filepath': '/media/pi/Silver/diapozitivi/367.pdf', 'number': '367'}
+DEBUG:slideshow_plus.core:{'filename': '368.pdf', 'filepath': '/media/pi/Silver/diapozitivi/368.pdf', 'number': '368'}
+DEBUG:slideshow_plus.core:{'filename': '369.pdf', 'filepath': '/media/pi/Silver/diapozitivi/369.pdf', 'number': '369'}
+DEBUG:slideshow_plus.core:{'filename': '370.pdf', 'filepath': '/media/pi/Silver/diapozitivi/370.pdf', 'number': '370'}
+DEBUG:slideshow_plus.core:{'filename': '401.pdf', 'filepath': '/media/pi/Silver/diapozitivi/401.pdf', 'number': '401'}
+DEBUG:slideshow_plus.core:{'filename': '402.pdf', 'filepath': '/media/pi/Silver/diapozitivi/402.pdf', 'number': '402'}
+DEBUG:slideshow_plus.core:{'filename': '403.pdf', 'filepath': '/media/pi/Silver/diapozitivi/403.pdf', 'number': '403'}
+DEBUG:slideshow_plus.core:{'filename': '404.pdf', 'filepath': '/media/pi/Silver/diapozitivi/404.pdf', 'number': '404'}
+DEBUG:slideshow_plus.core:{'filename': '405.pdf', 'filepath': '/media/pi/Silver/diapozitivi/405.pdf', 'number': '405'}
+DEBUG:slideshow_plus.core:{'filename': '406.pdf', 'filepath': '/media/pi/Silver/diapozitivi/406.pdf', 'number': '406'}
+DEBUG:slideshow_plus.core:{'filename': '407.pdf', 'filepath': '/media/pi/Silver/diapozitivi/407.pdf', 'number': '407'}
+DEBUG:slideshow_plus.core:{'filename': '408.pdf', 'filepath': '/media/pi/Silver/diapozitivi/408.pdf', 'number': '408'}
+DEBUG:slideshow_plus.core:{'filename': '409.pdf', 'filepath': '/media/pi/Silver/diapozitivi/409.pdf', 'number': '409'}
+DEBUG:slideshow_plus.core:{'filename': '410.pdf', 'filepath': '/media/pi/Silver/diapozitivi/410.pdf', 'number': '410'}
+DEBUG:slideshow_plus.core:{'filename': '411.pdf', 'filepath': '/media/pi/Silver/diapozitivi/411.pdf', 'number': '411'}
+DEBUG:slideshow_plus.core:{'filename': '412.pdf', 'filepath': '/media/pi/Silver/diapozitivi/412.pdf', 'number': '412'}
+DEBUG:slideshow_plus.core:{'filename': '413.pdf', 'filepath': '/media/pi/Silver/diapozitivi/413.pdf', 'number': '413'}
+DEBUG:slideshow_plus.core:{'filename': '414.pdf', 'filepath': '/media/pi/Silver/diapozitivi/414.pdf', 'number': '414'}
+DEBUG:slideshow_plus.core:{'filename': '415.pdf', 'filepath': '/media/pi/Silver/diapozitivi/415.pdf', 'number': '415'}
+DEBUG:slideshow_plus.core:{'filename': '416.pdf', 'filepath': '/media/pi/Silver/diapozitivi/416.pdf', 'number': '416'}
+DEBUG:slideshow_plus.core:{'filename': '417.pdf', 'filepath': '/media/pi/Silver/diapozitivi/417.pdf', 'number': '417'}
+DEBUG:slideshow_plus.core:{'filename': '418.pdf', 'filepath': '/media/pi/Silver/diapozitivi/418.pdf', 'number': '418'}
+DEBUG:slideshow_plus.core:{'filename': '419.pdf', 'filepath': '/media/pi/Silver/diapozitivi/419.pdf', 'number': '419'}
+DEBUG:slideshow_plus.core:{'filename': '420.pdf', 'filepath': '/media/pi/Silver/diapozitivi/420.pdf', 'number': '420'}
+DEBUG:slideshow_plus.core:{'filename': '421.pdf', 'filepath': '/media/pi/Silver/diapozitivi/421.pdf', 'number': '421'}
+DEBUG:slideshow_plus.core:{'filename': '422.pdf', 'filepath': '/media/pi/Silver/diapozitivi/422.pdf', 'number': '422'}
+DEBUG:slideshow_plus.core:{'filename': '423.pdf', 'filepath': '/media/pi/Silver/diapozitivi/423.pdf', 'number': '423'}
+DEBUG:slideshow_plus.core:{'filename': '424.pdf', 'filepath': '/media/pi/Silver/diapozitivi/424.pdf', 'number': '424'}
+DEBUG:slideshow_plus.core:{'filename': '425.pdf', 'filepath': '/media/pi/Silver/diapozitivi/425.pdf', 'number': '425'}
+DEBUG:slideshow_plus.core:{'filename': '426.pdf', 'filepath': '/media/pi/Silver/diapozitivi/426.pdf', 'number': '426'}
+DEBUG:slideshow_plus.core:{'filename': '427.pdf', 'filepath': '/media/pi/Silver/diapozitivi/427.pdf', 'number': '427'}
+DEBUG:slideshow_plus.core:{'filename': '428.pdf', 'filepath': '/media/pi/Silver/diapozitivi/428.pdf', 'number': '428'}
+DEBUG:slideshow_plus.core:{'filename': '429.pdf', 'filepath': '/media/pi/Silver/diapozitivi/429.pdf', 'number': '429'}
+DEBUG:slideshow_plus.core:{'filename': '430.pdf', 'filepath': '/media/pi/Silver/diapozitivi/430.pdf', 'number': '430'}
+DEBUG:slideshow_plus.core:{'filename': '431.pdf', 'filepath': '/media/pi/Silver/diapozitivi/431.pdf', 'number': '431'}
+DEBUG:slideshow_plus.core:{'filename': '432.pdf', 'filepath': '/media/pi/Silver/diapozitivi/432.pdf', 'number': '432'}
+DEBUG:slideshow_plus.core:{'filename': '433.pdf', 'filepath': '/media/pi/Silver/diapozitivi/433.pdf', 'number': '433'}
+DEBUG:slideshow_plus.core:{'filename': '451.pdf', 'filepath': '/media/pi/Silver/diapozitivi/451.pdf', 'number': '451'}
+DEBUG:slideshow_plus.core:{'filename': '452.pdf', 'filepath': '/media/pi/Silver/diapozitivi/452.pdf', 'number': '452'}
+DEBUG:slideshow_plus.core:{'filename': '453.pdf', 'filepath': '/media/pi/Silver/diapozitivi/453.pdf', 'number': '453'}
+DEBUG:slideshow_plus.core:{'filename': '454.pdf', 'filepath': '/media/pi/Silver/diapozitivi/454.pdf', 'number': '454'}
+DEBUG:slideshow_plus.core:{'filename': '455.pdf', 'filepath': '/media/pi/Silver/diapozitivi/455.pdf', 'number': '455'}
+DEBUG:slideshow_plus.core:{'filename': '456.pdf', 'filepath': '/media/pi/Silver/diapozitivi/456.pdf', 'number': '456'}
+DEBUG:slideshow_plus.core:{'filename': '457.pdf', 'filepath': '/media/pi/Silver/diapozitivi/457.pdf', 'number': '457'}
+DEBUG:slideshow_plus.core:{'filename': '458.pdf', 'filepath': '/media/pi/Silver/diapozitivi/458.pdf', 'number': '458'}
+DEBUG:slideshow_plus.core:{'filename': '459.pdf', 'filepath': '/media/pi/Silver/diapozitivi/459.pdf', 'number': '459'}
+DEBUG:slideshow_plus.core:{'filename': '460.pdf', 'filepath': '/media/pi/Silver/diapozitivi/460.pdf', 'number': '460'}
+DEBUG:slideshow_plus.core:{'filename': '461.pdf', 'filepath': '/media/pi/Silver/diapozitivi/461.pdf', 'number': '461'}
+DEBUG:slideshow_plus.core:{'filename': '462.pdf', 'filepath': '/media/pi/Silver/diapozitivi/462.pdf', 'number': '462'}
+DEBUG:slideshow_plus.core:{'filename': '463.pdf', 'filepath': '/media/pi/Silver/diapozitivi/463.pdf', 'number': '463'}
+DEBUG:slideshow_plus.core:{'filename': '464.pdf', 'filepath': '/media/pi/Silver/diapozitivi/464.pdf', 'number': '464'}
+DEBUG:slideshow_plus.core:{'filename': '465.pdf', 'filepath': '/media/pi/Silver/diapozitivi/465.pdf', 'number': '465'}
+DEBUG:slideshow_plus.core:{'filename': '466.pdf', 'filepath': '/media/pi/Silver/diapozitivi/466.pdf', 'number': '466'}
+DEBUG:slideshow_plus.core:{'filename': '467.pdf', 'filepath': '/media/pi/Silver/diapozitivi/467.pdf', 'number': '467'}
+DEBUG:slideshow_plus.core:{'filename': '468.pdf', 'filepath': '/media/pi/Silver/diapozitivi/468.pdf', 'number': '468'}
+DEBUG:slideshow_plus.core:{'filename': '469.pdf', 'filepath': '/media/pi/Silver/diapozitivi/469.pdf', 'number': '469'}
+DEBUG:slideshow_plus.core:{'filename': '470.pdf', 'filepath': '/media/pi/Silver/diapozitivi/470.pdf', 'number': '470'}
+DEBUG:slideshow_plus.core:{'filename': '471.pdf', 'filepath': '/media/pi/Silver/diapozitivi/471.pdf', 'number': '471'}
+DEBUG:slideshow_plus.core:{'filename': '472.pdf', 'filepath': '/media/pi/Silver/diapozitivi/472.pdf', 'number': '472'}
+DEBUG:slideshow_plus.core:{'filename': '473.pdf', 'filepath': '/media/pi/Silver/diapozitivi/473.pdf', 'number': '473'}
+DEBUG:slideshow_plus.core:{'filename': '474.pdf', 'filepath': '/media/pi/Silver/diapozitivi/474.pdf', 'number': '474'}
+DEBUG:slideshow_plus.core:{'filename': '475.pdf', 'filepath': '/media/pi/Silver/diapozitivi/475.pdf', 'number': '475'}
+DEBUG:slideshow_plus.core:{'filename': '501.pdf', 'filepath': '/media/pi/Silver/diapozitivi/501.pdf', 'number': '501'}
+DEBUG:slideshow_plus.core:{'filename': '502.pdf', 'filepath': '/media/pi/Silver/diapozitivi/502.pdf', 'number': '502'}
+DEBUG:slideshow_plus.core:{'filename': '503.pdf', 'filepath': '/media/pi/Silver/diapozitivi/503.pdf', 'number': '503'}
+DEBUG:slideshow_plus.core:{'filename': '504.pdf', 'filepath': '/media/pi/Silver/diapozitivi/504.pdf', 'number': '504'}
+DEBUG:slideshow_plus.core:{'filename': '505.pdf', 'filepath': '/media/pi/Silver/diapozitivi/505.pdf', 'number': '505'}
+DEBUG:slideshow_plus.core:{'filename': '506.pdf', 'filepath': '/media/pi/Silver/diapozitivi/506.pdf', 'number': '506'}
+DEBUG:slideshow_plus.core:{'filename': '507.pdf', 'filepath': '/media/pi/Silver/diapozitivi/507.pdf', 'number': '507'}
+DEBUG:slideshow_plus.core:{'filename': '508.pdf', 'filepath': '/media/pi/Silver/diapozitivi/508.pdf', 'number': '508'}
+DEBUG:slideshow_plus.core:{'filename': '509.pdf', 'filepath': '/media/pi/Silver/diapozitivi/509.pdf', 'number': '509'}
+DEBUG:slideshow_plus.core:{'filename': '510.pdf', 'filepath': '/media/pi/Silver/diapozitivi/510.pdf', 'number': '510'}
+DEBUG:slideshow_plus.core:{'filename': '511.pdf', 'filepath': '/media/pi/Silver/diapozitivi/511.pdf', 'number': '511'}
+DEBUG:slideshow_plus.core:{'filename': '512.pdf', 'filepath': '/media/pi/Silver/diapozitivi/512.pdf', 'number': '512'}
+DEBUG:slideshow_plus.core:{'filename': '513.pdf', 'filepath': '/media/pi/Silver/diapozitivi/513.pdf', 'number': '513'}
+DEBUG:slideshow_plus.core:{'filename': '514.pdf', 'filepath': '/media/pi/Silver/diapozitivi/514.pdf', 'number': '514'}
+DEBUG:slideshow_plus.core:{'filename': '515.pdf', 'filepath': '/media/pi/Silver/diapozitivi/515.pdf', 'number': '515'}
+DEBUG:slideshow_plus.core:{'filename': '516.pdf', 'filepath': '/media/pi/Silver/diapozitivi/516.pdf', 'number': '516'}
+DEBUG:slideshow_plus.core:{'filename': '517.pdf', 'filepath': '/media/pi/Silver/diapozitivi/517.pdf', 'number': '517'}
+DEBUG:slideshow_plus.core:{'filename': '518.pdf', 'filepath': '/media/pi/Silver/diapozitivi/518.pdf', 'number': '518'}
+DEBUG:slideshow_plus.core:{'filename': '519.pdf', 'filepath': '/media/pi/Silver/diapozitivi/519.pdf', 'number': '519'}
+DEBUG:slideshow_plus.core:{'filename': '520.pdf', 'filepath': '/media/pi/Silver/diapozitivi/520.pdf', 'number': '520'}
+DEBUG:slideshow_plus.core:{'filename': '521.pdf', 'filepath': '/media/pi/Silver/diapozitivi/521.pdf', 'number': '521'}
+DEBUG:slideshow_plus.core:{'filename': '522.pdf', 'filepath': '/media/pi/Silver/diapozitivi/522.pdf', 'number': '522'}
+DEBUG:slideshow_plus.core:{'filename': '523.pdf', 'filepath': '/media/pi/Silver/diapozitivi/523.pdf', 'number': '523'}
+DEBUG:slideshow_plus.core:{'filename': '524.pdf', 'filepath': '/media/pi/Silver/diapozitivi/524.pdf', 'number': '524'}
+DEBUG:slideshow_plus.core:{'filename': '525.pdf', 'filepath': '/media/pi/Silver/diapozitivi/525.pdf', 'number': '525'}
+DEBUG:slideshow_plus.core:{'filename': '526.pdf', 'filepath': '/media/pi/Silver/diapozitivi/526.pdf', 'number': '526'}
+DEBUG:slideshow_plus.core:{'filename': '527.pdf', 'filepath': '/media/pi/Silver/diapozitivi/527.pdf', 'number': '527'}
+DEBUG:slideshow_plus.core:{'filename': '528.pdf', 'filepath': '/media/pi/Silver/diapozitivi/528.pdf', 'number': '528'}
+DEBUG:slideshow_plus.core:{'filename': '529.pdf', 'filepath': '/media/pi/Silver/diapozitivi/529.pdf', 'number': '529'}
+DEBUG:slideshow_plus.core:{'filename': '530.pdf', 'filepath': '/media/pi/Silver/diapozitivi/530.pdf', 'number': '530'}
+DEBUG:slideshow_plus.core:{'filename': '531.pdf', 'filepath': '/media/pi/Silver/diapozitivi/531.pdf', 'number': '531'}
+DEBUG:slideshow_plus.core:{'filename': '532.pdf', 'filepath': '/media/pi/Silver/diapozitivi/532.pdf', 'number': '532'}
+DEBUG:slideshow_plus.core:{'filename': '533.pdf', 'filepath': '/media/pi/Silver/diapozitivi/533.pdf', 'number': '533'}
+DEBUG:slideshow_plus.core:{'filename': '534.pdf', 'filepath': '/media/pi/Silver/diapozitivi/534.pdf', 'number': '534'}
+DEBUG:slideshow_plus.core:{'filename': '535.pdf', 'filepath': '/media/pi/Silver/diapozitivi/535.pdf', 'number': '535'}
+DEBUG:slideshow_plus.core:{'filename': '536.pdf', 'filepath': '/media/pi/Silver/diapozitivi/536.pdf', 'number': '536'}
+DEBUG:slideshow_plus.core:{'filename': '537.pdf', 'filepath': '/media/pi/Silver/diapozitivi/537.pdf', 'number': '537'}
+DEBUG:slideshow_plus.core:{'filename': '538.pdf', 'filepath': '/media/pi/Silver/diapozitivi/538.pdf', 'number': '538'}
+DEBUG:slideshow_plus.core:{'filename': '539.pdf', 'filepath': '/media/pi/Silver/diapozitivi/539.pdf', 'number': '539'}
+DEBUG:slideshow_plus.core:{'filename': '540.pdf', 'filepath': '/media/pi/Silver/diapozitivi/540.pdf', 'number': '540'}
+DEBUG:slideshow_plus.core:{'filename': '541.pdf', 'filepath': '/media/pi/Silver/diapozitivi/541.pdf', 'number': '541'}
+DEBUG:slideshow_plus.core:{'filename': '542.pdf', 'filepath': '/media/pi/Silver/diapozitivi/542.pdf', 'number': '542'}
+DEBUG:slideshow_plus.core:{'filename': '543.pdf', 'filepath': '/media/pi/Silver/diapozitivi/543.pdf', 'number': '543'}
+DEBUG:slideshow_plus.core:{'filename': '544.pdf', 'filepath': '/media/pi/Silver/diapozitivi/544.pdf', 'number': '544'}
+DEBUG:slideshow_plus.core:{'filename': '545.pdf', 'filepath': '/media/pi/Silver/diapozitivi/545.pdf', 'number': '545'}
+DEBUG:slideshow_plus.core:{'filename': '551.pdf', 'filepath': '/media/pi/Silver/diapozitivi/551.pdf', 'number': '551'}
+DEBUG:slideshow_plus.core:{'filename': '552.pdf', 'filepath': '/media/pi/Silver/diapozitivi/552.pdf', 'number': '552'}
+DEBUG:slideshow_plus.core:{'filename': '553.pdf', 'filepath': '/media/pi/Silver/diapozitivi/553.pdf', 'number': '553'}
+DEBUG:slideshow_plus.core:{'filename': '554.pdf', 'filepath': '/media/pi/Silver/diapozitivi/554.pdf', 'number': '554'}
+DEBUG:slideshow_plus.core:{'filename': '555.pdf', 'filepath': '/media/pi/Silver/diapozitivi/555.pdf', 'number': '555'}
+DEBUG:slideshow_plus.core:{'filename': '556.pdf', 'filepath': '/media/pi/Silver/diapozitivi/556.pdf', 'number': '556'}
+DEBUG:slideshow_plus.core:{'filename': '557.pdf', 'filepath': '/media/pi/Silver/diapozitivi/557.pdf', 'number': '557'}
+DEBUG:slideshow_plus.core:{'filename': '558.pdf', 'filepath': '/media/pi/Silver/diapozitivi/558.pdf', 'number': '558'}
+DEBUG:slideshow_plus.core:{'filename': '559.pdf', 'filepath': '/media/pi/Silver/diapozitivi/559.pdf', 'number': '559'}
+DEBUG:slideshow_plus.core:{'filename': '560.pdf', 'filepath': '/media/pi/Silver/diapozitivi/560.pdf', 'number': '560'}
+DEBUG:slideshow_plus.core:{'filename': '561.pdf', 'filepath': '/media/pi/Silver/diapozitivi/561.pdf', 'number': '561'}
+DEBUG:slideshow_plus.core:{'filename': '562.pdf', 'filepath': '/media/pi/Silver/diapozitivi/562.pdf', 'number': '562'}
+DEBUG:slideshow_plus.core:{'filename': '563.pdf', 'filepath': '/media/pi/Silver/diapozitivi/563.pdf', 'number': '563'}
+DEBUG:slideshow_plus.core:{'filename': '564.pdf', 'filepath': '/media/pi/Silver/diapozitivi/564.pdf', 'number': '564'}
+DEBUG:slideshow_plus.core:{'filename': '565.pdf', 'filepath': '/media/pi/Silver/diapozitivi/565.pdf', 'number': '565'}
+DEBUG:slideshow_plus.core:{'filename': '566.pdf', 'filepath': '/media/pi/Silver/diapozitivi/566.pdf', 'number': '566'}
+DEBUG:slideshow_plus.core:{'filename': '567.pdf', 'filepath': '/media/pi/Silver/diapozitivi/567.pdf', 'number': '567'}
+DEBUG:slideshow_plus.core:{'filename': '568.pdf', 'filepath': '/media/pi/Silver/diapozitivi/568.pdf', 'number': '568'}
+DEBUG:slideshow_plus.core:{'filename': '580.pdf', 'filepath': '/media/pi/Silver/diapozitivi/580.pdf', 'number': '580'}
+DEBUG:slideshow_plus.core:{'filename': '581.pdf', 'filepath': '/media/pi/Silver/diapozitivi/581.pdf', 'number': '581'}
+DEBUG:slideshow_plus.core:{'filename': '582.pdf', 'filepath': '/media/pi/Silver/diapozitivi/582.pdf', 'number': '582'}
+DEBUG:slideshow_plus.core:{'filename': '583.pdf', 'filepath': '/media/pi/Silver/diapozitivi/583.pdf', 'number': '583'}
+DEBUG:slideshow_plus.core:{'filename': '584.pdf', 'filepath': '/media/pi/Silver/diapozitivi/584.pdf', 'number': '584'}
+DEBUG:slideshow_plus.core:{'filename': '585.pdf', 'filepath': '/media/pi/Silver/diapozitivi/585.pdf', 'number': '585'}
+DEBUG:slideshow_plus.core:{'filename': '586.pdf', 'filepath': '/media/pi/Silver/diapozitivi/586.pdf', 'number': '586'}
+DEBUG:slideshow_plus.core:{'filename': '587.pdf', 'filepath': '/media/pi/Silver/diapozitivi/587.pdf', 'number': '587'}
+DEBUG:slideshow_plus.core:{'filename': '588.pdf', 'filepath': '/media/pi/Silver/diapozitivi/588.pdf', 'number': '588'}
+DEBUG:slideshow_plus.core:{'filename': '589.pdf', 'filepath': '/media/pi/Silver/diapozitivi/589.pdf', 'number': '589'}
+DEBUG:slideshow_plus.core:{'filename': '590.pdf', 'filepath': '/media/pi/Silver/diapozitivi/590.pdf', 'number': '590'}
+DEBUG:slideshow_plus.core:{'filename': '591.pdf', 'filepath': '/media/pi/Silver/diapozitivi/591.pdf', 'number': '591'}
+DEBUG:slideshow_plus.core:{'filename': '592.pdf', 'filepath': '/media/pi/Silver/diapozitivi/592.pdf', 'number': '592'}
+DEBUG:slideshow_plus.core:{'filename': '593.pdf', 'filepath': '/media/pi/Silver/diapozitivi/593.pdf', 'number': '593'}
+DEBUG:slideshow_plus.core:{'filename': '594.pdf', 'filepath': '/media/pi/Silver/diapozitivi/594.pdf', 'number': '594'}
+DEBUG:slideshow_plus.core:{'filename': '595.pdf', 'filepath': '/media/pi/Silver/diapozitivi/595.pdf', 'number': '595'}
+DEBUG:slideshow_plus.core:{'filename': '601.pdf', 'filepath': '/media/pi/Silver/diapozitivi/601.pdf', 'number': '601'}
+DEBUG:slideshow_plus.core:{'filename': '602.pdf', 'filepath': '/media/pi/Silver/diapozitivi/602.pdf', 'number': '602'}
+DEBUG:slideshow_plus.core:{'filename': '603.pdf', 'filepath': '/media/pi/Silver/diapozitivi/603.pdf', 'number': '603'}
+DEBUG:slideshow_plus.core:{'filename': '604.pdf', 'filepath': '/media/pi/Silver/diapozitivi/604.pdf', 'number': '604'}
+DEBUG:slideshow_plus.core:{'filename': '605.pdf', 'filepath': '/media/pi/Silver/diapozitivi/605.pdf', 'number': '605'}
+DEBUG:slideshow_plus.core:{'filename': '606.pdf', 'filepath': '/media/pi/Silver/diapozitivi/606.pdf', 'number': '606'}
+DEBUG:slideshow_plus.core:{'filename': '607.pdf', 'filepath': '/media/pi/Silver/diapozitivi/607.pdf', 'number': '607'}
+DEBUG:slideshow_plus.core:{'filename': '608.pdf', 'filepath': '/media/pi/Silver/diapozitivi/608.pdf', 'number': '608'}
+DEBUG:slideshow_plus.core:{'filename': '609.pdf', 'filepath': '/media/pi/Silver/diapozitivi/609.pdf', 'number': '609'}
+DEBUG:slideshow_plus.core:{'filename': '610.pdf', 'filepath': '/media/pi/Silver/diapozitivi/610.pdf', 'number': '610'}
+DEBUG:slideshow_plus.core:{'filename': '611.pdf', 'filepath': '/media/pi/Silver/diapozitivi/611.pdf', 'number': '611'}
+DEBUG:slideshow_plus.core:{'filename': '612.pdf', 'filepath': '/media/pi/Silver/diapozitivi/612.pdf', 'number': '612'}
+DEBUG:slideshow_plus.core:{'filename': '613.pdf', 'filepath': '/media/pi/Silver/diapozitivi/613.pdf', 'number': '613'}
+DEBUG:slideshow_plus.core:{'filename': '614.pdf', 'filepath': '/media/pi/Silver/diapozitivi/614.pdf', 'number': '614'}
+DEBUG:slideshow_plus.core:{'filename': '615.pdf', 'filepath': '/media/pi/Silver/diapozitivi/615.pdf', 'number': '615'}
+DEBUG:slideshow_plus.core:{'filename': '616.pdf', 'filepath': '/media/pi/Silver/diapozitivi/616.pdf', 'number': '616'}
+DEBUG:slideshow_plus.core:{'filename': '701_Litanije iz Karlobaga 1.pdf', 'filepath': '/media/pi/Silver/diapozitivi/701_Litanije iz Karlobaga 1.pdf', 'number': '701'}
+DEBUG:slideshow_plus.core:{'filename': '702_Litanije iz Karlobaga 2.pdf', 'filepath': '/media/pi/Silver/diapozitivi/702_Litanije iz Karlobaga 2.pdf', 'number': '702'}
+DEBUG:slideshow_plus.core:{'filename': '703_Litanije iz Karlobaga 3.pdf', 'filepath': '/media/pi/Silver/diapozitivi/703_Litanije iz Karlobaga 3.pdf', 'number': '703'}
+DEBUG:slideshow_plus.core:{'filename': '751.pdf', 'filepath': '/media/pi/Silver/diapozitivi/751.pdf', 'number': '751'}
+DEBUG:slideshow_plus.core:{'filename': '752.pdf', 'filepath': '/media/pi/Silver/diapozitivi/752.pdf', 'number': '752'}
+DEBUG:slideshow_plus.core:{'filename': '753.pdf', 'filepath': '/media/pi/Silver/diapozitivi/753.pdf', 'number': '753'}
+DEBUG:slideshow_plus.core:{'filename': '754.pdf', 'filepath': '/media/pi/Silver/diapozitivi/754.pdf', 'number': '754'}
+DEBUG:slideshow_plus.core:{'filename': '755.pdf', 'filepath': '/media/pi/Silver/diapozitivi/755.pdf', 'number': '755'}
+DEBUG:slideshow_plus.core:{'filename': '756.pdf', 'filepath': '/media/pi/Silver/diapozitivi/756.pdf', 'number': '756'}
+DEBUG:slideshow_plus.core:{'filename': '757.pdf', 'filepath': '/media/pi/Silver/diapozitivi/757.pdf', 'number': '757'}
+DEBUG:slideshow_plus.core:{'filename': '801.pdf', 'filepath': '/media/pi/Silver/diapozitivi/801.pdf', 'number': '801'}
+DEBUG:slideshow_plus.core:{'filename': '802.pdf', 'filepath': '/media/pi/Silver/diapozitivi/802.pdf', 'number': '802'}
+DEBUG:slideshow_plus.core:{'filename': '803.pdf', 'filepath': '/media/pi/Silver/diapozitivi/803.pdf', 'number': '803'}
+DEBUG:slideshow_plus.core:{'filename': '804.pdf', 'filepath': '/media/pi/Silver/diapozitivi/804.pdf', 'number': '804'}
+DEBUG:slideshow_plus.core:{'filename': '805.pdf', 'filepath': '/media/pi/Silver/diapozitivi/805.pdf', 'number': '805'}
+DEBUG:slideshow_plus.core:{'filename': '901.pdf', 'filepath': '/media/pi/Silver/diapozitivi/901.pdf', 'number': '901'}
+DEBUG:slideshow_plus.core:{'filename': '990_Zatemnitev.pdf', 'filepath': '/media/pi/Silver/diapozitivi/990_Zatemnitev.pdf', 'number': '990'}
+INFO:slideshow_plus.core:gen_pdf: /home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf
+DEBUG:slideshow_plus.core:low_display():/home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf
+DEBUG:slideshow_plus.core:Core ready.
+INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/0.pdf
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2018 03:31:42] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1.pdf
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2018 03:31:45] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/2.pdf
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2018 03:31:48] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+INFO:/home/pi/git/RPI_Projector/slideshow_plus/projector/pjlink.py:on
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2018 03:31:53] "GET /command?key=KEY_O HTTP/1.1" 200 -
+WARNING:/home/pi/git/RPI_Projector/slideshow_plus/projector/pjlink.py:timed out
+INFO:/home/pi/git/RPI_Projector/slideshow_plus/projector/pjlink.py:off
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2018 03:31:56] "GET /command?key=KEY_P HTTP/1.1" 200 -
+WARNING:/home/pi/git/RPI_Projector/slideshow_plus/projector/pjlink.py:timed out
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2018 03:31:59] "GET /command?key=KEY_DELETE HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/2.pdf
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2018 03:32:04] "GET /command?key=KEY_R HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/2.pdf
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2018 03:32:07] "GET /command?key=KEY_R HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/2.pdf
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2018 03:32:10] "GET /command?key=KEY_R HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/2.pdf
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2018 03:32:13] "GET /command?key=KEY_R HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/2.pdf
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2018 03:32:18] "GET /command?key=KEY_R HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2018 03:32:24] "GET /command?key=KEY_DELETE HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/2.pdf
+INFO:/home/pi/git/RPI_Projector/slideshow_plus/projector/pjlink.py:on
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2018 03:32:27] "GET /command?key=KEY_O HTTP/1.1" 200 -
+WARNING:/home/pi/git/RPI_Projector/slideshow_plus/projector/pjlink.py:timed out
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/2.pdf
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2018 03:32:30] "GET /command?key=KEY_R HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/2.pdf
+INFO:/home/pi/git/RPI_Projector/slideshow_plus/projector/pjlink.py:on
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2018 03:32:33] "GET /command?key=KEY_O HTTP/1.1" 200 -
+WARNING:/home/pi/git/RPI_Projector/slideshow_plus/projector/pjlink.py:timed out
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/3.pdf
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2018 03:32:38] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/4.pdf
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2018 03:32:42] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/3.pdf
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2018 03:32:46] "GET /command?key=KEY_DOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/2.pdf
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2018 03:32:52] "GET /command?key=KEY_DOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1.pdf
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2018 03:32:54] "GET /command?key=KEY_DOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/2.pdf
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2018 03:32:56] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/3.pdf
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2018 03:32:58] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/4.pdf
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2018 03:33:00] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/3.pdf
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2018 03:33:04] "GET /command?key=KEY_DOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/2.pdf
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2018 03:33:06] "GET /command?key=KEY_DOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1.pdf
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2018 03:33:08] "GET /command?key=KEY_DOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/0.pdf
+INFO:werkzeug:127.0.0.1 - - [09/Apr/2018 03:33:11] "GET /command?key=KEY_DOWN HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.118 - - [09/Apr/2018 11:10:50] "GET /remote HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.118 - - [09/Apr/2018 11:10:51] "GET /static/css/remote_old.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.118 - - [09/Apr/2018 11:10:51] "GET /static/js/remote_old.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.118 - - [09/Apr/2018 11:10:52] "GET /favicon.ico HTTP/1.1" 404 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1.pdf
+INFO:werkzeug:192.168.1.118 - - [09/Apr/2018 11:10:54] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1.pdf
+INFO:werkzeug:192.168.1.118 - - [09/Apr/2018 11:10:57] "GET /command?key=KEY_R HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1.pdf
+INFO:werkzeug:192.168.1.118 - - [09/Apr/2018 11:11:02] "GET /command?key=KEY_R HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/2.pdf
+INFO:werkzeug:192.168.1.118 - - [09/Apr/2018 11:11:05] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/3.pdf
+INFO:werkzeug:192.168.1.118 - - [09/Apr/2018 11:11:08] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/4.pdf
+INFO:werkzeug:192.168.1.118 - - [09/Apr/2018 11:11:10] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.118 - - [09/Apr/2018 11:11:13] "GET /command?key=5 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[5]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/5.pdf
+INFO:werkzeug:192.168.1.118 - - [09/Apr/2018 11:11:15] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.118 - - [09/Apr/2018 11:11:20] "GET /command?key=9 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[5, 9]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/9.pdf
+INFO:werkzeug:192.168.1.118 - - [09/Apr/2018 11:11:22] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.118 - - [09/Apr/2018 11:11:25] "GET /command?key=1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.118 - - [09/Apr/2018 11:11:26] "GET /command?key=0 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[5, 9, 10]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/10.pdf
+INFO:werkzeug:192.168.1.118 - - [09/Apr/2018 11:11:27] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/10.pdf
+INFO:werkzeug:192.168.1.118 - - [09/Apr/2018 11:11:31] "GET /command?key=KEY_R HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/10.pdf
+INFO:werkzeug:192.168.1.118 - - [09/Apr/2018 11:11:34] "GET /command?key=KEY_R HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/9.pdf
+INFO:werkzeug:192.168.1.118 - - [09/Apr/2018 11:11:37] "GET /command?key=KEY_VOLUMEDOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/5.pdf
+INFO:werkzeug:192.168.1.118 - - [09/Apr/2018 11:11:40] "GET /command?key=KEY_VOLUMEDOWN HTTP/1.1" 200 -
+INFO:/home/pi/git/RPI_Projector/slideshow_plus/projector/pjlink.py:off
+INFO:werkzeug:192.168.1.118 - - [09/Apr/2018 11:11:45] "GET /command?key=KEY_P HTTP/1.1" 200 -
+INFO:/home/pi/git/RPI_Projector/slideshow_plus/projector/pjlink.py:on
+INFO:werkzeug:192.168.1.118 - - [09/Apr/2018 11:11:47] "GET /command?key=KEY_O HTTP/1.1" 200 -
+WARNING:/home/pi/git/RPI_Projector/slideshow_plus/projector/pjlink.py:timed out
+WARNING:/home/pi/git/RPI_Projector/slideshow_plus/projector/pjlink.py:[Errno 113] No route to host
+INFO:/home/pi/git/RPI_Projector/slideshow_plus/projector/pjlink.py:off
+INFO:werkzeug:192.168.1.118 - - [09/Apr/2018 11:11:48] "GET /command?key=KEY_P HTTP/1.1" 200 -
+WARNING:/home/pi/git/RPI_Projector/slideshow_plus/projector/pjlink.py:timed out
+INFO:/home/pi/git/RPI_Projector/slideshow_plus/projector/pjlink.py:on
+INFO:werkzeug:192.168.1.118 - - [09/Apr/2018 11:11:51] "GET /command?key=KEY_O HTTP/1.1" 200 -
+WARNING:/home/pi/git/RPI_Projector/slideshow_plus/projector/pjlink.py:[Errno 113] No route to host
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/5.pdf
+INFO:werkzeug:192.168.1.118 - - [09/Apr/2018 11:11:55] "GET /command?key=KEY_R HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/5.pdf
+INFO:werkzeug:192.168.1.118 - - [09/Apr/2018 11:11:57] "GET /command?key=KEY_R HTTP/1.1" 200 -
