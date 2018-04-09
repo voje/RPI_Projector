@@ -46,7 +46,7 @@ class Core():
         self.HIST_LEN = 20
 
         self.blank = False
-        self.blanked = None  # file hiding behind blank
+        self.last_displayed_path = join(self.core_static, "r_slides/r_blank.pdf")
         self.projector = pjlink.Pjlink()
 
         # Function order is important.
@@ -133,10 +133,9 @@ class Core():
 
     def low_display(self, filepath):
         if self.blank:
-            self.blanked = filepath
             filepath = join(self.core_static, "r_slides/r_blank.pdf")
         else:
-            self.blanked = None
+            self.last_displayed_path = filepath
         if self.no_display:
             return
         system("{}/bash_scripts/display_any.sh {}".format(
@@ -205,7 +204,7 @@ class Core():
 
     def toggle_blank(self):
         self.blank = not self.blank
-        self.display(add_to_history=False)
+        self.low_display(self.last_displayed_path)
 
     def special_command(self, command):
         log.info("special_command:{}".format(command))
