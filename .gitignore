@@ -1,4 +1,5 @@
 *.pyc
 venv/
 slideshow_plus.egg-info/
-slideshow_plus/core_static/tmp_files/*
+slideshow_plus/core_static/tmp_files/index.pdf
+slideshow_plus/log/

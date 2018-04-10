@@ -10,7 +10,7 @@ capture_parent_pid=""
 function fn_cleanup() {
 	echo "Clenup after kill."
 	bash "${project_dir}/slideshow_plus/core_static/bash_scripts/cleanup.sh"	
-	if [ $cleanup_pid ]; then
+	if [ $capture_parent_pid ]; then
 		kill $capture_parent_pid
 	fi
 }
@@ -34,8 +34,8 @@ while [[ $# -gt 0 ]]; do
         exit
         ;;
     --kill)
-        kill_all=true 
-        shift
+	fn_cleanup
+	exit
         ;;
     --no_display)
         args="$args $key"
@@ -55,10 +55,6 @@ while [[ $# -gt 0 ]]; do
         ;;
     esac
 done
-
-if $kill_all; then
-    fn_cleanup
-fi
 
 # Hardcoded...
 capture_keyboard=false
