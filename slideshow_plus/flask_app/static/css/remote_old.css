@@ -5,6 +5,7 @@
 .red-bg {
     background: #FF6347;
 }
+
 .green-text {
     color: green;
 }
@@ -68,4 +69,9 @@ html, body {
 
 .outl {
     outline: 5px solid black;
+}
+
+/* this class needs to be defined after .key */
+.green-bg {
+    background-color: green;
 }

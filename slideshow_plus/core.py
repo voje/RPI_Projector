@@ -46,7 +46,8 @@ class Core():
         self.HIST_LEN = 20
 
         self.blank = False
-        self.last_displayed_path = join(self.core_static, "r_slides/r_blank.pdf")
+        self.last_displayed_path = join(
+            self.core_static, "r_slides/r_blank.pdf")
         self.projector = pjlink.Pjlink()
 
         # Function order is important.
@@ -205,8 +206,8 @@ class Core():
         self.idx_history = self.idx_history[:-1]
         self.current_hist_idx = len(self.idx_history) - 1
 
-    def toggle_blank(self, command):
-        if command == "on":
+    def set_blank(self, blank_on):
+        if blank_on:
             self.blank = True
         else:
             self.blank = False

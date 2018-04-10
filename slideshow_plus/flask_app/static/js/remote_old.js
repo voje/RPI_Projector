@@ -72,24 +72,16 @@ function clickHandler(e) {
                 }
                 body.className = ""; 
 
-                // ugh this is ugly, I'm sick of bare js...
-                if (response["blank"]) {
-                    key_sleep.className = "key outl";
+                if (!response["blank"] && response["projector_state"] === "on") {
+                    key_on.className = "green-bg key"
                 } else {
-                    key_sleep.className = "key";
-                }
-                if (response["projector_state"] === "on") {
-                    key_on.className = "key outl";
-                    key_off.className = "key";
-                } else {
-                    key_off.className = "key outl";
-                    key_on.className = "key";
+                    key_on.className = "key"
                 }
             } else if (this.status == 0) {
                 body.className = "red-bg";
             }
         }
     }
-    xhttp.open("GET", url, true);
+    xhttp.open("GET", url, false);
     xhttp.send();
 }

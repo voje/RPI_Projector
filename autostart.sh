@@ -3,7 +3,7 @@
 
 export DISPLAY=:0
 
-project_dir="/home/pi/git/RPI_Projector"
+project_dir="/home/${USER}/git/RPI_Projector"
 
 capture_parent_pid=""
 
