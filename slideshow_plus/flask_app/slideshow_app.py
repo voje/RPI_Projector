@@ -79,6 +79,7 @@ def command():
             if core.blank:
                 core.set_blank(blank_on=False)
             core.projector.on()
+            core.display(add_to_history=False)
         elif key == "KEY_P":
             core.projector.off()
         elif key == "KEY_R":
