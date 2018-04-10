@@ -73,9 +73,14 @@ function clickHandler(e) {
                 body.className = ""; 
 
                 if (!response["blank"] && response["projector_state"] === "on") {
-                    key_on.className = "green-bg key"
+                    key_on.className = "key green-bg"
                 } else {
                     key_on.className = "key"
+                }
+                if (response["blank"]) {
+                    key_sleep.className = "key green-bg"
+                } else {
+                    key_sleep.className = "key"
                 }
             } else if (this.status == 0) {
                 body.className = "red-bg";
