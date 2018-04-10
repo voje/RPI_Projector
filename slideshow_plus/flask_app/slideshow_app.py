@@ -42,7 +42,7 @@ def remote():
 
 @app.route("/remote_old")
 def remote_old():
-    return render_tmeplate("remote_old.html")
+    return render_template("remote_old.html")
 
 
 @app.route("/command")

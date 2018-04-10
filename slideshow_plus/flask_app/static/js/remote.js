@@ -97,6 +97,6 @@ function clickHandler(e) {
             }
         }
     }
-    xhttp.open("GET", url, false);
+    xhttp.open("GET", url, true);
     xhttp.send();
 }
