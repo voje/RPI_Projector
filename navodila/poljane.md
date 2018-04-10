@@ -13,7 +13,8 @@
 
 ### Uporaba pilota
 * S telefonom ali računalnikom se povežemo na omrežje: `SSID: malina, geslo: malina18`.
-* Pilot najdemo na naslovu `192.168.2.1:5003/remote`.
+* Če se omrežje `malina` ne prikaže, raspberry ponovno zaženemo (izključimo in vključimo napajalni kabel).
+* Pilot najdemo na naslovu `192.168.2.1:5001/remote`.
 * Na voljo so številčnica in ukazne tipke.
 * Z uporabo številčnice lahko dostopamo do oštevilčenih datotek: vpišemo številko in pritisnemo `Enter`.
 * Zgoraj desno se prikaže ime datoteke, ki se trenutno predvaja.

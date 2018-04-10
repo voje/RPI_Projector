@@ -147,15 +147,14 @@ class Core():
             self.core_static, filepath))
 
     def display(self, add_to_history=None):
-        if self.current_idx < 0:
-            return
         if add_to_history is None:
             add_to_history = True
-        filepath = self.files[self.current_idx]["filepath"]
-        if not isfile(filepath):
-            log.warning("file not found: {}".format(
-                filepath))
-            return
+        if self.current_idx >= 0:
+            filepath = self.files[self.current_idx]["filepath"]
+            if not isfile(filepath):
+                log.warning("file not found: {}".format(
+                    filepath))
+                return
         if add_to_history:
             if (
                 len(self.idx_history) == 0 or
