@@ -20,6 +20,7 @@ trap fn_cleanup INT
 args=""
 
 capture_keyboard=false
+kill_all=false
 
 while [[ $# -gt 0 ]]; do
     key="$1"
