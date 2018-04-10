@@ -916,3 +916,72 @@ INFO:werkzeug:192.168.1.121 - - [10/Apr/2018 16:04:23] "GET /command?key=KEY_R H
 INFO:/home/pi/git/RPI_Projector/slideshow_plus/projector/pjlink.py:off
 INFO:werkzeug:192.168.1.121 - - [10/Apr/2018 16:04:26] "GET /command?key=KEY_P HTTP/1.1" 200 -
 WARNING:/home/pi/git/RPI_Projector/slideshow_plus/projector/pjlink.py:timed out
+DEBUG:slideshow_plus.core:looking for media in [/media/pi]
+INFO:slideshow_plus.core:found files in /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi
+DEBUG:slideshow_plus.core:{'filename': 'number_1.png', 'number': '1', 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_1.png'}
+DEBUG:slideshow_plus.core:{'filename': 'number_2.png', 'number': '2', 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_2.png'}
+DEBUG:slideshow_plus.core:{'filename': 'number3.png', 'number': '3', 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number3.png'}
+INFO:slideshow_plus.core:gen_pdf: /home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf
+DEBUG:slideshow_plus.core:low_display():/home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf
+DEBUG:slideshow_plus.core:Core ready.
+INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.1.121 - - [10/Apr/2018 16:17:56] "GET /remote_old HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_1.png
+INFO:werkzeug:192.168.1.121 - - [10/Apr/2018 16:18:01] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_1.png
+INFO:werkzeug:192.168.1.121 - - [10/Apr/2018 16:18:15] "GET /command?key=KEY_DOWN HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.121 - - [10/Apr/2018 16:18:25] "GET /command?key=1 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0]
+DEBUG:slideshow_plus.core:low_display():/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_1.png
+INFO:werkzeug:192.168.1.121 - - [10/Apr/2018 16:18:26] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.121 - - [10/Apr/2018 16:18:29] "GET /command?key=2 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.121 - - [10/Apr/2018 16:18:32] "GET /command?key=3 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/home/pi/git/RPI_Projector/slideshow_plus/core_static/r_slides/r_blank.pdf
+INFO:werkzeug:192.168.1.121 - - [10/Apr/2018 16:18:37] "GET /command?key=KEY_R HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_1.png
+INFO:/home/pi/git/RPI_Projector/slideshow_plus/projector/pjlink.py:on
+INFO:werkzeug:192.168.1.121 - - [10/Apr/2018 16:18:42] "GET /command?key=KEY_O HTTP/1.1" 200 -
+WARNING:/home/pi/git/RPI_Projector/slideshow_plus/projector/pjlink.py:timed out
+INFO:/home/pi/git/RPI_Projector/slideshow_plus/projector/pjlink.py:off
+INFO:werkzeug:192.168.1.121 - - [10/Apr/2018 16:19:00] "GET /command?key=KEY_P HTTP/1.1" 200 -
+WARNING:/home/pi/git/RPI_Projector/slideshow_plus/projector/pjlink.py:timed out
+DEBUG:slideshow_plus.core:looking for media in [/media/pi]
+INFO:slideshow_plus.core:found files in /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi
+DEBUG:slideshow_plus.core:{'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_1.png', 'number': '1', 'filename': 'number_1.png'}
+DEBUG:slideshow_plus.core:{'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_2.png', 'number': '2', 'filename': 'number_2.png'}
+DEBUG:slideshow_plus.core:{'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number3.png', 'number': '3', 'filename': 'number3.png'}
+INFO:slideshow_plus.core:gen_pdf: /home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf
+DEBUG:slideshow_plus.core:low_display():/home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf
+DEBUG:slideshow_plus.core:Core ready.
+INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.1.121 - - [10/Apr/2018 16:28:24] "GET /remote_old HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.109 - - [10/Apr/2018 16:28:58] "GET /remote_old HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.109 - - [10/Apr/2018 16:29:00] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:192.168.1.109 - - [10/Apr/2018 16:29:01] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:/home/pi/git/RPI_Projector/slideshow_plus/projector/pjlink.py:on
+INFO:werkzeug:192.168.1.109 - - [10/Apr/2018 16:29:01] "GET /command?key=KEY_O HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_1.png
+WARNING:/home/pi/git/RPI_Projector/slideshow_plus/projector/pjlink.py:timed out
+INFO:werkzeug:192.168.1.109 - - [10/Apr/2018 16:29:05] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_2.png
+INFO:werkzeug:192.168.1.109 - - [10/Apr/2018 16:29:08] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number3.png
+INFO:werkzeug:192.168.1.109 - - [10/Apr/2018 16:29:11] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.109 - - [10/Apr/2018 16:29:12] "GET /remote_old HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.109 - - [10/Apr/2018 16:31:40] "GET /command?key=1 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0]
+DEBUG:slideshow_plus.core:low_display():/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_1.png
+INFO:werkzeug:192.168.1.109 - - [10/Apr/2018 16:31:43] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.109 - - [10/Apr/2018 16:33:01] "GET /command?key=1 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_1.png
+INFO:werkzeug:192.168.1.109 - - [10/Apr/2018 16:33:06] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.109 - - [10/Apr/2018 16:33:15] "GET /command?key=2 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0, 1]
+DEBUG:slideshow_plus.core:low_display():/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_2.png
+INFO:werkzeug:192.168.1.109 - - [10/Apr/2018 16:33:19] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.109 - - [10/Apr/2018 16:33:25] "GET /command?key=3 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0, 1, 2]
+DEBUG:slideshow_plus.core:low_display():/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number3.png
+INFO:werkzeug:192.168.1.109 - - [10/Apr/2018 16:33:29] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.121 - - [10/Apr/2018 16:33:46] "GET /remote_old HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.121 - - [10/Apr/2018 16:34:03] "GET /remote_old HTTP/1.1" 200 -
