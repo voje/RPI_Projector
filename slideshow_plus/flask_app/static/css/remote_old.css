@@ -27,7 +27,8 @@
 }
 .key {
     background-color:#66a3ff;
-    font-size: 80px;
+    font-size: 40px;
+    height: 10px;
 }
 .num {
     background-color:#99c2ff;   
@@ -37,7 +38,7 @@
 }
 html, body {
     /*To take in the window header*/
-    height: 95%; 
+    height: 92%; 
 }
 .stretch {
     height: 100%;
@@ -47,7 +48,7 @@ html, body {
     vertical-align: middle;
     margin: 0px 5px 0px 5px;
     width: 98%;
-    height: 100px;
+    height: 90px;
 }
 #prev-l {
     font-size: 70px;

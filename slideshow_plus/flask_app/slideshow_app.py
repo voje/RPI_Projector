@@ -71,12 +71,12 @@ def command():
             core.display(add_to_history=False)
         elif key == "KEY_O":
             if core.blank:
-                core.toggle_blank()
+                core.toggle_blank("off")
             core.projector.on()
         elif key == "KEY_P":
             core.projector.off()
         elif key == "KEY_R":
-            core.toggle_blank()
+            core.toggle_blank("on")
         else:
             success = False
     current_file = (
