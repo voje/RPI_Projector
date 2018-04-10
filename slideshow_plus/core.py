@@ -136,10 +136,10 @@ class Core():
             self.low_display(filepath)
 
     def low_display(self, filepath):
+        if filepath is None:
+            filepath = self.last_displayed_filepath
         log.debug("low_display():{}".format(filepath))
-        if self.blank:
-            filepath = join(self.core_static, "r_slides/r_blank.pdf")
-        else:
+        if not self.blank:
             self.last_displayed_path = filepath
         if self.no_display:
             return
@@ -165,6 +165,8 @@ class Core():
                 self.idx_history = self.idx_history[-self.HIST_LEN:]
                 self.current_hist_idx = len(self.idx_history) - 1
                 log.debug("display():self.history:{}".format(self.idx_history))
+        if self.blank:
+            filepath = join(self.core_static, "r_slides/r_blank.pdf")
         self.low_display(filepath)
 
     def next_file(self):
@@ -211,7 +213,7 @@ class Core():
             self.blank = True
         else:
             self.blank = False
-        self.low_display(self.last_displayed_path)
+        self.display(add_to_history=False)
 
     def special_command(self, command):
         log.info("special_command:{}".format(command))

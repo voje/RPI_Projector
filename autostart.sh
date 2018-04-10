@@ -20,15 +20,21 @@ trap fn_cleanup INT
 args=""
 
 capture_keyboard=false
+
 while [[ $# -gt 0 ]]; do
     key="$1"
     case "$key" in
     --help)
         echo "args:
+        --kill
         --no_display
         --no_usb_wait
         --capture_keyboard"
         exit
+        ;;
+    --kill)
+        kill_all=true 
+        shift
         ;;
     --no_display)
         args="$args $key"
@@ -48,6 +54,10 @@ while [[ $# -gt 0 ]]; do
         ;;
     esac
 done
+
+if $kill_all; then
+    fn_cleanup
+fi
 
 # Hardcoded...
 capture_keyboard=false
