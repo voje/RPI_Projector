@@ -473,3 +473,11 @@ INFO:werkzeug:192.168.2.16 - - [10/Apr/2018 13:02:19] "GET /command?key=KEY_ENTE
 INFO:/home/pi/git/RPI_Projector/slideshow_plus/projector/pjlink.py:on
 INFO:werkzeug:192.168.2.16 - - [10/Apr/2018 13:02:24] "GET /command?key=KEY_O HTTP/1.1" 200 -
 WARNING:/home/pi/git/RPI_Projector/slideshow_plus/projector/pjlink.py:[Errno 101] Network is unreachable
+DEBUG:slideshow_plus.core:looking for media in [/media/pi]
+INFO:slideshow_plus.core:found files in /home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi
+DEBUG:slideshow_plus.core:{'filename': 'number_1.png', 'number': '1', 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_1.png'}
+DEBUG:slideshow_plus.core:{'filename': 'number_2.png', 'number': '2', 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_2.png'}
+DEBUG:slideshow_plus.core:{'filename': 'number3.png', 'number': '3', 'filepath': '/home/pi/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number3.png'}
+INFO:slideshow_plus.core:gen_pdf: /home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf
+DEBUG:slideshow_plus.core:low_display():/home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf
+DEBUG:slideshow_plus.core:Core ready.

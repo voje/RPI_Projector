@@ -72,16 +72,26 @@ function clickHandler(e) {
                 }
                 body.className = ""; 
 
+		// blank button
                 if (!response["blank"] && response["projector_state"] === "on") {
                     key_on.className = "key green-bg"
                 } else {
                     key_on.className = "key"
                 }
+
+		// on button
                 if (response["blank"]) {
                     key_sleep.className = "key green-bg"
                 } else {
                     key_sleep.className = "key"
                 }
+
+		// of button
+		if (response["projector_state"] === "off") {
+			key_off.className = "key green-bg"
+		} else {
+			key_off.className = "key"	
+		}
             } else if (this.status == 0) {
                 body.className = "red-bg";
             }
