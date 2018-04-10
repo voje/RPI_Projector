@@ -6,7 +6,7 @@ log = logging.getLogger(__name__)
 class Projector:
     def __init__(self, name=None):
         self.name = name or "skeleton for a projector class"
-        self.state = "off"   # For debugging. TODO change to undefined
+        self.state = "on"  # on for Poljane..
 
     def on(self):
         self.state = "on"
