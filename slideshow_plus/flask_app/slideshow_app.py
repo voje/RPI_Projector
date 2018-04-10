@@ -36,8 +36,13 @@ def log():
 
 
 @app.route("/remote")
+def remote():
+    return render_template("remote.html")
+
+
+@app.route("/remote_old")
 def remote_old():
-    return render_template("remote_old.html")
+    return render_tmeplate("remote_old.html")
 
 
 @app.route("/command")
@@ -57,6 +62,7 @@ def command():
         buff = ""
         if key == "KEY_DELETE":
             core.del_hist_file()
+            core.display(add_to_history=False)
         elif key == "KEY_UP":
             core.next_file()
             core.display(add_to_history=False)

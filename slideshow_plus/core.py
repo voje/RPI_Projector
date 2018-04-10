@@ -207,6 +207,8 @@ class Core():
     def del_hist_file(self):
         self.idx_history = self.idx_history[:-1]
         self.current_hist_idx = len(self.idx_history) - 1
+        if len(self.idx_history) > 0:
+            self.current_idx = self.idx_history[-1]
 
     def set_blank(self, blank_on):
         if blank_on:

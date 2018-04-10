@@ -1,25 +1,131 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="user-scalable=no" />
-    <link rel="stylesheet" type="text/css" href="/static/css/remote_old.css"/>
+	<meta charset="utf-8">
     <title>Remote Control</title>
+    <style>
+        #keypad_table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+            table-layout: fixed;
+        }
+        #keypad_table,
+        #keypad_table td,
+        #keypad_table tr {
+            border: 2px solid black;
+        }
+        #keypad_table td {
+            width: 25%;
+        }
+        .key {
+            background-color:#66a3ff;
+            font-size: 50px;
+        }
+		.num {
+		    background-color:#99c2ff;	
+		}
+        .focused {
+            background-color:#0066ff;
+        }
+        html, body {
+            /*To take in the window header*/
+            height: 95%; 
+        }
+        .stretch {
+            height: 100%;
+        }
+        #prev_div {
+        	padding: 5px 5px 5px 5px;
+        	margin: 5px;
+            font-size: 55px;
+        	width: 100%;
+            height: 70px;
+        }
+        #prev {
+            padding: 0px 0px 5px 20px;
+            margin: 0px;
+        }
+        #prev1 {
+            padding: 0px 20px 5px 0px;
+            margin: 0px;
+        	float: right;	
+        }
+    </style>
 </head>
 
 <body>
+
     <noscript>
         Your browser does not support javascript.
     </noscript>
-    <div id="prev-div">
-        <div id="prev-l"></div>
-        <div id="prev-r"></div>
+
+    <script>
+        var focused
+		var saved_classes //when a button loses focus, it gets its old classes
+        var prev
+        var prev1
+        var prevList = []
+        window.onload = function() {
+            var keys = document.getElementsByClassName("key")
+            for (var i=0; i<keys.length; i++) {
+                keys[i].onclick = clickHandler
+            }
+            prev = document.getElementById("prev")
+            prev1 = document.getElementById("prev1")
+            prev.innerText = ""
+            prev1.innerText = ""
+        }
+
+        function clickHandler(e) {
+            if (focused != null) {
+                focused.className = saved_classes
+            }
+            focused = e.target
+		    saved_classes = focused.className
+            focused.className = "key focused"
+            var txt = focused.innerText
+            //alert(txt)
+
+            //send data
+            var xhttp = new XMLHttpRequest();
+            var url = "/command?key="+txt
+            xhttp.onreadystatechange = function() {
+            	if (this.readyState == 4 && this.status == 200) {
+                	//document.getElementById("demo").innerHTML = xhttp.responseText;
+                    //update preview
+                    if (!isNaN(txt)) {
+                        prev.innerText += focused.innerText
+                    } else if (txt == "Enter" && prev.innerText != "") {
+                    	prevList.push(prev.innerText)
+                    	prev1.innerText = prevList[prevList.length-1]
+                        prev.innerText = "" 
+                    } else if (txt == "Delete") {
+                    	prevList.splice(-1,1)
+                    	if (prevList.length > 0) {
+                    		prev1.innerText = prevList[prevList.length-1]
+                    	} else {
+                    		prev1.innerText = ""
+                    	}
+                    }
+                } else {
+                	//prev.innerText = "Napaka 1"
+                }
+            }
+            xhttp.open("GET", url, true);
+            xhttp.send();
+        }
+    </script>
+
+    <div id="prev_div">
+        <span id="prev"></span>
+        <span id="prev1"></span>
     </div>
     <div class="stretch">
-        <table class="stretch" id="keypad-table">
+        <table class="stretch" id="keypad_table">
             <tr>
-                <td class="key" id="key-on">On</td>
-                <td class="key" id="key-off">Off</td>
+                <td class="key">On</td>
+                <td class="key">Off</td>
                 <td colspan=2 style="width:50%" class="key">&uarr;</td>
             </tr>
             <tr>
@@ -32,7 +138,7 @@
                 <td class="key num">4</td>
                 <td class="key num">5</td>
                 <td class="key num">6</td>
-                <td class="key" id="key-sleep">Sleep</td>
+                <td class="key">Sleep</td>
             </tr>
                 <td class="key num">7</td>
                 <td class="key num">8</td>
@@ -47,7 +153,7 @@
             </tr>
         </table>
     </div>
-    <script src="/static/js/remote_old.js"></script>
+
 </body>
 
 </html>
