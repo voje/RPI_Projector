@@ -10,7 +10,7 @@
 
 export DISPLAY=:0
 slp=0.3
-filename=$1
+filename="$1"
 
 if [ $(head -c 4 "${filename}") = "%PDF" ]; then
     # echo "using xpdf"

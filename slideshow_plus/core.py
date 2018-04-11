@@ -143,7 +143,7 @@ class Core():
             self.last_displayed_path = filepath
         if self.no_display:
             return
-        system("{}/bash_scripts/display_any.sh {}".format(
+        system("{}/bash_scripts/display_any.sh '{}'".format(
             self.core_static, filepath))
 
     def display(self, add_to_history=None):
