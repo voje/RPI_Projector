@@ -208,6 +208,7 @@ class Core():
         self.current_hist_idx = len(self.idx_history) - 1
         if len(self.idx_history) > 0:
             self.current_idx = self.idx_history[-1]
+        log.debug(self.idx_history)
 
     def set_blank(self, blank_on):
         if blank_on:
