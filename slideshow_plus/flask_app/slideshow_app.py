@@ -45,6 +45,11 @@ def remote_old():
     return render_template("remote_old.html")
 
 
+@app.route("/remote_stl")
+def remote_stl():
+    return render_template("remote_stl.html")
+
+
 @app.route("/command")
 def command():
     global buff
