@@ -671,3 +671,124 @@ INFO:slideshow_plus.core:gen_pdf: /home/kristjan/git/RPI_Projector/slideshow_plu
 DEBUG:slideshow_plus.core:low_display():/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf
 DEBUG:slideshow_plus.core:Core ready.
 INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+DEBUG:slideshow_plus.core:looking for media in [/media/kristjan]
+INFO:slideshow_plus.core:found files in /home/kristjan/git/RPI_Projector/slideshow_plus/core_static/diapozitivi
+DEBUG:slideshow_plus.core:{'filename': 'number_1.png', 'filepath': '/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_1.png', 'number': '1'}
+DEBUG:slideshow_plus.core:{'filename': 'number_2.png', 'filepath': '/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_2.png', 'number': '2'}
+DEBUG:slideshow_plus.core:{'filename': 'number3.png', 'filepath': '/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number3.png', 'number': '3'}
+INFO:slideshow_plus.core:gen_pdf: /home/kristjan/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf
+DEBUG:slideshow_plus.core:low_display():/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf
+DEBUG:slideshow_plus.core:Core ready.
+INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.1.109 - - [12/Apr/2018 17:59:54] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.109 - - [12/Apr/2018 17:59:56] "GET /command?key=1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.109 - - [12/Apr/2018 17:59:56] "GET /command?key=2 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.109 - - [12/Apr/2018 17:59:57] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.109 - - [12/Apr/2018 17:59:58] "GET /command?key=3 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[2]
+DEBUG:slideshow_plus.core:low_display():/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number3.png
+INFO:werkzeug:192.168.1.109 - - [12/Apr/2018 17:59:59] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.109 - - [12/Apr/2018 18:00:04] "GET /command?key=1 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[2, 0]
+DEBUG:slideshow_plus.core:low_display():/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_1.png
+INFO:werkzeug:192.168.1.109 - - [12/Apr/2018 18:00:05] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.109 - - [12/Apr/2018 18:00:06] "GET /command?key=2 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[2, 0, 1]
+DEBUG:slideshow_plus.core:low_display():/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_2.png
+INFO:werkzeug:192.168.1.109 - - [12/Apr/2018 18:00:08] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.109 - - [12/Apr/2018 18:00:09] "GET /command?key=3 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[2, 0, 1, 2]
+DEBUG:slideshow_plus.core:low_display():/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number3.png
+INFO:werkzeug:192.168.1.109 - - [12/Apr/2018 18:00:10] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.115 - - [12/Apr/2018 18:00:12] "GET /command?key=1 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[2, 0, 1, 2, 0]
+DEBUG:slideshow_plus.core:low_display():/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_1.png
+INFO:werkzeug:192.168.1.115 - - [12/Apr/2018 18:00:13] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.115 - - [12/Apr/2018 18:00:14] "GET /command?key=2 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[2, 0, 1, 2, 0, 1]
+DEBUG:slideshow_plus.core:low_display():/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_2.png
+INFO:werkzeug:192.168.1.115 - - [12/Apr/2018 18:00:15] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.109 - - [12/Apr/2018 18:00:16] "GET /command?key=3 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[2, 0, 1, 2, 0, 1, 2]
+DEBUG:slideshow_plus.core:low_display():/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number3.png
+INFO:werkzeug:192.168.1.109 - - [12/Apr/2018 18:00:18] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.109 - - [12/Apr/2018 18:00:25] "GET /remote_stl HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.109 - - [12/Apr/2018 18:00:25] "GET /static/css/remote_stl.css HTTP/1.1" 304 -
+INFO:werkzeug:192.168.1.109 - - [12/Apr/2018 18:00:25] "GET /static/js/remote.js HTTP/1.1" 304 -
+INFO:werkzeug:192.168.1.109 - - [12/Apr/2018 18:00:37] "GET /remote_stl HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.109 - - [12/Apr/2018 18:00:37] "GET /static/css/remote_stl.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.109 - - [12/Apr/2018 18:00:37] "GET /static/js/remote.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.109 - - [12/Apr/2018 18:00:37] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:192.168.1.109 - - [12/Apr/2018 18:00:39] "GET /command?key=1 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[2, 0, 1, 2, 0, 1, 2, 0]
+DEBUG:slideshow_plus.core:low_display():/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_1.png
+INFO:werkzeug:192.168.1.109 - - [12/Apr/2018 18:00:40] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.109 - - [12/Apr/2018 18:00:41] "GET /command?key=2 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[2, 0, 1, 2, 0, 1, 2, 0, 1]
+DEBUG:slideshow_plus.core:low_display():/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_2.png
+INFO:werkzeug:192.168.1.109 - - [12/Apr/2018 18:00:42] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.109 - - [12/Apr/2018 18:00:43] "GET /command?key=3 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[2, 0, 1, 2, 0, 1, 2, 0, 1, 2]
+DEBUG:slideshow_plus.core:low_display():/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number3.png
+INFO:werkzeug:192.168.1.109 - - [12/Apr/2018 18:00:44] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number3.png
+INFO:werkzeug:192.168.1.109 - - [12/Apr/2018 18:00:47] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number3.png
+INFO:werkzeug:192.168.1.109 - - [12/Apr/2018 18:00:48] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_2.png
+INFO:werkzeug:192.168.1.109 - - [12/Apr/2018 18:00:49] "GET /command?key=KEY_DOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_1.png
+INFO:werkzeug:192.168.1.109 - - [12/Apr/2018 18:00:51] "GET /command?key=KEY_DOWN HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.115 - - [12/Apr/2018 18:00:51] "GET /command?key=1 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[2, 0, 1, 2, 0, 1, 2, 0, 1, 2, 0]
+DEBUG:slideshow_plus.core:low_display():/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_1.png
+INFO:werkzeug:192.168.1.115 - - [12/Apr/2018 18:00:53] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.115 - - [12/Apr/2018 18:00:53] "GET /command?key=2 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[2, 0, 1, 2, 0, 1, 2, 0, 1, 2, 0, 1]
+DEBUG:slideshow_plus.core:low_display():/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_2.png
+INFO:werkzeug:192.168.1.115 - - [12/Apr/2018 18:00:54] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.115 - - [12/Apr/2018 18:00:55] "GET /command?key=3 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[2, 0, 1, 2, 0, 1, 2, 0, 1, 2, 0, 1, 2]
+DEBUG:slideshow_plus.core:low_display():/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number3.png
+INFO:werkzeug:192.168.1.115 - - [12/Apr/2018 18:00:56] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.109 - - [12/Apr/2018 18:01:18] "GET /remote_old HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.109 - - [12/Apr/2018 18:01:27] "GET /remote_stl HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.109 - - [12/Apr/2018 18:01:36] "GET /remote_stl HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.109 - - [12/Apr/2018 18:01:36] "GET /static/css/remote_stl.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.109 - - [12/Apr/2018 18:01:36] "GET /static/js/remote.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.109 - - [12/Apr/2018 18:01:36] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:192.168.1.109 - - [12/Apr/2018 18:01:38] "GET /command?key=1 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[2, 0, 1, 2, 0, 1, 2, 0, 1, 2, 0, 1, 2, 0]
+DEBUG:slideshow_plus.core:low_display():/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_1.png
+INFO:werkzeug:192.168.1.109 - - [12/Apr/2018 18:01:39] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.109 - - [12/Apr/2018 18:01:40] "GET /command?key=2 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[2, 0, 1, 2, 0, 1, 2, 0, 1, 2, 0, 1, 2, 0, 1]
+DEBUG:slideshow_plus.core:low_display():/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_2.png
+INFO:werkzeug:192.168.1.109 - - [12/Apr/2018 18:01:41] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.109 - - [12/Apr/2018 18:01:42] "GET /command?key=3 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[2, 0, 1, 2, 0, 1, 2, 0, 1, 2, 0, 1, 2, 0, 1, 2]
+DEBUG:slideshow_plus.core:low_display():/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number3.png
+INFO:werkzeug:192.168.1.109 - - [12/Apr/2018 18:01:43] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.115 - - [12/Apr/2018 18:01:49] "GET /remote HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.115 - - [12/Apr/2018 18:01:49] "GET /static/css/remote.css HTTP/1.1" 304 -
+INFO:werkzeug:192.168.1.115 - - [12/Apr/2018 18:01:49] "GET /static/js/remote.js HTTP/1.1" 304 -
+INFO:werkzeug:192.168.1.115 - - [12/Apr/2018 18:01:50] "GET /command?key=1 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[2, 0, 1, 2, 0, 1, 2, 0, 1, 2, 0, 1, 2, 0, 1, 2, 0]
+DEBUG:slideshow_plus.core:low_display():/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_1.png
+INFO:werkzeug:192.168.1.115 - - [12/Apr/2018 18:01:52] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.115 - - [12/Apr/2018 18:01:52] "GET /command?key=2 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[2, 0, 1, 2, 0, 1, 2, 0, 1, 2, 0, 1, 2, 0, 1, 2, 0, 1]
+DEBUG:slideshow_plus.core:low_display():/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_2.png
+INFO:werkzeug:192.168.1.115 - - [12/Apr/2018 18:01:53] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.115 - - [12/Apr/2018 18:01:54] "GET /command?key=3 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[2, 0, 1, 2, 0, 1, 2, 0, 1, 2, 0, 1, 2, 0, 1, 2, 0, 1, 2]
+DEBUG:slideshow_plus.core:low_display():/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number3.png
+INFO:werkzeug:192.168.1.115 - - [12/Apr/2018 18:01:55] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.115 - - [12/Apr/2018 18:01:56] "GET /command?key=1 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[2, 0, 1, 2, 0, 1, 2, 0, 1, 2, 0, 1, 2, 0, 1, 2, 0, 1, 2, 0]
+DEBUG:slideshow_plus.core:low_display():/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_1.png
+INFO:werkzeug:192.168.1.115 - - [12/Apr/2018 18:01:57] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.115 - - [12/Apr/2018 18:01:58] "GET /command?key=2 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0, 1, 2, 0, 1, 2, 0, 1, 2, 0, 1, 2, 0, 1, 2, 0, 1, 2, 0, 1]
+DEBUG:slideshow_plus.core:low_display():/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_2.png
+INFO:werkzeug:192.168.1.115 - - [12/Apr/2018 18:01:59] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
