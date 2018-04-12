@@ -52,7 +52,7 @@ html, body {
     height: 90px;
 }
 #prev-l {
-    font-size: 70px;
+    font-size: 50px;
     padding: 0px 0px 0px 20px;
     float: left;
     height: 100%;
@@ -63,7 +63,7 @@ html, body {
     float: right;
     text-align: right;
     width: 66%;
-    font-size: 50px;
+    font-size: 30px;
     overflow: hidden;
 }
 

@@ -19,9 +19,6 @@ trap fn_cleanup INT
 # Parse arguments
 args=""
 
-capture_keyboard=false
-kill_all=false
-
 while [[ $# -gt 0 ]]; do
     key="$1"
     case "$key" in
@@ -29,8 +26,7 @@ while [[ $# -gt 0 ]]; do
         echo "args:
         --kill
         --no_display
-        --no_usb_wait
-        --capture_keyboard"
+        --no_usb_wait"
         exit
         ;;
     --kill)
@@ -42,11 +38,6 @@ while [[ $# -gt 0 ]]; do
         shift
         ;;
     --no_usb_wait)
-        args="$args $key"
-        shift
-        ;;
-    --capture_keyboard)
-        capture_keyboard=true
         args="$args $key"
         shift
         ;;
