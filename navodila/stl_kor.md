@@ -9,7 +9,7 @@
 
 ### Uporaba lastnega pametnega telefona
 * Najprej se povežemo na brezžično omrežje: `SSID: malina, geslo: malina18`.
-* Odpremo brskalnik (firefox, chrome, ...) ter vpišemo naslov: `192.168.1.142:5001/remote`. Prikazal se bo pilot.
+* Odpremo brskalnik (firefox, chrome, ...) ter vpišemo naslov: `http://192.168.1.142:5001/remote`. Prikazal se bo pilot.
 * Če se pilot ne odziva, v brskalnikovem menuju pritisnemo na gumb `osveži (zavita puščica)`.
 
 ### Uporaba pilota
