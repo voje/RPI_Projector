@@ -2600,3 +2600,12 @@ INFO:slideshow_plus.core:gen_pdf: /home/kristjan/git/RPI_Projector/slideshow_plu
 DEBUG:slideshow_plus.core:low_display():/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf
 DEBUG:slideshow_plus.core:Core ready.
 INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+DEBUG:slideshow_plus.core:looking for media in [/media/kristjan]
+INFO:slideshow_plus.core:found files in /home/kristjan/git/RPI_Projector/slideshow_plus/core_static/diapozitivi
+DEBUG:slideshow_plus.core:{'filename': 'number_1.png', 'filepath': '/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_1.png', 'number': '1'}
+DEBUG:slideshow_plus.core:{'filename': 'number_2.png', 'filepath': '/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number_2.png', 'number': '2'}
+DEBUG:slideshow_plus.core:{'filename': 'number3.png', 'filepath': '/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/diapozitivi/number3.png', 'number': '3'}
+INFO:slideshow_plus.core:gen_pdf: /home/kristjan/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf
+DEBUG:slideshow_plus.core:low_display():/home/kristjan/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf
+DEBUG:slideshow_plus.core:Core ready.
+INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
