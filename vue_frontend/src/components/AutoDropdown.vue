@@ -14,7 +14,7 @@ export default {
   data: function () { return {
     choices: undefined,
     subsetInput: "",
-    subsetIdx: [],
+    subsetIdxs: [],
   }},
   props: {
     propChoices: {
@@ -37,18 +37,29 @@ export default {
     subsetChoices: function () {
       var si = this.subsetInput.toLowerCase()
       var idxs = []
-      if (this.subsetIdx.length === 0) {
+      while (si.length < this.subsetIdxs.length) {
+        this.subsetIdxs.pop()
+      }
+      if (this.subsetIdxs.length === 0 ) {
         idxs = this.choices.map(function(v, i) {return i})
       } else {
-        idxs = this.subsetIdx[this.subsetInput.length]
+        idxs = this.subsetIdxs[si.length - 2]
       }
       var tmpChoices = this.choices
-      var newPairs = idxs.map(function(idx) {
+      var newIdxs = []
+      var newChoices = []
+      idxs.forEach(function (idx) {
         if (tmpChoices[idx].toLowerCase().indexOf(si) !== -1) {
-          return [idx, tmpChoices[idx]]
+          newIdxs.push(idx)
+          newChoices.push(tmpChoices[idx])
         }
       })
-      return []
+      if (this.subsetIdxs.length < si.length) {
+        this.subsetIdxs.push(newIdxs)
+      } else {
+        this.subsetIdxs[si.length - 1] = newIdxs
+      }
+      return newChoices
     }
   }
 }
@@ -69,6 +80,8 @@ abstinirati
 abstraktnost
 abuziven
 acetilen
+`
+/*
 acidoza
 adamit
 adekvat
@@ -9511,5 +9524,6 @@ se
 žveplovodikov
 žvižgavec
 žvrkati`
+*/
 
 </script>
