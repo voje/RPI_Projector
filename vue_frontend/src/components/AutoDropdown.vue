@@ -35,6 +35,7 @@ export default {
         else return besede_sample.split("\n")
     },
     subsetChoices: function () {
+      //try search tree
       var si = this.subsetInput.toLowerCase()
       var idxs = []
       while (si.length < this.subsetIdxs.length) {
@@ -80,8 +81,6 @@ abstinirati
 abstraktnost
 abuziven
 acetilen
-`
-/*
 acidoza
 adamit
 adekvat
@@ -9524,6 +9523,5 @@ se
 žveplovodikov
 žvižgavec
 žvrkati`
-*/
 
 </script>
