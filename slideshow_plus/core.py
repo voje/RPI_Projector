@@ -3,7 +3,7 @@
 # Core application for slideshow_plus.
 # Rule of thumb: always use absolute paths.
 import getpass
-from os import listdir, system
+import os
 from os.path import isfile, join, basename, dirname, exists
 import re
 import logging
@@ -63,7 +63,7 @@ class Core():
         tstart = time()
         mass_convert = "{}/core_static/mass_convert.sh".format(
             dirname(__file__))
-        system(("bash {} {} {}").format(
+        os.system(("bash {} {} {}").format(
             mass_convert,
             self.files_dir,
             self.converted_files_dir
@@ -83,7 +83,7 @@ class Core():
         unordered = []
         # Read user files.
         for filename in [
-            fn for fn in listdir(self.files_dir)
+            fn for fn in os.listdir(self.files_dir)
             if isfile(join(self.files_dir, fn))
         ]:
             while filename in self.reserved_filenames:
@@ -113,7 +113,7 @@ class Core():
     def gen_pdf(self, text, filename):
         filepath = join(self.core_static, "tmp_files", filename)
         log.info("gen_pdf: {}".format(filepath))
-        status = system("echo '{}' | paps | ps2pdf -> {}".format(
+        status = os.system("echo '{}' | paps | ps2pdf -> {}".format(
             text, filepath))  # should be blocking
         return (True if status == 0 else False)
 
@@ -143,7 +143,7 @@ class Core():
             self.last_displayed_path = filepath
         if self.no_display:
             return
-        system("{}/bash_scripts/display_any.sh '{}'".format(
+        os.system("{}/bash_scripts/display_any.sh '{}'".format(
             self.core_static, filepath))
 
     def display(self, add_to_history=None):
@@ -243,11 +243,14 @@ class Core():
         if not exists(media_user_dir):
             return (default_dir, False)
         for usb_dir in [
-            join(media_user_dir, x) for x in listdir(media_user_dir)
+            join(media_user_dir, x) for x in os.listdir(media_user_dir)
             if not isfile(join(media_user_dir, x))
         ]:
+            # check if we can read form this dir
+            if not os.access(usb_dir, os.R_OK):
+                continue
             for files_dir in [
-                join(usb_dir, x) for x in listdir(usb_dir)
+                join(usb_dir, x) for x in os.listdir(usb_dir)
                 if not isfile(join(usb_dir, x))
             ]:
                 if basename(files_dir) == self.files_dir_basename:
