@@ -83,9 +83,30 @@ $ sudo sh -c "iptables-save > /etc/iptables.ipv4.nat"
 * in `slideshow_app.py` change debug level
 
 
-## TODO
+## DNS settings
+To run the raspberry with a local DNS.
+(blog post)[https://getpocket.com/a/read/1264152911]
+Check out `./system_config`.
+We alse want `dnsmasq` to run at boot.
+```$ sudo systemctl enable dnsmasq```
 
-* backup for both,
-* install on pink
-* test black
-* ship pink
+## iptables port redirection
+We want to access out app (port 5001) from default 80.
+(Might need to change wlan0 to something else.)
+```bash
+$ sudo iptables -I INPUT 1 -p tcp --dport 80 -j ACCEPT
+$ sudo iptables -A PREROUTING -t nat -i wlan0 -p tcp --dport 80 -j REDIRECT --to-port 5001
+# save the rules to a file
+$ sudo iptables-save > iptables.conf
+```
+We will need to restore iptables config on every boot.
+Put a line in `/etc/rc.local` before `exit 0`.
+```bash
+# Restore firewall settings (from the access point tutorial).
+iptables-restore < /home/pi/git/RPI_Projector/system_config/iptables/iptables.conf
+
+exit 0
+```
+
+After a reboot, find a network called `malina`, type in a password `malina18`, fire up a browser and go to `pi.malina`.
+
