@@ -110,3 +110,11 @@ exit 0
 
 After a reboot, find a network called `malina`, type in a password `malina18`, fire up a browser and go to `pi.malina`.
 
+## Some useful tools
+
+* Write your own systemd service in `/etc/systemd/system/my-service.service`
+```bash
+$ sudo systemctl daemon-reload
+$ sudo systemctl my-service enable/start
+```
+* ```$ systemd-analyse plot > plot.svg```
