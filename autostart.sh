@@ -22,7 +22,7 @@ args=""
 while [[ $# -gt 0 ]]; do
     key="$1"
     case "$key" in
-    --help)
+    -h | --help)
         echo "args:
         --kill
         --no_display
@@ -42,7 +42,8 @@ while [[ $# -gt 0 ]]; do
         shift
         ;;
     *)
-        shift
+        echo "Unknown command."
+	exit
         ;;
     esac
 done
