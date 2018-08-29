@@ -9,6 +9,6 @@ setup(
     author_email='kristjan.voje@gmail.com',
     license='MIT',
     packages=['slideshow_plus'],
-    install_requires=['Flask', 'python-magic'],
+    install_requires=['Flask', 'python-magic', 'flask-cors'],
     zip_safe=False
 )

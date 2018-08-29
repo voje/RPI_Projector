@@ -149,12 +149,14 @@ class Core():
     def display(self, add_to_history=None):
         if add_to_history is None:
             add_to_history = True
-        if self.current_idx >= 0:
-            filepath = self.files[self.current_idx]["filepath"]
-            if not isfile(filepath):
-                log.warning("file not found: {}".format(
-                    filepath))
-                return
+        filepath = self.get_current_file().get("filepath")
+        if filepath is None:
+            log.warning("display(): No file currently selected.")
+            return
+        elif not isfile(filepath):
+            log.error("display(): File not found: {}".format(filepath))
+            return
+
         if add_to_history:
             if (
                 len(self.idx_history) == 0 or
@@ -256,3 +258,8 @@ class Core():
                 if basename(files_dir) == self.files_dir_basename:
                     return (files_dir, True)
         return (default_dir, False)
+
+    def get_current_file(self):
+        if self.current_idx >= 0:
+            return self.files[self.current_idx]
+        return {"filename": None, "filepath": None, "number": -2}

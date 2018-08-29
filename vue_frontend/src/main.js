@@ -16,6 +16,10 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 // import test data
 import krizanke from '../test_data/krizanke100.json'
+var testInitList = []
+for (var i=0; i<krizanke["one"].length; i++) {
+  testInitList.push({"filename": krizanke["one"][i], "number": i})
+}
 
 Vue.config.productionTip = false
 
@@ -25,7 +29,9 @@ new Vue({
   components: { App },
   template: '<App/>',
   data () { return {
+    // apiAddress: "http://127.0.0.1:5001",
+    apiAddress: "http://192.168.0.1:5001",
     errMsg: "",
-    krizanke: krizanke,
-  }}
+    initList: testInitList,
+  }},
 })

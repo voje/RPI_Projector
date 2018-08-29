@@ -16,7 +16,7 @@ export default {
   },
   methods: {
     controlCommand: function () {
-      console.log("sending control command to parent: " + this.controlStateProp)
+      // console.log("sending control command to parent: " + this.controlStateProp)
       this.$parent.controlCommand(this.controlStateProp)
     },
   }

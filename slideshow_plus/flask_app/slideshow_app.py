@@ -8,6 +8,7 @@ import logging
 import re
 from time import sleep
 import sys
+from flask_cors import CORS
 
 args = []
 for arg in sys.argv:
@@ -16,6 +17,12 @@ for arg in sys.argv:
 log = logging.getLogger(__name__)
 LOGFILE = join(dirname(__file__), "../log/main.log")
 app = Flask(__name__)
+CORS(app, origins=[
+    "http://localhost:8080",
+    "http://localhost:5001",
+    "http://127.0.0.1:5001",
+    "http://192.168.2.1:5001"
+])
 core = None
 buff = ""
 re_zeros = re.compile(r'000[1-9]+')
@@ -40,14 +47,19 @@ def remote():
     return render_template("remote.html")
 
 
-@app.route("/remote_old")
+@app.route("/remote-old")
 def remote_old():
     return render_template("remote_old.html")
 
 
-@app.route("/remote_stl")
+@app.route("/remote-stl")
 def remote_stl():
     return render_template("remote_stl.html")
+
+
+@app.route("/remote-vue")
+def remote_vue():
+    return render_template("remote_vue.html")
 
 
 @app.route("/command")
@@ -102,6 +114,38 @@ def command():
     }
     ret = jsonify(ret_dict)
     return ret
+
+
+@app.route("/get-files")
+def get_files():
+    files = [{"filename": x["filename"], "number": x["number"]} for x in core.files]
+    response = {
+        "files_list": files,
+        "displayed_number": core.get_current_file().get("number"),
+        "blank": core.blank,
+        "projector_state": core.projector.state,
+        "msg": "OK",
+    }
+    return jsonify(response)
+
+
+@app.route("/display-file")
+def display_file():
+    number = request.args.get("number")
+    response = {
+        "displayed_number": core.get_current_file().get("number"),
+        "blank": core.blank,
+        "projector_state": core.projector.state,
+        "msg": "OK",
+    }
+    if number is None:
+        response["msg"] = "Missing arg: number."
+    elif (core.file_by_number(number)):
+        core.display()
+        response["displayed_number"] = core.get_current_file().get("number")
+    else:
+        response["msg"] = "File not found."
+    return jsonify(response)
 
 
 if __name__ == "__main__":

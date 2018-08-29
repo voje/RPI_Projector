@@ -1,7 +1,7 @@
 ### xPdf
-For display, stick with this gem: [xpdf](https://www.xpdfreader.com/download.html). 
+For display, stick with this gem: [xpdf](https://www.xpdfreader.com/download.html).
 It has a server function (-remote my_server), so you don't have to kill the program for each image.  
-Version 3.04 has the -remote function. 
+Version 3.04 has the -remote function.
 
 ### System dependencies:
 imgmagick
@@ -23,8 +23,8 @@ Logrotate will save up to 5 files with max size 20K.
 
 ### Settings:
 * media_root_dir (/run/media/ on manjaro),
-* files_dir_basename (the program looks for this folder in 
-media_root_dir/<username>/, 
+* files_dir_basename (the program looks for this folder in
+media_root_dir/<username>/,
 
 
 ## Useful linux commands
@@ -118,3 +118,7 @@ $ sudo systemctl daemon-reload
 $ sudo systemctl my-service enable/start
 ```
 * ```$ systemd-analyse plot > plot.svg```
+
+## Migrating app dev -> production
+Api address in `vue_frontend/src/main.js`.  
+Loggin mode in `flask_app/slideshow_app.py`

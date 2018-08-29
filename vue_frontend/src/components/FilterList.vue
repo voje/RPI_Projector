@@ -3,7 +3,7 @@
     <div v-if="$root.errMsg !== ''" class="row text-warning">
       {{ $root.errMsg }}
     </div>
-    <div class="row my-center">
+    <div class="row my-center mt-3">
       <ControlButton
           control-state-prop="on"
           v-bind:activated="projectorState.on"
@@ -18,10 +18,17 @@
         <p>Predvaja se:&nbsp;&nbsp;&nbsp;&nbsp;</p>
       </div-->
       <Loader v-if="loading"></Loader>
-      <p v-else>{{ selected }}</p>
+      <p v-else>{{ selected["filename"] }}</p>
     </div>
-    <div class="row pb-2">
-      <input class="form-control" v-model="filter" type="text" placeholder="iskanje">
+    <div class="row p-3">
+      <form class="form full-width" v-on:submit.prevent="unfocus()">
+        <input
+          class="form-control"
+          v-bind:value="filter"
+          v-on:input="updateInput($event.target.value)"
+          type="text"
+          placeholder="iskanje">
+      </form>
     </div>
     <div class="row">
         <table class="table table-bordered">
@@ -31,7 +38,7 @@
               v-on:click="selectEl(el, idx)"
               v-bind:class="{ 'table-info': idx === selectedIdx }"
             >
-              <td>{{ el }}</td>
+              <td>{{ el["filename"] }}</td>
             </tr>
           </tbody>
         </table>
@@ -55,15 +62,15 @@ export default {
       sleep: false,
     },
     loading: false,
-    selected: "",
+    selected: {filename: "", number: -1},
     selectedIdx: -1,
     filter: "",
     prevFilter: "",
-    list: ["Song number 1", "2. song", "3_some_title", "fourth song"],
+    list: [],
     filteredList: [],
   }},
   created: function () {
-    this.list = this.$root.krizanke["one"]
+    this.fetchInitData()
     this.updateList()
   },
   watch: {
@@ -73,27 +80,33 @@ export default {
     },
   },
   methods: {
+    updateInput: function (val) {
+      this.filter = val
+    },
+    unfocus: function () {
+      document.activeElement.blur()
+    },
     isSelected: function (el) {
       return (el === this.selected)
     },
     selectEl: function (el, idx) {
-      var testErr = false// dev
-
       this.selectedIdx = idx
       this.loading = true
       this.$root.errMsg = ""
       var tmpThis = this
-      this.axios.get("http://jsonplaceholder.typicode.com/posts")
+      this.axios.get(this.$root.apiAddress + "/display-file?number=" + el["number"])
         .then(response => {
-          var mockResponse = {
-            selected: el,
-          }
-          // todo reponse should be same as sent el (confirmation from server)
-          // else, error
-          if (testErr) {
+          if (el["number"] !== response.data["displayed_number"]) {
+            // console.log(el["number"])
+            // console.log(response.data["displayed_number"])
             tmpThis.$root.errMsg= "Error: mismatching request and response."
+          } else {
+            tmpThis.selected = el
+            tmpThis.projectorState = {
+              on: (response.data["projector_state"] === "on"),
+              sleep: response.data["blank"],
+            }
           }
-          tmpThis.selected = mockResponse.selected
           tmpThis.loading = false
         })
         .catch(err => {
@@ -112,7 +125,7 @@ export default {
       var filter = this.filter.toLowerCase()
       var outList = []
       inList.forEach(function(el) {
-        if (el.toLowerCase().indexOf(filter) !== -1) {
+        if (el["filename"].toLowerCase().indexOf(filter) !== -1) {
           outList.push(el)
         }
       })
@@ -120,25 +133,53 @@ export default {
       this.prevFilter = this.filter
       this.filteredList = outList
     },
-    mySleep: function (nsec, callback) {
-      console.log("Sleeping for " + nsec + "sec.")
-      var start = new Date().getTime();
-      for (var i = 0; i < 1e7; i++) {
-        if ((new Date().getTime() - start) > nsec * 1000){
-          break;
-        }
-      }
-      callback()
-    },
     controlCommand: function (cmd) {
-      console.log("received from child: " + cmd)
-      this.projectorState[cmd] = !this.projectorState[cmd]
+      var key = ""
+      if (cmd === "sleep") key = "KEY_R"
+      else if (cmd === "on") {
+        if (this.projectorState.on) key = "KEY_P"
+        else key = "KEY_O"
+      }
+      var tmpThis = this
+      this.axios.get(this.$root.apiAddress + "/command?key=" + key)
+      .then(response => {
+        tmpThis.projectorState = {
+          on: (response.data["projector_state"] === "on"),
+          sleep: response.data["blank"],
+        }
+      })
+      .catch(err => {
+        tmpThis.$root.errMsg = err.message
+      })
+    },
+    fetchInitData: function () {
+      this.loading = true
+      var tmpThis = this
+      this.axios.get(this.$root.apiAddress + "/get-files")
+      .then(response => {
+        tmpThis.list = response.data["files_list"]
+        tmpThis.updateList()
+        tmpThis.projectorState = {
+          on: (response.data["projector_state"] === "on"),
+          sleep: response.data["blank"],
+        }
+        tmpThis.loading = false
+      })
+      .catch(err => {
+        tmpThis.$root.errMsg= err.message + " - Using test list."
+        tmpThis.list = tmpThis.$root.initList
+        tmpThis.updateList()
+        tmpThis.loading = false
+      })
     }
   },
 }
 </script>
 
 <style>
+  .full-width {
+    width: 100%
+  }
   .my-center * {
     margin: auto;
   }
