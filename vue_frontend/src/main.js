@@ -21,6 +21,8 @@ for (var i=0; i<krizanke["one"].length; i++) {
   testInitList.push({"filename": krizanke["one"][i], "number": i})
 }
 
+var hostAddr = "http://" + window.location.hostname + ":" + window.location.port
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
@@ -29,8 +31,9 @@ new Vue({
   components: { App },
   template: '<App/>',
   data () { return {
+    apiAddress: hostAddr,
     // apiAddress: "http://127.0.0.1:5001",
-    apiAddress: "http://192.168.2.1:5001",
+    // apiAddress: "http://192.168.2.1:5001",
     errMsg: "",
     initList: testInitList,
   }},
