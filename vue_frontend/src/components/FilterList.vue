@@ -133,7 +133,20 @@ export default {
       this.prevFilter = this.filter
       this.filteredList = outList
     },
-    controlCommand: function (cmd) {
+    sendProjectorState: function () {
+      var tmpThis = this
+      this.axios.post(
+        this.$root.apiAddress + "/change-state",
+        this.projectorState,  // post data
+      )
+      .then(response => {
+        tmpThis.projectorState = reponse.data
+      }}
+      .catch(err => {
+        tmpThis.$root.errMsg = err.message
+      })
+    }
+    controlCommand1: function (cmd) {
       var key = ""
       if (cmd === "sleep") key = "KEY_R"
       else if (cmd === "on") {

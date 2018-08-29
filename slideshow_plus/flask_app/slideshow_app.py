@@ -116,28 +116,28 @@ def command():
     return ret
 
 
+# functions used by vue_remote
+def create_response ():
+    return {
+        "displayed_number": core.get_current_file().get("number"),
+        "sleep": core.blank,
+        "on": core.projector.state,
+        "msg": "",
+    }
+
+
 @app.route("/get-files")
 def get_files():
     files = [{"filename": x["filename"], "number": x["number"]} for x in core.files]
-    response = {
-        "files_list": files,
-        "displayed_number": core.get_current_file().get("number"),
-        "blank": core.blank,
-        "projector_state": core.projector.state,
-        "msg": "OK",
-    }
+    response = create_response()
+    response["files_list"] = files
     return jsonify(response)
 
 
 @app.route("/display-file")
 def display_file():
     number = request.args.get("number")
-    response = {
-        "displayed_number": core.get_current_file().get("number"),
-        "blank": core.blank,
-        "projector_state": core.projector.state,
-        "msg": "OK",
-    }
+    response = create_response()
     if number is None:
         response["msg"] = "Missing arg: number."
     elif (core.file_by_number(number)):
@@ -147,6 +147,13 @@ def display_file():
         response["msg"] = "File not found."
     return jsonify(response)
 
+
+@app.route("/change-state", methods=["POST"]):
+    input_json = request.get_json(force=True)
+    log.debug(input_json)
+    core.set_blank(blank_on=input_json["sleep"])
+    core.projector.on() if input_json["on"] else core.projector.off()
+    return create_response()
 
 if __name__ == "__main__":
     # Most of the settings in here. TODO: config file.
