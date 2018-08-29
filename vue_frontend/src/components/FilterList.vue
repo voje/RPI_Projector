@@ -5,12 +5,12 @@
     </div>
     <div class="row my-center mt-3">
       <ControlButton
-          control-state-prop="on"
-          v-bind:activated="projectorState.on"
+          v-bind:pState="pState"
+          stateProp="on"
           btn-text="Vklop"/>
       <ControlButton
-          control-state-prop="sleep"
-          v-bind:activated="projectorState.sleep"
+          v-bind:pState="pState"
+          stateProp="sleep"
           btn-text="Spanje"/>
     </div>
     <div class="row my-min-height my-center">
@@ -57,7 +57,7 @@ export default {
     ControlButton,
   },
   data () { return {
-    projectorState: {
+    pState: {
       on: false,
       sleep: false,
     },
@@ -133,33 +133,25 @@ export default {
       this.prevFilter = this.filter
       this.filteredList = outList
     },
-    sendProjectorState: function () {
+    changeProjectorState: function (stateProp) {
       var tmpThis = this
+      var newState = {
+        on: this.pState.on,
+        sleep: this.pState.sleep,
+      }
+      newState[stateProp] = !newState[stateProp]
       this.axios.post(
         this.$root.apiAddress + "/change-state",
-        this.projectorState,  // post data
+        newState  // post data
       )
       .then(response => {
-        tmpThis.projectorState = reponse.data
-      }}
-      .catch(err => {
-        tmpThis.$root.errMsg = err.message
-      })
-    }
-    controlCommand1: function (cmd) {
-      var key = ""
-      if (cmd === "sleep") key = "KEY_R"
-      else if (cmd === "on") {
-        if (this.projectorState.on) key = "KEY_P"
-        else key = "KEY_O"
-      }
-      var tmpThis = this
-      this.axios.get(this.$root.apiAddress + "/command?key=" + key)
-      .then(response => {
-        tmpThis.projectorState = {
-          on: (response.data["projector_state"] === "on"),
-          sleep: response.data["blank"],
-        }
+        tmpThis.pState.on = response.data.on
+        tmpThis.pState.sleep = response.data.sleep
+        tmpThis.filteredList.forEach(function (el) {
+          if (el.number === response.data.displayed_number) {
+            tmpThis.selected = el
+          }
+        })
       })
       .catch(err => {
         tmpThis.$root.errMsg = err.message
@@ -173,8 +165,8 @@ export default {
         tmpThis.list = response.data["files_list"]
         tmpThis.updateList()
         tmpThis.projectorState = {
-          on: (response.data["projector_state"] === "on"),
-          sleep: response.data["blank"],
+          on: response.data.on,
+          sleep: response.data.sleep,
         }
         tmpThis.loading = false
       })
@@ -184,7 +176,7 @@ export default {
         tmpThis.updateList()
         tmpThis.loading = false
       })
-    }
+    },
   },
 }
 </script>

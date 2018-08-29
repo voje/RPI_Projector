@@ -1,7 +1,7 @@
 <template>
   <button v-on:click="controlCommand()" type="button" class="btn btn-wide" v-bind:class="{
-    'btn-secondary': !activated,
-    'btn-primary': activated,
+    'btn-secondary': !stateOn,
+    'btn-primary': stateOn,
     }">{{ btnText }}
   </button>
 </template>
@@ -10,14 +10,18 @@
 export default {
   name: "ControlButton",
   props: {
-    activated: {type: Boolean},
+    pState: {type: Object},
+    stateProp: {type: String},
     btnText: {type: String},
-    controlStateProp: {type: String},
+  },
+  computed: {
+    stateOn: function () {
+      return this.pState[this.stateProp]
+    }
   },
   methods: {
     controlCommand: function () {
-      // console.log("sending control command to parent: " + this.controlStateProp)
-      this.$parent.controlCommand(this.controlStateProp)
+      this.$parent.changeProjectorState(this.stateProp)
     },
   }
 }

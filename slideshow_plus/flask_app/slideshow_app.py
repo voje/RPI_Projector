@@ -118,12 +118,13 @@ def command():
 
 # functions used by vue_remote
 def create_response ():
-    return {
+    response = {
         "displayed_number": core.get_current_file().get("number"),
-        "sleep": core.blank,
-        "on": core.projector.state,
+        "sleep": core.blank,  # bool
+        "on": (core.projector.state == "on"),  # bool
         "msg": "",
     }
+    return response
 
 
 @app.route("/get-files")
@@ -148,17 +149,18 @@ def display_file():
     return jsonify(response)
 
 
-@app.route("/change-state", methods=["POST"]):
-    input_json = request.get_json(force=True)
-    log.debug(input_json)
+@app.route("/change-state", methods=["POST"])
+def change_state():
+    input_json = request.json
     core.set_blank(blank_on=input_json["sleep"])
     core.projector.on() if input_json["on"] else core.projector.off()
-    return create_response()
+    core.display(add_to_history=False)
+    return jsonify(create_response())
 
 if __name__ == "__main__":
     # Most of the settings in here. TODO: config file.
-    # logging.basicConfig(filename=LOGFILE, level=logging.DEBUG)
-    logging.basicConfig(level=logging.DEBUG)
+    logging.basicConfig(filename=LOGFILE, level=logging.DEBUG)
+    # logging.basicConfig(level=logging.DEBUG)
     app.debug = False
 
     if "--no_usb_wait" not in args:
