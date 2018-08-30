@@ -175,7 +175,7 @@ if __name__ == "__main__":
     app.debug = False
 
     if "--no_usb_wait" not in args:
-        sleep(20)
+        sleep(3)
 
     core = Core(
         media_root_dir="/media",
