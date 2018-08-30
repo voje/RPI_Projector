@@ -86,6 +86,14 @@ export default {
     },
   },
   methods: {
+    resetData: function () {
+      this.selected = {filename: "", number: -1}
+      this.selectedIdx = -1
+      this.filter = ""
+      this.prevFilter = ""
+      this.list = []
+      this.filteredList = []
+    },
     updateInput: function (val) {
       this.filter = val
     },
@@ -163,8 +171,10 @@ export default {
         tmpThis.$root.errMsg = err.message
       })
     },
+    // loading data functions (init or reload USB)
     fetchInitData: function () {
       this.loading = true
+      this.resetData()
       var tmpThis = this
       this.axios.get(this.$root.apiAddress + "/get-files")
       .then(response => {
@@ -184,8 +194,9 @@ export default {
       })
     },
     reloadUSB: function() {
+      this.loading = false
+      this.resetData()
       var tmpThis = this
-      tmpThis.loading = false
       this.axios.get(this.$root.apiAddress + "/reload-usb")
       .then(response => {
         tmpThis.list = response.data["files_list"]
