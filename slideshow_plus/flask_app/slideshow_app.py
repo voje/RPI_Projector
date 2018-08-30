@@ -117,7 +117,7 @@ def command():
 
 
 # functions used by vue_remote
-def create_response ():
+def prepare_response ():
     response = {
         "displayed_number": core.get_current_file().get("number"),
         "sleep": core.blank,  # bool
@@ -127,18 +127,28 @@ def create_response ():
     return response
 
 
+def prepare_files_response():
+    files = [{"filename": x["filename"], "number": x["number"]} for x in core.files]
+    response = prepare_response()
+    response["files_list"] = files
+    return response
+
+
 @app.route("/get-files")
 def get_files():
-    files = [{"filename": x["filename"], "number": x["number"]} for x in core.files]
-    response = create_response()
-    response["files_list"] = files
-    return jsonify(response)
+    return jsonify(prepare_files_response())
+
+
+@app.route("/reload-usb")
+def reload_usb():
+    core.special_command("0001")
+    return jsonify(prepare_files_response())
 
 
 @app.route("/display-file")
 def display_file():
     number = request.args.get("number")
-    response = create_response()
+    response = prepare_response()
     if number is None:
         response["msg"] = "Missing arg: number."
     elif (core.file_by_number(number)):
@@ -155,13 +165,7 @@ def change_state():
     core.set_blank(blank_on=input_json["sleep"])
     core.projector.on() if input_json["on"] else core.projector.off()
     core.display(add_to_history=False)
-    return jsonify(create_response())
-
-
-@app.route("/reload-usb")
-def reload_usb():
-    core.special_command("0001")
-    get_files()  # return new files_list
+    return jsonify(prepare_response())
 
 
 if __name__ == "__main__":

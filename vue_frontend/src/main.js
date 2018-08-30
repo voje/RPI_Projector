@@ -34,6 +34,7 @@ new Vue({
     apiAddress: hostAddr,
     // apiAddress: "http://127.0.0.1:5001",
     // apiAddress: "http://192.168.2.1:5001",
+    // apiAddress: "http://192.168.1.104:5001",
     errMsg: "",
     initList: testInitList,
   }},
