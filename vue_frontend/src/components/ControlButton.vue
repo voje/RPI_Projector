@@ -1,5 +1,5 @@
 <template>
-  <button v-on:click="controlCommand()" type="button" class="btn btn-wide" v-bind:class="{
+  <button v-on:click="controlCommand()" type="button" class="btn" v-bind:class="{
     'btn-secondary': !stateOn,
     'btn-primary': stateOn,
     }">{{ btnText }}
@@ -26,9 +26,3 @@ export default {
   }
 }
 </script>
-
-<style>
-.btn-wide {
-  min-width: 40vw;
-}
-</style>

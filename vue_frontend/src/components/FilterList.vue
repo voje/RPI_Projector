@@ -1,13 +1,19 @@
 <template>
   <div class="container">
-    <div v-if="$root.errMsg !== ''" class="row text-warning">
+    <div v-if="false && $root.errMsg !== ''" class="row text-warning">
       {{ $root.errMsg }}
     </div>
-    <div class="row my-center mt-3">
-      <ControlButton
+    <div class="row my-center mt-3 my-buttons">
+      <button
+        type="button"
+        class="btn btn-secondary"
+        v-on:click="reloadUSB()">
+        Osveži USB
+      </button>
+      <!--ControlButton
           v-bind:pState="pState"
           stateProp="on"
-          btn-text="Vklop"/>
+          btn-text="Vklop"/-->
       <ControlButton
           v-bind:pState="pState"
           stateProp="sleep"
@@ -177,6 +183,26 @@ export default {
         tmpThis.loading = false
       })
     },
+    reloadUSB: function() {
+      var tmpThis = this
+      tmpThis.loading = false
+      this.axios.get(this.$root.apiAddress + "/reload-usb")
+      .then(response => {
+        tmpThis.list = response.data["files_list"]
+        tmpThis.updateList()
+        tmpThis.projectorState = {
+          on: response.data.on,
+          sleep: response.data.sleep,
+        }
+        tmpThis.loading = false
+      })
+      .catch(err => {
+        tmpThis.$root.errMsg= err.message + " - Using test list."
+        tmpThis.list = tmpThis.$root.initList
+        tmpThis.updateList()
+        tmpThis.loading = false
+      })
+    },
   },
 }
 </script>
@@ -190,5 +216,8 @@ export default {
   }
   .my-min-height {
     min-height: 50px;
+  }
+  .my-buttons * {
+    min-width: 40vw;
   }
 </style>

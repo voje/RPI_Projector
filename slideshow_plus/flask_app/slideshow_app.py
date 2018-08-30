@@ -157,6 +157,13 @@ def change_state():
     core.display(add_to_history=False)
     return jsonify(create_response())
 
+
+@app.route("/reload-usb")
+def reload_usb():
+    core.special_command("0001")
+    get_files()  # return new files_list
+
+
 if __name__ == "__main__":
     # Most of the settings in here. TODO: config file.
     logging.basicConfig(filename=LOGFILE, level=logging.DEBUG)
