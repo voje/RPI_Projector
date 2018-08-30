@@ -1,0 +1,53 @@
+[Thu 30 Aug 15:02:28 CEST 2018] wifi malina is up: 1
+spawn ssh pi@192.168.1.109
+pi@192.168.1.109's password: 
+Linux pi 4.14.30-v7+ #1102 SMP Mon Mar 26 16:45:49 BST 2018 armv7l
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Thu Aug 30 13:00:49 2018
+
+Wi-Fi is disabled because the country is not set.
+Use raspi-config to set the country before use.
+
+date >> test.txt
+sudo reboot
+]0;pi@pi: ~[01;32mpi@pi[00m:[01;34m~ $[00m date >> test.txt
+]0;pi@pi: ~[01;32mpi@pi[00m:[01;34m~ $[00m sudo reboot
+Connection to 192.168.1.109 closed by remote host.
+Connection to 192.168.1.109 closed.
+[Thu 30 Aug 15:03:05 CEST 2018] wifi malina is up: 1
+spawn ssh pi@192.168.1.109
+pi@192.168.1.109's password: 
+Linux pi 4.14.30-v7+ #1102 SMP Mon Mar 26 16:45:49 BST 2018 armv7l
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Thu Aug 30 13:02:40 2018
+
+Wi-Fi is disabled because the country is not set.
+Use raspi-config to set the country before use.
+
+date >> test.txt
+sudo reboot
+]0;pi@pi: ~[01;32mpi@pi[00m:[01;34m~ $[00m date >> test.txt
+]0;pi@pi: ~[01;32mpi@pi[00m:[01;34m~ $[00m sudo reboot
+Connection to 192.168.1.109 closed by remote host.
+Connection to 192.168.1.109 closed.
+[Thu 30 Aug 15:03:29 CEST 2018] wifi malina is up: 1
+[Thu 30 Aug 15:04:06 CEST 2018] wifi malina is up: 1
+[Thu 30 Aug 15:04:42 CEST 2018] wifi malina is up: 1
+[Thu 30 Aug 15:05:19 CEST 2018] wifi malina is up: 1
+[Thu 30 Aug 15:05:56 CEST 2018] wifi malina is up: 1
+[Thu 30 Aug 15:06:33 CEST 2018] wifi malina is up: 1
+[Thu 30 Aug 15:07:10 CEST 2018] wifi malina is up: 1
+[Thu 30 Aug 15:07:47 CEST 2018] wifi malina is up: 1
+[Thu 30 Aug 15:08:24 CEST 2018] wifi malina is up: 1

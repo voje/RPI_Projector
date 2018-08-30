@@ -1,0 +1,12 @@
+#!/usr/bin/expect -f
+
+spawn ssh pi@192.168.1.109
+expect "*?assword:*"
+send "malina18\r"
+send "\r"
+expect "*use."
+
+send "date >> test.txt\r"
+
+send "sudo reboot\r"
+interact
