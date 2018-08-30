@@ -2,6 +2,6 @@
 venv/
 slideshow_plus.egg-info/
 slideshow_plus/core_static/tmp_files/index.pdf
-slideshow_plus/log/
+slideshow_plus/log/*
 vue_frontend/node_modules/
 *.swp
