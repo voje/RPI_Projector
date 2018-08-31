@@ -65,6 +65,7 @@ interface wlan0
 static ip_address=192.168.2.1/24
 static routers=192.168.1.1
 static domain_name_servers=192.168.1.1
+nohook wpa_supplicant
 ```
 * Reboot rpi. It should show up in your wifi menu now.
 * ssh onto rpi, git clone the app, run `$pip3 --user -e install .` in the folder with `.setup.py`.
@@ -77,6 +78,7 @@ static domain_name_servers=192.168.1.1
 $ sudo iptables -A INPUT -p tcp -m tcp --dport 5003 -j ACCEPT
 $ sudo sh -c "iptables-save > /etc/iptables.ipv4.nat"
 ```
+Also make sure iptables get reloaded on startup. 
 * enable fire up autostart.sh on desktop load:
 * in `./config/lxsession/<user_session>/autostart` add a line: `@/home/pi/git/RPI_Projector/autostart.sh`.
 * in `autostart.sh`, change the start parameters (capture keyboard, ...)
@@ -86,7 +88,7 @@ $ sudo sh -c "iptables-save > /etc/iptables.ipv4.nat"
 
 ## DNS settings
 To run the raspberry with a local DNS.
-(blog post)[https://getpocket.com/a/read/1264152911]
+(blog post)[https://www.linux.com/learn/dnsmasq-easy-lan-name-services]
 Check out `./system_config`.
 We alse want `dnsmasq` to run at boot.
 ```$ sudo systemctl enable dnsmasq```
