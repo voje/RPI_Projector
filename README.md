@@ -83,6 +83,7 @@ Also make sure iptables get reloaded on startup.
 * in `./config/lxsession/<user_session>/autostart` add a line: `@/home/pi/git/RPI_Projector/autostart.sh`.
 * in `autostart.sh`, change the start parameters (capture keyboard, ...)
 * in `slideshow_app.py` change debug level
+* to disable desktop pop-up notifications when removing USB: remove external devices manager icon (top right on desktop)
 
 
 ## DNS settings
