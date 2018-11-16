@@ -4,3 +4,4 @@
 c'asovno zahtevno)
 * 0001 za branje kljucka
 * pilot na naslovu 192.168.2.1:5003/remote_old
+
