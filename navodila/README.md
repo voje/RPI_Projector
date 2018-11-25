@@ -1,0 +1,4 @@
+# Generiraj navodila
+```bash
+$ make
+```
