@@ -15,7 +15,8 @@ def handle_client(client, address):
 
 if __name__ == "__main__":
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    addr = ("localhost", 4352)
+    # addr = ("localhost", 4352) # PJLink, Casio
+    addr = ("localhost", 23)  # rs232 over ip, Epson
     s.bind(addr)
     s.listen(5)
 

@@ -1,4 +1,4 @@
-from slideshow_plus.projector import projector
+from slideshowplus.projector import projector
 import socket
 import logging
 import threading
@@ -9,6 +9,7 @@ log = logging.getLogger(__file__)
 class Pjlink(projector.Projector):
     def __init__(self, name=None, ip=None, port=None):
         super().__init__(name=name)
+        self.name = name or "pjlink"
         self.ip = ip or "192.168.1.143"
         self.port = port or 4352
         self.commands = {

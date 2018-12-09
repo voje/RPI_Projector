@@ -8,7 +8,7 @@ from os.path import isfile, join, basename, dirname, exists
 import re
 import logging
 from time import time
-from slideshow_plus.projector import pjlink
+from slideshowplus.projector import pjlink
 
 log = logging.getLogger(__name__)
 
