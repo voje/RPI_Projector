@@ -23,6 +23,15 @@
 * Tipka `Sleep` prikaže povsem črno datoteko in s tem simulira zatemnjeni zaslon. Zaslon prižgemo nazaj s tipko `On`.
 * Tipka `Off` ugasne projektor. S tipko `On` projektor prižgemo in nadaljujemo kjer smo ostali. *
 
-### * Opomba
-Tipki `On` in `Off` sta odvisni od podpore projektorja. Nekateri projektorji ne podpirajo tehnologije za upravljanje preko omrežja (protokol PjLink). V tem primeru je treba projektor zagnati in ugasniti ročno. Zatemnitev se lahko simulira z uporabo tipk `Sleep` in `On`.
+### Priprava projektorja ViewSonic
+Za podrobnejši opis glej navodila za uporabo projektorja (datoteka `viewsonic_pj1158.pdf`). Spodaj so ključni koraki: 
+
+* IP projektorja nastavimo na `192.168.1.143`. 
+* Če je mogoče, nastavimo preko menija s pilotom. Sicer se moramo povezati na spletni vmesnik projektorja (lahko priključimo RPI, se s telefonom ali računalnikom povežemo na omrežje ter v iskalno vrstico brskalnika vtipkamo IP naslov projektorja.)
+* V nastavitvah vkjlučmo `Control port (Port: 23)`.
+* Izključimo avtentikacijo za ta port (nekje mora biti kljukica za `Authentication`). 
+* Vkjlučimo tudi `Control port (Port: 9715)`.
+* Izključimo avtentikacijo za ta port (nekje mora biti kljukica za `Authentication`). 
+* Kliknemo gumb `Apply`,  da shranimo nastavitve. 
+* Povežemo se na polot in preizkusimo funkcije `On` in `Off`. Funkcije so v testnem stanju: vsak gumb projektorjev pošlje več ukazov s časovnim zamikom z upanjem, da bo eden pravilen. Če se po pol minute ne zgodi nič, lahko sklepamo, da ukazi ne delujejo. 
 

@@ -1,4 +1,4 @@
-WKFLAGS = -B 25mm -T 25mm -L 25mm -R 25mm -q -s A4
+WKFLAGS = -B 10mm -T 10mm -L 10mm -R 10mm -q -s A4
 %.pdf: %.html
 	wkhtmltopdf $(WKFLAGS) $< $@
 
