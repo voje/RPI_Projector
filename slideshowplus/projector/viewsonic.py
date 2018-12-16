@@ -1,16 +1,21 @@
+# -*- coding: utf-8 -*-
 # from slideshowplus.projector import projector
 import projector
 import socket
 import logging
 import threading
 import time
+import itertools
+
+# for debugging
+import sys
+logging.basicConfig(stream=sys.stdout, level=logging.DEBUG)
 
 log = logging.getLogger(__file__)
 
-
 class ViewSonic(projector.Projector):
     def __init__(self, name=None, ip=None, port=None):
-        super().__init__(name=name)
+        super().__init__()
         self.name = name or "ViewSonic"
         # on the projector, you need DHCP off, configure ip address
         self.ip = ip or "192.168.1.143"
@@ -25,16 +30,25 @@ class ViewSonic(projector.Projector):
     def on(self):
         self.state = "on"
         log.info("power on")
-        # NOT SURE ABOUT COMMANDS
-        # CHECK https://www.manualslib.com/manual/897314/Viewsonic-Pj1158-1.html?page=65#manual
-        on_command1 = b'\x06\x14\x00\x04\x00\x34\x11\x00\x00\x5D'
-        # on_command1 = b'\06\14\00\04\00\34\11\00\00\5D'
-        self.thread_send_command(on_command1)
+
+        # pj11581.pdf
+        try_commands = [
+            bytes.fromhex("BEEF030600BAD20100006001000D"), # with carriage return (0D)
+            bytes.fromhex("BEEF030600BAD2010000600100"),
+        ]
+        try_ports = [23, 4661, 9715]
+        self.thread_send_multiple(try_commands, try_ports)
+        # self.thread_send_command(on_command1)
 
     def off(self):
         self.state = "off"
         log.info("power off")
-        off_command1 = b'\x06\x14\x00\x04\x00\x34\x11\x01\x00\x5E'
+
+        # pj11581.pdf
+        try_commands = [
+            bytes.fromhex("BEEF0306002AD30100006000000D"), # with carriage return (0D)
+            bytes.fromhex("BEEF0306002AD3010000600000"),
+        ]
         self.thread_send_command(off_command1)
 
     def sleep(self):
@@ -42,57 +56,46 @@ class ViewSonic(projector.Projector):
 
     # not sure how the projector protocol works,
     # trying 2 different send commands
-    def send_command(self, cmd_string):
+
+    def send_command(self, cmd, port):
         try:
-            try_port = 23
-            log.info("Trying port {}.".format(try_port))
+            log.info(
+                "\n\nSending control command:\n"
+                "[*] ip: {}\n"
+                "[*] port: {}\n"
+                "[*] cmd: {}".format(
+                    self.ip, port, cmd)
+            )
             s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
             s.setblocking(0)
             s.settimeout(2)
-            s.connect((self.ip, try_port))
-            s.send(cmd_string)
+            s.connect((self.ip, port))
+            s.send(cmd)
             response = s.recv(self.buffer_size)
             s.close()
             log.info(response)
         except Exception as e:
             log.warning(e)
 
-    def send_command1(self, cmd_string):
-        try:
-            try_port = 6641
-            log.info("Trying port {}.".format(try_port))
-            s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-            s.setblocking(0)
-            s.settimeout(2)
-            s.connect((self.ip, try_port))
-            s.send(cmd_string)
-            response = s.recv(self.buffer_size)
-            s.close()
-            log.info(response)
-        except Exception as e:
-            log.warning(e)
-
-    def thread_send_command(self, cmd_string):
+    def thread_send_command(self, cmd, port):
         thread = threading.Thread(
             target=self.send_command,
-            args=(cmd_string,)
+            args=(cmd, port,)
         )
         thread.start()
 
-        time.sleep(2)
-
-        thread1 = threading.Thread(
-            target=self.send_command1,
-            args=(cmd_string,)
-        )
-        thread1.start()
+    def thread_send_multiple(self, commands, ports):
+        for cmd, port in itertools.product(commands, ports):
+            # print(cmd, port)
+            self.thread_send_command(cmd, port)
+            time.sleep(3)
 
 
 if __name__ == "__main__":
     print("Testing ViewSonic.")
     vs = ViewSonic(
         name="Test_ViewSonic",
-        ip="localhost",
+        ip="192.168.2.22",
     )
     vs .on()
     # eps.off()

@@ -48,7 +48,11 @@ class Core():
         self.blank = False
         self.last_displayed_path = join(
             self.core_static, "r_slides/r_blank.pdf")
-        self.projector = pjlink.Pjlink()
+        self.projector = viewsonic.ViewSonic(
+            port=23,
+            # ip="192.168.1.143",
+            ip="192.168.2.22"  # Testing
+        )
 
         # Function order is important.
         self.find_usb_files_wrapper()
