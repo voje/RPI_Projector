@@ -10,10 +10,14 @@
         v-on:click="reloadUSB()">
         Osveži USB
       </button>
-      <!--ControlButton
+      <ControlButton
           v-bind:pState="pState"
           stateProp="on"
-          btn-text="Vklop"/-->
+          btn-text="Vklop"/>
+      <ControlButton
+          v-bind:pState="pState"
+          stateProp="off"
+          btn-text="Izklop"/>
       <ControlButton
           v-bind:pState="pState"
           stateProp="sleep"
