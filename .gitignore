@@ -4,4 +4,5 @@ slideshowplus.egg-info/
 slideshowplus/core_static/tmp_files/index.pdf
 slideshowplus/log/*
 vue_frontend/node_modules/
+slideshowplus/core_static/tmp_files/
 *.swp
