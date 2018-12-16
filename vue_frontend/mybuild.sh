@@ -3,7 +3,7 @@
 # build the files
 npm run build
 
-flaskdir="../slideshow_plus/flask_app"
+flaskdir="../slideshowplus/flask_app"
 tmpdir=$(pwd)
 cd "${flaskdir}/static"
 for d in *; do

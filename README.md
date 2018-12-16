@@ -10,7 +10,7 @@ xpdf (version with -remote function (3.4 has it))
 ### Logging
 I'm using logrotate. Add a configuration file with the correct path:
 ```
-/home/<username>/git/RPI_Projector/slideshow_plus/log/*.log {
+/home/<username>/git/RPI_Projector/slideshowplus/log/*.log {
     rotate 5
     missingok
     notifempty

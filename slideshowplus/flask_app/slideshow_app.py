@@ -2,7 +2,7 @@
 # Main thread.
 
 from flask import Flask, render_template, jsonify, request
-from slideshow_plus.core import Core
+from slideshowplus.core import Core
 from os.path import dirname, join
 import logging
 import re

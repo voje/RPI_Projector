@@ -1,4 +1,4 @@
-from slideshow_plus.projector import projector
+from slideshowplus.projector import projector
 import socket
 import logging
 import threading
