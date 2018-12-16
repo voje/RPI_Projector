@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
-# from slideshowplus.projector import projector
-import projector
+from slideshowplus.projector import projector
 import socket
 import logging
 import threading
@@ -8,8 +7,8 @@ import time
 import itertools
 
 # for debugging
-import sys
-logging.basicConfig(stream=sys.stdout, level=logging.DEBUG)
+# import sys
+# logging.basicConfig(stream=sys.stdout, level=logging.DEBUG)
 
 log = logging.getLogger(__file__)
 
@@ -49,7 +48,9 @@ class ViewSonic(projector.Projector):
             bytes.fromhex("BEEF0306002AD30100006000000D"), # with carriage return (0D)
             bytes.fromhex("BEEF0306002AD3010000600000"),
         ]
-        self.thread_send_command(off_command1)
+        try_ports = [23, 4661, 9715]
+        self.thread_send_multiple(try_commands, try_ports)
+        # self.thread_send_command(off_command1)
 
     def sleep(self):
         return

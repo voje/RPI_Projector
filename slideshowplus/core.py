@@ -8,7 +8,7 @@ from os.path import isfile, join, basename, dirname, exists
 import re
 import logging
 from time import time
-from slideshowplus.projector import pjlink
+from slideshowplus.projector import viewsonic  # specific for poljane
 
 log = logging.getLogger(__name__)
 
@@ -48,7 +48,7 @@ class Core():
         self.blank = False
         self.last_displayed_path = join(
             self.core_static, "r_slides/r_blank.pdf")
-        self.projector = viewsonic.ViewSonic(
+        self.projector = viewsonic.ViewSonic(  # specific for poljane
             port=23,
             # ip="192.168.1.143",
             ip="192.168.2.22"  # Testing
