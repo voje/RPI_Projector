@@ -9,7 +9,7 @@ capture_parent_pid=""
 
 function fn_cleanup() {
 	echo "Clenup after kill."
-	bash "${project_dir}/slideshow_plus/core_static/bash_scripts/cleanup.sh"	
+	bash "${project_dir}/slideshowplus/core_static/bash_scripts/cleanup.sh"	
 	if [ $capture_parent_pid ]; then
 		kill $capture_parent_pid
 	fi
@@ -58,7 +58,7 @@ if $capture_keyboard; then
 fi
 
 # Run the flask webserver.
-web_server_path="${project_dir}/slideshow_plus/flask_app/slideshow_app.py"
+web_server_path="${project_dir}/slideshowplus/flask_app/slideshow_app.py"
 python3 "$web_server_path" "$args"
 
 

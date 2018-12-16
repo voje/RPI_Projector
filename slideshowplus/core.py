@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Core application for slideshow_plus.
+# Core application for slideshowplus.
 # Rule of thumb: always use absolute paths.
 import getpass
 import os
