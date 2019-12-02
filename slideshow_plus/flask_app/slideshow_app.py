@@ -94,7 +94,8 @@ def command():
 
 if __name__ == "__main__":
     # Most of the settings in here. TODO: config file.
-    logging.basicConfig(filename=LOGFILE, level=logging.DEBUG)
+    # logging.basicConfig(filename=LOGFILE, level=logging.DEBUG)
+    logging.basicConfig(filename=LOGFILE, level=logging.INFO)
     # logging.basicConfig(level=logging.DEBUG)
     app.debug = False
 

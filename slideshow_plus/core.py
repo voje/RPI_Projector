@@ -9,6 +9,7 @@ import re
 import logging
 from time import time
 from slideshow_plus.projector import pjlink
+from pathlib import Path
 
 log = logging.getLogger(__name__)
 
@@ -103,7 +104,7 @@ class Core():
         for i, entry in enumerate(self.files):
             if entry["number"] is not None:
                 self.idx_map[entry["number"]] = i
-            log.debug(entry)
+            # log.debug(entry)
         if not self.files:
             log.error("Empty self.files list. Exiting.")
             exit(1)
@@ -141,10 +142,11 @@ class Core():
             filepath = join(self.core_static, "r_slides/r_blank.pdf")
         else:
             self.blanked = None
-        if self.no_display:
-            return
-        system("{}/bash_scripts/display_any.sh {}".format(
-            self.core_static, filepath))
+        # if self.no_display:
+        #     return
+        scall = "{}/bash_scripts/display_any.sh {}".format(self.core_static, filepath)
+        log.debug(scall)
+        system(scall)
 
     def display(self, add_to_history=None):
         if self.current_idx < 0:
@@ -232,17 +234,9 @@ class Core():
             self.core_static, self.files_dir_basename
         )
         media_user_dir = join(self.media_root_dir, getpass.getuser())
-        log.debug("looking for media in [{}]".format(media_user_dir))
-        if not exists(media_user_dir):
-            return (default_dir, False)
-        for usb_dir in [
-            join(media_user_dir, x) for x in listdir(media_user_dir)
-            if not isfile(join(media_user_dir, x))
-        ]:
-            for files_dir in [
-                join(usb_dir, x) for x in listdir(usb_dir)
-                if not isfile(join(usb_dir, x))
-            ]:
-                if basename(files_dir) == self.files_dir_basename:
-                    return (files_dir, True)
+
+        for filename in Path(media_user_dir).rglob("*"):
+            if filename.is_dir() and filename.name == self.files_dir_basename:
+                log.info("Found media in {}".format(filename))
+                return ((str(filename), True))
         return (default_dir, False)
