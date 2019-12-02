@@ -144,7 +144,7 @@ class Core():
             self.blanked = None
         # if self.no_display:
         #     return
-        scall = "{}/bash_scripts/display_any.sh {}".format(self.core_static, filepath)
+        scall = "{}/bash_scripts/display_any.sh \"{}\"".format(self.core_static, filepath)
         log.debug(scall)
         system(scall)
 
