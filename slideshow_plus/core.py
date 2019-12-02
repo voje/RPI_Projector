@@ -205,8 +205,12 @@ class Core():
         self.current_idx = self.idx_history[self.current_hist_idx]
 
     def del_hist_file(self):
-        self.idx_history = self.idx_history[:-1]
-        self.current_hist_idx = len(self.idx_history) - 1
+        if len(self.idx_history) > 0:
+            log.debug("AAAb")
+            self.idx_history = self.idx_history[:-1]
+            self.current_hist_idx = len(self.idx_history) - 1
+        log.debug(self.idx_history)
+        self.display()
 
     def toggle_blank(self):
         self.blank = not self.blank

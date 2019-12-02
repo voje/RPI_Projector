@@ -14726,3 +14726,740 @@ INFO:werkzeug:127.0.0.1 - - [02/Dec/2019 21:21:10] "GET /command?key=4 HTTP/1.1"
 INFO:werkzeug:127.0.0.1 - - [02/Dec/2019 21:21:11] "GET /command?key=7 HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [02/Dec/2019 21:21:12] "GET /command?key=4 HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [02/Dec/2019 21:21:13] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:22:25] "GET /remote HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:22:26] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:22:28] "GET /command?key=KEY_DELETE HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:22:33] "GET /command?key=KEY_DELETE HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:22:44] "GET /command?key=2 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:22:46] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:22:55] "GET /command?key=KEY_DELETE HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:23:15] "GET /command?key=KEY_R HTTP/1.1" 200 -
+INFO:/home/pi/git/RPI_Projector/slideshow_plus/projector/pjlink.py:on
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:23:22] "GET /command?key=KEY_O HTTP/1.1" 200 -
+WARNING:/home/pi/git/RPI_Projector/slideshow_plus/projector/pjlink.py:timed out
+INFO:/home/pi/git/RPI_Projector/slideshow_plus/projector/pjlink.py:off
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:23:27] "GET /command?key=KEY_P HTTP/1.1" 200 -
+WARNING:/home/pi/git/RPI_Projector/slideshow_plus/projector/pjlink.py:timed out
+INFO:/home/pi/git/RPI_Projector/slideshow_plus/projector/pjlink.py:on
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:23:36] "GET /command?key=KEY_O HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:23:38] "GET /command?key=6 HTTP/1.1" 200 -
+WARNING:/home/pi/git/RPI_Projector/slideshow_plus/projector/pjlink.py:timed out
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:23:39] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:23:45] "GET /command?key=KEY_DELETE HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:23:50] "GET /command?key=3 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:23:54] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:24:00] "GET /command?key=KEY_VOLUMEDOWN HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:24:04] "GET /command?key=KEY_VOLUMEUP HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:24:07] "GET /command?key=KEY_VOLUMEUP HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:24:10] "GET /command?key=KEY_VOLUMEDOWN HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:24:14] "GET /command?key=KEY_VOLUMEDOWN HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:24:17] "GET /command?key=KEY_VOLUMEUP HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:24:19] "GET /command?key=KEY_VOLUMEUP HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:24:21] "GET /command?key=KEY_VOLUMEUP HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:24:22] "GET /command?key=KEY_DELETE HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:25:15] "GET /command?key=KEY_DOWN HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:25:19] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:25:20] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:25:23] "GET /command?key=KEY_DELETE HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:25:25] "GET /command?key=KEY_DELETE HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:25:26] "GET /command?key=KEY_DELETE HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:25:30] "GET /command?key=KEY_DELETE HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:26:07] "GET /command?key=KEY_DELETE HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:26:09] "GET /command?key=KEY_DELETE HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:26:11] "GET /command?key=KEY_DELETE HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:26:20] "GET /command?key=KEY_VOLUMEUP HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:26:22] "GET /command?key=KEY_VOLUMEUP HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:26:25] "GET /command?key=KEY_DELETE HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:26:35] "GET /command?key=KEY_DELETE HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:26:37] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:26:38] "GET /command?key=KEY_DELETE HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:26:53] "GET /command?key=KEY_DELETE HTTP/1.1" 200 -
+INFO:/home/pi/git/RPI_Projector/slideshow_plus/projector/pjlink.py:off
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:26:55] "GET /command?key=KEY_P HTTP/1.1" 200 -
+WARNING:/home/pi/git/RPI_Projector/slideshow_plus/projector/pjlink.py:timed out
+INFO:/home/pi/git/RPI_Projector/slideshow_plus/projector/pjlink.py:on
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:26:58] "GET /command?key=KEY_O HTTP/1.1" 200 -
+WARNING:/home/pi/git/RPI_Projector/slideshow_plus/projector/pjlink.py:[Errno 113] No route to host
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:27:00] "GET /command?key=3 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:27:01] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:27:05] "GET /command?key=6 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:27:05] "GET /command?key=6 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:27:07] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:27:11] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:27:15] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:27:18] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:27:22] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+INFO:slideshow_plus.core:Found media in /media/pi/Silver/diapozitivi
+INFO:slideshow_plus.core:found files in /media/pi/Silver/diapozitivi
+INFO:slideshow_plus.core:gen_pdf: /home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf
+DEBUG:slideshow_plus.core:low_display():/home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf"
+DEBUG:slideshow_plus.core:Core ready.
+INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:30:10] "GET /command?key=5 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[4]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/5 _ K tebi Bog in naš _ II÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/5 _ K tebi Bog in naš _ II÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:30:13] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:30:21] "GET /command?key=6 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:30:21] "GET /command?key=6 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[4, 61]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/66 _ K tebi želim moj _ I÷2kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/66 _ K tebi želim moj _ I÷2kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:30:22] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:30:27] "GET /command?key=4 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:30:28] "GET /command?key=7 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:30:28] "GET /command?key=5 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[4, 61, 327]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/475 _ Svet - Kaj se vam _ I÷1kit♦_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/475 _ Svet - Kaj se vam _ I÷1kit♦_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:30:30] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:30:34] "GET /command?key=KEY_DELETE HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:31:05] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/5 _ K tebi Bog in naš _ II÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/5 _ K tebi Bog in naš _ II÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:31:07] "GET /command?key=KEY_VOLUMEDOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/66 _ K tebi želim moj _ I÷2kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/66 _ K tebi želim moj _ I÷2kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:31:10] "GET /command?key=KEY_VOLUMEUP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/66 _ K tebi želim moj _ I÷2kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/66 _ K tebi želim moj _ I÷2kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:31:12] "GET /command?key=KEY_VOLUMEUP HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:31:41] "GET /command?key=1 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[4, 61, 0]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:31:42] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:slideshow_plus.core:Found media in /media/pi/Silver/diapozitivi
+INFO:slideshow_plus.core:found files in /media/pi/Silver/diapozitivi
+INFO:slideshow_plus.core:gen_pdf: /home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf
+DEBUG:slideshow_plus.core:low_display():/home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf"
+DEBUG:slideshow_plus.core:Core ready.
+INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+INFO:slideshow_plus.core:Found media in /media/pi/Silver/diapozitivi
+INFO:slideshow_plus.core:found files in /media/pi/Silver/diapozitivi
+INFO:slideshow_plus.core:gen_pdf: /home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf
+DEBUG:slideshow_plus.core:low_display():/home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf"
+DEBUG:slideshow_plus.core:Core ready.
+INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:39:40] "GET /command?key=1 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:39:42] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:39:44] "GET /command?key=6 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:39:45] "GET /command?key=6 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0, 61]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/66 _ K tebi želim moj _ I÷2kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/66 _ K tebi želim moj _ I÷2kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:39:46] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:39:49] "GET /command?key=1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:39:49] "GET /command?key=1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:39:49] "GET /command?key=1 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0, 61, 96]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/111 _ Jezus ti si _ I÷2kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/111 _ Jezus ti si _ I÷2kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:39:51] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:39:55] "GET /command?key=KEY_DELETE HTTP/1.1" 500 -
+INFO:slideshow_plus.core:Found media in /media/pi/Silver/diapozitivi
+INFO:slideshow_plus.core:found files in /media/pi/Silver/diapozitivi
+INFO:slideshow_plus.core:gen_pdf: /home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf
+DEBUG:slideshow_plus.core:low_display():/home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf"
+DEBUG:slideshow_plus.core:Core ready.
+INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:41:21] "GET /command?key=1 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:41:23] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:41:25] "GET /command?key=6 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:41:26] "GET /command?key=6 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0, 61]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/66 _ K tebi želim moj _ I÷2kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/66 _ K tebi želim moj _ I÷2kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:41:27] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:41:29] "GET /command?key=1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:41:30] "GET /command?key=1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:41:30] "GET /command?key=1 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0, 61, 96]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/111 _ Jezus ti si _ I÷2kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/111 _ Jezus ti si _ I÷2kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:41:32] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:41:34] "GET /command?key=KEY_DELETE HTTP/1.1" 500 -
+INFO:slideshow_plus.core:Found media in /media/pi/Silver/diapozitivi
+INFO:slideshow_plus.core:found files in /media/pi/Silver/diapozitivi
+INFO:slideshow_plus.core:gen_pdf: /home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf
+DEBUG:slideshow_plus.core:low_display():/home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf"
+DEBUG:slideshow_plus.core:Core ready.
+INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:43:18] "GET /command?key=1 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:43:19] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:43:21] "GET /command?key=6 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:43:22] "GET /command?key=6 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0, 61]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/66 _ K tebi želim moj _ I÷2kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/66 _ K tebi želim moj _ I÷2kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:43:23] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:43:28] "GET /command?key=4 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:43:29] "GET /command?key=5 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0, 61, 44]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/45 _ Zdaj pohitimo _ I÷3kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/45 _ Zdaj pohitimo _ I÷3kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:43:31] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:43:34] "GET /command?key=KEY_DELETE HTTP/1.1" 500 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:44:03] "GET /command?key=3 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0, 61, 2]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/3 _ Bog pred tvojim _ III÷1kit♦_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/3 _ Bog pred tvojim _ III÷1kit♦_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:44:05] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/66 _ K tebi želim moj _ I÷2kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/66 _ K tebi želim moj _ I÷2kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:44:10] "GET /command?key=KEY_VOLUMEDOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:44:12] "GET /command?key=KEY_VOLUMEDOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/66 _ K tebi želim moj _ I÷2kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/66 _ K tebi želim moj _ I÷2kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:44:16] "GET /command?key=KEY_VOLUMEUP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/3 _ Bog pred tvojim _ III÷1kit♦_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/3 _ Bog pred tvojim _ III÷1kit♦_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:44:18] "GET /command?key=KEY_VOLUMEUP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/66 _ K tebi želim moj _ I÷2kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/66 _ K tebi želim moj _ I÷2kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:44:23] "GET /command?key=KEY_VOLUMEDOWN HTTP/1.1" 200 -
+INFO:slideshow_plus.core:Found media in /media/pi/Silver/diapozitivi
+INFO:slideshow_plus.core:found files in /media/pi/Silver/diapozitivi
+INFO:slideshow_plus.core:gen_pdf: /home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf
+DEBUG:slideshow_plus.core:low_display():/home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf"
+DEBUG:slideshow_plus.core:Core ready.
+INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:45:52] "GET /command?key=1 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:45:54] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:45:57] "GET /command?key=6 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:45:58] "GET /command?key=6 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0, 61]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/66 _ K tebi želim moj _ I÷2kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/66 _ K tebi želim moj _ I÷2kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:45:59] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:46:02] "GET /command?key=1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:46:03] "GET /command?key=1 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:46:03] "GET /command?key=1 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0, 61, 96]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/111 _ Jezus ti si _ I÷2kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/111 _ Jezus ti si _ I÷2kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:46:05] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/66 _ K tebi želim moj _ I÷2kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/66 _ K tebi želim moj _ I÷2kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:46:09] "GET /command?key=KEY_DELETE HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:46:18] "GET /command?key=KEY_VOLUMEDOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/66 _ K tebi želim moj _ I÷2kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/66 _ K tebi želim moj _ I÷2kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:46:23] "GET /command?key=KEY_VOLUMEUP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:46:30] "GET /command?key=KEY_DELETE HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:46:34] "GET /command?key=KEY_DELETE HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:46:41] "GET /command?key=KEY_DELETE HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:46:43] "GET /command?key=KEY_DELETE HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:46:45] "GET /command?key=KEY_DELETE HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:46:47] "GET /command?key=KEY_DELETE HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:46:49] "GET /command?key=KEY_DELETE HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:46:52] "GET /command?key=KEY_VOLUMEDOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:46:54] "GET /command?key=KEY_VOLUMEUP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:46:56] "GET /command?key=KEY_VOLUMEDOWN HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:46:57] "GET /command?key=6 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0, 5]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/6 _ K tebi Bog in naš _ III÷1kit♦_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/6 _ K tebi Bog in naš _ III÷1kit♦_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:46:59] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:47:03] "GET /command?key=8 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:47:06] "GET /command?key=6 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:47:06] "GET /command?key=5 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:47:07] "GET /command?key=4 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:47:07] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:47:09] "GET /command?key=2 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:47:09] "GET /command?key=0 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0, 5, 19]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/20 _ Pred tabo na kole _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/20 _ Pred tabo na kole _ I÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:47:11] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/6 _ K tebi Bog in naš _ III÷1kit♦_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/6 _ K tebi Bog in naš _ III÷1kit♦_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:47:20] "GET /command?key=KEY_VOLUMEDOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:47:23] "GET /command?key=KEY_VOLUMEDOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0, 5, 0]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:47:27] "GET /command?key=KEY_DELETE HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:47:58] "GET /command?key=KEY_VOLUMEUP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:48:02] "GET /command?key=KEY_VOLUMEUP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:48:05] "GET /command?key=KEY_VOLUMEUP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/6 _ K tebi Bog in naš _ III÷1kit♦_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/6 _ K tebi Bog in naš _ III÷1kit♦_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:48:07] "GET /command?key=KEY_VOLUMEDOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:48:09] "GET /command?key=KEY_VOLUMEDOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:48:12] "GET /command?key=KEY_VOLUMEDOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/6 _ K tebi Bog in naš _ III÷1kit♦_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/6 _ K tebi Bog in naš _ III÷1kit♦_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:48:14] "GET /command?key=KEY_VOLUMEUP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:48:17] "GET /command?key=KEY_VOLUMEUP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:48:20] "GET /command?key=KEY_VOLUMEUP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:48:21] "GET /command?key=KEY_VOLUMEUP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:48:23] "GET /command?key=KEY_VOLUMEUP HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:48:24] "GET /command?key=6 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0, 5, 0, 5]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/6 _ K tebi Bog in naš _ III÷1kit♦_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/6 _ K tebi Bog in naš _ III÷1kit♦_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:48:27] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:slideshow_plus.core:Found media in /media/pi/Silver/diapozitivi
+INFO:slideshow_plus.core:found files in /media/pi/Silver/diapozitivi
+INFO:slideshow_plus.core:gen_pdf: /home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf
+DEBUG:slideshow_plus.core:low_display():/home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf"
+DEBUG:slideshow_plus.core:Core ready.
+INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:51:12] "GET /command?key=2 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:51:15] "GET /command?key=3 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:51:15] "GET /command?key=6 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:51:16] "GET /command?key=5 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:51:16] "GET /command?key=4 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:51:17] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:51:18] "GET /command?key=1 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:51:20] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:51:28] "GET /command?key=5 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:51:29] "GET /command?key=5 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0, 50]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/55 _ Bog Oče ki v _ I÷2kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/55 _ Bog Oče ki v _ I÷2kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:51:31] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:51:36] "GET /command?key=6 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:51:36] "GET /command?key=6 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0, 50, 61]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/66 _ K tebi želim moj _ I÷2kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/66 _ K tebi želim moj _ I÷2kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:51:38] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/55 _ Bog Oče ki v _ I÷2kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/55 _ Bog Oče ki v _ I÷2kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:51:43] "GET /command?key=KEY_VOLUMEDOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:51:45] "GET /command?key=KEY_VOLUMEDOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0, 50, 0]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:51:49] "GET /command?key=KEY_DELETE HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:52:06] "GET /command?key=KEY_VOLUMEUP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:52:13] "GET /command?key=KEY_VOLUMEUP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/55 _ Bog Oče ki v _ I÷2kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/55 _ Bog Oče ki v _ I÷2kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:52:17] "GET /command?key=KEY_VOLUMEDOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:52:19] "GET /command?key=KEY_VOLUMEDOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/55 _ Bog Oče ki v _ I÷2kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/55 _ Bog Oče ki v _ I÷2kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:52:23] "GET /command?key=KEY_VOLUMEUP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:52:27] "GET /command?key=KEY_VOLUMEUP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:52:31] "GET /command?key=KEY_VOLUMEUP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/55 _ Bog Oče ki v _ I÷2kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/55 _ Bog Oče ki v _ I÷2kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:52:36] "GET /command?key=KEY_VOLUMEDOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:52:39] "GET /command?key=KEY_VOLUMEDOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/55 _ Bog Oče ki v _ I÷2kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/55 _ Bog Oče ki v _ I÷2kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:52:46] "GET /command?key=KEY_VOLUMEUP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:52:49] "GET /command?key=KEY_VOLUMEUP HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:53:10] "GET /command?key=1 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:53:11] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:53:14] "GET /command?key=4 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:53:14] "GET /command?key=7 HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:53:15] "GET /command?key=6 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0, 50, 0, 328]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/476 _ Gospod usmili _ I÷1kit♦_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/476 _ Gospod usmili _ I÷1kit♦_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:53:16] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:53:21] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:53:22] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/477 _ Jagnje božje _ I÷1kit♦_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/477 _ Jagnje božje _ I÷1kit♦_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:53:25] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/501 _ Daj mi Jezus _ I÷2kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/501 _ Daj mi Jezus _ I÷2kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:53:27] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0, 50, 0, 330]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/501 _ Daj mi Jezus _ I÷2kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/501 _ Daj mi Jezus _ I÷2kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:53:32] "GET /command?key=KEY_DELETE HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:53:37] "GET /command?key=1 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0, 50, 0, 330, 0]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:53:39] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:53:47] "GET /command?key=2 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0, 50, 0, 330, 0, 1]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/2 _ Bog pred tvojim _ II÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/2 _ Bog pred tvojim _ II÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:53:48] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:53:51] "GET /command?key=3 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0, 50, 0, 330, 0, 1, 2]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/3 _ Bog pred tvojim _ III÷1kit♦_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/3 _ Bog pred tvojim _ III÷1kit♦_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:53:53] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0, 50, 0, 330, 0, 1, 2]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/3 _ Bog pred tvojim _ III÷1kit♦_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/3 _ Bog pred tvojim _ III÷1kit♦_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:54:03] "GET /command?key=KEY_DELETE HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0, 50, 0, 330, 0, 1, 2]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/3 _ Bog pred tvojim _ III÷1kit♦_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/3 _ Bog pred tvojim _ III÷1kit♦_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:54:14] "GET /command?key=KEY_DELETE HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0, 50, 0, 330, 0, 1, 2]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/3 _ Bog pred tvojim _ III÷1kit♦_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/3 _ Bog pred tvojim _ III÷1kit♦_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:54:17] "GET /command?key=KEY_DELETE HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0, 50, 0, 330, 0, 1, 2]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/3 _ Bog pred tvojim _ III÷1kit♦_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/3 _ Bog pred tvojim _ III÷1kit♦_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:54:19] "GET /command?key=KEY_DELETE HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0, 50, 0, 330, 0, 1, 2]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/3 _ Bog pred tvojim _ III÷1kit♦_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/3 _ Bog pred tvojim _ III÷1kit♦_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:54:21] "GET /command?key=KEY_DELETE HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0, 50, 0, 330, 0, 1, 2]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/3 _ Bog pred tvojim _ III÷1kit♦_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/3 _ Bog pred tvojim _ III÷1kit♦_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:54:23] "GET /command?key=KEY_DELETE HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0, 50, 0, 330, 0, 1, 2]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/3 _ Bog pred tvojim _ III÷1kit♦_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/3 _ Bog pred tvojim _ III÷1kit♦_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:54:25] "GET /command?key=KEY_DELETE HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0, 50, 0, 330, 0, 1, 2]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/3 _ Bog pred tvojim _ III÷1kit♦_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/3 _ Bog pred tvojim _ III÷1kit♦_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:54:27] "GET /command?key=KEY_DELETE HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0, 50, 0, 330, 0, 1, 2]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/3 _ Bog pred tvojim _ III÷1kit♦_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/3 _ Bog pred tvojim _ III÷1kit♦_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:54:29] "GET /command?key=KEY_DELETE HTTP/1.1" 200 -
+INFO:slideshow_plus.core:Found media in /media/pi/Silver/diapozitivi
+INFO:slideshow_plus.core:found files in /media/pi/Silver/diapozitivi
+INFO:slideshow_plus.core:gen_pdf: /home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf
+DEBUG:slideshow_plus.core:low_display():/home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf"
+DEBUG:slideshow_plus.core:Core ready.
+INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:58:23] "GET /command?key=KEY_DELETE HTTP/1.1" 500 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:58:25] "GET /command?key=KEY_DELETE HTTP/1.1" 500 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:58:27] "GET /command?key=KEY_DELETE HTTP/1.1" 500 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:58:27] "GET /command?key=KEY_DELETE HTTP/1.1" 500 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:58:28] "GET /command?key=KEY_DELETE HTTP/1.1" 500 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:58:28] "GET /command?key=KEY_DELETE HTTP/1.1" 500 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:58:28] "GET /command?key=KEY_DELETE HTTP/1.1" 500 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:58:29] "GET /command?key=KEY_DELETE HTTP/1.1" 500 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:58:29] "GET /command?key=1 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:58:31] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:58:31] "GET /command?key=2 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0, 1]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/2 _ Bog pred tvojim _ II÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/2 _ Bog pred tvojim _ II÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:58:33] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:58:34] "GET /command?key=3 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0, 1, 2]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/3 _ Bog pred tvojim _ III÷1kit♦_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/3 _ Bog pred tvojim _ III÷1kit♦_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:58:36] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:58:37] "GET /command?key=KEY_DELETE HTTP/1.1" 500 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:58:40] "GET /command?key=KEY_DELETE HTTP/1.1" 500 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:58:41] "GET /command?key=KEY_DELETE HTTP/1.1" 500 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:58:41] "GET /command?key=KEY_DELETE HTTP/1.1" 500 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:58:42] "GET /command?key=KEY_DELETE HTTP/1.1" 500 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:58:42] "GET /command?key=KEY_DELETE HTTP/1.1" 500 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:58:43] "GET /command?key=KEY_DELETE HTTP/1.1" 500 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:58:43] "GET /command?key=KEY_DELETE HTTP/1.1" 500 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:58:43] "GET /command?key=KEY_DELETE HTTP/1.1" 500 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 21:58:43] "GET /command?key=KEY_DELETE HTTP/1.1" 500 -
+INFO:slideshow_plus.core:Found media in /media/pi/Silver/diapozitivi
+INFO:slideshow_plus.core:found files in /media/pi/Silver/diapozitivi
+INFO:slideshow_plus.core:gen_pdf: /home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf
+DEBUG:slideshow_plus.core:low_display():/home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf"
+DEBUG:slideshow_plus.core:Core ready.
+INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 22:01:11] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/2 _ Bog pred tvojim _ II÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/2 _ Bog pred tvojim _ II÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 22:01:14] "GET /command?key=KEY_UP HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 22:01:18] "GET /command?key=1 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 22:01:20] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 22:01:21] "GET /command?key=2 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0, 1]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/2 _ Bog pred tvojim _ II÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/2 _ Bog pred tvojim _ II÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 22:01:23] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 22:01:24] "GET /command?key=3 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0, 1, 2]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/3 _ Bog pred tvojim _ III÷1kit♦_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/3 _ Bog pred tvojim _ III÷1kit♦_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 22:01:26] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:[0, 1]
+DEBUG:slideshow_plus.core:display():self.history:[0, 1, 2]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/3 _ Bog pred tvojim _ III÷1kit♦_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/3 _ Bog pred tvojim _ III÷1kit♦_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 22:01:28] "GET /command?key=KEY_DELETE HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 22:01:34] "GET /command?key=1 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0, 1, 2, 0]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 22:01:39] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 22:01:40] "GET /command?key=2 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0, 1, 2, 0, 1]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/2 _ Bog pred tvojim _ II÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/2 _ Bog pred tvojim _ II÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 22:01:43] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 22:01:47] "GET /command?key=3 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0, 1, 2, 0, 1, 2]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/3 _ Bog pred tvojim _ III÷1kit♦_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/3 _ Bog pred tvojim _ III÷1kit♦_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 22:01:49] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:[0, 1, 2, 0, 1]
+DEBUG:slideshow_plus.core:display():self.history:[0, 1, 2, 0, 1, 2]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/3 _ Bog pred tvojim _ III÷1kit♦_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/3 _ Bog pred tvojim _ III÷1kit♦_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 22:01:54] "GET /command?key=KEY_DELETE HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/2 _ Bog pred tvojim _ II÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/2 _ Bog pred tvojim _ II÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 22:02:05] "GET /command?key=KEY_VOLUMEDOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 22:02:09] "GET /command?key=KEY_VOLUMEDOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/2 _ Bog pred tvojim _ II÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/2 _ Bog pred tvojim _ II÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 22:02:12] "GET /command?key=KEY_VOLUMEUP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/3 _ Bog pred tvojim _ III÷1kit♦_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/3 _ Bog pred tvojim _ III÷1kit♦_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 22:02:16] "GET /command?key=KEY_VOLUMEUP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/3 _ Bog pred tvojim _ III÷1kit♦_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/3 _ Bog pred tvojim _ III÷1kit♦_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 22:02:23] "GET /command?key=KEY_VOLUMEUP HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/2 _ Bog pred tvojim _ II÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/2 _ Bog pred tvojim _ II÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 22:02:30] "GET /command?key=KEY_VOLUMEDOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 22:02:33] "GET /command?key=KEY_VOLUMEDOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/3 _ Bog pred tvojim _ III÷1kit♦_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/3 _ Bog pred tvojim _ III÷1kit♦_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 22:02:36] "GET /command?key=KEY_VOLUMEDOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/2 _ Bog pred tvojim _ II÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/2 _ Bog pred tvojim _ II÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 22:02:40] "GET /command?key=KEY_VOLUMEDOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 22:02:42] "GET /command?key=KEY_VOLUMEDOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 22:02:45] "GET /command?key=KEY_VOLUMEDOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 22:02:48] "GET /command?key=KEY_VOLUMEDOWN HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/2 _ Bog pred tvojim _ II÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/2 _ Bog pred tvojim _ II÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 22:02:55] "GET /command?key=KEY_VOLUMEUP HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 22:04:48] "GET /command?key=1 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0, 1, 2, 0, 1, 2, 0]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 22:04:50] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:[0, 1, 2, 0, 1, 2]
+DEBUG:slideshow_plus.core:display():self.history:[0, 1, 2, 0, 1, 2, 0]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 22:04:54] "GET /command?key=KEY_DELETE HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:[0, 1, 2, 0, 1, 2]
+DEBUG:slideshow_plus.core:display():self.history:[0, 1, 2, 0, 1, 2, 0]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 22:04:57] "GET /command?key=KEY_DELETE HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:[0, 1, 2, 0, 1, 2]
+DEBUG:slideshow_plus.core:display():self.history:[0, 1, 2, 0, 1, 2, 0]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:192.168.1.100 - - [02/Dec/2019 22:05:00] "GET /command?key=KEY_DELETE HTTP/1.1" 200 -
+INFO:slideshow_plus.core:Found media in /media/pi/Silver/diapozitivi
+INFO:slideshow_plus.core:found files in /media/pi/Silver/diapozitivi
+INFO:slideshow_plus.core:gen_pdf: /home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf
+DEBUG:slideshow_plus.core:low_display():/home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf"
+DEBUG:slideshow_plus.core:Core ready.
+INFO:werkzeug: * Running on http://127.0.0.1:5001/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:slideshow_plus.core:Found media in /media/pi/Silver/diapozitivi
+INFO:slideshow_plus.core:found files in /media/pi/Silver/diapozitivi
+INFO:slideshow_plus.core:gen_pdf: /home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf
+DEBUG:slideshow_plus.core:low_display():/home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf"
+DEBUG:slideshow_plus.core:Core ready.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 591-409-028
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2019 22:10:46] "GET /command?key=1 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2019 22:10:48] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2019 22:10:59] "GET /command?key=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2019 22:11:02] "GET /command?key=2 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0, 11]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/12 _ O Bog ki si po _ III÷1kit♦_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/12 _ O Bog ki si po _ III÷1kit♦_.pdf"
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2019 22:11:04] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2019 22:11:08] "GET /command?key=3 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0, 11, 2]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/3 _ Bog pred tvojim _ III÷1kit♦_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/3 _ Bog pred tvojim _ III÷1kit♦_.pdf"
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2019 22:11:10] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:AAAA
+DEBUG:slideshow_plus.core:[0, 11]
+DEBUG:slideshow_plus.core:display():self.history:[0, 11, 2]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/3 _ Bog pred tvojim _ III÷1kit♦_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/3 _ Bog pred tvojim _ III÷1kit♦_.pdf"
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2019 22:11:18] "GET /command?key=KEY_DELETE HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:AAAA
+DEBUG:slideshow_plus.core:[0, 11]
+DEBUG:slideshow_plus.core:display():self.history:[0, 11, 2]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/3 _ Bog pred tvojim _ III÷1kit♦_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/3 _ Bog pred tvojim _ III÷1kit♦_.pdf"
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2019 22:11:26] "GET /command?key=KEY_DELETE HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:AAAA
+DEBUG:slideshow_plus.core:[0, 11]
+DEBUG:slideshow_plus.core:display():self.history:[0, 11, 2]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/3 _ Bog pred tvojim _ III÷1kit♦_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/3 _ Bog pred tvojim _ III÷1kit♦_.pdf"
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2019 22:11:29] "GET /command?key=KEY_DELETE HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/pi/git/RPI_Projector/slideshow_plus/core.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:slideshow_plus.core:Found media in /media/pi/Silver/diapozitivi
+INFO:slideshow_plus.core:found files in /media/pi/Silver/diapozitivi
+INFO:slideshow_plus.core:gen_pdf: /home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf
+DEBUG:slideshow_plus.core:low_display():/home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/home/pi/git/RPI_Projector/slideshow_plus/core_static/tmp_files/index.pdf"
+DEBUG:slideshow_plus.core:Core ready.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 591-409-028
+DEBUG:slideshow_plus.core:[]
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2019 22:13:00] "GET /command?key=KEY_DELETE HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2019 22:13:01] "GET /command?key=1 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/1 _ Bog pred tvojim _ I÷1kit_.pdf"
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2019 22:13:03] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2019 22:13:04] "GET /command?key=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2019 22:13:05] "GET /command?key=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2019 22:13:06] "GET /command?key=1 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0, 96]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/111 _ Jezus ti si _ I÷2kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/111 _ Jezus ti si _ I÷2kit_.pdf"
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2019 22:13:08] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2019 22:13:09] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2019 22:13:10] "GET /command?key=2 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0, 96, 1]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/2 _ Bog pred tvojim _ II÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/2 _ Bog pred tvojim _ II÷1kit_.pdf"
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2019 22:13:12] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2019 22:13:13] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2019 22:13:14] "GET /command?key=2 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/2 _ Bog pred tvojim _ II÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/2 _ Bog pred tvojim _ II÷1kit_.pdf"
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2019 22:13:16] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2019 22:13:17] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2019 22:13:20] "GET /command?key=5 HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:display():self.history:[0, 96, 1, 4]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/5 _ K tebi Bog in naš _ II÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/5 _ K tebi Bog in naš _ II÷1kit_.pdf"
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2019 22:13:23] "GET /command?key=KEY_ENTER HTTP/1.1" 200 -
+DEBUG:slideshow_plus.core:[0, 96, 1]
+DEBUG:slideshow_plus.core:display():self.history:[0, 96, 1, 4]
+DEBUG:slideshow_plus.core:low_display():/media/pi/Silver/diapozitivi/5 _ K tebi Bog in naš _ II÷1kit_.pdf
+DEBUG:slideshow_plus.core:/home/pi/git/RPI_Projector/slideshow_plus/core_static/bash_scripts/display_any.sh "/media/pi/Silver/diapozitivi/5 _ K tebi Bog in naš _ II÷1kit_.pdf"
+INFO:werkzeug:127.0.0.1 - - [02/Dec/2019 22:13:28] "GET /command?key=KEY_DELETE HTTP/1.1" 200 -
