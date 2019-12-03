@@ -19,6 +19,8 @@ trap fn_cleanup INT
 # Parse arguments
 args=""
 
+capture_keyboard="true"
+
 while [[ $# -gt 0 ]]; do
     key="$1"
     case "$key" in
@@ -26,12 +28,13 @@ while [[ $# -gt 0 ]]; do
         echo "args:
         --kill
         --no_display
-        --no_usb_wait"
+        --no_usb_wait
+        --no_keyboard"
         exit
         ;;
     --kill)
-	fn_cleanup
-	exit
+	    fn_cleanup
+	    exit
         ;;
     --no_display)
         args="$args $key"
@@ -41,6 +44,10 @@ while [[ $# -gt 0 ]]; do
         args="$args $key"
         shift
         ;;
+    --no_keyboard)
+        capture_keyboard="false"
+        shift
+        ;;
     *)
         echo "Unknown command."
 	exit
@@ -48,12 +55,9 @@ while [[ $# -gt 0 ]]; do
     esac
 done
 
-# Hardcoded...
-capture_keyboard=false
-
 # If we're capturing keyboard, run the capture_parent.sh
-if $capture_keyboard; then
-    	bash "${project_dir}/bluetooth/capture_parent.sh" &
+if [[ $capture_keyboard == "true" ]]; then
+    bash "${project_dir}/bluetooth/capture_parent.sh" &
 	capture_parent_pid=$!
 fi
 

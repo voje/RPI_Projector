@@ -8,7 +8,9 @@ from os.path import isfile, join, basename, dirname, exists
 import re
 import logging
 from time import time
-from slideshowplus.projector import viewsonic  # specific for poljane
+# from slideshowplus.projector import viewsonic  # specific for poljane
+from slideshowplus.projector import pjlink
+from pathlib import Path
 
 log = logging.getLogger(__name__)
 
@@ -48,32 +50,12 @@ class Core():
         self.blank = False
         self.last_displayed_path = join(
             self.core_static, "r_slides/r_blank.pdf")
-        self.projector = viewsonic.ViewSonic(  # specific for poljane
-            port=23,
-            # ip="192.168.1.143",
-            ip="192.168.2.22"  # Testing
-        )
 
         # Function order is important.
         self.find_usb_files_wrapper()
         self.init_files()
         self.display_index()
         log.debug("Core ready.")
-
-    def convert_files(self):
-        # deprecated
-        return None
-        # If not pdf, convert to pdf and store in converted_ folder.
-        tstart = time()
-        mass_convert = "{}/core_static/mass_convert.sh".format(
-            dirname(__file__))
-        os.system(("bash {} {} {}").format(
-            mass_convert,
-            self.files_dir,
-            self.converted_files_dir
-        ))
-        log.info("ran mass_convert.sh in {:.2f}s".format(
-            time() - tstart))
 
     def init_files(self):
         # Reset values
@@ -108,7 +90,7 @@ class Core():
         for i, entry in enumerate(self.files):
             if entry["number"] is not None:
                 self.idx_map[entry["number"]] = i
-            log.debug(entry)
+            # log.debug(entry)
         if not self.files:
             log.error("Empty self.files list. Exiting.")
             exit(1)
@@ -141,14 +123,18 @@ class Core():
 
     def low_display(self, filepath):
         if filepath is None:
-            filepath = self.last_displayed_filepath
+            filepath = self.last_displayed_path
         log.debug("low_display():{}".format(filepath))
-        if not self.blank:
-            self.last_displayed_path = filepath
-        if self.no_display:
-            return
-        os.system("{}/bash_scripts/display_any.sh '{}'".format(
-            self.core_static, filepath))
+        if self.blank:
+            self.blanked = filepath
+            filepath = join(self.core_static, "r_slides/r_blank.pdf")
+        else:
+            self.blanked = None
+        # if self.no_display:
+        #     return
+        scall = "{}/bash_scripts/display_any.sh \"{}\"".format(self.core_static, filepath)
+        log.debug(scall)
+        os.system(scall)
 
     def display(self, add_to_history=None):
         if add_to_history is None:
@@ -210,11 +196,21 @@ class Core():
         self.current_idx = self.idx_history[self.current_hist_idx]
 
     def del_hist_file(self):
+        # Remove last index from history.
         self.idx_history = self.idx_history[:-1]
-        self.current_hist_idx = len(self.idx_history) - 1
-        if len(self.idx_history) > 0:
+        try:
             self.current_idx = self.idx_history[-1]
-        log.debug(self.idx_history)
+
+        except LookupError:
+            log.info("History is empty.")
+
+        # File unique ID is the list index in self.files.
+        self.files = []
+        self.current_idx = -1
+        self.idx_map = {}  # filename number to list index
+        self.idx_history = []
+        self.current_hist_idx = -1
+        self.HIST_LEN = 20
 
     def set_blank(self, blank_on):
         if blank_on:
@@ -245,22 +241,11 @@ class Core():
             self.core_static, self.files_dir_basename
         )
         media_user_dir = join(self.media_root_dir, getpass.getuser())
-        log.debug("looking for media in [{}]".format(media_user_dir))
-        if not exists(media_user_dir):
-            return (default_dir, False)
-        for usb_dir in [
-            join(media_user_dir, x) for x in os.listdir(media_user_dir)
-            if not isfile(join(media_user_dir, x))
-        ]:
-            # check if we can read form this dir
-            if not os.access(usb_dir, os.R_OK):
-                continue
-            for files_dir in [
-                join(usb_dir, x) for x in os.listdir(usb_dir)
-                if not isfile(join(usb_dir, x))
-            ]:
-                if basename(files_dir) == self.files_dir_basename:
-                    return (files_dir, True)
+
+        for filename in Path(media_user_dir).rglob("*"):
+            if filename.is_dir() and filename.name == self.files_dir_basename:
+                log.info("Found media in {}".format(filename))
+                return ((str(filename), True))
         return (default_dir, False)
 
     def get_current_file(self):
