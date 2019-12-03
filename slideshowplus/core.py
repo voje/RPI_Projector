@@ -47,6 +47,7 @@ class Core():
         self.current_hist_idx = -1
         self.HIST_LEN = 20
 
+        self.projector = pjlink.Pjlink()
         self.blank = False
         self.last_displayed_path = join(
             self.core_static, "r_slides/r_blank.pdf")
