@@ -164,7 +164,7 @@ if __name__ == "__main__":
     logging.basicConfig(filename=LOGFILE, level=logging.DEBUG)
     # logging.basicConfig(filename=LOGFILE, level=logging.INFO)
     # logging.basicConfig(level=logging.DEBUG)
-    app.debug = True
+    app.debug = False
 
     if "--no_usb_wait" not in args:
         sleep(3)

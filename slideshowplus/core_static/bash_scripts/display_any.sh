@@ -12,7 +12,7 @@ export DISPLAY=:0
 slp=0.3
 filename="$1"
 
-echo $filename
+# echo $filename
 
 xpdf -fullscreen -remote my_xpdf "$filename" > /dev/null 2>&1 &
 sleep $slp

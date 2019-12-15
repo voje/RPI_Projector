@@ -198,20 +198,13 @@ class Core():
 
     def del_hist_file(self):
         # Remove last index from history.
+        log.debug("before_del: {}".format(self.idx_history))
         self.idx_history = self.idx_history[:-1]
         try:
             self.current_idx = self.idx_history[-1]
-
         except LookupError:
             log.info("History is empty.")
-
-        # File unique ID is the list index in self.files.
-        self.files = []
-        self.current_idx = -1
-        self.idx_map = {}  # filename number to list index
-        self.idx_history = []
-        self.current_hist_idx = -1
-        self.HIST_LEN = 20
+        log.debug("after_del: {}".format(self.idx_history))
 
     def set_blank(self, blank_on):
         if blank_on:
