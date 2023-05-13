@@ -33,15 +33,6 @@ def home():
     return render_template("home.html")
 
 
-@app.route("/log")
-def log():
-    lines = []
-    with open(LOGFILE, "r") as file:
-        for line in file:
-            lines.insert(0, line)
-    return "<br><br>".join(lines)
-
-
 @app.route("/remote")
 def remote():
     return render_template("remote.html")
@@ -171,6 +162,7 @@ def change_state():
 if __name__ == "__main__":
     # Most of the settings in here. TODO: config file.
     logging.basicConfig(filename=LOGFILE, level=logging.DEBUG)
+    # logging.basicConfig(filename=LOGFILE, level=logging.INFO)
     # logging.basicConfig(level=logging.DEBUG)
     app.debug = False
 
