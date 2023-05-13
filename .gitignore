@@ -6,3 +6,4 @@ slideshowplus/log/*
 vue_frontend/node_modules/
 slideshowplus/core_static/tmp_files/
 *.swp
+navodila/*.pdf
